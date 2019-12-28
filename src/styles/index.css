@@ -10,7 +10,7 @@ h3 {
 
 .container {
   display: grid;
-  grid-template-columns: 10em auto;
+  grid-template-columns: 15em auto;
 }
 
 .helper-grid {

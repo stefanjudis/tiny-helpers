@@ -68,5 +68,19 @@
     "desc": "Simple and easy way to view the content of a font file",
     "tags": ["Fonts"],
     "maintainers": ["raphaelbastide"]
+  },
+  {
+    "name": "Unicode Character Search",
+    "url": "http://www.fileformat.info/info/unicode/char/search.htm",
+    "desc": "A Unicode Character Search",
+    "tags": ["Unicode"],
+    "maintainers": []
+  },
+  {
+    "name": "Base64 Converter",
+    "url": "https://pr.gg/base64/",
+    "desc": "A Base64 Online Converter",
+    "tags": ["Misc"],
+    "maintainers": ["progers"]
   }
 ]
