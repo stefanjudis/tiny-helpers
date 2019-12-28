@@ -54,5 +54,12 @@
     "desc": "Remove backgrounds 100% automatically in 5 seconds with zero clicks",
     "tags": ["Images"],
     "maintainers": []
+  },
+  {
+    "name": "unilist",
+    "url": "https://unilist.raphaelbastide.com/",
+    "desc": "A Unicode character list",
+    "tags": ["Unicode"],
+    "maintainers": ["raphaelbastide"]
   }
 ]
