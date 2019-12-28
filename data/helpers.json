@@ -17,7 +17,14 @@
     "name": "WhoCanUse",
     "url": "https://whocanuse.com/",
     "desc": "A color contrast checker",
-    "tags": ["a11y"],
+    "tags": ["Accessibility"],
     "maintainers": ["coreyginnivan"]
+  },
+  {
+    "name": "RegExr",
+    "url": "https://regexr.com/",
+    "desc": "RegExr is an online tool to learn, build, & test Regular Expressions",
+    "tags": ["Regular Expressions"],
+    "maintainers": ["gskinner"]
   }
 ]

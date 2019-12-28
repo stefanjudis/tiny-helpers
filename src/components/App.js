@@ -5,12 +5,12 @@ function updateHistory({ tag }) {
   history.replaceState({}, document.title, `?tag=${tag}`);
 }
 
-export function App({ helpers, tags, currentTag = 'All' }) {
+export function App({ helpers, tags, currentTag }) {
   console.log(currentTag);
   const filterHelpers = (helpers, activeTag) =>
     activeTag === 'All'
       ? helpers
-      : helpers.filter(helper => helper.tags.includes(activeTag));
+      : helpers.filter(helper => helper.tagSlugs.includes(activeTag));
   const [activeTag, setActiveTag] = useState(currentTag);
   const [activeHelpers, setActiveHelpers] = useState(
     filterHelpers(helpers, activeTag)
@@ -37,8 +37,11 @@ export function App({ helpers, tags, currentTag = 'All' }) {
               tag =>
                 html`
                   <li>
-                    <button onClick=${() => setActiveTag(tag)} type="button">
-                      ${tag}
+                    <button
+                      onClick=${() => setActiveTag(tag.slug)}
+                      type="button"
+                    >
+                      ${tag.name}
                     </button>
                   </li>
                 `
@@ -48,9 +51,23 @@ export function App({ helpers, tags, currentTag = 'All' }) {
         <main>
           <ul class="helper-grid">
             ${activeHelpers.map(
-              ({ slug }) =>
+              ({ maintainers, slug }) =>
                 html`
-                  <li><img src="/static/screenshots/${slug}.jpg" /></li>
+                  <li>
+                    <img src="/static/screenshots/${slug}.jpg" />
+
+                    <ul>
+                      ${maintainers.map(
+                        maintainer =>
+                          html`
+                            <img
+                              class="maintainer"
+                              src="https://github.com/${maintainer}.png"
+                            />
+                          `
+                      )}
+                    </ul>
+                  </li>
                 `
             )}
           </ul>

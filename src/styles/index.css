@@ -22,3 +22,9 @@ h3 {
 img {
   max-width: 100%;
 }
+
+.maintainer {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}

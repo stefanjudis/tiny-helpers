@@ -4,8 +4,11 @@ import { App } from './components/App.js';
 import helperData from '../data/helpers.json';
 import slugify from 'slugify';
 
+const toSlug = name => slugify(name).toLocaleLowerCase();
+
 const helpers = helperData.map(helper => ({
-  slug: slugify(helper.name).toLocaleLowerCase(),
+  slug: toSlug(helper.name),
+  tagSlugs: helper.tags.map(toSlug),
   ...helper
 }));
 const tags = [
@@ -13,9 +16,11 @@ const tags = [
     acc.add(...cur.tags);
     return acc;
   }, new Set())
-];
+]
+  .sort((a, b) => (a < b ? -1 : 1))
+  .map(tag => ({ name: tag, slug: toSlug(tag) }));
 
-export function renderApp({ css, tag }) {
+export function renderApp({ css, tag = 'All' }) {
   return `
       <!DOCTYPE html>
       <html lang="en">
