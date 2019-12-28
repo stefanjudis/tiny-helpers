@@ -1,3 +1,24 @@
 body {
   color: red;
 }
+
+h1,
+h2,
+h3 {
+  font-family: 'Pacifico', cursive;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 10em auto;
+}
+
+.helper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 2em;
+}
+
+img {
+  max-width: 100%;
+}

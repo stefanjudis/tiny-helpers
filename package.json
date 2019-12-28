@@ -4,7 +4,7 @@
   "description": "A collection of useful online web development tools",
   "main": "index.js",
   "scripts": {
-    "dev:css": "postcss ./src/styles/index.css -o ./static/main.css -w -u postcss-nesting postcss-clean",
+    "dev:css": "postcss ./src/styles/index.css -w -o ./static/main.css -u postcss-nesting postcss-clean",
     "dev:javascript": "rollup -cw",
     "dev:server": "now dev",
     "dev": "concurrently \"npm:dev:*\"",

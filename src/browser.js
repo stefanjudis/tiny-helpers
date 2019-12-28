@@ -2,14 +2,14 @@ import { html } from 'htm/preact';
 import { render } from 'preact';
 import { App } from './components/App.js';
 
-export function renderApp({}) {
-  console.log(JSON.parse(document.getElementById('data').innerHTML));
+export function renderApp({ tag }) {
+  const { helpers, tags } = JSON.parse(
+    document.getElementById('data').innerHTML
+  );
   return render(
     html`
-      <${App}
-        helpers=${JSON.parse(document.getElementById('data').innerHTML)}
-      />
+      <${App} currentTag=${tag} helpers=${helpers} tags=${tags} />
     `,
-    document.querySelector('main')
+    document.querySelector('#app')
   );
 }
