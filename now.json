@@ -1,0 +1,13 @@
+{
+  "name": "tiny-helpers",
+  "builds": [
+    { "src": "index.js", "use": "@now/node" },
+    { "src": "static/**", "use": "@now/static" }
+  ],
+  "routes": [{ "src": "/", "dest": "/index.js" }],
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}

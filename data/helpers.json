@@ -1,0 +1,23 @@
+[
+  {
+    "name": "CSS Scroll Shadows",
+    "url": "https://css-scroll-shadows.now.sh",
+    "desc": "A CSS scroll shadows generator",
+    "tags": ["CSS"],
+    "maintainers": ["stefanjudis"]
+  },
+  {
+    "name": "Shadows",
+    "url": "https://brumm.af/shadows",
+    "desc": "A CSS Smooth shadows generator",
+    "tags": ["CSS"],
+    "maintainers": ["brumm"]
+  },
+  {
+    "name": "WhoCanUse",
+    "url": "https://whocanuse.com/",
+    "desc": "A color contrast checker",
+    "tags": ["a11y"],
+    "maintainers": ["coreyginnivan"]
+  }
+]
