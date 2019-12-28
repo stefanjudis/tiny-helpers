@@ -12,7 +12,8 @@
     "build:javascript": "NODE_ENV=production rollup -c",
     "build:screenshots": "node ./scripts/make-screenshots.js",
     "build": "concurrently \"npm:build:*\"",
-    "deploy": "npm run build && now --prod"
+    "deploy": "npm run build && now --prod",
+    "predev": "npm run build:screenshots"
   },
   "repository": {
     "type": "git",

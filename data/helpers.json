@@ -45,7 +45,7 @@
     "name": "SVGOMG",
     "url": "https://jakearchibald.github.io/svgomg/",
     "desc": "SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.",
-    "tags": ["SVG"],
+    "tags": ["Images", "SVG"],
     "maintainers": ["jakearchibald"]
   },
   {
@@ -60,6 +60,13 @@
     "url": "https://unilist.raphaelbastide.com/",
     "desc": "A Unicode character list",
     "tags": ["Unicode"],
+    "maintainers": ["raphaelbastide"]
+  },
+  {
+    "name": "FontDrop!",
+    "url": "https://fontdrop.info/",
+    "desc": "Simple and easy way to view the content of a font file",
+    "tags": ["Fonts"],
     "maintainers": ["raphaelbastide"]
   }
 ]
