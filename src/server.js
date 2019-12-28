@@ -13,7 +13,7 @@ const helpers = helperData.map(helper => ({
 }));
 const tags = [
   ...helperData.reduce((acc, cur) => {
-    acc.add(...cur.tags);
+    cur.tags.forEach(tag => acc.add(tag));
     return acc;
   }, new Set())
 ]

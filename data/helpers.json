@@ -26,5 +26,33 @@
     "desc": "RegExr is an online tool to learn, build, & test Regular Expressions",
     "tags": ["Regular Expressions"],
     "maintainers": ["gskinner"]
+  },
+  {
+    "name": "Squoosh",
+    "url": "https://squoosh.app/",
+    "desc": "Make images smaller using best-in-class codecs, right in the browser.",
+    "tags": ["Images", "Performance"],
+    "maintainers": ["jakearchibald", "surma", "developit", "PaulKinlan"]
+  },
+  {
+    "name": "Wakamai Fondue",
+    "url": "https://wakamaifondue.com/",
+    "desc": "Wakamai Fondue is a tool that answers the question “What can my font do?”",
+    "tags": ["CSS", "Fonts"],
+    "maintainers": ["RoelN"]
+  },
+  {
+    "name": "SVGOMG",
+    "url": "https://jakearchibald.github.io/svgomg/",
+    "desc": "SVGOMG is SVGO's Missing GUI, aiming to expose the majority, if not all the configuration options of SVGO.",
+    "tags": ["SVG"],
+    "maintainers": ["jakearchibald"]
+  },
+  {
+    "name": "removebg",
+    "url": "https://www.remove.bg/",
+    "desc": "Remove backgrounds 100% automatically in 5 seconds with zero clicks",
+    "tags": ["Images"],
+    "maintainers": []
   }
 ]
