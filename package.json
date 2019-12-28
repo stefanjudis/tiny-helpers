@@ -4,7 +4,7 @@
   "description": "A collection of useful online web development tools",
   "main": "index.js",
   "scripts": {
-    "dev:css": "postcss ./src/styles/index.css -w -o ./static/main.css -u postcss-nesting postcss-clean",
+    "dev:css": "postcss ./src/styles/index.css -w -o ./static/main.css -u postcss-nested postcss-clean",
     "dev:javascript": "rollup -cw",
     "dev:server": "now dev",
     "dev": "concurrently \"npm:dev:*\"",
@@ -34,7 +34,7 @@
     "htm": "^2.2.1",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^6.1.3",
-    "postcss-nesting": "^7.0.1",
+    "postcss-nested": "^4.2.1",
     "preact": "^10.1.1",
     "preact-render-to-string": "^5.1.3",
     "puppeteer": "^2.0.0",

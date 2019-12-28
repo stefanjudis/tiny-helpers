@@ -1,5 +1,6 @@
 body {
-  color: red;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -16,7 +17,11 @@ h3 {
 .helper-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  grid-gap: 2em;
+  grid-gap: 3em;
+
+  &__item {
+    border: 1px solid #999;
+  }
 }
 
 img {
@@ -27,4 +32,14 @@ img {
   width: 3em;
   height: 3em;
   border-radius: 50%;
+}
+
+.canvas {
+  background: #f5f5ff;
+}
+
+.sidebar {
+  color: #fff;
+  background: #24305e;
+  box-shadow: inset 0 0 1em #333;
 }

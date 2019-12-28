@@ -9,7 +9,7 @@
   {
     "name": "Shadows",
     "url": "https://brumm.af/shadows",
-    "desc": "A CSS Smooth shadows generator",
+    "desc": "A Smooth CSS shadows generator",
     "tags": ["CSS"],
     "maintainers": ["brumm"]
   },
@@ -82,5 +82,61 @@
     "desc": "A Base64 Online Converter",
     "tags": ["Misc"],
     "maintainers": ["progers"]
+  },
+  {
+    "name": "Transform",
+    "url": "https://transform.tools/",
+    "desc": "A polyglot web converter",
+    "tags": ["Misc"],
+    "maintainers": ["ritz078"]
+  },
+  {
+    "name": "Color.review",
+    "url": "https://color.review/",
+    "desc": "A color contrast checker",
+    "tags": ["Accessibility"],
+    "maintainers": []
+  },
+  {
+    "name": "CSS Cursors",
+    "url": "https://csscursor.info/",
+    "desc": "A CSS Cursors overview",
+    "tags": ["CSS"],
+    "maintainers": ["wesbos"]
+  },
+  {
+    "name": "extractCSS",
+    "url": "http://extractcss.com/",
+    "desc": "Extract CSS from HTML with ease",
+    "tags": ["CSS", "HTML"],
+    "maintainers": ["adnantopal"]
+  },
+  {
+    "name": "⌘+C",
+    "url": "https://copychar.cc/",
+    "desc": "Copy special characters to your clipboard",
+    "tags": ["Unicode"],
+    "maintainers": []
+  },
+  {
+    "name": "snippet generator",
+    "url": "https://snippet-generator.app/",
+    "desc": "Generate snippets for VSCode, Sublime Text and Atom",
+    "tags": ["Misc"],
+    "maintainers": ["pawelgrzybek"]
+  },
+  {
+    "name": "Unicode Code Converter",
+    "url": "https://r12a.github.io/app-conversion/",
+    "desc": "Convert Unicode symbols into other formats",
+    "tags": ["Unicode"],
+    "maintainers": []
+  },
+  {
+    "name": "CSS Triangle Generator",
+    "url": "http://apps.eky.hk/css-triangle-generator/",
+    "desc": "Create CSS-only triangles",
+    "tags": ["CSS"],
+    "maintainers": []
   }
 ]

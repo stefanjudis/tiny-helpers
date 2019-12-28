@@ -24,9 +24,11 @@ export function App({ helpers, tags, currentTag }) {
 
   return html`
     <div>
-      <h1>Tiny helpers</h1>
+      <header>
+        <h1>Tiny helpers</h1>
+      </header>
       <div class="container">
-        <aside>
+        <aside class="sidebar">
           <ol>
             <li>
               <button onClick=${() => setActiveTag('All')} type="button">
@@ -48,13 +50,15 @@ export function App({ helpers, tags, currentTag }) {
             )}
           </ol>
         </aside>
-        <main>
+        <main class="canvas">
           <ul class="helper-grid">
             ${activeHelpers.map(
-              ({ maintainers, slug }) =>
+              ({ desc, maintainers, name, slug }) =>
                 html`
-                  <li>
+                  <li class="helper-grid__item">
+                    <h3>${name}</h3>
                     <img src="/static/screenshots/${slug}.jpg" />
+                    <p>${desc}</p>
 
                     <ul>
                       ${maintainers.map(
