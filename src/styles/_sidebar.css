@@ -14,7 +14,7 @@
 
   &__explainer {
     padding: 0 1em 1em;
-    margin: 1em 0 2.5em;
+    margin: 1em 0;
     font-size: 0.875em;
     font-style: italic;
     color: var(--primary-color);
@@ -41,7 +41,7 @@
     padding: 0;
 
     a {
-      padding: 0.5em 1em;
+      padding: 0.375em 1em;
     }
 
     .isActive {
@@ -54,7 +54,7 @@
   &__tagCount {
     position: absolute;
     right: 1.25em;
-    top: 0.675em;
+    top: 0.375em;
     padding: 0.25em 0.5em;
 
     font-size: 0.75em;

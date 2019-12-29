@@ -104,4 +104,6 @@ dist
 .tern-port
 
 # generated stuff
-static
+static/screenshots
+static/bundle.js
+static/main.css

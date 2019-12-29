@@ -110,7 +110,7 @@
     "url": "https://realfavicongenerator.net/",
     "desc": "Generate favicons for all platforms",
     "tags": [
-      "Favicon"
+      "Favicons"
     ],
     "maintainers": [],
     "addetAt": "2019-12-29"
@@ -119,10 +119,8 @@
     "name": "favicon.io",
     "desc": "Create a facivon in a few clicks",
     "url": "https://favicon.io/",
-    "tags": [],
-    "maintainers": [
-      ""
-    ],
+    "tags": ["Favicons"],
+    "maintainers": [],
     "addedAt": "2019-12-29"
   },
   {
