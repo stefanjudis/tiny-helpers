@@ -99,6 +99,7 @@ export function App({ helpers, tags, currentTag }) {
                           <img
                             class="u-marginBottomMedium"
                             src="/static/screenshots/${slug}.jpg"
+                            loading="lazy"
                           />
                           <h3>${name}</h3>
                           <p>${desc}</p>
@@ -109,7 +110,12 @@ export function App({ helpers, tags, currentTag }) {
                                 html`
                                   <img
                                     class="maintainer"
+                                    srcset="
+                                      https://github.com/${maintainer}.png?size=40 1x,
+                                      https://github.com/${maintainer}.png?size=80 2x
+                                    "
                                     src="https://github.com/${maintainer}.png"
+                                    loading="lazy"
                                   />
                                 `
                             )}
