@@ -42,6 +42,13 @@
 
     a {
       padding: 0.375em 1em;
+
+      &:hover {
+        color: var(--primary-color);
+        text-decoration: underline;
+        text-underline-offset: 0.2em;
+        text-decoration-thickness: 0.1em;
+      }
     }
 
     .isActive {
