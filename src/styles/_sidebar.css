@@ -12,6 +12,14 @@
     padding: 1em 3em;
   }
 
+  &__explainer {
+    padding: 0 1em 1em;
+    margin: 1em 0 2.5em;
+    font-size: 0.875em;
+    font-style: italic;
+    color: var(--primary-color);
+  }
+
   &__header {
     margin: 0;
     height: var(--topbar-height);

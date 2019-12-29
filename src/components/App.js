@@ -31,8 +31,8 @@ export function App({ helpers, tags, currentTag }) {
           something
         </div>
         <div class="sidebar__body">
-          <p>
-            A collection of single-purposed online tools for web development
+          <p class="sidebar__explainer">
+            A collection of single-purpose online tools for web developers...
           </p>
           <ol class="sidebar__tags u-marginBottomLarge">
             <li class="sidebar__tag">
@@ -97,6 +97,8 @@ export function App({ helpers, tags, currentTag }) {
                       html`
                         <li class="helper-grid__item">
                           <img
+                            width="1000"
+                            height="600"
                             class="u-marginBottomMedium"
                             src="/static/screenshots/${slug}.jpg"
                             loading="lazy"
@@ -109,6 +111,8 @@ export function App({ helpers, tags, currentTag }) {
                               maintainer =>
                                 html`
                                   <img
+                                    width="40"
+                                    height="40"
                                     class="maintainer"
                                     srcset="
                                       https://github.com/${maintainer}.png?size=40 1x,
