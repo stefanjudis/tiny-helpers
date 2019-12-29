@@ -34,7 +34,9 @@ const { join } = require('path');
     ]);
 
     newHelper.addedAt = new Date().toISOString().substring(0, 10);
-    newHelper.maintainers = newHelper.maintainers.split(',');
+    newHelper.maintainers = newHelper.maintainers.length
+      ? newHelper.maintainers.split(',')
+      : [];
     helpers.push(newHelper);
     helpers = helpers.sort((a, b) =>
       a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1

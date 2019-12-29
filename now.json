@@ -4,7 +4,10 @@
     { "src": "index.js", "use": "@now/node" },
     { "src": "static/**", "use": "@now/static" }
   ],
-  "routes": [{ "src": "/(?<tag>[^/]*)", "dest": "/index.js?tag=$tag" }],
+  "routes": [
+    { "src": "/favicon.ico", "dest": "static/favicon.ico" },
+    { "src": "/(?<tag>[^/]*)", "dest": "/index.js?tag=$tag" }
+  ],
   "build": {
     "env": {
       "NODE_ENV": "production"
