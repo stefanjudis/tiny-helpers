@@ -11,27 +11,36 @@ const helpers = helperData.map(helper => ({
   tagSlugs: helper.tags.map(toSlug),
   ...helper
 }));
+
 const tags = [
   ...helperData.reduce((acc, cur) => {
-    cur.tags.forEach(tag => acc.add(tag));
-    return acc;
-  }, new Set())
-]
-  .sort((a, b) => (a < b ? -1 : 1))
-  .map(tag => ({ name: tag, slug: toSlug(tag) }));
+    cur.tags.forEach(tag => {
+      const value = acc.get(tag);
+      if (!value) {
+        acc.set(tag, { name: tag, count: 1 });
+      } else {
+        acc.set(tag, { name: tag, count: ++value.count });
+      }
+    });
 
-export function renderApp({ css, tag = 'All' }) {
+    return acc;
+  }, new Map())
+]
+  .map(([, tag]) => ({ ...tag, slug: toSlug(tag.name) }))
+  .sort((a, b) => (a.name < b.name ? -1 : 1));
+
+export function renderApp({ css, tag = 'all' }) {
   return `
       <!DOCTYPE html>
       <html lang="en">
       <head>
         <!-- fix the font handling -->
-        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo:600&display=swap" rel="stylesheet">
         <style>${css}</style>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>CSS scroll shadows</title>
+        <title>Tiny Helpers – A collection of useful online development tools</title>
         <script type="module">
           import {renderApp} from './static/bundle.js';
           renderApp({ tag: '${tag}' });

@@ -1,0 +1,10 @@
+.canvas {
+  background: var(--canvas-bg-color);
+  min-height: 100vh;
+
+  &__header {
+    margin: 0;
+    height: 6em;
+    border-bottom: 1px solid var(--light-border-color);
+  }
+}

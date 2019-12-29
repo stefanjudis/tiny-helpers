@@ -1,0 +1,22 @@
+.btn--cta {
+  background: var(--primary-color);
+  padding: 1em;
+  color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 0.25em 1em #405fca82;
+  text-decoration: none;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto 1em;
+  transform: translateY(0);
+  border: 2px solid transparent;
+
+  &:hover {
+    background: #506fda;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    box-shadow: 0 0.125em 0.5em #405fca82;
+  }
+}

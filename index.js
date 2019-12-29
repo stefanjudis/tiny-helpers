@@ -7,9 +7,14 @@ const { join } = require('path');
 const readFile = promisify(fsReadFile);
 
 module.exports = async (req, res) => {
-  const { tag } = {
+  let { tag } = {
     ...req.query
   };
+
+  // todo that's dirty
+  if (!tag || !tag.length) {
+    tag = 'all';
+  }
 
   const css = await readFile(join(__dirname, 'static', 'main.css'));
   res.status(200).send(renderApp({ css, tag }));

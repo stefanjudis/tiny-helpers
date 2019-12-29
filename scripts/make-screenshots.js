@@ -26,6 +26,7 @@ const { join } = require('path');
       height: 600
     });
 
+    // TODO parallize that
     for await (const helper of helpers) {
       console.log(`Screenshoting ${helper.name}...`);
 

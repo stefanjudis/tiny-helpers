@@ -1,0 +1,10 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: var(--sidebar-width);
+  height: var(--topbar-height);
+
+  background: var(--canvas-bg-color);
+  border-bottom: 1px solid var(--light-border-color);
+}
