@@ -10,9 +10,13 @@
 
   &__body {
     padding: 1em 3em;
+    display: grid;
+    grid-template-rows: auto auto 5em;
+    height: calc(100% - var(--topbar-height));
   }
 
-  &__explainer {
+  &__explainer,
+  &__broughtToYou {
     padding: 0 1em 1em;
     margin: 1em 0;
     font-size: 0.875em;
@@ -37,8 +41,26 @@
 
   &__tags {
     list-style: none;
+    overflow: auto;
     margin: 0;
     padding: 0;
+    background: linear-gradient(#eaefff 30%, rgba(234, 239, 255, 0)),
+      linear-gradient(rgba(234, 239, 255, 0), #eaefff 70%) 0 100%,
+      radial-gradient(
+        farthest-side at 50% 0,
+        rgba(195, 202, 207, 0.5),
+        rgba(0, 0, 0, 0)
+      ),
+      radial-gradient(
+          farthest-side at 50% 100%,
+          rgba(195, 202, 207, 0.5),
+          rgba(0, 0, 0, 0)
+        )
+        0 100%;
+    background-color: #eaefff;
+    background-repeat: no-repeat;
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100% 24px, 100% 24px, 100% 12px, 100% 12px;
 
     a {
       padding: 0.375em 1em;
