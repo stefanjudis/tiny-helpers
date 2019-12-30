@@ -43,7 +43,6 @@ export function App({ helpers, tags, currentTag }) {
                   event.preventDefault();
                   setActiveTag('all');
                 }}
-                type="button"
                 >All
               </a>
               <div class="sidebar__tagCount">${helpers.length}</div>
@@ -59,7 +58,6 @@ export function App({ helpers, tags, currentTag }) {
                         event.preventDefault();
                         setActiveTag(tag.slug);
                       }}
-                      type="button"
                     >
                       ${tag.name}
                     </a>

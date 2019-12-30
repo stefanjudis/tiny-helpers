@@ -107,3 +107,5 @@ dist
 static/screenshots
 static/bundle.js
 static/main.css
+static/feed.atom
+static/feed.xml

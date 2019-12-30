@@ -9,7 +9,7 @@
     "maintainers": [
       "fkling"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Base64 Converter",
@@ -21,7 +21,7 @@
     "maintainers": [
       "progers"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Clippy",
@@ -33,7 +33,7 @@
     "maintainers": [
       "bennettfeely"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Color.review",
@@ -44,7 +44,7 @@
       "Color"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "CSS Cursors",
@@ -56,7 +56,7 @@
     "maintainers": [
       "wesbos"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "CSS Grid Generator",
@@ -80,7 +80,7 @@
     "maintainers": [
       "stefanjudis"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "CSS Triangle Generator",
@@ -90,7 +90,7 @@
       "CSS"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "extractCSS",
@@ -103,7 +103,7 @@
     "maintainers": [
       "adnantopal"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Favicon Generator. For real.",
@@ -113,7 +113,7 @@
       "Favicons"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "favicon.io",
@@ -145,7 +145,7 @@
     "maintainers": [
       "raphaelbastide"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "google-webfonts-helper",
@@ -157,7 +157,7 @@
     "maintainers": [
       "majodev"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "RegExr",
@@ -169,7 +169,7 @@
     "maintainers": [
       "gskinner"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "regular expresssions 101",
@@ -181,7 +181,7 @@
     "maintainers": [
       "firasdib"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "removebg",
@@ -191,7 +191,7 @@
       "Images"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Shadows",
@@ -203,7 +203,7 @@
     "maintainers": [
       "brumm"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Shapy",
@@ -215,7 +215,7 @@
     "maintainers": [
       "vicbergquist"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "snippet generator",
@@ -227,7 +227,7 @@
     "maintainers": [
       "pawelgrzybek"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Squoosh",
@@ -243,7 +243,7 @@
       "developit",
       "PaulKinlan"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "SVGOMG",
@@ -256,7 +256,7 @@
     "maintainers": [
       "jakearchibald"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Transform",
@@ -268,7 +268,7 @@
     "maintainers": [
       "ritz078"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Unicode Character Search",
@@ -278,7 +278,7 @@
       "Unicode"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Unicode Code Converter",
@@ -288,7 +288,7 @@
       "Unicode"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "unilist",
@@ -300,7 +300,7 @@
     "maintainers": [
       "raphaelbastide"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "URL-encoder for SVG",
@@ -312,7 +312,7 @@
     "maintainers": [
       "yoksel"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "Wakamai Fondue",
@@ -325,7 +325,7 @@
     "maintainers": [
       "RoelN"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "WhoCanUse",
@@ -338,7 +338,7 @@
     "maintainers": [
       "coreyginnivan"
     ],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   },
   {
     "name": "⌘+C",
@@ -348,6 +348,6 @@
       "Unicode"
     ],
     "maintainers": [],
-    "addetAt": "2019-12-29"
+    "addedAt": "2019-12-29"
   }
 ]

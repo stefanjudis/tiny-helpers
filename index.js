@@ -17,5 +17,7 @@ module.exports = async (req, res) => {
   }
 
   const css = await readFile(join(__dirname, 'static', 'main.css'));
+  // TODO work on inlining this
+  // const js = await readFile(join(__dirname, 'static', 'bundle.js'));
   res.status(200).send(renderApp({ css, tag }));
 };

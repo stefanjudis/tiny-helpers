@@ -4,6 +4,7 @@ import { App } from './components/App.js';
 import helperData from '../data/helpers.json';
 import slugify from 'slugify';
 
+// todo put this into utils
 const toSlug = name => slugify(name).toLocaleLowerCase();
 
 const helpers = helperData.map(helper => ({

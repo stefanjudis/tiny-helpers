@@ -1,17 +1,20 @@
 {
   "name": "tiny-helpers",
   "version": "1.0.0",
-  "description": "A collection of useful online web development tools",
+  "description": "A collection of single-purpose online tools for web developers",
   "main": "index.js",
   "scripts": {
+    "setup:screenshots": "node ./scripts/create-screenshots.js",
+    "setup:feeds": "node ./scripts/create-feeds.js",
+    "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
     "dev:css": "postcss ./src/styles/index.css -w -o ./static/main.css -u postcss-import postcss-nested postcss-clean ",
     "dev:javascript": "rollup -cw",
     "dev:server": "now dev",
     "dev": "concurrently \"npm:dev:*\"",
+    "prebuild": "npm run setup",
     "build:css": "postcss ./src/styles/index.css -o ./static/main.css -u postcss-import postcss-nested postcss-clean --no-map",
     "build:javascript": "NODE_ENV=production rollup -c",
-    "build:screenshots": "node ./scripts/make-screenshots.js",
     "build": "concurrently \"npm:build:*\"",
     "deploy": "npm run build && now --prod"
   },
@@ -31,6 +34,7 @@
   "homepage": "https://github.com/stefanjudis/tiny-helpers#readme",
   "dependencies": {
     "esm": "^3.2.25",
+    "feed": "^4.1.0",
     "focus-visible": "^5.0.2",
     "htm": "^2.2.1",
     "inquirer": "^7.0.1",

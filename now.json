@@ -6,7 +6,13 @@
   ],
   "routes": [
     { "src": "/favicon.ico", "dest": "static/favicon.ico" },
-    { "src": "/(?<tag>[^/]*)", "dest": "/index.js?tag=$tag" }
+    {
+      "src": "/(?<tag>[^/]*)",
+      "dest": "/index.js?tag=$tag",
+      "headers": {
+        "Link": "<https://fonts.googleapis.com/css?family=Exo:600&display=swap>; rel=preload; as=style"
+      }
+    }
   ],
   "build": {
     "env": {

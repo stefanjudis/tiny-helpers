@@ -2,7 +2,7 @@ import { html } from 'htm/preact';
 import { render } from 'preact';
 import { App } from './components/App.js';
 
-// only has to be included – it will work on its own
+// only has to be imported – it will work on its own
 import focusVisible from 'focus-visible';
 
 export function renderApp({ tag }) {
