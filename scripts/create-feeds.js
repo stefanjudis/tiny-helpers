@@ -30,16 +30,18 @@ const toSlug = name => slugify(name).toLocaleLowerCase();
       }
     });
 
-    helpers.forEach(({ addedAt, name, desc, url }) => {
-      feed.addItem({
-        title: `New helper added to tiny-helpers.dev: ${name}`,
-        id: toSlug(name),
-        link: url,
-        description: desc,
-        content: `More tools! :) "${name}" is available at ${url}`,
-        date: new Date(addedAt)
+    helpers
+      .sort((a, b) => (new Date(a.addedAt) < new Date(b.addedAt) ? 1 : -1))
+      .forEach(({ addedAt, name, desc, url }) => {
+        feed.addItem({
+          title: `New helper added to tiny-helpers.dev: ${name}`,
+          id: toSlug(name),
+          link: url,
+          description: desc,
+          content: `More tools! :) "${name}" is available at ${url}`,
+          date: new Date(addedAt)
+        });
       });
-    });
 
     console.log('Writing rss feed');
     writeFile(join('.', 'static', 'feed.xml'), feed.rss2());
