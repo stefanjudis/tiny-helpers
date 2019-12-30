@@ -31,19 +31,16 @@ const toSlug = name => slugify(name).toLocaleLowerCase();
     });
 
     helpers.forEach(({ addedAt, name, desc, url }) => {
-      console.log(new Date(addedAt));
       feed.addItem({
         title: `New helper added to tiny-helpers.dev: ${name}`,
         id: toSlug(name),
         link: url,
         description: desc,
-        content: `More tools! :) ${name} is available at ${url}`,
+        content: `More tools! :) "${name}" is available at ${url}`,
         date: new Date(addedAt)
       });
     });
 
-    console.log('Writing atom feed');
-    writeFile(join('.', 'static', 'feed.atom'), feed.atom1());
     console.log('Writing rss feed');
     writeFile(join('.', 'static', 'feed.xml'), feed.rss2());
   } catch (error) {

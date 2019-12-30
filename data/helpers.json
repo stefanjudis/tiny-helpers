@@ -119,7 +119,9 @@
     "name": "favicon.io",
     "desc": "Create a facivon in a few clicks",
     "url": "https://favicon.io/",
-    "tags": ["Favicons"],
+    "tags": [
+      "Favicons"
+    ],
     "maintainers": [],
     "addedAt": "2019-12-29"
   },
@@ -204,6 +206,16 @@
       "brumm"
     ],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "shapecatcher.com",
+    "desc": "Draw a character and get the Unicode character glyph",
+    "url": "https://shapecatcher.com/",
+    "tags": [
+      "Unicode"
+    ],
+    "maintainers": [],
+    "addedAt": "2019-12-30"
   },
   {
     "name": "Shapy",
@@ -319,7 +331,6 @@
     "url": "https://wakamaifondue.com/",
     "desc": "Inspect what your fonts can do",
     "tags": [
-      "CSS",
       "Fonts"
     ],
     "maintainers": [

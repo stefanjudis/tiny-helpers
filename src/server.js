@@ -36,16 +36,17 @@ export function renderApp({ css, tag = 'all' }) {
       <html lang="en">
       <head>
         <!-- fix the font handling -->
-        <link href="https://fonts.googleapis.com/css?family=Exo:600&display=swap" rel="stylesheet">
         <style>${css}</style>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="alternate" type="application/rss+xml" title="Tiny Helpers RSS feed" href="https://tiny-helpers.dev/feed.xml">
         <title>Tiny Helpers – A collection of useful online development tools</title>
         <script type="module">
-          import {renderApp} from './static/bundle.js';
-          renderApp({ tag: '${tag}' });
+        import {renderApp} from './static/bundle.js';
+        renderApp({ tag: '${tag}' });
         </script>
+        <link href="https://fonts.googleapis.com/css?family=Exo:600&display=swap" rel="stylesheet">
       </head>
       <body>
         <div id="app">${render(

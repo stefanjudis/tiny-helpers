@@ -6,6 +6,8 @@
   ],
   "routes": [
     { "src": "/favicon.ico", "dest": "static/favicon.ico" },
+    { "src": "/feed.xml", "dest": "static/feed.xml" },
+    { "src": "/feed.atom", "dest": "static/feed.atom" },
     {
       "src": "/(?<tag>[^/]*)",
       "dest": "/index.js?tag=$tag",
