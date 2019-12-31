@@ -83,6 +83,21 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "CSS Stats",
+    "desc": "Analytize and visualize your stylesheets",
+    "url": "https://cssstats.com/",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [
+      "kristoferjoseph",
+      "johno",
+      "mrmrs",
+      "jxnblk"
+    ],
+    "addedAt": "2019-12-31"
+  },
+  {
     "name": "CSS Triangle Generator",
     "url": "http://apps.eky.hk/css-triangle-generator/",
     "desc": "Create CSS-only triangles",
