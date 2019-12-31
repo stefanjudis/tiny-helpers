@@ -28,9 +28,7 @@ export function App({ helpers, tags, currentTag }) {
           <h1>Tiny helpers</h1>
         </div>
         <div class="topbar">
-          <a
-            class="btn btn--ghost"
-            href="https://github.com/stefanjudis/tiny-helpers#contributing"
+          <a class="btn btn--ghost" href="https://twitter.com/tinyhelpersdev"
             >Follow on Twitter
 
             <svg
@@ -45,9 +43,7 @@ export function App({ helpers, tags, currentTag }) {
             </svg>
           </a>
 
-          <a
-            class="btn btn--ghost"
-            href="https://github.com/stefanjudis/tiny-helpers#contributing"
+          <a class="btn btn--ghost" href="https://tiny-helpers.dev/feed.xml"
             >Check RSS
             <svg
               focusable="false"
