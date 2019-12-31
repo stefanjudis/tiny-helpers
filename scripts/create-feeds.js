@@ -34,11 +34,11 @@ const toSlug = name => slugify(name).toLocaleLowerCase();
       .sort((a, b) => (new Date(a.addedAt) < new Date(b.addedAt) ? 1 : -1))
       .forEach(({ addedAt, name, desc, url }) => {
         feed.addItem({
-          title: `New helper added to tiny-helpers.dev: ${name}`,
+          title: `New helper added to tiny-helpers.dev – ${name}.`,
           id: toSlug(name),
           link: url,
           description: desc,
-          content: `More tools! :) "${name}" is available at ${url}`,
+          content: `More tools! 🎉🎉🎉 "${name}" is available at ${url}`,
           date: new Date(addedAt)
         });
       });
