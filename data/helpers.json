@@ -298,6 +298,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "tanaguru contrast finder",
+    "desc": "Find good constrasts between two colors",
+    "url": "https://contrast-finder.tanaguru.com/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "Tanaguru"
+    ],
+    "addedAt": "2019-12-31"
+  },
+  {
     "name": "Transform",
     "url": "https://transform.tools/",
     "desc": "Transform code into something else",
