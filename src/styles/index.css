@@ -1,6 +1,7 @@
 @import './_base.css';
 @import './_canvas.css';
 @import './_buttons.css';
+@import './_helper.css';
 @import './_sidebar.css';
 @import './_topbar.css';
 @import './_util.css';
@@ -8,6 +9,7 @@
 body {
   --primary-color: #405fca;
   --text-color: #484a53;
+  --text-highlight-color: #292c32;
   --light-border-color: #d9dfe4;
 
   --canvas-bg-color: #f5f7ff;
@@ -19,16 +21,10 @@ body {
   padding-left: var(--sidebar-width);
 }
 
-h1,
-h2,
-h3 {
-  font-family: 'Exo', sans-serif;
-  margin: 0;
-  color: #405fca;
-}
-
 h1 {
+  color: #405fca;
   font-size: 1.5em;
+
   &::before {
     content: '';
     display: inline-block;
@@ -36,22 +32,6 @@ h1 {
     height: 1.5em;
     margin-right: 0.5em;
     background: #405fca;
-  }
-}
-
-.helper-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(17.5em, 1fr));
-  grid-gap: 3em 2em;
-  list-style: none;
-  padding: 2em;
-  margin: 0;
-
-  &__item {
-    border: 1px solid #eee;
-    box-shadow: 0 0.25em 1em #eee;
-    border-radius: 0.5em;
-    overflow: hidden;
   }
 }
 
@@ -66,14 +46,6 @@ svg {
 }
 
 a {
-  color: #444;
   display: block;
-  padding: 0.5em 0;
   text-decoration: none;
-}
-
-.maintainer {
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 50%;
 }

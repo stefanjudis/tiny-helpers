@@ -9,8 +9,30 @@
 body {
   margin: 0;
   padding: 0;
+  color: var(--text-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Exo', sans-serif;
+  color: var(--text-highlight-color);
+  margin: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.1em;
+
+  &:hover,
+  &:active {
+    color: var(--primary-color);
+  }
 }
 
 :focus {

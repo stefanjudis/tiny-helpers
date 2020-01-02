@@ -34,12 +34,14 @@
   color: var(--primary-color);
   padding: 0.75em 0;
   display: inline-grid;
-  grid-template-columns: auto 1em;
+  grid-template-columns: auto 1.25em;
   grid-gap: 0.75em;
   transform: translateY(0);
   border: 2px solid transparent;
 
   &:hover {
     text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 0.1em;
   }
 }

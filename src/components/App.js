@@ -1,6 +1,8 @@
 import { html } from 'htm/preact';
 import { useEffect, useState } from 'preact/hooks';
 
+import Helper from './Helper.js';
+
 function updateHistory({ tag }) {
   // todo fix the back button
   history.pushState({}, document.title, `/${tag === 'all' ? '' : tag}`);
@@ -28,18 +30,20 @@ export function App({ helpers, tags, currentTag }) {
           <h1>Tiny helpers</h1>
         </div>
         <div class="topbar">
-          <a class="btn btn--ghost" href="https://twitter.com/tinyhelpersdev"
-            >Follow on Twitter
-
+          <a class="btn btn--ghost" href="https://twitter.com/tinyhelpersdev">
+            Follow on Twitter
             <svg
+              viewBox="0 0 300 300"
+              height="300"
+              width="300"
               focusable="false"
-              width="100pt"
-              height="100pt"
-              viewBox="0 0 100 100"
             >
-              <path
-                d="m58.637 19.746l-0.019531-0.007813-0.17969 0.25c-0.33594 0.41406-0.64062 0.84375-0.91797 1.2852l-10.844 15.156-16.512-11.812-14.164-10.086v29.809h0.003906c-0.066406 4.0273 1.4375 8.0742 4.5078 11.148 2.6172 2.6133 5.9375 4.0938 9.3555 4.4336l-2.3594 3.293-15.508 21.785h45.84l0.003906-0.003906c6.1914 0.10156 12.414-2.2109 17.141-6.9375 4.1172-4.1172 6.4023-9.3789 6.8555-14.762l0.085937-0.050781v-1.918-0.046875-24.383l8.6055-4.6094-8.6211-4.6211c-0.14844-3.1719-1.4297-6.3008-3.8555-8.7227-5.1562-5.1602-13.52-5.1602-18.68 0-0.25781 0.25781-0.50391 0.52734-0.73828 0.80078zm12.816 4.7227c1.0508 1.0508 1.0508 2.7539 0 3.8047-1.0469 1.0508-2.75 1.0508-3.8008 0-1.0508-1.0508-1.0508-2.7539 0-3.8047 1.0508-1.0508 2.7539-1.0508 3.8008 0"
-              />
+              <g transform="translate(-539.17946,-568.85777)" id="layer1">
+                <path
+                  id="path3611"
+                  d="m 633.89823,812.04479 c 112.46038,0 173.95627,-93.16765 173.95627,-173.95625 0,-2.64628 -0.0539,-5.28062 -0.1726,-7.90305 11.93799,-8.63016 22.31446,-19.39999 30.49762,-31.65984 -10.95459,4.86937 -22.74358,8.14741 -35.11071,9.62551 12.62341,-7.56929 22.31446,-19.54304 26.88583,-33.81739 -11.81284,7.00307 -24.89517,12.09297 -38.82383,14.84055 -11.15723,-11.88436 -27.04079,-19.31655 -44.62892,-19.31655 -33.76374,0 -61.14426,27.38052 -61.14426,61.13233 0,4.79784 0.5364,9.46458 1.58538,13.94057 -50.81546,-2.55686 -95.87353,-26.88582 -126.02546,-63.87991 -5.25082,9.03545 -8.27852,19.53111 -8.27852,30.73006 0,21.21186 10.79366,39.93837 27.20766,50.89296 -10.03077,-0.30992 -19.45363,-3.06348 -27.69044,-7.64676 -0.009,0.25652 -0.009,0.50661 -0.009,0.78077 0,29.60957 21.07478,54.3319 49.0513,59.93435 -5.13757,1.40062 -10.54335,2.15158 -16.12196,2.15158 -3.93364,0 -7.76596,-0.38716 -11.49099,-1.1026 7.78383,24.2932 30.35457,41.97073 57.11525,42.46543 -20.92578,16.40207 -47.28712,26.17062 -75.93712,26.17062 -4.92898,0 -9.79834,-0.28036 -14.58427,-0.84634 27.05868,17.34379 59.18936,27.46396 93.72193,27.46396"
+                />
+              </g>
             </svg>
           </a>
 
@@ -79,7 +83,7 @@ export function App({ helpers, tags, currentTag }) {
           <p class="sidebar__explainer">
             A collection of single-purpose online tools for web developers...
           </p>
-          <ol class="sidebar__tags u-marginBottomLarge">
+          <ol class="sidebar__tags u-margin-bottom-l">
             <li class="sidebar__tag">
               <a
                 href="/"
@@ -121,39 +125,12 @@ export function App({ helpers, tags, currentTag }) {
         <div class="canvas__body">
           ${activeHelpers.length
             ? html`
-                <ul class="helper-grid">
+                <ul class="canvas-grid">
                   ${activeHelpers.map(
-                    ({ desc, maintainers, name, slug }) =>
+                    helper =>
                       html`
-                        <li class="helper-grid__item">
-                          <img
-                            width="1000"
-                            height="600"
-                            class="u-marginBottomMedium"
-                            src="/static/screenshots/${slug}.jpg"
-                            loading="lazy"
-                          />
-                          <h3>${name}</h3>
-                          <p>${desc}</p>
-
-                          <ul>
-                            ${maintainers.map(
-                              maintainer =>
-                                html`
-                                  <img
-                                    width="40"
-                                    height="40"
-                                    class="maintainer"
-                                    srcset="
-                                      https://github.com/${maintainer}.png?size=40 1x,
-                                      https://github.com/${maintainer}.png?size=80 2x
-                                    "
-                                    src="https://github.com/${maintainer}.png"
-                                    loading="lazy"
-                                  />
-                                `
-                            )}
-                          </ul>
+                        <li class="canvas-grid__item">
+                          <${Helper} helper="${helper}" />
                         </li>
                       `
                   )}
