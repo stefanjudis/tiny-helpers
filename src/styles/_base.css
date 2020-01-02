@@ -27,7 +27,7 @@ a {
   color: currentColor;
   text-decoration: underline;
   text-underline-offset: 0.2em;
-  text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 2px;
 
   &:hover,
   &:active {

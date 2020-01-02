@@ -271,7 +271,7 @@
   {
     "name": "Squoosh",
     "url": "https://squoosh.app/",
-    "desc": "Make images smaller using best-in-class codecs, right in the browser.",
+    "desc": "Make images smaller using best-in-class codecs, right in the browser",
     "tags": [
       "Images",
       "Performance"

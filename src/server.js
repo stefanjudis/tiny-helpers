@@ -35,7 +35,6 @@ export function renderApp({ css, tag = 'all' }) {
       <!DOCTYPE html>
       <html lang="en">
       <head>
-        <!-- fix the font handling -->
         <style>${css}</style>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +45,6 @@ export function renderApp({ css, tag = 'all' }) {
         import {renderApp} from './static/bundle.js';
         renderApp({ tag: '${tag}' });
         </script>
-        <link href="https://fonts.googleapis.com/css?family=Exo:600&display=swap" rel="stylesheet">
       </head>
       <body>
         <div id="app">${render(
@@ -54,6 +52,10 @@ export function renderApp({ css, tag = 'all' }) {
             <${App} currentTag=${tag} helpers=${helpers} tags=${tags} />
           `
         )}</div>
+        <script type="module">
+          // TODO
+          // accessible menu code
+        </script>
         <script id="data" type="application/json">${JSON.stringify({
           helpers,
           tags

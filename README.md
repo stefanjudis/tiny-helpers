@@ -1,5 +1,5 @@
-# tiny-helpers
+# tiny-helpers.dev
 
-A collection of useful online web development tools
+A collection of useful online web development tools.
 
 ## Contributing

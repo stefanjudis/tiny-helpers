@@ -9,11 +9,17 @@
     text-align: center;
     margin-top: 1em;
     background: #eaefff;
-    padding: 0.5em 1em;
+    padding: 0.75em 1em;
     margin: 1em -1em -1em -1em;
     color: #fff;
     border-top: 1px solid #d9dfe4;
-    color: #484a53;
+    color: var(--primary-color);
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      text-decoration-thickness: 2px;
+    }
   }
 
   &__desc {

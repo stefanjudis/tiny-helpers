@@ -8,6 +8,8 @@
     { "src": "/favicon.ico", "dest": "static/favicon.ico" },
     { "src": "/feed.xml", "dest": "static/feed.xml" },
     { "src": "/feed.atom", "dest": "static/feed.atom" },
+    { "src": "/exo.woff", "dest": "static/fonts/exo.woff" },
+    { "src": "/exo.woff2", "dest": "static/fonts/exo.woff2" },
     {
       "src": "/(?<tag>[^/]*)",
       "dest": "/index.js?tag=$tag",

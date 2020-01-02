@@ -1,7 +1,12 @@
 .btn {
   border-radius: 0.5em;
-
+  line-height: 1em;
   font-family: sans-serif;
+
+  svg {
+    height: 1em;
+    width: auto;
+  }
 
   & + & {
     margin-left: 1.5em;
@@ -23,6 +28,7 @@
   &:hover {
     background: #506fda;
     transform: translateY(-1px);
+    color: #fff;
   }
 
   &:active {

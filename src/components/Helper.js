@@ -38,6 +38,7 @@ export default function Helper({ helper }) {
                               https://github.com/${maintainer}.png?size=80 2x
                             "
                             src="https://github.com/${maintainer}.png"
+                            alt="GitHub profile image of ${maintainer}"
                             loading="lazy"
                           />
                         </a>
