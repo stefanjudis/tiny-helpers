@@ -14,11 +14,11 @@
 }
 
 .btn--cta {
-  padding: 0.75em;
+  padding: 0.5em 0.75em;
   background: var(--primary-color);
   color: #fff;
   text-decoration: none;
-  box-shadow: 0 0.25em 1em #405fca82;
+  box-shadow: 0 0.25em 0.75em #405fca82;
   display: inline-grid;
   grid-template-columns: auto 1em;
   grid-gap: 0.75em;

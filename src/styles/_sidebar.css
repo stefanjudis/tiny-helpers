@@ -25,6 +25,10 @@
   }
 
   &__header {
+    display: grid;
+    grid-template-columns: 3em auto;
+    grid-gap: 0.5em;
+    align-items: center;
     margin: 0;
     height: var(--topbar-height);
     padding: 1em 3em;

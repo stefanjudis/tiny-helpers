@@ -2,9 +2,9 @@
   text-align: right;
   position: fixed;
   padding: 1em 2em;
+  left: var(--sidebar-width);
   top: 0;
   right: 0;
-  left: var(--sidebar-width);
   height: var(--topbar-height);
 
   background: var(--canvas-bg-color);

@@ -12,10 +12,7 @@
     { "src": "/exo.woff2", "dest": "static/fonts/exo.woff2" },
     {
       "src": "/(?<tag>[^/]*)",
-      "dest": "/index.js?tag=$tag",
-      "headers": {
-        "Link": "<https://fonts.googleapis.com/css?family=Exo:600&display=swap>; rel=preload; as=style"
-      }
+      "dest": "/index.js?tag=$tag"
     }
   ],
   "build": {

@@ -24,7 +24,7 @@
 
   &__desc {
     font-style: italic;
-    margin: 0.25em 0 1em;
+    margin: 0 0 1.5em;
   }
 
   &__headline {
@@ -32,7 +32,7 @@
   }
 
   &__image {
-    margin: -1em -1em 1.5em -1em;
+    margin: -1em -1em 1em -1em;
     max-width: calc(100% + 2em);
   }
 
@@ -52,7 +52,7 @@
       width: 2.5em;
       height: 2.5em;
       border-radius: 50%;
-      border: 3px solid #444;
+      border: 2px solid #444;
     }
   }
 }

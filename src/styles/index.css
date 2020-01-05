@@ -10,7 +10,7 @@
 body {
   --primary-color: #405fca;
   --text-color: #484a53;
-  --text-highlight-color: #292c32;
+  --text-highlight-color: #393c42;
   --light-border-color: #d9dfe4;
 
   --canvas-bg-color: #f5f7ff;
@@ -25,15 +25,6 @@ body {
 h1 {
   color: #405fca;
   font-size: 1.5em;
-
-  &::before {
-    content: '';
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    margin-right: 0.5em;
-    background: #405fca;
-  }
 }
 
 img,

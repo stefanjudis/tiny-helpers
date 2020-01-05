@@ -9,6 +9,7 @@ export default function Helper({ helper }) {
         height="600"
         class="helper__image"
         src="/static/screenshots/${slug}.jpg"
+        alt="Screenshot of ${url}"
         loading="lazy"
       />
       <h3 class="helper__headline">
@@ -19,7 +20,7 @@ export default function Helper({ helper }) {
       ${maintainers.length
         ? html`
             <div class="helper__maintainers u-marginTopAuto">
-              <h4 class="u-margin-bottom-s">Maintainers</h4>
+              <h4 class="u-margin-bottom-s">Made by</h4>
 
               <ul class="helper__maintainersList u-listReset">
                 ${maintainers.map(

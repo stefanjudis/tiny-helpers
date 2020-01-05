@@ -323,6 +323,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "type-scale",
+    "desc": "Calculate your type scale visually",
+    "url": "https://type-scale.com/",
+    "tags": [
+      "CSS",
+      "Fonts"
+    ],
+    "maintainers": [
+      "jeremychurch"
+    ],
+    "addedAt": "2020-01-05"
+  },
+  {
     "name": "Unicode Character Search",
     "url": "http://www.fileformat.info/info/unicode/char/search.htm",
     "desc": "Seach a Unicode Character",
