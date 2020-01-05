@@ -26,7 +26,7 @@
 
   &__header {
     display: grid;
-    grid-template-columns: 3em auto;
+    grid-template-columns: 2.5em auto;
     grid-gap: 0.5em;
     align-items: center;
     margin: 0;
