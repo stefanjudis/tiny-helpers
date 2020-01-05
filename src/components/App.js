@@ -4,8 +4,10 @@ import { useEffect, useState } from 'preact/hooks';
 import Helper from './Helper.js';
 
 function updateHistory({ tag }) {
-  // todo fix the back button
-  history.pushState({}, document.title, `/${tag === 'all' ? '' : tag}`);
+  const historyNeedsUpdate = document.location.pathname !== `/${tag}`;
+  if (historyNeedsUpdate) {
+    history.pushState({}, document.title, `/${tag === 'all' ? '' : tag}`);
+  }
 }
 
 export function App({ helpers, tags, currentTag }) {
@@ -22,6 +24,13 @@ export function App({ helpers, tags, currentTag }) {
     setActiveHelpers(filterHelpers(helpers, activeTag));
     updateHistory({ tag: activeTag });
   }, [activeTag]);
+
+  if (typeof window !== 'undefined') {
+    window.onpopstate = function() {
+      const lastTag = document.location.pathname.replace('/', '');
+      setActiveTag(lastTag.length ? lastTag : 'all');
+    };
+  }
 
   return html`
     <div class="container">

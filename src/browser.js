@@ -10,11 +10,6 @@ export function renderApp({ tag }) {
     document.getElementById('data').innerHTML
   );
 
-  // TODO
-  window.onpopstate = function(event) {
-    console.log(document.location);
-  };
-
   return render(
     html`
       <${App} currentTag=${tag} helpers=${helpers} tags=${tags} />
