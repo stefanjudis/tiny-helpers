@@ -7,7 +7,6 @@
   white-space: nowrap;
 
   svg {
-    height: 100%;
     width: auto;
   }
 }
@@ -64,6 +63,12 @@
   color: #fff;
   border-top: 1px solid #d9dfe4;
   color: var(--primary-color);
+}
+
+.btn--reset {
+  background: transparent;
+  border: none;
+  font-size: 1em;
 }
 
 [data-menu-button].is-active {
