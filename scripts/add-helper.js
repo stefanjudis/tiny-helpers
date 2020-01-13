@@ -42,12 +42,9 @@ const { join } = require('path');
       a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1
     );
 
-    await writeFile(
-      join('data', 'helpers.json'),
-      JSON.stringify(helpers, null, 2)
-    );
+    await writeFile('helpers.json', JSON.stringify(helpers, null, 2));
 
-    console.log('Thanks!!! `./data/helpers.json` was updated');
+    console.log('Thanks!!! `./helpers.json` was updated');
   } catch (error) {
     console.error(error);
   }

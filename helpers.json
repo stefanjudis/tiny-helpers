@@ -181,7 +181,7 @@
     "desc": "Mock your HTTP responses to test your REST API",
     "url": "https://www.mocky.io/",
     "tags": [
-      "APIs "
+      "APIs"
     ],
     "maintainers": [
       "julien-lafont"

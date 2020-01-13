@@ -1,0 +1,21 @@
+.padding {
+  &-xs {
+    padding: 0.25rem !important;
+  }
+
+  &-s {
+    padding: 0.5rem !important;
+  }
+
+  &-m {
+    padding: 1rem !important;
+  }
+
+  &-l {
+    padding: 2rem !important;
+  }
+
+  &-v-m {
+    padding: 0 1em;
+  }
+}

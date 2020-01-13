@@ -1,0 +1,43 @@
+<div class="padding-sidebar">
+  {% if tag.name == "All" %}
+    <h1 class="fsi-1-5 margin-top-m margin-bottom-l">All tools</h1>
+  {% else %}
+    <h1 class="fsi-1-5 margin-top-m margin-bottom-l">Tools for tag "{{ tag.name }}"</h1>
+  {% endif %}
+  <ol class="main-grid">
+  {% for item in tag.items %}
+    <li class="shadow-full bg-lighter flex-column">
+      <img
+        srcset="/static/screenshots/{{ item.slug }}@1.jpg 1x,
+                /static/screenshots/{{ item.slug }}@2.jpg 2x"
+        src="/static/screenshots/{{ item.slug }}@2.jpg" alt="Screenshot of {{item.name}}"
+        width="1000"
+        height="600"
+        loading="lazy">
+      <div class="margin-top-m padding-v-m">
+        <h2 class="fsi-1-25">{{ item.name }}</h2>
+        <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
+      </div>
+      {% if item.maintainers.length %}
+        <div class="padding-v-m margin-top-auto">
+          <h3 class="fsi-1 margin-bottom-s">Made by</h3>
+          <ul class="inline-list">
+            {% for maintainer in item.maintainers %}
+              <li class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
+                <a href="https://github.com/{{maintainer}}" class="no-underline" aria-label="{{maintainer}} on GitHub">
+                  <img
+                    class="img-size-m circle"
+                    srcset="https://github.com/{{ maintainer }}.png?size=40 1x,
+                              https://github.com/{{ maintainer }}.png?size=80 2x"
+                    src="https://github.com/{{ maintainer }}.png" alt="GitHub profile image of {{ maintainer }}" loading="lazy" width="40" height="40">
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      <a class="btn__full {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}">Go to {{ item.name }}</a>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

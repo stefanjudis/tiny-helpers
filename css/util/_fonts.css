@@ -1,0 +1,31 @@
+.fst-italic {
+  font-style: italic;
+}
+
+.fsi-0-875 {
+  font-size: 0.875em;
+}
+
+.fsi-1 {
+  font-size: 1em;
+}
+
+.fsi-1-25 {
+  font-size: 1.25em;
+}
+
+.fsi-1-5 {
+  font-size: 1.5em;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.ff-fancy {
+  font-family: 'Exo', sans-serif;
+}
+
+.no-underline {
+  text-decoration: none;
+}

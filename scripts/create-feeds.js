@@ -1,6 +1,6 @@
 const Feed = require('feed').Feed;
 const { description } = require('../package.json');
-const helpers = require('../data/helpers.json');
+const helpers = require('../helpers.json');
 const slugify = require('slugify');
 const { writeFile } = require('fs').promises;
 const { join } = require('path');

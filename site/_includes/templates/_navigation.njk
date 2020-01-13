@@ -1,0 +1,26 @@
+<div id="menu" class="padding-sidebar bg-medium shadow-left" data-menu>
+  <p class="color-primary margin-top-m margin-bottom-l fst-italic fsi-0-875">A collection of single-purpose online tools for web developers...</p>
+  <nav class="margin-bottom-l" aria-labelledby="nav">
+    <h2 class="margin-bottom-s fsi-1-25" id="nav">Tags</h2>
+    <ol class="nav">
+      {% for tag in tags %}
+      <li class="margin-top-xs margin-bottom-xs neg-margin-left-m neg-margin-right-m">
+        <a href="{{ tag.slug }}" {% if page.url == tag.slug %} aria-current="page" {% endif %}>
+          {{tag.name}}
+        </a>
+        <div class="nav-tagCount">{{tag.items.length }}</div>
+      </li>
+      {% endfor %}
+    </ol>
+  </nav>
+  <div class="fsi-0-875">
+    <p>Brought to you by Stefan Judis</p>
+    <p>( <a class="color-primary" href="https://www.stefanjudis.com">Website</a>,
+      <a class="color-primary" href="https://twitter.com/stefanjudis" aria-label="Stefan on Twitter">
+        Twitter
+      </a>,
+      <a class="color-primary" href="https://github.com/tinyhelpersdev" aria-label="Stefan on GitHub">
+        GitHub
+      </a>)</p>
+  </div>
+</div>

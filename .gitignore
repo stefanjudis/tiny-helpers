@@ -106,7 +106,10 @@ dist
 .tern-port
 
 # generated stuff
+_site
+site/_includes/css/main.css
 static/screenshots
-static/bundle.js
-static/main.css
-static/feed.xml
+static/*.js
+static/*.xml
+static/*.html
+TODO.txt

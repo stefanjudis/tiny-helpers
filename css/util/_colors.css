@@ -1,0 +1,15 @@
+.bg-lighter {
+  background: var(--canvas-light-color);
+}
+
+.bg-light {
+  background: var(--canvas-bg-color);
+}
+
+.bg-medium {
+  background: var(--sidebar-bg-color);
+}
+
+.color-primary {
+  color: var(--primary-color);
+}

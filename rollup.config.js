@@ -1,16 +1,10 @@
-const resolve = require('rollup-plugin-node-resolve');
-const commonjs = require('rollup-plugin-commonjs');
 const { terser } = require('rollup-plugin-terser');
 
 module.exports = {
-  input: 'src/browser.js',
+  input: 'js/index.js',
   output: {
-    file: 'static/bundle.js',
+    file: 'site/_includes/main.js',
     format: 'esm'
   },
-  plugins: [
-    resolve(),
-    commonjs(),
-    process.env.NODE_ENV === 'production' ? terser() : null
-  ]
+  plugins: [process.env.NODE_ENV === 'production' ? terser() : null]
 };

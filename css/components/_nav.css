@@ -1,0 +1,35 @@
+.nav {
+  li {
+    position: relative;
+  }
+
+  a {
+    display: block;
+    padding: 0.25em 1em;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary-color);
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      text-decoration-thickness: 0.1em;
+    }
+
+    &[aria-current='page'] {
+      background: #fff;
+      border-radius: 0.5em;
+      color: var(--primary-color);
+    }
+  }
+
+  .nav-tagCount {
+    position: absolute;
+    right: 1.25em;
+    top: 0.375em;
+    padding: 0.25em 0.5em;
+    font-size: 0.75em;
+    font-weight: 700;
+    color: #686c7a;
+    border-radius: 0.375em;
+  }
+}

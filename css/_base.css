@@ -6,10 +6,13 @@
   }
 }
 
-body {
+body,
+html {
+  height: 100%;
   margin: 0;
   padding: 0;
   color: var(--text-color);
+  font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
@@ -33,6 +36,27 @@ a {
   &:active {
     color: var(--primary-color);
   }
+}
+
+svg {
+  fill: currentColor;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0 0 1em;
 }
 
 :focus {
