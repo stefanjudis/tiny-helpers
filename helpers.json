@@ -211,7 +211,7 @@
     "name": "CyberChef",
     "desc": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
     "url": "https://gchq.github.io/CyberChef/",
-    "tags": [],
+    "tags": ["Color", "CSS", "HTML", "Misc", "Regular Expressions"],
     "maintainers": [
       "gchq"
     ],
