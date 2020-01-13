@@ -107,7 +107,7 @@ dist
 
 # generated stuff
 _site
-site/_includes/css/main.css
+site/_includes/main.*
 static/screenshots
 static/*.js
 static/*.xml
