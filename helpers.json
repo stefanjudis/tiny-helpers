@@ -269,6 +269,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Spring Editor",
+    "desc": "Pick the stiffness, damping, and mass for your spring animations",
+    "url": "https://springs.pomb.us/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "pomber"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "Squoosh",
     "url": "https://squoosh.app/",
     "desc": "Make images smaller using best-in-class codecs, right in the browser",
