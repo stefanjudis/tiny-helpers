@@ -267,6 +267,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "SmoothShadow",
+    "desc": "Tool for building out comma-separated multiple box-shadows",
+    "url": "https://brumm.af/shadows",
+    "tags": [],
+    "maintainers": [
+      "brumm"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "snippet generator",
     "url": "https://snippet-generator.app/",
     "desc": "Generate snippets for VSCode, Sublime Text and Atom",
