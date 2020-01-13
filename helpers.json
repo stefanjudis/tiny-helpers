@@ -224,6 +224,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "remove.bg",
+    "desc": "Remove Image Background",
+    "url": "https://www.remove.bg/",
+    "tags": [
+      "Images"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "removebg",
     "url": "https://www.remove.bg/",
     "desc": "Remove backgrounds 100% automatically in 5 seconds with zero clicks",
