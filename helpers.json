@@ -208,6 +208,16 @@
     "addedAt": "2020-01-16"
   },
   {
+    "name": "CyberChef",
+    "desc": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+    "url": "https://gchq.github.io/CyberChef/",
+    "tags": [],
+    "maintainers": [
+      "gchq"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "extractCSS",
     "url": "http://extractcss.com/",
     "desc": "Extract CSS from HTML with ease",
