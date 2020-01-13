@@ -189,6 +189,20 @@
     "addedAt": "2019-12-31"
   },
   {
+    "name": "Pretty-Print JSON",
+    "desc": "Interactive online tool to format JSON",
+    "url": "https://pretty-print-json.js.org/",
+    "tags": [
+      "APIs",
+      "JavaScript",
+      "Misc"
+    ],
+    "maintainers": [
+      "dpilafian"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "RegExr",
     "url": "https://regexr.com/",
     "desc": "Learn, build, & test Regular Expressions",
