@@ -4,7 +4,7 @@ const { join } = require('path');
 
 (async () => {
   try {
-    let helpers = require('../data/helpers.json');
+    let helpers = require('../helpers.json');
     let tags = [
       ...helpers.reduce((acc, cur) => {
         cur.tags.forEach(tag => acc.add(tag));

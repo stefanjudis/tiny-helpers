@@ -1,6 +1,5 @@
 {
   "name": "tiny-helpers",
-  "builds": [{ "src": "static/**", "use": "@now/static" }],
   "routes": [
     { "src": "/favicon.ico", "dest": "static/favicon.ico" },
     { "src": "/feed.xml", "dest": "static/feed.xml" },
