@@ -14,13 +14,28 @@
     </ol>
   </nav>
   <div class="fsi-0-875">
-    <p>Brought to you by Stefan Judis</p>
-    <p>( <a class="color-primary" href="https://www.stefanjudis.com">Website</a>,
+    <p class="margin-bottom-xs">Brought to you by Stefan Judis</p>
+    <p class="margin-bottom-l">( <a class="color-primary" href="https://www.stefanjudis.com">Website</a>,
       <a class="color-primary" href="https://twitter.com/stefanjudis" aria-label="Stefan on Twitter">
         Twitter
       </a>,
       <a class="color-primary" href="https://github.com/stefanjudis" aria-label="Stefan on GitHub">
         GitHub
       </a>)</p>
+
+      <p class="margin-bottom-s">and these lovely people:</p>
+      <ul class="inline-list">
+        {% for contributor in contributors %}
+          <li class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
+            <a href="https://github.com/{{contributor}}" class="no-underline" aria-label="{{contributor}} on GitHub">
+              <img
+                class="img-size-m circle"
+                srcset="https://github.com/{{ contributor }}.png?size=40 1x,
+                          https://github.com/{{ contributor }}.png?size=80 2x"
+                src="https://github.com/{{ contributor }}.png" alt="GitHub profile image of {{ contributor }}" loading="lazy" width="40" height="40">
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
   </div>
 </div>
