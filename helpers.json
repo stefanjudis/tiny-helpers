@@ -157,6 +157,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Fancy-Border-Radius",
+    "desc": "Generator to build organic shapes with CSS3 border-radius",
+    "url": "https://9elements.github.io/fancy-border-radius/",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [
+      "enbee81"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Favicon Generator. For real.",
     "url": "https://realfavicongenerator.net/",
     "desc": "Generate favicons for all platforms",
