@@ -176,6 +176,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Font Squirrel Webfont Generator",
+    "desc": "Modify, improve, trim, change and export your fonts in modern formats",
+    "url": "https://www.fontsquirrel.com/tools/webfont-generator",
+    "tags": [
+      "Accessibility",
+      "Fonts",
+      "Performance"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "FontDrop!",
     "url": "https://fontdrop.info/",
     "desc": "View the content of a font file",
