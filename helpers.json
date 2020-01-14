@@ -48,7 +48,7 @@
   },
   {
     "name": "caseconverter.pro",
-    "desc": "",
+    "desc": "A handy online case converter supporting PascalCase, camelCase, kebab-case and snake_case",
     "url": "https://caseconverter.pro/app",
     "tags": [
       "Misc"
