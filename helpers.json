@@ -13,6 +13,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "BA Rows To Columns",
+    "desc": "Rows to columns and viceversa. Immediate and easy!",
+    "url": "https://www.brianapps.com/rows-to-columns",
+    "tags": [
+      "Code",
+      "Misc"
+    ],
+    "maintainers": [
+      "brakon"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Base64 Converter",
     "url": "https://pr.gg/base64/",
     "desc": "Base64 encode everything",
