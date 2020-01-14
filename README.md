@@ -10,7 +10,7 @@ Fork and clone the repository. And run the following command:
 
 ```
 cd tiny-helpers
-npm i
+npm ci
 npm run helper:add
 ```
 
