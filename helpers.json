@@ -47,6 +47,16 @@
     "addedAt": "2020-01-13"
   },
   {
+    "name": "caseconverter.pro",
+    "desc": "",
+    "url": "https://caseconverter.pro/app",
+    "tags": [
+      "Misc"
+    ],
+    "maintainers": ["igeligel"],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Clippy",
     "url": "https://bennettfeely.com/clippy/",
     "desc": "Create CSS clip paths",
