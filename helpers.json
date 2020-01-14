@@ -14,11 +14,10 @@
   },
   {
     "name": "BA Rows To Columns",
-    "desc": "Rows to columns and viceversa. Immediate and easy!",
+    "desc": "Transform rows to columns and viceversa",
     "url": "https://www.brianapps.com/rows-to-columns",
     "tags": [
-      "Code",
-      "Misc"
+      "Code"
     ],
     "maintainers": [
       "brakon"
