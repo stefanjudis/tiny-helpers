@@ -70,6 +70,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Contrast Checker",
+    "desc": "Check your color palette for accessible combinations",
+    "url": "https://contrast.crgeary.com",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "crgeary"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "CSS Cursors",
     "url": "https://csscursor.info/",
     "desc": "Have a look at all these CSS Cursors",
