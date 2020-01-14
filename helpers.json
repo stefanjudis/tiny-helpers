@@ -200,6 +200,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Let's Enhance.io",
+    "desc": "Image enhancement and upscaling by AI",
+    "url": "https://letsenhance.io/",
+    "tags": [
+      "Images"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "Mocky",
     "desc": "Mock your HTTP responses to test your REST API",
     "url": "https://www.mocky.io/",
