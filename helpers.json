@@ -182,6 +182,19 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "d2d",
+    "desc": "Data and format conversion tool",
+    "url": "http://akx.github.io/d2d/",
+    "tags": [
+      "Misc",
+      "Regular Expressions"
+    ],
+    "maintainers": [
+      "akx"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "extractCSS",
     "url": "http://extractcss.com/",
     "desc": "Extract CSS from HTML with ease",
