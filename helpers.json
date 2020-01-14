@@ -216,8 +216,8 @@
     "desc": "Debug, Validate Json Web tokens (jwt)",
     "url": "https://jwt.io/#debugger-io",
     "tags": [
-      "Code",
-      "JavaScript"
+      "APIs",
+      "Code"
     ],
     "maintainers": [],
     "addedAt": "2020-01-14"
