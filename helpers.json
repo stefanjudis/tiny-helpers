@@ -59,6 +59,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Color Contrast Checker for Stacked Layers",
+    "desc": "Check for WCAG 2.1 text and non-text contrast. Works for colors with transparency. Colors can be adjusted through a visual color picker and color palettes can be set up and saved by adding hex codes to the URI.",
+    "url": "https://contrast-checker.now.sh/002244/0094f0/eef9ff/004771/00477191",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "richardbruskowski"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Color.review",
     "url": "https://color.review/",
     "desc": "Check your color contrast",
