@@ -13,6 +13,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "BA Apply Template to CSV and JSON",
+    "desc": "Apply templates to a CSV or a JSON, generate scripts, transform data. Fast and easy!",
+    "url": "https://www.brianapps.com/csv-to-template",
+    "tags": [
+      "Code",
+      "Misc"
+    ],
+    "maintainers": [
+      "brakon"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "BA Rows To Columns",
     "desc": "Rows to columns and viceversa. Immediate and easy!",
     "url": "https://www.brianapps.com/rows-to-columns",
