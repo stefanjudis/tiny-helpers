@@ -245,6 +245,18 @@
     "addedAt": "2019-12-31"
   },
   {
+    "name": "Nicen",
+    "desc": "Polyglot code formatter",
+    "url": "https://nicen.pw/",
+    "tags": [
+      "Code"
+    ],
+    "maintainers": [
+      "akx"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "RegExr",
     "url": "https://regexr.com/",
     "desc": "Learn, build, & test Regular Expressions",
