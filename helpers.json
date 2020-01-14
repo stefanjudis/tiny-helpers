@@ -269,6 +269,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Shadow Elevation Editor",
+    "desc": "Create and edit a shadow based elevation array for your design system, not unlike the one material design offers but with more variables to achieve the look that suits your brand or product.",
+    "url": "https://shadow-elevation-editor.now.sh/",
+    "tags": [
+      "CSS",
+      "Misc"
+    ],
+    "maintainers": [
+      "richardbruskowski"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Shadows",
     "url": "https://brumm.af/shadows",
     "desc": "Create smooth CSS shadows",
