@@ -237,6 +237,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "groq.dev",
+    "desc": "Playground for querying JSON data with GROQ",
+    "url": "https://groq.dev/",
+    "tags": [
+      "APIs"
+    ],
+    "maintainers": [
+      "kmelve",
+      "judofyr"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Json Web Token (jwt.io) Debugger",
     "desc": "Debug, Validate Json Web tokens (jwt)",
     "url": "https://jwt.io/#debugger-io",
