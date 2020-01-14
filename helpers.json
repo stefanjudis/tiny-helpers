@@ -200,6 +200,21 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Image-Charts",
+    "desc": "Image Chart API, no need for server-side rendering, deliver gorgeous and crip charts to your customers",
+    "url": "https://www.image-charts.com/",
+    "tags": [
+      "APIs",
+      "HTML",
+      "Images",
+      "Misc"
+    ],
+    "maintainers": [
+      "fgribreau"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Let's Enhance.io",
     "desc": "Improve colors, remove compression and upscale your image",
     "url": "https://letsenhance.io/",
