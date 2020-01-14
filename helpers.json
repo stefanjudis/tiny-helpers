@@ -350,6 +350,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "shrtcode API",
+    "desc": "A completely free reliable URL Shortening API powering 2.5 mio. links",
+    "url": "https://shrtco.de/docs",
+    "tags": [
+      "APIs"
+    ],
+    "maintainers": [
+      "anthemaker"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "snippet generator",
     "url": "https://snippet-generator.app/",
     "desc": "Generate snippets for VSCode, Sublime Text and Atom",
