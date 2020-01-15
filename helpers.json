@@ -518,5 +518,18 @@
     ],
     "maintainers": [],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "Responsive Breakpoints",
+    "url": "https://www.responsivebreakpoints.com/",
+    "desc": "Creates responsive breacpoints for your images and the adequate HTML for the src set as well as optimizes images.",
+    "tags": [
+      "Accessibility",
+      "Images"
+    ],
+    "maintainers": [
+      "Cloudinary"
+    ],
+    "addedAt": "2020-01-13"
   }
 ]
