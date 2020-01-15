@@ -1,15 +1,20 @@
 const got = require('got');
 
 module.exports = async function() {
-  try {
-    const response = await got(
-      'https://api.github.com/repos/stefanjudis/tiny-helpers/contributors'
-    );
+  // don't hit the API on every rebuild due to rate limits
+  if (process.env.NODE_ENV === 'production') {
+    try {
+      const response = await got(
+        'https://api.github.com/repos/stefanjudis/tiny-helpers/contributors'
+      );
 
-    return JSON.parse(response.body)
-      .map(contributor => contributor.login)
-      .filter(contributor => contributor !== 'stefanjudis');
-  } catch (e) {
-    return [];
+      return JSON.parse(response.body)
+        .map(contributor => contributor.login)
+        .filter(contributor => contributor !== 'stefanjudis');
+    } catch (e) {
+      return [];
+    }
+  } else {
+    return ['stefanjudis', 'stefanjudis', 'stefanjudis'];
   }
 };
