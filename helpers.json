@@ -274,6 +274,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "javascript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "Hero Patterns",
     "desc": "Find SVG background patterns for you to use on your web projects.",
     "url": "https://www.heropatterns.com/",
