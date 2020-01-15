@@ -41,8 +41,7 @@
     "desc": "Validate a collection of urls redirect chain and status codes",
     "url": "https://batch301.io",
     "tags": [
-      "Misc",
-      "Performance"
+      "HTTP"
     ],
     "maintainers": [
       "moshie"
