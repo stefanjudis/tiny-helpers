@@ -237,6 +237,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "HTTProfile",
+    "desc": "Profile HTTP servers and endpoints",
+    "url": "https://httprofile.io",
+    "tags": [
+      "Misc",
+      "Performance"
+    ],
+    "maintainers": [
+      "tommyschaefer"
+    ],
+    "addedAt": "2020-01-15"
+  },
+  {
     "name": "Json Web Token (jwt.io) Debugger",
     "desc": "Debug, Validate Json Web tokens (jwt)",
     "url": "https://jwt.io/#debugger-io",
