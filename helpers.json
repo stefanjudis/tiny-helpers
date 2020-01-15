@@ -240,7 +240,9 @@
     "name": "JavaScript Array Explorer",
     "desc": "Find the array method you need without digging through the docs",
     "url": "https://arrayexplorer.netlify.com/",
-    "tags": [],
+    "tags": [
+      "javascript"
+    ],
     "maintainers": [
       "sdras"
     ],
@@ -358,16 +360,6 @@
       "vicbergquist"
     ],
     "addedAt": "2019-12-29"
-  },
-  {
-    "name": "SmoothShadow",
-    "desc": "Tool for building out comma-separated multiple box-shadows",
-    "url": "https://brumm.af/shadows",
-    "tags": [],
-    "maintainers": [
-      "brumm"
-    ],
-    "addedAt": "2020-01-13"
   },
   {
     "name": "snippet generator",
