@@ -170,7 +170,7 @@
   },
   {
     "name": "cubic-bezier",
-    "desc": "https://cubic-bezier.com/",
+    "desc": "https://cubic-bezier.com",
     "url": "Create and compare different animation bezier settings",
     "tags": [
       "Animations",
