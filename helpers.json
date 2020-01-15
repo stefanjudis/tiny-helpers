@@ -241,8 +241,8 @@
     "desc": "Profile HTTP servers and endpoints",
     "url": "https://httprofile.io",
     "tags": [
-      "Misc",
-      "Performance"
+      "APIs",
+      "HTTP"
     ],
     "maintainers": [
       "tommyschaefer"
