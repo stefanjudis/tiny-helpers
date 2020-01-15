@@ -169,6 +169,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "cubic-bezier",
+    "desc": "https://cubic-bezier.com/",
+    "url": "Create and compare different animation bezier settings",
+    "tags": [
+      "Animations",
+      "CSS"
+    ],
+    "maintainers": [
+      "LeaVerou"
+    ],
+    "addedAt": "2020-01-15"
+  },
+  {
     "name": "extractCSS",
     "url": "http://extractcss.com/",
     "desc": "Extract CSS from HTML with ease",
