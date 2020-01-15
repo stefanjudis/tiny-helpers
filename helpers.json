@@ -262,6 +262,20 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Format JSON",
+    "desc": "Format and compare two JSON files",
+    "url": "https://formatjson.com",
+    "tags": [
+      "APIs",
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "srmeyers"
+    ],
+    "addedAt": "2020-01-15"
+  },
+  {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
     "desc": "Self host your Google Fonts",
