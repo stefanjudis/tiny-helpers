@@ -6,7 +6,7 @@
   {% endif %}
   <ol class="main-grid">
   {% for item in tag.items %}
-    <li class="shadow-full bg-lighter flex-column">
+    <li class="shadow-full bg-lighter flex-column p-relative">
       <img
         srcset="/static/screenshots/{{ item.slug }}@1.jpg 1x,
                 /static/screenshots/{{ item.slug }}@2.jpg 2x"
@@ -36,7 +36,7 @@
           </ul>
         </div>
       {% endif %}
-      <a class="btn__full {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}">Go to {{ item.name }}</a>
+      <a class="btn__full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}">Go to {{ item.name }}</a>
     </li>
   {% endfor %}
   </ol>
