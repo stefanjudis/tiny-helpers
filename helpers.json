@@ -522,14 +522,12 @@
   {
     "name": "Responsive Breakpoints",
     "url": "https://www.responsivebreakpoints.com/",
-    "desc": "Creates responsive breacpoints for your images and the adequate HTML for the src set as well as optimizes images.",
+    "desc": "Create responsive breakpoints for your images and get the adequate HTML them",
     "tags": [
-      "Accessibility",
-      "Images"
+      "Images",
+      "Performance"
     ],
-    "maintainers": [
-      "Cloudinary"
-    ],
+    "maintainers": [],
     "addedAt": "2020-01-13"
   }
 ]
