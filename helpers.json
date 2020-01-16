@@ -646,6 +646,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Windows 10 Icon Search",
+    "desc": "Search tool for the icons used in Windows 10 Universal Windows Platform apps.",
+    "url": "http://labs.realise.com/rossa/icon-search/",
+    "tags": [
+      "Fonts",
+      "UWP"
+    ],
+    "maintainers": [
+      "Ross-Angus"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "⌘+C",
     "url": "https://copychar.cc/",
     "desc": "Copy special characters to your clipboard",
