@@ -195,6 +195,19 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "Easings",
+    "desc": "Preview and copy CSS easing curves",
+    "url": "https://easings.netlify.com",
+    "tags": [
+      "Animations",
+      "CSS"
+    ],
+    "maintainers": [
+      "jmegs"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "extractCSS",
     "url": "http://extractcss.com/",
     "desc": "Extract CSS from HTML with ease",
