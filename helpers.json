@@ -368,6 +368,20 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "MockRequests",
+    "desc": "The first network-mocking library that's actually user-friendly. Mock using static responses, dynamic responses, or query params, all without changing your source code!",
+    "url": "https://www.npmjs.com/package/mock-requests",
+    "tags": [
+      "APIs",
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "https://github.com/D-Pow"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Mocky",
     "desc": "Mock your HTTP responses to test your REST API",
     "url": "https://www.mocky.io/",
