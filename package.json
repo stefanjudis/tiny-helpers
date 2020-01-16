@@ -35,7 +35,6 @@
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "concurrently": "^5.0.2",
-    "esm": "^3.2.25",
     "feed": "^4.1.0",
     "got": "^10.2.2",
     "html-minifier": "^4.0.0",
