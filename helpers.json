@@ -284,18 +284,6 @@
     "addedAt": "2019-12-29"
   },
   {
-    "name": "JavaScript Array Explorer",
-    "desc": "Find the array method you need without digging through the docs",
-    "url": "https://arrayexplorer.netlify.com/",
-    "tags": [
-      "JavaScript"
-    ],
-    "maintainers": [
-      "sdras"
-    ],
-    "addedAt": "2020-01-13"
-  },
-  {
     "name": "Hero Patterns",
     "desc": "Find SVG background patterns for you to use on your web projects.",
     "url": "https://www.heropatterns.com/",
@@ -309,6 +297,14 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "HTML Symbols, Entities, Characters and Codes — HTML Arrows",
+    "desc": "A delightful reference for HTML Symbols, Entities and ASCII Character Codes",
+    "url": "https://www.toptal.com/designers/htmlarrows/",
+    "tags": [],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "HTTProfile",
     "desc": "Profile HTTP servers and endpoints",
     "url": "https://httprofile.io",
@@ -320,6 +316,18 @@
       "tommyschaefer"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "Json Web Token (jwt.io) Debugger",
@@ -629,6 +637,14 @@
       "yoksel"
     ],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "UTF-8 icons",
+    "desc": "UTF-8 Icons - Your no.1 source for UTF-8 character icons",
+    "url": "https://www.utf8icons.com/",
+    "tags": [],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
   },
   {
     "name": "Wakamai Fondue",
