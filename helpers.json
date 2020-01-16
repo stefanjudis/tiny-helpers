@@ -516,7 +516,6 @@
     "desc": "This free online service performs a deep analysis of the configuration of any SSL web server on the public Internet.",
     "url": "https://www.ssllabs.com/ssltest/",
     "tags": [
-      "Code",
       "Security"
     ],
     "maintainers": [],
