@@ -2,11 +2,12 @@ const puppeteer = require('puppeteer');
 const { mkdir, stat } = require('fs').promises;
 const { join } = require('path');
 const Jimp = require('jimp');
-const helpers = require('../helpers.json');
+const { getHelpers } = require('../lib/helpers');
 const { toSlug } = require('../lib/slug');
 
 // TODO parallize all this stuff to speed it up
 (async () => {
+  const helpers = await getHelpers();
   try {
     const screenshotDir = join(__dirname, '..', 'static', 'screenshots');
     try {

@@ -1,11 +1,12 @@
 const Feed = require('feed').Feed;
 const { description } = require('../package.json');
-const helpers = require('../helpers.json');
+const { getHelpers } = require('../lib/helpers');
 const { writeFile } = require('fs').promises;
 const { join } = require('path');
 const { toSlug } = require('../lib/slug');
 
 (async () => {
+  const helpers = await getHelpers();
   try {
     const feed = new Feed({
       title: 'Tiny Helpers',
