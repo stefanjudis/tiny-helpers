@@ -12,6 +12,17 @@ const { join } = require('path');
       }, new Set())
     ].sort((a, b) => (a < b ? -1 : 1));
 
+    console.log('Thank you for contributing to tiny-helpers.dev!\n');
+    console.log(
+      'Let me give you some guidance and tips on how to add a "good helper":\n'
+    );
+    console.log(
+      '- `desc` DO: "Create something great" or "Transform something into something else"'
+    );
+    console.log('- `desc` DON\'T: "ABC is a tool that can something great"\n');
+    console.log('- `maintainers` DO: individualA,individualB');
+    console.log("- `maintainers` DON'T: companyA\n");
+
     const newHelper = await inquirer.prompt([
       {
         name: 'name',
