@@ -1,0 +1,13 @@
+{
+  "name": "cubic-bezier",
+  "desc": "Create and compare different animation bezier settings",
+  "url": "https://cubic-bezier.com",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "LeaVerou"
+  ],
+  "addedAt": "2020-01-15"
+}
