@@ -284,18 +284,6 @@
     "addedAt": "2019-12-29"
   },
   {
-    "name": "JavaScript Array Explorer",
-    "desc": "Find the array method you need without digging through the docs",
-    "url": "https://arrayexplorer.netlify.com/",
-    "tags": [
-      "JavaScript"
-    ],
-    "maintainers": [
-      "sdras"
-    ],
-    "addedAt": "2020-01-13"
-  },
-  {
     "name": "Hero Patterns",
     "desc": "Find SVG background patterns for you to use on your web projects.",
     "url": "https://www.heropatterns.com/",
@@ -320,6 +308,31 @@
       "tommyschaefer"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
+    "name": "JSON Editor Online",
+    "desc": "A web-based tool to view, edit, format and validate JSON",
+    "url": "https://jsoneditoronline.org",
+    "tags": [
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "josdejong"
+    ],
+    "addedAt": "2020-01-16"
   },
   {
     "name": "Json Web Token (jwt.io) Debugger",
