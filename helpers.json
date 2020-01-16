@@ -619,6 +619,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "unisnips",
+    "desc": "Generate snippets for multiple editors from ultisnips, also comes with a quick generator",
+    "url": "https://unisnips.netlify.com/",
+    "tags": [
+      "Misc"
+    ],
+    "maintainers": [
+      "hikerpig"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "URL-encoder for SVG",
     "url": "https://yoksel.github.io/url-encoder/",
     "desc": "URL-encode your SVGs",
