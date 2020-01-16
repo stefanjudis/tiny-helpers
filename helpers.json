@@ -502,6 +502,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Tailwind CSS Cheat Sheet",
+    "desc": "Quick search through Tailwind classes and styles",
+    "url": "https://nerdcave.com/tailwind-cheat-sheet",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [
+      "nerdcave"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "tanaguru contrast finder",
     "desc": "Find good constrasts between two colors",
     "url": "https://contrast-finder.tanaguru.com/",
