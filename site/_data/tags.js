@@ -1,7 +1,5 @@
 const helpers = require('../../helpers.json');
-const slugify = require('slugify');
-
-const toSlug = name => slugify(name).toLocaleLowerCase();
+const { toSlug } = require('../../lib/slug');
 
 let helperData = helpers.map(helper => ({
   ...helper,

@@ -1,10 +1,9 @@
 const puppeteer = require('puppeteer');
-const slugify = require('slugify');
 const { mkdir, stat } = require('fs').promises;
 const { join } = require('path');
 const Jimp = require('jimp');
-
 const helpers = require('../helpers.json');
+const { toSlug } = require('../lib/slug');
 
 // TODO parallize all this stuff to speed it up
 (async () => {
@@ -31,9 +30,7 @@ const helpers = require('../helpers.json');
     for await (const helper of helpers) {
       console.log(`📸 ${helper.name} at ${helper.url}...`);
       await page.goto(helper.url);
-      const path = `static/screenshots/${slugify(
-        helper.name.toLowerCase()
-      )}@2.jpg`;
+      const path = `static/screenshots/${toSlug(helper.name)}@2.jpg`;
       await page.screenshot({
         path
       });

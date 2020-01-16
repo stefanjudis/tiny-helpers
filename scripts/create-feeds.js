@@ -1,11 +1,9 @@
 const Feed = require('feed').Feed;
 const { description } = require('../package.json');
 const helpers = require('../helpers.json');
-const slugify = require('slugify');
 const { writeFile } = require('fs').promises;
 const { join } = require('path');
-
-const toSlug = name => slugify(name).toLocaleLowerCase();
+const { toSlug } = require('../lib/slug');
 
 (async () => {
   try {
