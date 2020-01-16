@@ -272,6 +272,18 @@
     "addedAt": "2020-01-16"
   },
   {
+    "name": "GooFonts",
+    "desc": "Google Fonts tagged for easier searching",
+    "url": "https://goofonts.com/",
+    "tags": [
+      "Fonts"
+    ],
+    "maintainers": [
+      "pehaa"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
     "desc": "Self host your Google Fonts",
@@ -282,18 +294,6 @@
       "majodev"
     ],
     "addedAt": "2019-12-29"
-  },
-  {
-    "name": "JavaScript Array Explorer",
-    "desc": "Find the array method you need without digging through the docs",
-    "url": "https://arrayexplorer.netlify.com/",
-    "tags": [
-      "JavaScript"
-    ],
-    "maintainers": [
-      "sdras"
-    ],
-    "addedAt": "2020-01-13"
   },
   {
     "name": "Hero Patterns",
@@ -320,6 +320,18 @@
       "tommyschaefer"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "Json Web Token (jwt.io) Debugger",
