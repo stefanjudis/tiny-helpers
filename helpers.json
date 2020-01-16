@@ -176,6 +176,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Fonty",
+    "desc": "Test web fonts directly on live sites",
+    "url": "https://fonty.dizoo.bg/",
+    "tags": [
+      "Fonts"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
     "desc": "Self host your Google Fonts",
