@@ -1,4 +1,4 @@
-## How to add a new helper
+## Criteria to add a new tiny helper
 
 **Please only add one (!) new helper per pull request.** This will speed up the review and merge process.
 
