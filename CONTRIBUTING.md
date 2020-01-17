@@ -8,7 +8,7 @@ A tiny helper could be any website or web application that you open while develo
 
 A tiny helper does not have to be on GitHub and has not to be open source.
 
-**It has to be useful, that's all.**
+**It has to be useful, that's all.** 🎉
 
 ### What does not(!) count as a tiny helper?
 
@@ -20,7 +20,7 @@ A tiny helper does not have to be on GitHub and has not to be open source.
 
 Your generated helper JSON files have to follow these criterias:
 
----
+#### `desc`
 
 - [ ] `desc` includes an "actionable sentence"
 
@@ -28,15 +28,23 @@ Your generated helper JSON files have to follow these criterias:
 
 ❌ DON'T: "ABC is a tool that can something great"
 
----
+#### `maintainers`
 
 - [ ] `maintainers` includes an a human being (and not companies)
 
-✅ DO: individualA,individualB
+✅ DO: ["individualA", "individualB"]
 
-❌ DON'T: companyA
+❌ DON'T: ["companyA"]
 
 _It's okay if the helper is closed source and source code is not available on GitHub._
+
+#### `tags`
+
+- [ ] `tags` includes tags provided by the `npm run helper:add` command
+
+✅ DO: ["Accessibility", "Color"]
+
+❌ DON'T: ["Some new tag"]
 
 ---
 
