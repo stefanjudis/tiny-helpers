@@ -17,8 +17,5 @@ module.exports = async () => {
     require('postcss-clean')
   ]).process(rawCSS, { from: rawFilePath });
 
-  // this file is only written to trigger a new full page refresh
-  await writeFile(path.join(__dirname, '..', '_includes', 'main.css'), css);
-
   return css;
 };

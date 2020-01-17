@@ -2,7 +2,7 @@ const htmlmin = require('html-minifier');
 const Terser = require('terser');
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('static');
+  eleventyConfig.addPassthroughCopy({ static: '.' });
 
   //
   // filters
