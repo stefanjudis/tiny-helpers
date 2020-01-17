@@ -418,6 +418,20 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "Postwoman",
+    "desc": "The Postwoman API request builder helps you create your requests faster, saving you precious time on your development.",
+    "url": "https://postwoman.io/",
+    "tags": [
+      "APIs",
+      "Code",
+      "HTTP"
+    ],
+    "maintainers": [
+      "liyasthomas"
+    ],
+    "addedAt": "2020-01-17"
+  },
+  {
     "name": "RegExr",
     "url": "https://regexr.com/",
     "desc": "Learn, build, & test Regular Expressions",
