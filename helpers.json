@@ -108,6 +108,20 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "Eightshapes Contrast Grid",
+    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
+    "url": "https://contrast-grid.eightshapes.com/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "kevinmpowell",
+      "nathanacurtis"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "cryptii.com",
     "desc": "Convert and encode text quickly",
     "url": "https://cryptii.com/",
@@ -195,6 +209,18 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "Explain Shell",
+    "desc": "Write down a command-line to see the help text that matches each argument",
+    "url": "https://explainshell.com/",
+    "tags": [
+      "Code"
+    ],
+    "maintainers": [
+      "idank"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "extractCSS",
     "url": "http://extractcss.com/",
     "desc": "Extract CSS from HTML with ease",
@@ -275,6 +301,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Fonty",
+    "desc": "Test web fonts directly on live sites",
+    "url": "https://fonty.dizoo.bg/",
+    "tags": [
+      "Fonts"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
     "desc": "Self host your Google Fonts",
@@ -285,6 +321,18 @@
       "majodev"
     ],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "Hero Patterns",
@@ -395,6 +443,19 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "Postwoman",
+    "desc": "Create and make requests faster and save time on your development",
+    "url": "https://postwoman.io/",
+    "tags": [
+      "APIs",
+      "HTTP"
+    ],
+    "maintainers": [
+      "liyasthomas"
+    ],
+    "addedAt": "2020-01-17"
+  },
+  {
     "name": "RegExr",
     "url": "https://regexr.com/",
     "desc": "Learn, build, & test Regular Expressions",
@@ -474,6 +535,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Smart Swatch Generator",
+    "desc": "Generate smart unique color palette without pain",
+    "url": "https://smart-swatch.netlify.com/",
+    "tags": [
+      "Code",
+      "Color"
+    ],
+    "maintainers": [
+      "ivan-dalmet"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "snippet generator",
     "url": "https://snippet-generator.app/",
     "desc": "Generate snippets for VSCode, Sublime Text and Atom",
@@ -502,6 +576,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "SSL Server Test",
+    "desc": "Perform a deep analysis of the configuration of any SSL web server on the public Internet",
+    "url": "https://www.ssllabs.com/ssltest/",
+    "tags": [
+      "Security"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "SVGOMG",
     "url": "https://jakearchibald.github.io/svgomg/",
     "desc": "Minify SVGs",
@@ -513,6 +597,18 @@
       "jakearchibald"
     ],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "Tailwind CSS Cheat Sheet",
+    "desc": "Quick search through Tailwind classes and styles",
+    "url": "https://nerdcave.com/tailwind-cheat-sheet",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [
+      "nerdcave"
+    ],
+    "addedAt": "2020-01-16"
   },
   {
     "name": "tanaguru contrast finder",
