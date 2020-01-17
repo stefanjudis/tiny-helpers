@@ -196,6 +196,18 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "Explain Shell",
+    "desc": "Write down a command-line to see the help text that matches each argument",
+    "url": "https://explainshell.com/",
+    "tags": [
+      "Code"
+    ],
+    "maintainers": [
+      "idank"
+    ],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "extractCSS",
     "url": "http://extractcss.com/",
     "desc": "Extract CSS from HTML with ease",
