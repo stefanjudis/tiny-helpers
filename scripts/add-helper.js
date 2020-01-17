@@ -17,11 +17,13 @@ const { join } = require('path');
       'Let me give you some guidance and tips on how to add a "good helper":\n'
     );
     console.log(
-      '- `desc` DO: "Create something great" or "Transform something into something else"'
+      '✅ `desc` – DO: "Create something great" or "Transform something into something else"'
     );
-    console.log('- `desc` DON\'T: "ABC is a tool that can something great"\n');
-    console.log('- `maintainers` DO: individualA,individualB');
-    console.log("- `maintainers` DON'T: companyA\n");
+    console.log(
+      '❌ `desc` – DON\'T: "ABC is a tool that can something great"\n'
+    );
+    console.log('✅ `maintainers` – DO: individualA,individualB');
+    console.log("❌ `maintainers` – DON'T: companyA\n");
 
     const newHelper = await inquirer.prompt([
       {
@@ -43,6 +45,12 @@ const { join } = require('path');
         message: 'Enter GitHub handles of maintainers (comma separated):'
       }
     ]);
+
+    if (!newHelper.length) {
+      throw new Error(
+        'Please define at least one tag for your helper.\nIf no tag fits your helper please open issue to add a new tag.\n👉 https://github.com/stefanjudis/tiny-helpers/issues/new'
+      );
+    }
 
     newHelper.addedAt = new Date().toISOString().substring(0, 10);
     newHelper.maintainers = newHelper.maintainers.length
