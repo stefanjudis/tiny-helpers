@@ -1,7 +1,7 @@
 [
   {
     "name": "Accessible Brand Colors",
-    "desc": "A tool that evaluates the ADA compliance of your brand’s color palette.",
+    "desc": "Evaluate the ADA compliance of your brand's color palette.",
     "url": "https://abc.useallfive.com/",
     "tags": ["Accessibility", "Color"],
     "maintainers": [
