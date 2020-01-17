@@ -46,7 +46,7 @@ const { join } = require('path');
       }
     ]);
 
-    if (!newHelper.length) {
+    if (!newHelper.tags || !newHelper.tags.length) {
       throw new Error(
         'Please define at least one tag for your helper.\nIf no tag fits your helper please open issue to add a new tag.\n👉 https://github.com/stefanjudis/tiny-helpers/issues/new'
       );
