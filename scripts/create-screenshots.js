@@ -1,10 +1,4 @@
-const chrome = require('chrome-aws-lambda');
-// puppeteer on Zeit needs special treatment
-// https://zeit.co/blog/serverless-chrome
-const puppeteer =
-  process.env.NODE_ENV === 'production'
-    ? require('puppeteer-core')
-    : require('puppeteer');
+const puppeteer = require('puppeteer');
 const slugify = require('slugify');
 const { mkdir, stat } = require('fs').promises;
 const { join } = require('path');
