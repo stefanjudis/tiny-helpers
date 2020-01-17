@@ -47,9 +47,9 @@
   </div>
 
   {% set js %}
-    {% include "main.js" %}
+    {% include "js/main.js" %}
   {% endset %}
-  <script type="module">{{ js | safe }}</script>
+  <script type="module">{{ js | jsmin | safe }}</script>
 </body>
 
 </html>
