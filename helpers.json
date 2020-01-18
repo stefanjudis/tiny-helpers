@@ -108,20 +108,6 @@
     "addedAt": "2020-01-14"
   },
   {
-    "name": "Eightshapes Contrast Grid",
-    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
-    "url": "https://contrast-grid.eightshapes.com/",
-    "tags": [
-      "Accessibility",
-      "Color"
-    ],
-    "maintainers": [
-      "kevinmpowell",
-      "nathanacurtis"
-    ],
-    "addedAt": "2020-01-13"
-  },
-  {
     "name": "cryptii.com",
     "desc": "Convert and encode text quickly",
     "url": "https://cryptii.com/",
@@ -207,6 +193,20 @@
       "LeaVerou"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "Eightshapes Contrast Grid",
+    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
+    "url": "https://contrast-grid.eightshapes.com/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "kevinmpowell",
+      "nathanacurtis"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "Explain Shell",
@@ -572,6 +572,18 @@
     ],
     "maintainers": [],
     "addedAt": "2020-01-16"
+  },
+  {
+    "name": "SVG Icon a11y Fixer",
+    "desc": "Fixes accessibility issues in SVG images exported from tools like Adobe Illustrator.",
+    "url": "https://complex-bakery.glitch.me/",
+    "tags": [
+      "Accessibility"
+    ],
+    "maintainers": [
+      "mfairchild365"
+    ],
+    "addedAt": "2020-01-17"
   },
   {
     "name": "SVGOMG",
