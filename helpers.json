@@ -65,6 +65,21 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "Can I Use",
+    "desc": "Quickly look up browser support for modern web technologies",
+    "url": "https://caniuse.com",
+    "tags": [
+      "APIs",
+      "Code",
+      "HTML",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "halans"
+    ],
+    "addedAt": "2020-01-18"
+  },
+  {
     "name": "carbon",
     "desc": "Create and share beautiful images of your source code",
     "url": "https://carbon.now.sh/",
