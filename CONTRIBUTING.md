@@ -46,6 +46,8 @@ _It's okay if the helper is closed source and source code is not available on Gi
 
 ❌ DON'T: ["Some new tag"]
 
+_Please don't just create some new tags._ :)
+
 ---
 
 To sum it up – your JSON addition should look as follows:
