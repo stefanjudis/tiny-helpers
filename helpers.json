@@ -3,7 +3,10 @@
     "name": "Accessible Brand Colors",
     "desc": "Evaluate the ADA compliance of your brand's color palette.",
     "url": "https://abc.useallfive.com/",
-    "tags": ["Accessibility", "Color"],
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
     "maintainers": [
       "scottqmn",
       "huckpilot",
@@ -108,20 +111,6 @@
     "addedAt": "2020-01-14"
   },
   {
-    "name": "Eightshapes Contrast Grid",
-    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
-    "url": "https://contrast-grid.eightshapes.com/",
-    "tags": [
-      "Accessibility",
-      "Color"
-    ],
-    "maintainers": [
-      "kevinmpowell",
-      "nathanacurtis"
-    ],
-    "addedAt": "2020-01-13"
-  },
-  {
     "name": "cryptii.com",
     "desc": "Convert and encode text quickly",
     "url": "https://cryptii.com/",
@@ -207,6 +196,20 @@
       "LeaVerou"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "Eightshapes Contrast Grid",
+    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
+    "url": "https://contrast-grid.eightshapes.com/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "kevinmpowell",
+      "nathanacurtis"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "Explain Shell",
@@ -487,6 +490,18 @@
     ],
     "maintainers": [],
     "addedAt": "2020-01-13"
+  },
+  {
+    "name": "Rubular",
+    "desc": "Test regular expressions in Ruby as you write them",
+    "url": "https://rubular.com/",
+    "tags": [
+      "Regular Expressions"
+    ],
+    "maintainers": [
+      "lovitt"
+    ],
+    "addedAt": "2020-01-18"
   },
   {
     "name": "Shadows",
