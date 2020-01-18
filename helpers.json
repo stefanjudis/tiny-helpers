@@ -367,6 +367,20 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "IconSVG",
+    "desc": "Customize SVG icons for your web  projects",
+    "url": "https://iconsvg.xyz/",
+    "tags": [
+      "Images",
+      "Misc",
+      "SVG"
+    ],
+    "maintainers": [
+      "halans"
+    ],
+    "addedAt": "2020-01-18"
+  },
+  {
     "name": "JavaScript Array Explorer",
     "desc": "Find the array method you need without digging through the docs",
     "url": "https://arrayexplorer.netlify.com/",
