@@ -3,7 +3,10 @@
     "name": "Accessible Brand Colors",
     "desc": "Evaluate the ADA compliance of your brand's color palette.",
     "url": "https://abc.useallfive.com/",
-    "tags": ["Accessibility", "Color"],
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
     "maintainers": [
       "scottqmn",
       "huckpilot",
@@ -487,6 +490,18 @@
     ],
     "maintainers": [],
     "addedAt": "2020-01-13"
+  },
+  {
+    "name": "Rubular",
+    "desc": "Test regular expressions in Ruby as you write them",
+    "url": "https://rubular.com/",
+    "tags": [
+      "Regular Expressions"
+    ],
+    "maintainers": [
+      "lovitt"
+    ],
+    "addedAt": "2020-01-18"
   },
   {
     "name": "Shadows",
