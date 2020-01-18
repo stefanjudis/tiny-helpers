@@ -575,10 +575,11 @@
   },
   {
     "name": "SVG Icon a11y Fixer",
-    "desc": "Fixes accessibility issues in SVG images exported from tools like Adobe Illustrator.",
+    "desc": "Fix accessibility issues in SVG images exported from tools like Adobe Illustrator",
     "url": "https://complex-bakery.glitch.me/",
     "tags": [
-      "Accessibility"
+      "Accessibility",
+      "SVG"
     ],
     "maintainers": [
       "mfairchild365"
