@@ -40,13 +40,13 @@ _It's okay if the helper is closed source and source code is not available on Gi
 
 #### `tags`
 
-- [ ] `tags` includes tags provided by the `npm run helper:add` command
+- [ ] `tags` includes tags provided by the `npm run helper:add` cli command
 
 ✅ DO: ["Accessibility", "Color"]
 
 ❌ DON'T: ["Some new tag"]
 
-_Please don't just create some new tags._ :)
+_Please don't just create some new tags, we want to be careful to not introduce tags that will only include one helper._ :)
 
 ---
 
