@@ -766,5 +766,15 @@
     ],
     "maintainers": [],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "Brotli.Pro",
+    "url": "https://brotli.pro/",
+    "desc": "Check if your website supports Brotli compression",
+    "tags": [
+      "Performance"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-18"
   }
 ]
