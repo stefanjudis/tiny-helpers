@@ -718,6 +718,17 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Webhook.site",
+    "desc": "Test webhooks in realtime",
+    "url": "https://webhook.site/",
+    "tags": [
+      "APIs",
+      "HTTP"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-18"
+  },
+  {
     "name": "WhoCanUse",
     "url": "https://whocanuse.com/",
     "desc": "Check you color contrast ratio",
