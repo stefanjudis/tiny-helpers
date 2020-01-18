@@ -729,10 +729,9 @@
   },
   {
     "name": "Brotli.Pro",
-    "url": "https://brotli.pro/?ref=tiny-helpers.dev",
+    "url": "https://brotli.pro/",
     "desc": "Check if your website supports Brotli compression",
     "tags": [
-      "Compression",
       "Performance"
     ],
     "maintainers": [],
