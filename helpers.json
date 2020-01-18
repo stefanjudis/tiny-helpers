@@ -1,15 +1,5 @@
 [
   {
-    "name": "\\Browser Default Styles",
-    "desc": "Search against any element for standardized and default styles from all major rendering engines (WebKit, Blink, Gecko, Trident).",
-    "url": "https://browserdefaultstyles.com/",
-    "tags": [
-      "Images"
-    ],
-    "maintainers": [],
-    "addedAt": "2020-01-18"
-  },
-  {
     "name": "Accessible Brand Colors",
     "desc": "Evaluate the ADA compliance of your brand's color palette.",
     "url": "https://abc.useallfive.com/",
