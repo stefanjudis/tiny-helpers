@@ -3,7 +3,6 @@
   font-style: normal;
   font-weight: 600;
   src: local('Exo SemiBold'), local('Exo-SemiBold'),
-    url('/static/exo.woff2') format('woff2'),
-    url('/static/exo.woff') format('woff');
+    url('/exo.woff2') format('woff2'), url('/exo.woff') format('woff');
   font-display: swap;
 }

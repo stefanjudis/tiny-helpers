@@ -8,9 +8,9 @@
   {% for item in tag.items %}
     <li class="shadow-full bg-lighter flex-column p-relative">
       <img
-        srcset="/static/screenshots/{{ item.slug }}@1.jpg 1x,
-                /static/screenshots/{{ item.slug }}@2.jpg 2x"
-        src="/static/screenshots/{{ item.slug }}@2.jpg" alt="Screenshot of {{item.name}}"
+        srcset="/screenshots/{{ item.slug }}@1.jpg 1x,
+                /screenshots/{{ item.slug }}@2.jpg 2x"
+        src="/screenshots/{{ item.slug }}@2.jpg" alt="Screenshot of {{item.name}}"
         width="1000"
         height="600"
         loading="lazy">
