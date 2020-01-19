@@ -87,7 +87,7 @@
     "addedAt": "2019-12-29"
   },
   {
-    "name": "Color Contrast Checker for Stacked Layers",
+    "name": "Contrast Checker",
     "desc": "Check for WCAG 2.1 compliance for text and non-text contrast.",
     "url": "https://contrast-checker.now.sh/",
     "tags": [
@@ -421,7 +421,7 @@
   },
   {
     "name": "Meta Tags",
-    "desc": "With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!",
+    "desc": "Preview how your webpage will look on Google, Facebook, Twitter and more",
     "url": "https://metatags.io/",
     "tags": [
       "HTML",
