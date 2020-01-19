@@ -1,16 +1,9 @@
 const inquirer = require('inquirer');
-const { writeFile } = require('fs').promises;
-const { join } = require('path');
+const { getHelpers, writeHelper, getTags } = require('../lib/helpers');
 
 (async () => {
   try {
-    let helpers = require('../helpers.json');
-    let tags = [
-      ...helpers.reduce((acc, cur) => {
-        cur.tags.forEach(tag => acc.add(tag));
-        return acc;
-      }, new Set())
-    ].sort((a, b) => (a < b ? -1 : 1));
+    const tags = getTags(await getHelpers());
 
     console.log('Thank you for contributing to tiny-helpers.dev!\n');
     console.log(
@@ -56,14 +49,10 @@ const { join } = require('path');
     newHelper.maintainers = newHelper.maintainers.length
       ? newHelper.maintainers.split(',')
       : [];
-    helpers.push(newHelper);
-    helpers = helpers.sort((a, b) =>
-      a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1
-    );
 
-    await writeFile('helpers.json', JSON.stringify(helpers, null, 2));
+    const filePath = await writeHelper(newHelper);
 
-    console.log('Thanks!!! `./helpers.json` was updated');
+    console.log(`Thanks!!! ${filePath} was created!`);
   } catch (error) {
     console.error(error);
   }
