@@ -124,6 +124,16 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "crontab.guru",
+    "desc": "Create and understand cron time fields",
+    "url": "https://crontab.guru",
+    "tags": [
+      "Misc"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-17"
+  },
+  {
     "name": "cryptii.com",
     "desc": "Convert and encode text quickly",
     "url": "https://cryptii.com/",
