@@ -809,7 +809,9 @@
     "tags": [
       "Performance"
     ],
-    "maintainers": [],
+    "maintainers": [
+      "manniL"
+    ],
     "addedAt": "2020-01-18"
   }
 ]
