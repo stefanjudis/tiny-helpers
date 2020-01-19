@@ -1,0 +1,10 @@
+{
+  "name": "Unicode Character Search",
+  "url": "http://www.fileformat.info/info/unicode/char/search.htm",
+  "desc": "Seach a Unicode Character",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [],
+  "addedAt": "2019-12-29"
+}

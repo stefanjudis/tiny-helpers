@@ -1,0 +1,12 @@
+{
+  "name": "CSS Grid Generator",
+  "desc": "Define and generate code for CSS Grid layouts",
+  "url": "https://cssgrid-generator.netlify.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "sdras"
+  ],
+  "addedAt": "2019-12-29"
+}

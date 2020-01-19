@@ -1,0 +1,12 @@
+{
+  "name": "unilist",
+  "url": "https://unilist.raphaelbastide.com/",
+  "desc": "Have a look at the Unicode character list",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [
+    "raphaelbastide"
+  ],
+  "addedAt": "2019-12-29"
+}

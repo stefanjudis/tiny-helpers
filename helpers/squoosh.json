@@ -1,0 +1,16 @@
+{
+  "name": "Squoosh",
+  "url": "https://squoosh.app/",
+  "desc": "Make images smaller using best-in-class codecs, right in the browser",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [
+    "jakearchibald",
+    "surma",
+    "developit",
+    "PaulKinlan"
+  ],
+  "addedAt": "2019-12-29"
+}
