@@ -1,0 +1,13 @@
+{
+  "name": "WhoCanUse",
+  "url": "https://whocanuse.com/",
+  "desc": "Check you color contrast ratio",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "coreyginnivan"
+  ],
+  "addedAt": "2019-12-29"
+}

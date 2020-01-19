@@ -1,0 +1,13 @@
+{
+  "name": "cryptii.com",
+  "desc": "Convert and encode text quickly",
+  "url": "https://cryptii.com/",
+  "tags": [
+    "Misc",
+    "Unicode"
+  ],
+  "maintainers": [
+    "ffraenz"
+  ],
+  "addedAt": "2020-01-14"
+}
