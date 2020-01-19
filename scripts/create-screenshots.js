@@ -29,7 +29,7 @@ const helpers = require('../helpers.json');
 
     const imagePaths = [];
     for await (const helper of helpers) {
-      console.log(`Screenshoting ${helper.name}...`);
+      console.log(`📸 ${helper.name} at ${helper.url}...`);
       await page.goto(helper.url);
       const path = `static/screenshots/${slugify(
         helper.name.toLowerCase()
@@ -39,6 +39,7 @@ const helpers = require('../helpers.json');
       });
 
       imagePaths.push(path);
+      console.log(`✅ ${helper.name}`);
     }
     await browser.close();
     console.log('Screenshots taken...');

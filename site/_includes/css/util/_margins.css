@@ -34,8 +34,16 @@
   }
 }
 
+.neg-margin-left-s {
+  margin-left: -0.5rem;
+}
+
 .neg-margin-left-m {
   margin-left: -1rem;
+}
+
+.neg-margin-right-s {
+  margin-right: -0.5rem;
 }
 
 .neg-margin-right-m {
