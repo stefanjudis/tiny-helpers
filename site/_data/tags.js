@@ -20,7 +20,7 @@ const tags = [
   .map(tag => ({
     name: tag,
     title: tag,
-    slug: `/${toSlug(tag)}/`,
+    slug: `${toSlug(tag)}`,
     items: helperData.filter(helper => helper.tags.includes(tag))
   }))
   .sort((a, b) => (a.name < b.name ? -1 : 1));
@@ -29,7 +29,7 @@ module.exports = function() {
   const homeTag = {
     name: 'All',
     title: 'Home',
-    slug: '/',
+    slug: 'home',
     items: helperData
   };
 

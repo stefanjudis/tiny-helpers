@@ -4,9 +4,9 @@ pagination:
   data: tags
   size: 1
   alias: tag
-permalink: "/routes/{{ tag.slug }}/"
+permalink: "/routes/{{ tag.slug }}-sorted-by-date/"
 renderData:
   title: "{{ tag.name }}"
-  listIsSortedBy: "name"
-  listIsReversed: false
+  listIsSortedBy: "addedAt"
+  listIsReversed: true
 ---
