@@ -30,7 +30,7 @@ Your generated helper JSON files have to follow these criterias:
 
 #### `maintainers`
 
-- [ ] `maintainers` includes an a human being (and not companies)
+- [ ] `maintainers` includes a human being (and not companies)
 
 ✅ DO: ["individualA", "individualB"]
 
