@@ -87,6 +87,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Color Contrast Checker for Stacked Layers",
+    "desc": "Check for WCAG 2.1 compliance for text and non-text contrast.",
+    "url": "https://contrast-checker.now.sh/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "richardbruskowski"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Color.review",
     "url": "https://color.review/",
     "desc": "Check your color contrast",
@@ -516,6 +529,18 @@
     ],
     "addedAt": "2019-12-29"
   },
+  {
+    "name": "Shadow Elevation Editor",
+    "desc": "Create and edit a shadow based elevation array for your design system",
+    "url": "https://shadow-elevation-editor.now.sh/",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [
+      "richardbruskowski"
+    ],
+    "addedAt": "2020-01-14"
+  }
   {
     "name": "shapecatcher.com",
     "desc": "Draw a character and get the Unicode character glyph",
