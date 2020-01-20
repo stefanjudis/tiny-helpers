@@ -1,13 +1,13 @@
 {
   "name": "Contrast Checker",
-  "desc": "Check your color palette for accessible combinations",
-  "url": "https://contrast.crgeary.com",
+  "desc": "Check for WCAG 2.1 compliance for text and non-text contrast.",
+  "url": "https://contrast-checker.now.sh/",
   "tags": [
     "Accessibility",
     "Color"
   ],
   "maintainers": [
-    "crgeary"
+    "richardbruskowski"
   ],
   "addedAt": "2020-01-14"
 }
