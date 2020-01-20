@@ -159,6 +159,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "CSS Checkbox Library",
+    "url": "https://hunzaboy.github.io/CSS-Checkbox-Library/",
+    "desc": "A huge collection of pure CSS checkboxes",
+    "tags": [
+      "CSS",
+      "HTML"
+    ],
+    "maintainers": [
+      "hunzaboy"
+    ],
+    "addedAt": "2012-01-20"
+  },
+  {
     "name": "CSS Grid Generator",
     "desc": "Define and generate code for CSS Grid layouts",
     "url": "https://cssgrid-generator.netlify.com/",
