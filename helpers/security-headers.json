@@ -1,0 +1,13 @@
+{
+  "name": "Security Headers",
+  "desc": "Quickly and easily assess the security of your HTTP response headers.",
+  "url": "https://securityheaders.com/",
+  "tags": [
+    "HTTP",
+    "Security"
+  ],
+  "maintainers": [
+    "ScottHelme"
+  ],
+  "addedAt": "2020-01-19"
+}
