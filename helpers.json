@@ -298,9 +298,12 @@
   },
   {
     "name": "HTML Symbols, Entities, Characters and Codes — HTML Arrows",
-    "desc": "A delightful reference for HTML Symbols, Entities and ASCII Character Codes",
+    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
     "url": "https://www.toptal.com/designers/htmlarrows/",
-    "tags": [],
+    "tags": [
+      "HTML",
+      "Unicode"
+    ],
     "maintainers": [],
     "addedAt": "2020-01-16"
   },
@@ -640,9 +643,12 @@
   },
   {
     "name": "UTF-8 icons",
-    "desc": "UTF-8 Icons - Your no.1 source for UTF-8 character icons",
+    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
     "url": "https://www.utf8icons.com/",
-    "tags": [],
+    "tags": [
+      "HTML",
+      "Unicode"
+    ],
     "maintainers": [],
     "addedAt": "2020-01-16"
   },
