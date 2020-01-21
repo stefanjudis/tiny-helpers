@@ -1,0 +1,12 @@
+{
+  "name": "Dillinger",
+  "desc": "Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor",
+  "url": "https://dillinger.io/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "@joemccann"
+  ],
+  "addedAt": "2020-01-21"
+}
