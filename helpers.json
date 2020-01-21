@@ -338,7 +338,7 @@
   },
   {
     "name": "GooFonts",
-    "desc": "Google Fonts tagged for easier searching",
+    "desc": "Search tagged Google Fonts",
     "url": "https://goofonts.com/",
     "tags": [
       "Fonts"
