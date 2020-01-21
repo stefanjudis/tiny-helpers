@@ -1,0 +1,12 @@
+{
+  "name": "Mozilla Observatory",
+  "desc": "Check your website’s security",
+  "url": "https://observatory.mozilla.org/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "april"
+  ],
+  "addedAt": "2020-01-20"
+}

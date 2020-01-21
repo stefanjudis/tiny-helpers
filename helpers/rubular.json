@@ -1,0 +1,13 @@
+{
+  "name": "Rubular",
+  "desc": "Test regular expressions in Ruby as you write them",
+  "url": "https://rubular.com/",
+  "tags": [
+    "Regular Expressions",
+    "Ruby"
+  ],
+  "maintainers": [
+    "lovitt"
+  ],
+  "addedAt": "2020-01-18"
+}

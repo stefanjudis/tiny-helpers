@@ -1,0 +1,12 @@
+{
+  "name": "snippet generator",
+  "url": "https://snippet-generator.app/",
+  "desc": "Generate snippets for VSCode, Sublime Text and Atom",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "pawelgrzybek"
+  ],
+  "addedAt": "2019-12-29"
+}
