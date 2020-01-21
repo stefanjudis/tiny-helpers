@@ -375,6 +375,20 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "JSON Generator",
+    "desc": "Generate random JSON data based on a simple template",
+    "url": "https://www.json-generator.com/",
+    "tags": [
+      "APIs",
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "rainum"
+    ],
+    "addedAt": "2020-01-20"
+  },
+  {
     "name": "JavaScript Array Explorer",
     "desc": "Find the array method you need without digging through the docs",
     "url": "https://arrayexplorer.netlify.com/",
