@@ -337,6 +337,18 @@
     "addedAt": "2020-01-16"
   },
   {
+    "name": "GooFonts",
+    "desc": "Google Fonts tagged for easier searching",
+    "url": "https://goofonts.com/",
+    "tags": [
+      "Fonts"
+    ],
+    "maintainers": [
+      "pehaa"
+    ],
+    "addedAt": "2020-01-20"
+  },
+  {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
     "desc": "Self host your Google Fonts",
