@@ -1,0 +1,13 @@
+{
+  "name": "Smart Swatch Generator",
+  "desc": "Generate smart unique color palette without pain",
+  "url": "https://smart-swatch.netlify.com/",
+  "tags": [
+    "Code",
+    "Color"
+  ],
+  "maintainers": [
+    "ivan-dalmet"
+  ],
+  "addedAt": "2020-01-14"
+}

@@ -71,7 +71,7 @@
   font-size: 1em;
 }
 
-/* Safari need a default transform 'position' 
+/* Safari need a default transform 'position'
 for elements in svg -> .rotate is a class of svg path */
 [data-menu-button] .rotate {
   transform: rotate(0deg);
