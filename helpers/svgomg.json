@@ -1,0 +1,13 @@
+{
+  "name": "SVGOMG",
+  "url": "https://jakearchibald.github.io/svgomg/",
+  "desc": "Minify SVGs",
+  "tags": [
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "jakearchibald"
+  ],
+  "addedAt": "2019-12-29"
+}
