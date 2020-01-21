@@ -1,0 +1,14 @@
+{
+  "name": "Input Type Sandbox",
+  "desc": "Test form input types, onscreen keyboards and more",
+  "url": "https://inputtypes.com",
+  "tags": [
+    "HTML",
+    "Misc",
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "aladage"
+  ],
+  "addedAt": "2020-01-21"
+}
