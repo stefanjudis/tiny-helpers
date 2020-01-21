@@ -1,12 +1,13 @@
 {
   "name": "RegExr",
+  "desc": "Learn, Build, & Test RegEx",
   "url": "https://regexr.com/",
-  "desc": "Learn, build, & test Regular Expressions",
   "tags": [
+    "Code",
     "Regular Expressions"
   ],
   "maintainers": [
-    "gskinner"
+    "0xadada"
   ],
-  "addedAt": "2019-12-29"
+  "addedAt": "2020-01-21"
 }
