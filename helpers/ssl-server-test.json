@@ -1,0 +1,10 @@
+{
+  "name": "SSL Server Test",
+  "desc": "Perform a deep analysis of the configuration of any SSL web server on the public Internet",
+  "url": "https://www.ssllabs.com/ssltest/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-01-16"
+}

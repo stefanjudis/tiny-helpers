@@ -1,0 +1,12 @@
+{
+  "name": "Base64 Converter",
+  "url": "https://pr.gg/base64/",
+  "desc": "Base64 encode everything",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "progers"
+  ],
+  "addedAt": "2019-12-29"
+}

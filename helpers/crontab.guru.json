@@ -1,0 +1,10 @@
+{
+  "name": "crontab.guru",
+  "desc": "Create and understand cron time fields",
+  "url": "https://crontab.guru",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-01-17"
+}
