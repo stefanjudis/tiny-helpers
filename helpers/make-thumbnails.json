@@ -1,0 +1,12 @@
+{
+  "name": "Make Thumbnails",
+  "desc": "A web site that allows you to drag images onto it and creates a bunch of thumbnails from them. Customisable to quality, image format and cropping",
+  "url": "http://makethumbnails.com",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "codepo8"
+  ],
+  "addedAt": "2020-01-21"
+}
