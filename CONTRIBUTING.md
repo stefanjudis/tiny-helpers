@@ -4,9 +4,9 @@
 
 ### What does count as a tiny helper?
 
-A tiny helper could be any website or web application that you open while developing for the web. This includes formatting tools, design tools, snippet generators, and much more. :)
+A tiny helper is any website or web application that developers could open and use while developing for the web. Tiny helpers solve and help with common problems such as code formatting, design, code generation, and much more. :)
 
-A tiny helper does not have to be on GitHub and has not to be open source.
+A tiny helper does not have to be available on GitHub and has not to be open source.
 
 **It has to be useful, that's all.** 🎉
 
