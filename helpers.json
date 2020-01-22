@@ -373,6 +373,17 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "HTML Symbols, Entities, Characters and Codes — HTML Arrows",
+    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
+    "url": "https://www.toptal.com/designers/htmlarrows/",
+    "tags": [
+      "HTML",
+      "Unicode"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "HTTProfile",
     "desc": "Profile HTTP servers and endpoints",
     "url": "https://httprofile.io",
@@ -398,6 +409,18 @@
       "rainum"
     ],
     "addedAt": "2020-01-20"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "JavaScript Array Explorer",
@@ -794,6 +817,17 @@
       "yoksel"
     ],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "UTF-8 icons",
+    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
+    "url": "https://www.utf8icons.com/",
+    "tags": [
+      "HTML",
+      "Unicode"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
   },
   {
     "name": "Wakamai Fondue",
