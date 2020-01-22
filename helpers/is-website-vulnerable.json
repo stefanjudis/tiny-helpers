@@ -1,0 +1,12 @@
+{
+  "name": "is-website-vulnerable",
+  "desc": "Finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
+  "url": "https://github.com/lirantal/is-website-vulnerable/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "lirantal"
+  ],
+  "addedAt": "2020-01-22"
+}
