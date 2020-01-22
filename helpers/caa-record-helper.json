@@ -1,0 +1,12 @@
+{
+  "name": "CAA Record Helper",
+  "desc": "Generates CAA policies for domains",
+  "url": "https://sslmate.com/caa/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "AGWA"
+  ],
+  "addedAt": "2020-01-22"
+}
