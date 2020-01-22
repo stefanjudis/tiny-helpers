@@ -3,6 +3,7 @@
   "desc": "Generates recommended TLS configurations for servers",
   "url": "https://ssl-config.mozilla.org/",
   "tags": [
+    "System Administration",
     "Security"
   ],
   "maintainers": [
