@@ -1,0 +1,12 @@
+{
+  "name": "Mozilla SSL Configuration Generator",
+  "desc": "Generates recommended TLS configurations for servers",
+  "url": "https://ssl-config.mozilla.org/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "april"
+  ],
+  "addedAt": "2020-01-21"
+}
