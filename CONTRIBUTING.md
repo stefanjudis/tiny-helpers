@@ -1,6 +1,8 @@
 ## Criteria to add a new tiny helper
 
-**Please only add one (!) new helper per pull request.** This will speed up the review and merge process.
+❗ **Please only add one (!) new helper per pull request.** This will speed up the review and merge process.
+
+❗ **Please have a look at open PRs and issues.** There might be the chance that someone else opened a PR with your tool already. :) 
 
 ### What does count as a tiny helper?
 
