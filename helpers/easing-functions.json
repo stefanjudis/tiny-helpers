@@ -1,0 +1,13 @@
+{
+  "name": "Easing functions",
+  "desc": "Create cubic-bezier() CSS transitions",
+  "url": "https://easings.net/en",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "ai"
+  ],
+  "addedAt": "2020-01-23"
+}
