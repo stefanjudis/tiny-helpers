@@ -1,7 +1,7 @@
 {
   "name": "ssl-decoder-link",
   "url": "https://decoder.link",
-  "desc": "Free tools, for convert, check or read information about ssl certificates or csr",
+  "desc": "Check, convert or read your SSL certificate and more related ability',
   "tags": [
     "Accessibility",
     "Security"
