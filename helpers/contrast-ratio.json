@@ -1,0 +1,13 @@
+{
+  "name": "Contrast ratio",
+  "desc": "Computes the contrast ratio between 2 colors",
+  "url": "https://contrast-ratio.com/",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "leaverou"
+  ],
+  "addedAt": "2020-01-14"
+}
