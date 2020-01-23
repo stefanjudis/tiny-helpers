@@ -1,0 +1,10 @@
+{
+  "name": "web-accessibility",
+  "desc": "Check your website's accessibility.",
+  "url": "https://www.webaccessibility.com/",
+  "tags": [
+    "Accessibility"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-01-23"
+}
