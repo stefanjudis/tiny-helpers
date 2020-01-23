@@ -1,0 +1,12 @@
+{
+  "name": "jpeg.io",
+  "desc": "Convert any major image format into a highly optimized JPEG",
+  "url": "https://www.jpeg.io/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "0xadada"
+  ],
+  "addedAt": "2020-01-21"
+}
