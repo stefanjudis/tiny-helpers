@@ -1,0 +1,13 @@
+{
+  "name": "CSS Triggers",
+  "desc": "Tells you what gets triggered by mutating a given CSS property.",
+  "url": "https://csstriggers.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "surma",
+    " paullewis"
+  ],
+  "addedAt": "2020-01-23"
+}
