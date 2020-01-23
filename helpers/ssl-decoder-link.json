@@ -1,0 +1,13 @@
+{
+  "name": "ssl-decoder-link",
+  "url": "https://decoder.link",
+  "desc": "Check, convert or read your SSL certificate and more related ability",
+  "tags": [
+    "Accessibility",
+    "Security"
+  ],
+  "maintainers": [
+    "rpogorelchuk"
+  ],
+  "addedAt": "2020-02-23"
+}
