@@ -1,0 +1,13 @@
+{
+  "name": "Fluid-responsive font-size calculator",
+  "desc": "Generate a fluid-responsive font-size value and embed it directly into your stylesheet.",
+  "url": "https://websemantics.uk/tools/responsive-font-calculator/",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [
+    "2kool2"
+  ],
+  "addedAt": "2020-01-23"
+}
