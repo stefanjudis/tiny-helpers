@@ -1,0 +1,13 @@
+{
+  "name": "ssl-decoder-link",
+  "url": "https://decoder.link",
+  "desc": "Free tools, for convert, check or read information about ssl certificates or csr",
+  "tags": [
+    "Accessibility",
+    "Security"
+  ],
+  "maintainers": [
+    "rpogorelchuk"
+  ],
+  "addedAt": "2020-02-23"
+}
