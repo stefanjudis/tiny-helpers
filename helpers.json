@@ -128,7 +128,7 @@
     "desc": "Create and understand cron time fields",
     "url": "https://crontab.guru",
     "tags": [
-      "Misc"
+      "System Administration"
     ],
     "maintainers": [],
     "addedAt": "2020-01-17"
@@ -373,15 +373,15 @@
     "addedAt": "2020-01-15"
   },
   {
-    "name": "HTML Symbols, Entities, Characters and Codes — HTML Arrows",
-    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
+    "name": "HTML Arrows",
+    "desc": "Get unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols",
     "url": "https://www.toptal.com/designers/htmlarrows/",
     "tags": [
       "HTML",
       "Unicode"
     ],
     "maintainers": [],
-    "addedAt": "2020-01-16"
+    "addedAt": "2020-01-22"
   },
   {
     "name": "HTTProfile",
@@ -516,6 +516,20 @@
       "liyasthomas"
     ],
     "addedAt": "2020-01-17"
+  },
+  {
+    "name": "Pretty-Print JSON",
+    "desc": "Format JSON quickly",
+    "url": "https://pretty-print-json.js.org/",
+    "tags": [
+      "APIs",
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "dpilafian"
+    ],
+    "addedAt": "2020-01-21"
   },
   {
     "name": "RegExr",

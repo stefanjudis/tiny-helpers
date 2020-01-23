@@ -1,0 +1,14 @@
+{
+  "name": "Pretty-Print JSON",
+  "desc": "Format JSON quickly",
+  "url": "https://pretty-print-json.js.org/",
+  "tags": [
+    "APIs",
+    "Code",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "dpilafian"
+  ],
+  "addedAt": "2020-01-21"
+}

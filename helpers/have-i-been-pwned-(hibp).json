@@ -1,0 +1,12 @@
+{
+  "name": "Have I Been Pwned (HIBP)",
+  "desc": "Check if you have an account that has been compromised in a data breach",
+  "url": "https://haveibeenpwned.com/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "troyhunt"
+  ],
+  "addedAt": "2020-01-22"
+}
