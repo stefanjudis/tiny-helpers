@@ -1,0 +1,11 @@
+{
+  "name": "Json Web Token (jwt.io) Debugger",
+  "desc": "Debug, Validate Json Web tokens (jwt)",
+  "url": "https://jwt.io/#debugger-io",
+  "tags": [
+    "APIs",
+    "Code"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-01-14"
+}

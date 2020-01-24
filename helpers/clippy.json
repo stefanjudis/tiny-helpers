@@ -1,0 +1,12 @@
+{
+  "name": "Clippy",
+  "url": "https://bennettfeely.com/clippy/",
+  "desc": "Create CSS clip paths",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "bennettfeely"
+  ],
+  "addedAt": "2019-12-29"
+}

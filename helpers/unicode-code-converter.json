@@ -1,0 +1,10 @@
+{
+  "name": "Unicode Code Converter",
+  "url": "https://r12a.github.io/app-conversion/",
+  "desc": "Convert Unicode symbols into other formats",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [],
+  "addedAt": "2019-12-29"
+}

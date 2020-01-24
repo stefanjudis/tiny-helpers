@@ -1,0 +1,12 @@
+{
+  "name": "FontDrop!",
+  "url": "https://fontdrop.info/",
+  "desc": "View the content of a font file",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [
+    "raphaelbastide"
+  ],
+  "addedAt": "2019-12-29"
+}

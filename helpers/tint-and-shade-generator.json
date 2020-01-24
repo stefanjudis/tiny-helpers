@@ -1,0 +1,12 @@
+{
+  "name": "Tint & Shade Generator",
+  "desc": "Display tints and shades of a given hex color in 10% increments",
+  "url": "https://maketintsandshades.com/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "edelstone"
+  ],
+  "addedAt": "2020-01-13"
+}
