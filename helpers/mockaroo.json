@@ -1,0 +1,10 @@
+{
+	"name": "Mockaroo",
+	"url": "https://mockaroo.com/",
+	"desc": "Generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.",
+	"tags": [
+		"API"
+	],
+	"maintainers": [],
+	"addedAt": "2020-01-25"
+}
