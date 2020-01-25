@@ -6,6 +6,8 @@
 
 ### What does count as a tiny helper?
 
+> A collection of free single-purpose online tools for web developers...
+
 A tiny helper is any website or web application that developers could open and use while developing for the web. Tiny helpers solve and help with common problems such as code formatting, design, code generation, and much more. :)
 
 A tiny helper does not have to be available on GitHub and has not to be open source.
@@ -14,9 +16,9 @@ A tiny helper does not have to be available on GitHub and has not to be open sou
 
 ### What does not(!) count as a tiny helper?
 
-- APIs are very helpful but we decided to not include them
-- npm modules are out of scope of tiny-helpers.dev
-- learning sites/apps that have a purely educational purpose
+- APIs (it's too hard to make the decision which API should go in and which should not)
+- npm modules (tiny-helpers.dev is about online resources)
+- learning sites/apps that have a purely educational purpose (tiny helpers continue to have value as a developer)
 
 ### Formatting of tiny helpers
 
