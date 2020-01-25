@@ -1,0 +1,12 @@
+{
+  "name": "CSS Scroll Shadows",
+  "url": "https://css-scroll-shadows.now.sh",
+  "desc": "Create CSS scroll shadows",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "stefanjudis"
+  ],
+  "addedAt": "2019-12-29"
+}

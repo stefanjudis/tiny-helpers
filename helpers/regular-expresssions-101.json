@@ -1,0 +1,12 @@
+{
+  "name": "regular expresssions 101",
+  "url": "https://regex101.com/",
+  "desc": "Learn, build, & test Regular Expressions",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "firasdib"
+  ],
+  "addedAt": "2019-12-29"
+}
