@@ -6,6 +6,7 @@ pagination:
   alias: tag
 permalink: "/{{ tag.slug }}/latest/"
 renderData:
+  isCanonical: true
   title: "{{ tag.name }}"
   listIsSortedBy: "addedAt"
   listIsReversed: true

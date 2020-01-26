@@ -29,6 +29,15 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  {% if renderData.isCanonical %}
+    {% if tag.slug == 'home' %}
+      <link rel="canonical" href="/" />
+    {% else %}
+      <link rel="canonical" href="/{{ tag.slug }}/" />
+    {% endif %}
+  {% endif %}
+
   <style>
     {{ styles | safe }}
   </style>
