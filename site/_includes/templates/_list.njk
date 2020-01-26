@@ -7,8 +7,12 @@
     {% endif %}
 
     <div class="btnGroup">
-      <a class="btnGroup--btn {% if renderData.listIsSortedBy == "name" %}isActive{% endif %}" href="/{{ tag.slug }}/">Sort by name</a>
-      <a class="btnGroup--btn {% if renderData.listIsSortedBy == "addedAt" %}isActive{% endif %}" href="/{{ tag.slug }}/?sortBy=date">Sort by date</a>
+      <a
+        class="btnGroup--btn {% if renderData.listIsSortedBy == "name" %}isActive{% endif %}"
+        href="{{ tag.slug | route({ listIsSortedBy: 'name' }) }}">Sort by name</a>
+      <a
+        class="btnGroup--btn {% if renderData.listIsSortedBy == "addedAt" %}isActive{% endif %}"
+        href="{{ tag.slug | route({ listIsSortedBy: 'addedAt' }) }}">Sort by date</a>
     </div>
   </div>
   <ol class="main-grid">
@@ -25,6 +29,7 @@
         <h2 class="fsi-1-25">{{ item.name }}</h2>
         <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
       </div>
+      <div class="p-abs-top-right fsi-0-875 bg-lighter padding-xs z-1">Added {{ item.addedAt | prettyDate }}</div>
       {% if item.maintainers.length %}
         <div class="padding-v-m margin-top-auto">
           <h3 class="fsi-1 margin-bottom-s">Made by</h3>

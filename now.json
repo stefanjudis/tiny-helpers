@@ -6,12 +6,8 @@
       "dest": "/home/index.html"
     },
     {
-      "src": "/?sortBy=date",
-      "dest": "/home-sorted-by-date/index.html"
-    },
-    {
-      "src": "/api/?sortBy=date",
-      "dest": "/css-sorted-by-date/index.html"
+      "src": "/latest/",
+      "dest": "/home/latest/index.html"
     }
   ],
   "build": {

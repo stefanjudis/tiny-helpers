@@ -6,7 +6,7 @@
       {% for navTag in tags %}
       <li class="margin-top-xs margin-bottom-xs neg-margin-left-m neg-margin-right-m">
         <a
-          href="/{{ navTag.slug }}/{% if renderData.listIsSortedBy == "addedAt" %}?sortBy=date{% endif %}"
+          href="{{ navTag.slug | route({ listIsSortedBy: renderData.listIsSortedBy }) }}"
           {% if tag.slug == navTag.slug %} aria-current="page" {% endif %}
         >
           {{navTag.name}}

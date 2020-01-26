@@ -4,7 +4,7 @@ pagination:
   data: tags
   size: 1
   alias: tag
-permalink: "/routes/{{ tag.slug }}-sorted-by-date/"
+permalink: "/{{ tag.slug }}/latest/"
 renderData:
   title: "{{ tag.name }}"
   listIsSortedBy: "addedAt"

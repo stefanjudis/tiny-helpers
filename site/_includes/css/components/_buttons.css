@@ -80,6 +80,7 @@
     font-size: 1em;
     padding: 0.5em 1em;
     background: #fff;
+    white-space: nowrap;
 
     text-decoration: none;
 
