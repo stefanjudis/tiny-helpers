@@ -3,9 +3,8 @@
   "desc": "Generate random JSON data based on a simple template",
   "url": "https://www.json-generator.com/",
   "tags": [
-    "APIs",
-    "Code",
-    "JavaScript"
+    "JSON",
+    "Generated Data"
   ],
   "maintainers": [
     "rainum"
