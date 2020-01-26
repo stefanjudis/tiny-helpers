@@ -3,7 +3,8 @@
   "desc": "Preview and create maskable icons in the browser",
   "url": "https://maskable.app/",
   "tags": [
-    "Favicons"
+    "Favicons",
+    "PWA"
   ],
   "maintainers": [
     "NotWoods"
