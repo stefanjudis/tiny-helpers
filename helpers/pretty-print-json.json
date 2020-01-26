@@ -3,7 +3,9 @@
   "desc": "Format JSON quickly",
   "url": "https://pretty-print-json.js.org/",
   "tags": [
-    "JSON"
+    "APIs",
+    "Code",
+    "JavaScript"
   ],
   "maintainers": [
     "dpilafian"
