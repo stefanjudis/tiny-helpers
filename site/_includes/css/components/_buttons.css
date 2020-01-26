@@ -86,6 +86,8 @@
 
     &.isActive {
       text-decoration: underline;
+      text-underline-offset: 0.2em;
+      text-decoration-thickness: 2px;
       color: var(--primary-color);
     }
 
