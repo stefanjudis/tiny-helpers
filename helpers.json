@@ -434,9 +434,8 @@
     "desc": "Generate random JSON data based on a simple template",
     "url": "https://www.json-generator.com/",
     "tags": [
-      "APIs",
-      "Code",
-      "JavaScript"
+      "Generated Data",
+      "JSON"
     ],
     "maintainers": [
       "rainum"
@@ -555,9 +554,7 @@
     "desc": "Format JSON quickly",
     "url": "https://pretty-print-json.js.org/",
     "tags": [
-      "APIs",
-      "Code",
-      "JavaScript"
+      "JSON"
     ],
     "maintainers": [
       "dpilafian"
