@@ -16,7 +16,7 @@
     </div>
   </div>
   <ol class="main-grid">
-  {% for item in tag.items | sort(renderData.listIsReversed, true, renderData.listIsSortedBy )%}
+  {% for item in tag.items | sort(renderData.listIsReversed, false, renderData.listIsSortedBy )%}
     <li class="shadow-full bg-lighter flex-column p-relative">
       <img
         srcset="/screenshots/{{ item.slug }}@1.jpg 1x,
