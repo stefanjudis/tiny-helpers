@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript Array Explorer",
+  "desc": "Find the array method you need without digging through the docs",
+  "url": "https://arrayexplorer.netlify.com/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "sdras"
+  ],
+  "addedAt": "2020-01-13"
+}

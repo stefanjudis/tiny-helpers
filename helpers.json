@@ -1,5 +1,15 @@
 [
   {
+    "name": "0to255",
+    "desc": "Lighten and darken colors easily.",
+    "url": "https://www.0to255.com/",
+    "tags": [
+      "Color"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-24"
+  },
+  {
     "name": "Accessible Brand Colors",
     "desc": "Evaluate the ADA compliance of your brand's color palette.",
     "url": "https://abc.useallfive.com/",
@@ -87,6 +97,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Contrast Checker",
+    "desc": "Check for WCAG 2.1 compliance for text and non-text contrast.",
+    "url": "https://contrast-checker.now.sh/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "richardbruskowski"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Color.review",
     "url": "https://color.review/",
     "desc": "Check your color contrast",
@@ -109,6 +132,16 @@
       "crgeary"
     ],
     "addedAt": "2020-01-14"
+  },
+  {
+    "name": "crontab.guru",
+    "desc": "Create and understand cron time fields",
+    "url": "https://crontab.guru",
+    "tags": [
+      "System Administration"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-17"
   },
   {
     "name": "cryptii.com",
@@ -196,6 +229,19 @@
       "LeaVerou"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "Easings",
+    "desc": "Preview and copy CSS easing curves",
+    "url": "https://easings.netlify.com",
+    "tags": [
+      "Animations",
+      "CSS"
+    ],
+    "maintainers": [
+      "jmegs"
+    ],
+    "addedAt": "2020-01-24"
   },
   {
     "name": "Eightshapes Contrast Grid",
@@ -314,6 +360,18 @@
     "addedAt": "2020-01-16"
   },
   {
+    "name": "GooFonts",
+    "desc": "Search tagged Google Fonts",
+    "url": "https://goofonts.com/",
+    "tags": [
+      "Fonts"
+    ],
+    "maintainers": [
+      "pehaa"
+    ],
+    "addedAt": "2020-01-20"
+  },
+  {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
     "desc": "Self host your Google Fonts",
@@ -330,13 +388,23 @@
     "desc": "Find SVG background patterns for you to use on your web projects.",
     "url": "https://www.heropatterns.com/",
     "tags": [
-      "Fonts",
       "SVG"
     ],
     "maintainers": [
       "sschoger"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "HTML Arrows",
+    "desc": "Get unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols",
+    "url": "https://www.toptal.com/designers/htmlarrows/",
+    "tags": [
+      "HTML",
+      "Unicode"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-22"
   },
   {
     "name": "HTTProfile",
@@ -350,6 +418,32 @@
       "tommyschaefer"
     ],
     "addedAt": "2020-01-15"
+  },
+  {
+    "name": "JSON Generator",
+    "desc": "Generate random JSON data based on a simple template",
+    "url": "https://www.json-generator.com/",
+    "tags": [
+      "APIs",
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "rainum"
+    ],
+    "addedAt": "2020-01-20"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "JavaScript Array Explorer",
@@ -398,7 +492,7 @@
   },
   {
     "name": "Meta Tags",
-    "desc": "With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!",
+    "desc": "Preview how your webpage will look on Google, Facebook, Twitter and more",
     "url": "https://metatags.io/",
     "tags": [
       "HTML",
@@ -445,6 +539,20 @@
       "liyasthomas"
     ],
     "addedAt": "2020-01-17"
+  },
+  {
+    "name": "Pretty-Print JSON",
+    "desc": "Format JSON quickly",
+    "url": "https://pretty-print-json.js.org/",
+    "tags": [
+      "APIs",
+      "Code",
+      "JavaScript"
+    ],
+    "maintainers": [
+      "dpilafian"
+    ],
+    "addedAt": "2020-01-21"
   },
   {
     "name": "RegExr",
@@ -515,6 +623,18 @@
       "brumm"
     ],
     "addedAt": "2019-12-29"
+  },
+  {
+    "name": "Shadow Elevation Editor",
+    "desc": "Create and edit a shadow based elevation array for your design system",
+    "url": "https://shadow-elevation-editor.now.sh/",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [
+      "richardbruskowski"
+    ],
+    "addedAt": "2020-01-14"
   },
   {
     "name": "shapecatcher.com",
@@ -722,6 +842,17 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "UTF-8 icons",
+    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
+    "url": "https://www.utf8icons.com/",
+    "tags": [
+      "HTML",
+      "Unicode"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-16"
+  },
+  {
     "name": "Wakamai Fondue",
     "url": "https://wakamaifondue.com/",
     "desc": "Inspect what your fonts can do",
@@ -774,7 +905,9 @@
     "tags": [
       "Performance"
     ],
-    "maintainers": [],
+    "maintainers": [
+      "manniL"
+    ],
     "addedAt": "2020-01-18"
   }
 ]

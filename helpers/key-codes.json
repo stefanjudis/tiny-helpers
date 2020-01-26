@@ -1,0 +1,12 @@
+{
+  "name": "Key codes",
+  "desc": "Get key codes for keyboard events in JavaScript",
+  "url": "https://keycode.info/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "wesbos"
+  ],
+  "addedAt": "2020-01-24"
+}

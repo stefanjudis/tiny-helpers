@@ -1,0 +1,13 @@
+{
+  "name": "JSON Generator",
+  "desc": "Generate random JSON data based on a simple template",
+  "url": "https://www.json-generator.com/",
+  "tags": [
+    "JSON",
+    "Generated Data"
+  ],
+  "maintainers": [
+    "rainum"
+  ],
+  "addedAt": "2020-01-20"
+}

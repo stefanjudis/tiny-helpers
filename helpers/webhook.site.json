@@ -1,0 +1,13 @@
+{
+  "name": "Webhook.site",
+  "desc": "Test webhooks in realtime",
+  "url": "https://webhook.site/",
+  "tags": [
+    "APIs",
+    "HTTP"
+  ],
+  "maintainers": [
+    "fredsted"
+  ],
+  "addedAt": "2020-01-18"
+}
