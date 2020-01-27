@@ -1,0 +1,12 @@
+{
+  "name": "Griddy",
+  "desc": "Learn the CSS Grid specification and generate layouts",
+  "url": "https://griddy.io/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "drewminns"
+  ],
+  "addedAt": "2020-01-27"
+}
