@@ -1,0 +1,13 @@
+{
+  "name": "Quantity Queries",
+  "desc": "Generate CSS Quantity Queries to count elements and apply styles",
+  "url": "https://quantityqueries.com/",
+  "tags": [
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "drewminns"
+  ],
+  "addedAt": "2020-01-27"
+}
