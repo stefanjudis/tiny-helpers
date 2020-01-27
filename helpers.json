@@ -337,6 +337,16 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "CSS Stripes Generator",
+    "desc": "Easy and simple tool to generate CSS-based striped background",
+    "url": "http://stripesgenerator.com/",
+    "tags": [
+      "CSS"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-01-27"
+  },
+  {
     "name": "Font Squirrel Webfont Generator",
     "desc": "Modify, improve, trim, change and export your fonts in modern formats",
     "url": "https://www.fontsquirrel.com/tools/webfont-generator",
