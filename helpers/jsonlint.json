@@ -1,0 +1,15 @@
+{
+  "name": "JSONLint",
+  "desc": "A JSON Validator",
+  "url": "https://jsonlint.com/",
+  "tags": [
+    "APIs",
+    "Code",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "circlecell",
+    "zaach"
+  ],
+  "addedAt": "2020-01-14"
+}
