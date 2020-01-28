@@ -3,11 +3,10 @@
   "desc": "Generate CSS Quantity Queries to count elements and apply styles",
   "url": "https://quantityqueries.com/",
   "tags": [
-    "CSS",
-    "Code"
+    "CSS"
   ],
   "maintainers": [
     "drewminns"
   ],
-  "addedAt": "2020-01-27"
+  "addedAt": "2020-01-28"
 }
