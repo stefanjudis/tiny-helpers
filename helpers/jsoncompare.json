@@ -1,0 +1,12 @@
+{
+  "name": "JSONCompare",
+  "desc": "JSONCompare, the advanced version of the legendary JSONLint validator, is a fully featured JSON tool that allows you to directly input and validate JSON code, upload and validate multiple (batch) JSON files simultaneously, and also compare (diff) and merge two JSON objects.",
+  "url": "https://jsoncompare.com/#!/simple/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "0xadada"
+  ],
+  "addedAt": "2020-01-21"
+}
