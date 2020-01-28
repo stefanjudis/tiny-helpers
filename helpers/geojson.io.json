@@ -1,0 +1,15 @@
+{
+  "name": "GeoJSON.io",
+  "desc": "A fast, simple editor for map data",
+  "url": "http://geojson.io/",
+  "tags": [
+    "Code",
+    "JavaScript",
+    "Misc"
+  ],
+  "maintainers": [
+    "mapbox",
+    "tmcw"
+  ],
+  "addedAt": "2020-01-14"
+}
