@@ -328,7 +328,7 @@
   },
   {
     "name": "CSS Stripes Generator",
-    "desc": "Easy and simple tool to generate CSS-based striped background",
+    "desc": "Generate CSS-based striped background",
     "url": "http://stripesgenerator.com/",
     "tags": [
       "CSS"
