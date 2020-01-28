@@ -1,0 +1,12 @@
+{
+  "name": "GooFonts",
+  "desc": "Search tagged Google Fonts",
+  "url": "https://goofonts.com/",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [
+    "pehaa"
+  ],
+  "addedAt": "2020-01-20"
+}

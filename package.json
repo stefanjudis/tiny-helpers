@@ -1,21 +1,16 @@
 {
   "name": "tiny-helpers",
   "version": "1.0.0",
-  "description": "A collection of single-purpose online tools for web developers",
+  "description": "A collection of free single-purpose online tools for web developers...",
   "main": "index.js",
   "scripts": {
     "setup:screenshots": "node ./scripts/create-screenshots.js",
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
-    "dev:css": "postcss ./css/index.css -wo ./site/_includes/main.css -u postcss-import postcss-nested postcss-clean",
-    "dev:javascript": "rollup -cw",
-    "dev:html": "eleventy --input=./site --output=./_site --serve",
-    "dev": "concurrently \"npm:dev:*\"",
+    "dev": "eleventy --input=./site --serve --port=$PORT",
     "prebuild": "npm run setup",
-    "build:css": "postcss ./css/index.css -o ./site/_includes/main.css -u postcss-import postcss-nested postcss-clean --no-map",
-    "build:javascript": "NODE_ENV=production rollup -c",
-    "build": "concurrently \"npm:build:*\" && eleventy --input=./site --output=./_site",
+    "build": "eleventy --input=./site",
     "deploy": "npm run build && now --prod"
   },
   "repository": {
@@ -35,23 +30,19 @@
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "concurrently": "^5.0.2",
-    "esm": "^3.2.25",
     "feed": "^4.1.0",
     "got": "^10.2.2",
     "html-minifier": "^4.0.0",
     "inquirer": "^7.0.1",
     "jimp": "^0.9.3",
     "now": "^16.7.3",
+    "postcss": "^7.0.26",
     "postcss-clean": "^1.1.0",
-    "postcss-cli": "^6.1.3",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
     "puppeteer": "^2.0.0",
-    "rollup": "^1.27.14",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^5.1.3",
-    "slugify": "^1.3.6"
+    "slugify": "^1.3.6",
+    "terser": "^4.6.3"
   },
   "devDependencies": {}
 }

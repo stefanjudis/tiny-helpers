@@ -1,0 +1,13 @@
+{
+  "name": "Easings",
+  "desc": "Preview and copy CSS easing curves",
+  "url": "https://easings.netlify.com",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "jmegs"
+  ],
+  "addedAt": "2020-01-24"
+}
