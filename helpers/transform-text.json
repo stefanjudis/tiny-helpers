@@ -1,0 +1,13 @@
+{
+  "name": "Transform",
+  "desc": "Transforms text into structured objects using a series of text transforms",
+  "url": "https://transform.isthe.link/",
+  "tags": [
+    "Code",
+    "JSON"
+  ],
+  "maintainers": [
+    "remy"
+  ],
+  "addedAt": "2020-01-28"
+}
