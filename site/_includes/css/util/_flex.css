@@ -3,3 +3,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.flex-x-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

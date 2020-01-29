@@ -6,6 +6,7 @@
 @import './util/_dimensions.css';
 @import './util/_fonts.css';
 @import './util/_flex.css';
+@import './util/_grid.css';
 @import './util/_paddings.css';
 @import './util/_position.css';
 @import './util/_margins.css';
@@ -92,19 +93,25 @@ body {
 }
 
 .c-logo {
-  display: grid;
-  grid-template-columns: 2em auto max-content;
-  grid-gap: 1em;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 
   @media (min-width: 55em) {
-    grid-template-columns: 2em auto;
+    display: grid;
+    place-items: center;
+    justify-items: baseline;
   }
 }
 
 .img-size-m {
   width: 2.5em;
   height: 2.5em;
+}
+
+.img-size-s {
+  width: 2em;
+  height: 2em;
 }
 
 .circle {
