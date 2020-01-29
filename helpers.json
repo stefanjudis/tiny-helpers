@@ -330,7 +330,8 @@
     "desc": "Playground for querying JSON data with GROQ",
     "url": "https://groq.dev/",
     "tags": [
-      "APIs"
+      "APIs",
+      "JSON"
     ],
     "maintainers": [
       "kmelve",
