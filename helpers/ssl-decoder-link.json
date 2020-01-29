@@ -1,9 +1,8 @@
 {
   "name": "SSL Checker",
   "url": "https://decoder.link",
-  "desc": "Check, convert or read your SSL certificate and more related ability",
+  "desc": "Check, convert or read your SSL certificate and more",
   "tags": [
-    "Accessibility",
     "Security"
   ],
   "maintainers": [
