@@ -1,0 +1,12 @@
+{
+  "name": "Themer",
+  "desc": "Generate editor themes, terminal themes, themes for other apps, and desktop/device wallpaper from your favorite colors",
+  "url": "https://themer.dev",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "mjswensen"
+  ],
+  "addedAt": "2020-01-29"
+}
