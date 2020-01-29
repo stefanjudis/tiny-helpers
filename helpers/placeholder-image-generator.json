@@ -1,6 +1,6 @@
 {
   "name": "Placeholder Image Generator",
-  "desc": "Generate dummy images as data URIs which are don't depend on external services",
+  "desc": "Generate dummy images as data URIs, which don't depend on external services",
   "url": "https://placeholderimage.dev",
   "tags": [
     "HTML",
