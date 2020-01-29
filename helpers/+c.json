@@ -1,0 +1,10 @@
+{
+  "name": "⌘+C",
+  "url": "https://copychar.cc/",
+  "desc": "Copy special characters to your clipboard",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [],
+  "addedAt": "2019-12-29"
+}

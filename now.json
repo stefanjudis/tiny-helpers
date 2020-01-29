@@ -1,15 +1,13 @@
 {
   "name": "tiny-helpers",
   "routes": [
-    { "src": "/favicon.ico", "dest": "static/favicon.ico" },
-    { "src": "/feed.xml", "dest": "static/feed.xml" },
     {
       "src": "/",
-      "dest": "/static/index.html"
+      "dest": "/home/index.html"
     },
     {
-      "src": "/(?<tag>[^/]*)/?",
-      "dest": "/static/$tag/index.html"
+      "src": "/latest/",
+      "dest": "/home/latest/index.html"
     }
   ],
   "build": {

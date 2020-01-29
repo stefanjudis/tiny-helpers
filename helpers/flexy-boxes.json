@@ -1,0 +1,12 @@
+{
+  "name": "Flexy Boxes",
+  "desc": "Play with flexbox and generate code",
+  "url": "https://the-echoplex.net/flexyboxes/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "peteboere"
+  ],
+  "addedAt": "2019-12-29"
+}

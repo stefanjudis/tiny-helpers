@@ -1,16 +1,27 @@
 <div class="padding-sidebar">
-  {% if tag.name == "All" %}
-    <h1 class="fsi-1-5 margin-top-m margin-bottom-l">All tools</h1>
-  {% else %}
-    <h1 class="fsi-1-5 margin-top-m margin-bottom-l">Tools for tag "{{ tag.name }}"</h1>
-  {% endif %}
+  <div class="flex-x-sb margin-top-m margin-bottom-l">
+    {% if tag.name == "All" %}
+      <h1 class="fsi-1-5">All tools</h1>
+    {% else %}
+      <h1 class="fsi-1-5">Tools for tag "{{ tag.name }}"</h1>
+    {% endif %}
+
+    <div class="btnGroup">
+      <a
+        class="btnGroup--btn {% if renderData.listIsSortedBy == "name" %}isActive{% endif %}"
+        href="{{ tag.slug | route({ listIsSortedBy: 'name' }) }}">Sort by name</a>
+      <a
+        class="btnGroup--btn {% if renderData.listIsSortedBy == "addedAt" %}isActive{% endif %}"
+        href="{{ tag.slug | route({ listIsSortedBy: 'addedAt' }) }}">Sort by date</a>
+    </div>
+  </div>
   <ol class="main-grid">
-  {% for item in tag.items %}
+  {% for item in tag.items | sort(renderData.listIsReversed, false, renderData.listIsSortedBy )%}
     <li class="shadow-full bg-lighter flex-column p-relative">
       <img
-        srcset="/static/screenshots/{{ item.slug }}@1.jpg 1x,
-                /static/screenshots/{{ item.slug }}@2.jpg 2x"
-        src="/static/screenshots/{{ item.slug }}@2.jpg" alt="Screenshot of {{item.name}}"
+        srcset="/screenshots/{{ item.slug }}@1.jpg 1x,
+                /screenshots/{{ item.slug }}@2.jpg 2x"
+        src="/screenshots/{{ item.slug }}@2.jpg" alt="Screenshot of {{item.name}}"
         width="1000"
         height="600"
         loading="lazy">
@@ -18,6 +29,7 @@
         <h2 class="fsi-1-25">{{ item.name }}</h2>
         <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
       </div>
+      <div class="p-abs-top-right fsi-0-875 bg-lighter padding-xs z-1">Added {{ item.addedAt | prettyDate }}</div>
       {% if item.maintainers.length %}
         <div class="padding-v-m margin-top-auto">
           <h3 class="fsi-1 margin-bottom-s">Made by</h3>

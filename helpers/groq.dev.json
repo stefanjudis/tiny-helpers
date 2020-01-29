@@ -1,0 +1,14 @@
+{
+  "name": "groq.dev",
+  "desc": "Playground for querying JSON data with GROQ",
+  "url": "https://groq.dev/",
+  "tags": [
+    "APIs",
+    "JSON"
+  ],
+  "maintainers": [
+    "kmelve",
+    "judofyr"
+  ],
+  "addedAt": "2020-01-14"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Accessible colors",
+  "desc": "Automatically find the closest accessible color combination",
+  "url": "https://accessible-colors.com/",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "moroshko"
+  ],
+  "addedAt": "2020-01-29"
+}

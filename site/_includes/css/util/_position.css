@@ -1,0 +1,13 @@
+.p-relative {
+  position: relative;
+}
+
+.p-abs-top-right {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+}
+
+.z-1 {
+  z-index: 1;
+}
