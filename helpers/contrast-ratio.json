@@ -1,6 +1,6 @@
 {
   "name": "Contrast ratio",
-  "desc": "Computes the contrast ratio between 2 colors",
+  "desc": "Compute the contrast ratio between 2 colors",
   "url": "https://contrast-ratio.com/",
   "tags": [
     "Accessibility",

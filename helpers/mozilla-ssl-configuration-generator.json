@@ -1,6 +1,6 @@
 {
   "name": "Mozilla SSL Configuration Generator",
-  "desc": "Generates recommended TLS configurations for servers",
+  "desc": "Generate recommended TLS configurations for servers",
   "url": "https://ssl-config.mozilla.org/",
   "tags": [
     "System Administration",

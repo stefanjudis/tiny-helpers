@@ -1,6 +1,6 @@
 {
   "name": "JSONLint",
-  "desc": "A JSON Validator",
+  "desc": "Validate your JSON",
   "url": "https://jsonlint.com/",
   "tags": [
     "JSON"

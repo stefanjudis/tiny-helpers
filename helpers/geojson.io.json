@@ -1,6 +1,6 @@
 {
   "name": "GeoJSON.io",
-  "desc": "A fast, simple editor for map data",
+  "desc": "Edit map JSON data",
   "url": "http://geojson.io/",
   "tags": [
     "JSON",

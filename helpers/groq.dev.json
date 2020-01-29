@@ -1,6 +1,6 @@
 {
   "name": "groq.dev",
-  "desc": "Playground for querying JSON data with GROQ",
+  "desc": "Query JSON data with GROQ",
   "url": "https://groq.dev/",
   "tags": [
     "APIs",
