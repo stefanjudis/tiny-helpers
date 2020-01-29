@@ -53,7 +53,7 @@
   }
 }
 
-.btn__full {
+.btn--full {
   display: block;
   font-size: 0.875em;
   text-align: center;
@@ -63,6 +63,18 @@
   color: #fff;
   border-top: 1px solid #d9dfe4;
   color: var(--primary-color);
+}
+
+.btn--bubble {
+  font-size: 0.875em;
+  border: 1px solid var(--light-border-color);
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+
+  &:hover {
+    border-color: currentColor;
+  }
 }
 
 .btn--reset {

@@ -1,7 +1,7 @@
 [
   {
     "name": "0to255",
-    "desc": "Lighten and darken colors easily.",
+    "desc": "Lighten and darken colors easily",
     "url": "https://www.0to255.com/",
     "tags": [
       "Color"
@@ -206,7 +206,7 @@
   },
   {
     "name": "CSS Stats",
-    "desc": "Analytize and visualize your stylesheets",
+    "desc": "Analyze and visualize your stylesheets",
     "url": "https://cssstats.com/",
     "tags": [
       "CSS"
@@ -385,7 +385,7 @@
   },
   {
     "name": "GeoJSON.io",
-    "desc": "A fast, simple editor for map data",
+    "desc": "Edit map JSON data",
     "url": "http://geojson.io/",
     "tags": [
       "JSON",
@@ -411,7 +411,7 @@
   },
   {
     "name": "groq.dev",
-    "desc": "Playground for querying JSON data with GROQ",
+    "desc": "Query JSON data with GROQ",
     "url": "https://groq.dev/",
     "tags": [
       "APIs",
@@ -511,7 +511,7 @@
   },
   {
     "name": "JSONLint",
-    "desc": "A JSON Validator",
+    "desc": "Validate your JSON",
     "url": "https://jsonlint.com/",
     "tags": [
       "JSON"
@@ -523,7 +523,7 @@
     "addedAt": "2020-01-29"
   },
   {
-    "name": "Json Web Token (jwt.io) Debugger",
+    "name": "JWT Debugger",
     "desc": "Debug, Validate Json Web tokens (jwt)",
     "url": "https://jwt.io/#debugger-io",
     "tags": [
@@ -906,7 +906,7 @@
   },
   {
     "name": "UTF-8 icons",
-    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols.",
+    "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols",
     "url": "https://www.utf8icons.com/",
     "tags": [
       "HTML",
@@ -953,7 +953,7 @@
   },
   {
     "name": "¿©hara¢ter(s)!",
-    "desc": "A typographic cheat sheet",
+    "desc": "Look up keyboard short cuts for special characters",
     "url": "https://characters.viktornuebel.com/",
     "tags": [
       "Fonts",

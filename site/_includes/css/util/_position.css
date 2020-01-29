@@ -8,6 +8,12 @@
   right: 0.5em;
 }
 
+.p-abs-top-left {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
 .z-1 {
   z-index: 1;
 }
