@@ -1,6 +1,6 @@
 {
   "name": "CIDR Calculator",
-  "desc": "The CIDR Calculator enables CIDR network calculations using IP address, subnet mask, mask bits, maximum required IP addresses and maximum required subnets.",
+  "desc": "Calculate CIDR network settings using IP address, subnet mask, mask bits, maximum required IP addresses and maximum required subnets",
   "url": "http://www.subnet-calculator.com/cidr.php",
   "tags": [
     "System Administration",
