@@ -1,0 +1,14 @@
+{
+  "name": "Can I Use",
+  "desc": "Quickly look up browser support for modern web technologies",
+  "url": "https://caniuse.com",
+  "tags": [
+    "CSS",
+    "HTML",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "Fyrd"
+  ],
+  "addedAt": "2020-01-18"
+}
