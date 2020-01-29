@@ -8,7 +8,7 @@
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
-    "dev": "eleventy --input=./site --serve",
+    "dev": "eleventy --input=./site --serve --port=$PORT",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
     "deploy": "npm run build && now --prod"

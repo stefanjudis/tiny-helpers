@@ -71,6 +71,36 @@
   font-size: 1em;
 }
 
+.btnGroup {
+  display: flex;
+  border: 1px solid var(--light-border-color);
+
+  &--btn {
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    background: #fff;
+    white-space: nowrap;
+
+    text-decoration: none;
+
+    &.isActive {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      text-decoration-thickness: 2px;
+      color: var(--primary-color);
+    }
+
+    &:hover,
+    &:active {
+    }
+
+    & + & {
+      border-left: 1px solid var(--light-border-color);
+    }
+  }
+}
+
 /* Safari need a default transform 'position'
 for elements in svg -> .rotate is a class of svg path */
 [data-menu-button] .rotate {

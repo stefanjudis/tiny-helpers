@@ -5,6 +5,7 @@
 @import './util/_colors.css';
 @import './util/_dimensions.css';
 @import './util/_fonts.css';
+@import './util/_flex.css';
 @import './util/_paddings.css';
 @import './util/_position.css';
 @import './util/_margins.css';

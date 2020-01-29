@@ -4,7 +4,9 @@ pagination:
   data: tags
   size: 1
   alias: tag
-permalink: "{{ tag.slug }}"
+permalink: "/{{ tag.slug }}/"
 renderData:
   title: "{{ tag.name }}"
+  listIsSortedBy: "name"
+  listIsReversed: false
 ---

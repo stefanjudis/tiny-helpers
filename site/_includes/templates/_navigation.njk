@@ -3,25 +3,24 @@
   <nav class="margin-bottom-l" aria-labelledby="nav">
     <h2 class="margin-bottom-s fsi-1-25" id="nav">Tags</h2>
     <ol class="nav">
-      {% for tag in tags %}
+      {% for navTag in tags %}
       <li class="margin-top-xs margin-bottom-xs neg-margin-left-m neg-margin-right-m">
-        <a href="{{ tag.slug }}" {% if page.url == tag.slug %} aria-current="page" {% endif %}>
-          {{tag.name}}
+        <a
+          href="{{ navTag.slug | route({ listIsSortedBy: renderData.listIsSortedBy }) }}"
+          {% if tag.slug == navTag.slug %} aria-current="page" {% endif %}
+        >
+          {{navTag.name}}
         </a>
-        <div class="nav-tagCount">{{tag.items.length }}</div>
+        <div class="nav-tagCount">{{navTag.items.length }}</div>
       </li>
       {% endfor %}
     </ol>
   </nav>
   <div class="fsi-0-875">
     <p class="margin-bottom-xs">Brought to you by Stefan Judis</p>
-    <p class="margin-bottom-l">( <a class="color-primary" href="https://www.stefanjudis.com">Website</a>,
-      <a class="color-primary" href="https://twitter.com/stefanjudis" aria-label="Stefan on Twitter">
-        Twitter
-      </a>,
-      <a class="color-primary" href="https://github.com/stefanjudis" aria-label="Stefan on GitHub">
-        GitHub
-      </a>)</p>
+    <p class="margin-bottom-l">(<a class="color-primary" href="https://www.stefanjudis.com">Website</a>,
+      <a class="color-primary" href="https://twitter.com/stefanjudis" aria-label="Stefan on Twitter">Twitter</a>,
+      <a class="color-primary" href="https://github.com/stefanjudis" aria-label="Stefan on GitHub">GitHub</a>)</p>
 
       <p class="margin-bottom-s">and these lovely people:</p>
       <ul class="inline-list">

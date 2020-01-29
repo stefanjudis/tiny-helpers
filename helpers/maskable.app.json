@@ -1,0 +1,12 @@
+{
+  "name": "Maskable.app",
+  "desc": "Preview and create maskable icons in the browser",
+  "url": "https://maskable.app/",
+  "tags": [
+    "PWA"
+  ],
+  "maintainers": [
+    "NotWoods"
+  ],
+  "addedAt": "2020-01-13"
+}
