@@ -36,6 +36,7 @@
     "inquirer": "^7.0.1",
     "jimp": "^0.9.3",
     "now": "^16.7.3",
+    "p-limit": "^2.2.2",
     "postcss": "^7.0.26",
     "postcss-clean": "^1.1.0",
     "postcss-import": "^12.0.1",
