@@ -946,6 +946,18 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Facebook ID Finder",
+    "desc": "Determine the Facebook ID from any Facebook Page/Profile/Group URL.",
+    "url": "https://findfb.id/",
+    "tags": [
+      "APIs"
+    ],
+    "maintainers": [
+      "elharony"
+    ],
+    "addedAt": "2020-01-17"
+  },
+  {
     "name": "Brotli.Pro",
     "url": "https://brotli.pro/",
     "desc": "Check if your website supports Brotli compression",
