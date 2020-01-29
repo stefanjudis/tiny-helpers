@@ -676,8 +676,8 @@
     "addedAt": "2019-12-29"
   },
   {
-    "name": "FB ID Finder",
-    "desc": "Try #1 Free FB ID Finder. Copy/Paste your Facebook Page/Profile/Group URL, and get ID. 100% FREE, No Sign Up Required, No Limits ✅",
+    "name": "Facebook ID Finder",
+    "desc": "Determine the Facebook ID from any Facebook Page/Profile/Group URL.",
     "url": "https://findfb.id/",
     "tags": [
       "APIs"
