@@ -374,8 +374,7 @@
     "desc": "A fast, simple editor for map data",
     "url": "http://geojson.io/",
     "tags": [
-      "Code",
-      "JavaScript",
+      "JSON",
       "Misc"
     ],
     "maintainers": [
@@ -383,7 +382,7 @@
       "tmcw"
     ],
     "addedAt": "2020-01-14"
-  }, 
+  },
   {
     "name": "google-webfonts-helper",
     "url": "https://google-webfonts-helper.herokuapp.com/fonts",
@@ -474,9 +473,7 @@
     "desc": "A JSON Validator",
     "url": "https://jsonlint.com/",
     "tags": [
-      "APIs",
-      "Code",
-      "JavaScript"
+      "JSON"
     ],
     "maintainers": [
       "circlecell",
