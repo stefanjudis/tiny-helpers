@@ -396,6 +396,20 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "groq.dev",
+    "desc": "Playground for querying JSON data with GROQ",
+    "url": "https://groq.dev/",
+    "tags": [
+      "APIs",
+      "JSON"
+    ],
+    "maintainers": [
+      "kmelve",
+      "judofyr"
+    ],
+    "addedAt": "2020-01-14"
+  },
+  {
     "name": "Hero Patterns",
     "desc": "Find SVG background patterns for you to use on your web projects.",
     "url": "https://www.heropatterns.com/",
