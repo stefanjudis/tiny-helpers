@@ -1,0 +1,14 @@
+{
+  "name": "Font style matcher",
+  "desc": "Matches the x-heights and widths of two fonts (webfont and fallback font)",
+  "url": "https://meowni.ca/font-style-matcher/",
+  "tags": [
+    "CSS",
+    "Fonts",
+    "Typography"
+  ],
+  "maintainers": [
+    "notwaldorf"
+  ],
+  "addedAt": "2020-01-30"
+}
