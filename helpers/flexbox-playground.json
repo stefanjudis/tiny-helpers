@@ -3,9 +3,7 @@
   "desc": "Visually explore building out any flexbox layout and view generated HTML/CSS markup",
   "url": "https://flexbox.mcbride.tech",
   "tags": [
-    "CSS",
-    "Code",
-    "HTML"
+    "CSS"
   ],
   "maintainers": [
     "mikemcbride"
