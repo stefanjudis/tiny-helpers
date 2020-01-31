@@ -1,0 +1,16 @@
+{
+  "name": "Polyfill.io",
+  "desc": "Get polyfills",
+  "url": "https://polyfill.io/v3/url-builder/",
+  "tags": [
+    "Code",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "JakeChampion",
+    "triblondon",
+    "jonathantneal",
+    "samgiles"
+  ],
+  "addedAt": "2020-01-31"
+}
