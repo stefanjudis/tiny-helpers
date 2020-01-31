@@ -1,0 +1,15 @@
+{
+  "name": "CSS Stats",
+  "desc": "Analyze and visualize your stylesheets",
+  "url": "https://cssstats.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "kristoferjoseph",
+    "johno",
+    "mrmrs",
+    "jxnblk"
+  ],
+  "addedAt": "2019-12-31"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Hero Patterns",
+  "desc": "Find SVG background patterns for you to use on your web projects.",
+  "url": "https://www.heropatterns.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "sschoger"
+  ],
+  "addedAt": "2020-01-15"
+}

@@ -6,7 +6,7 @@
 
 ## Contributing
 
-Make sure you have a recent version of [Node.js intalled](https://nodejs.org/en/) (we recommend at least version `v12.14.`). After installing Node.js you'll have the `node` but also the [`npm`](https://www.npmjs.com/) command available. npm is Node.js' package manager.
+Make sure you have a recent version of [Node.js installed](https://nodejs.org/en/) (we recommend at least version `v12.14.`). After installing Node.js you'll have the `node` but also the [`npm`](https://www.npmjs.com/) command available. npm is Node.js' package manager.
 
 **Additionally, please have a look at the [CONTRIBUTING.md](./CONTRIBUTING.md) including further information about what counts as a tiny helper.**
 
@@ -19,4 +19,5 @@ npm ci
 npm run helper:add
 ```
 
-👆 `npm run helper:add` will ask a few questions and modify `helpers.json`. Commit the changes and [open a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+👆 `npm run helper:add` will ask a few questions and create a file in `helpers/`.
+Commit the changes and [open a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
