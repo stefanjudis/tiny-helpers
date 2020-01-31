@@ -16,6 +16,10 @@ async function exists(path) {
   }
 }
 
+function sleep(duration) {
+  return new Promise(resolve => setTimeout(resolve, duration));
+}
+
 async function makeScreenshots(browser, helper, screenshotDir) {
   const doubleSize = join(screenshotDir, `${toSlug(helper.name)}@2.jpg`);
   const singleSize = join(screenshotDir, `${toSlug(helper.name)}@1.jpg`);
@@ -27,6 +31,8 @@ async function makeScreenshots(browser, helper, screenshotDir) {
       height: 600
     });
     await page.goto(helper.url);
+    // sleep to get a proper screenshot sites showing a spinner
+    await sleep(5000);
     await page.screenshot({ path: doubleSize });
     await page.close();
     sigil = '📸';
@@ -46,7 +52,7 @@ async function makeScreenshots(browser, helper, screenshotDir) {
   console.log('Taking screenshots...');
   const browser = await puppeteer.launch();
   const limit = pLimit(8);
-  const screenshotPromises = helpers.map((helper) =>
+  const screenshotPromises = helpers.map(helper =>
     limit(() => makeScreenshots(browser, helper, screenshotDir))
   );
   await Promise.all(screenshotPromises);
