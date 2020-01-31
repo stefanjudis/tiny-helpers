@@ -1,0 +1,15 @@
+{
+  "name": "iHateRegex",
+  "desc": "regex cheatsheet for the haters",
+  "url": "http://ihateregex.io/",
+  "tags": [
+    "Accessibility",
+    "Generated Data",
+    "JavaScript",
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "geongeorge"
+  ],
+  "addedAt": "2020-01-31"
+}
