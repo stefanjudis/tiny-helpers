@@ -50,7 +50,9 @@ _It's okay if the helper is closed source and source code is not available on Gi
 
 ❌ DON'T: ["Some new tag"]
 
-_Please don't just create some new tags, we want to be careful to not introduce tags that will only include one helper._ :)
+_Please don't just create some new tags, we want to be careful to not introduce tags that will only include one helper._
+
+_Please don't set more than three tags, we want to keep the tags tidy._
 
 ---
 
