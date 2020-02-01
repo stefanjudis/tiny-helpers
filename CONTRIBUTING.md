@@ -17,7 +17,7 @@ A tiny helper does not have to be available on GitHub and has not to be open sou
 ### What does not(!) count as a tiny helper?
 
 - **APIs** (it's too hard to make the decision which API should go in and which should not)
-- **npm modules** (tiny-helpers.dev is about online resources)
+- **JS or CSS libraries / npm modules** (tiny-helpers.dev is about online resources)
 - **learning sites/apps** that have a purely educational purpose (tiny helpers continue to have value as a developer)
 
 ### Formatting of tiny helpers
