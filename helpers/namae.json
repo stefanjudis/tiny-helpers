@@ -3,11 +3,10 @@
   "desc": "Check availability of your new app name in major registries at once.",
   "url": "https://namae.dev",
   "tags": [
-    "Misc",
-    "PWA"
+    "Misc"
   ],
   "maintainers": [
     "uetchy"
   ],
-  "addedAt": "2020-01-28"
+  "addedAt": "2020-02-02"
 }
