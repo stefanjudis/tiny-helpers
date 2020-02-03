@@ -1,0 +1,13 @@
+{
+  "name": "Remove Photo Data",
+  "desc": "Remove personal data such as location from images. Works on your computer only, no service or third party involved. ",
+  "url": "http://removephotodata.com/",
+  "tags": [
+    "Images",
+    "Security"
+  ],
+  "maintainers": [
+    "codepo8"
+  ],
+  "addedAt": "2020-01-21"
+}
