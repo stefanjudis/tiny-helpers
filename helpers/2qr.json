@@ -1,14 +1,12 @@
 {
   "name": "2QR",
-  "desc": "Create QR codes with one click, using the URL, a bookmarklet or direct input.",
+  "desc": "Create QR codes with one click, using the URL, a bookmarklet or direct input",
   "url": "https://2qr.info/",
   "tags": [
-    "APIs",
-    "Generated Data",
     "Misc"
   ],
   "maintainers": [
     "MoritzGiessmann"
   ],
-  "addedAt": "2020-01-30"
+  "addedAt": "2020-02-03"
 }
