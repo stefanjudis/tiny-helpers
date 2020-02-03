@@ -3,7 +3,8 @@
   "desc": "Dither images for style and performance",
   "url": "https://ditherit.com",
   "tags": [
-    "Images"
+    "Images",
+    "Performance"
   ],
   "maintainers": [
     "alexharris"
