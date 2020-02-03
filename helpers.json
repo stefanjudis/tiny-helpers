@@ -95,6 +95,20 @@
     "addedAt": "2020-01-14"
   },
   {
+    "name": "Eightshapes Contrast Grid",
+    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
+    "url": "https://contrast-grid.eightshapes.com/",
+    "tags": [
+      "Accessibility",
+      "Color"
+    ],
+    "maintainers": [
+      "kevinmpowell",
+      "nathanacurtis"
+    ],
+    "addedAt": "2020-01-13"
+  },
+  {
     "name": "cryptii.com",
     "desc": "Convert and encode text quickly",
     "url": "https://cryptii.com/",
@@ -182,20 +196,6 @@
     "addedAt": "2020-01-15"
   },
   {
-    "name": "Eightshapes Contrast Grid",
-    "desc": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
-    "url": "https://contrast-grid.eightshapes.com/",
-    "tags": [
-      "Accessibility",
-      "Color"
-    ],
-    "maintainers": [
-      "kevinmpowell",
-      "nathanacurtis"
-    ],
-    "addedAt": "2020-01-13"
-  },
-  {
     "name": "Explain Shell",
     "desc": "Write down a command-line to see the help text that matches each argument",
     "url": "https://explainshell.com/",
@@ -206,6 +206,18 @@
       "idank"
     ],
     "addedAt": "2020-01-16"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "extractCSS",
@@ -334,18 +346,6 @@
       "tommyschaefer"
     ],
     "addedAt": "2020-01-15"
-  },
-  {
-    "name": "JavaScript Array Explorer",
-    "desc": "Find the array method you need without digging through the docs",
-    "url": "https://arrayexplorer.netlify.com/",
-    "tags": [
-      "JavaScript"
-    ],
-    "maintainers": [
-      "sdras"
-    ],
-    "addedAt": "2020-01-13"
   },
   {
     "name": "Json Web Token (jwt.io) Debugger",
