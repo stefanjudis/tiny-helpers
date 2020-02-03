@@ -1,0 +1,13 @@
+{
+  "name": "HTTProfile",
+  "desc": "Profile HTTP servers and endpoints",
+  "url": "https://httprofile.io",
+  "tags": [
+    "APIs",
+    "HTTP"
+  ],
+  "maintainers": [
+    "tommyschaefer"
+  ],
+  "addedAt": "2020-01-15"
+}

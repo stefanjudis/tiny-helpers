@@ -1,0 +1,13 @@
+{
+  "name": "type-scale",
+  "desc": "Calculate your type scale visually",
+  "url": "https://type-scale.com/",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [
+    "jeremychurch"
+  ],
+  "addedAt": "2020-01-05"
+}

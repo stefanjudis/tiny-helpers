@@ -17,18 +17,27 @@
   <meta property="og:url" content="https://tiny-helpers.dev/">
   <meta property="og:title" content="{{ renderData.title }} – Tiny Helpers">
   <meta property="og:description" content="{{ pkg.description }}">
-  <meta property="og:image" content="https://tiny-helpers.dev/static/large-media-image.jpg">
+  <meta property="og:image" content="https://tiny-helpers.dev/large-media-image.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://tiny-helpers.dev/">
   <meta property="twitter:title" content="{{ renderData.title }} – Tiny Helpers">
   <meta property="twitter:description" content="{{ pkg.description }}">
-  <meta property="twitter:image" content="https://tiny-helpers.dev/static/large-media-image.jpg">
+  <meta property="twitter:image" content="https://tiny-helpers.dev/large-media-image.jpg">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  {% if renderData.isCanonical %}
+    {% if tag.slug == 'home' %}
+      <link rel="canonical" href="/" />
+    {% else %}
+      <link rel="canonical" href="/{{ tag.slug }}/" />
+    {% endif %}
+  {% endif %}
+
   <style>
     {{ styles | safe }}
   </style>

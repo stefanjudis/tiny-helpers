@@ -8,7 +8,7 @@
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
-    "dev": "eleventy --input=./site --serve",
+    "dev": "eleventy --input=./site --serve --port=$PORT",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
     "deploy": "npm run build && now --prod"
@@ -36,6 +36,7 @@
     "inquirer": "^7.0.1",
     "jimp": "^0.9.3",
     "now": "^16.7.3",
+    "p-limit": "^2.2.2",
     "postcss": "^7.0.26",
     "postcss-clean": "^1.1.0",
     "postcss-import": "^12.0.1",

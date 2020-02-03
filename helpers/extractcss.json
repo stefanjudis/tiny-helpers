@@ -1,0 +1,13 @@
+{
+  "name": "extractCSS",
+  "url": "http://extractcss.com/",
+  "desc": "Extract CSS from HTML with ease",
+  "tags": [
+    "CSS",
+    "HTML"
+  ],
+  "maintainers": [
+    "adnantopal"
+  ],
+  "addedAt": "2019-12-29"
+}

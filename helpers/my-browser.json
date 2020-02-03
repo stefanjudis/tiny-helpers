@@ -1,0 +1,12 @@
+{
+  "name": "My Browser",
+  "desc": "Get browser details to help you with QA and tech support",
+  "url": "https://mybrowser.fyi/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "hankchizljaw"
+  ],
+  "addedAt": "2020-02-02"
+}
