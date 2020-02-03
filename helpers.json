@@ -637,7 +637,7 @@
   },
   {
     "name": "Underdash",
-    "desc": "Collection of JS snippets for array and iterator manipulation",
+    "desc": "Collection of JS snippets for Array and Iterator manipulation",
     "url": "https://surma.github.io/underdash/",
     "tags": [
       "JavaScript"
