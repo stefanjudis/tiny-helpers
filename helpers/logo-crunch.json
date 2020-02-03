@@ -1,9 +1,10 @@
 {
   "name": "Logo Crunch",
-  "desc": "Logo Crunch is a multi-resolution logo maker, it uses computer vision to make your high-res logo legible at lower resolutions. Use it for a website favicon, iOS app icon or Android app icon.",
+  "desc": "Make your high-res logo legible at lower resolutions using computer vision.",
   "url": "https://brandmark.io/logo-crunch/",
   "tags": [
-    "Favicons"
+    "Favicons",
+    "Images"
   ],
   "maintainers": [
     "0xadada"
