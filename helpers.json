@@ -221,18 +221,6 @@
     "addedAt": "2019-12-29"
   },
   {
-    "name": "JavaScript Array Explorer",
-    "desc": "Find the array method you need without digging through the docs",
-    "url": "https://arrayexplorer.netlify.com/",
-    "tags": [
-      "JavaScript"
-    ],
-    "maintainers": [
-      "sdras"
-    ],
-    "addedAt": "2020-01-13"
-  },
-  {
     "name": "Fancy-Border-Radius",
     "desc": "Build organic shapes with CSS border-radius",
     "url": "https://9elements.github.io/fancy-border-radius/",
@@ -243,6 +231,18 @@
       "enbee81"
     ],
     "addedAt": "2020-01-14"
+  },
+  {
+    "name": "JavaScript Array Explorer",
+    "desc": "Find the array method you need without digging through the docs",
+    "url": "https://arrayexplorer.netlify.com/",
+    "tags": [
+      "JavaScript"
+    ],
+    "maintainers": [
+      "sdras"
+    ],
+    "addedAt": "2020-01-13"
   },
   {
     "name": "Favicon Generator. For real.",
