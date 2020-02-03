@@ -917,6 +917,19 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "Vinnslu",
+    "desc": "Transform tabular-like data",
+    "url": "https://maltsev.github.io/vinnslu/",
+    "tags": [
+      "Code",
+      "Misc"
+    ],
+    "maintainers": [
+      "maltsev"
+    ],
+    "addedAt": "2020-01-18"
+  },
+  {
     "name": "UTF-8 icons",
     "desc": "Gives you unicode, hex, ASCII, html, css codes to insert UTF-8 icons and symbols",
     "url": "https://www.utf8icons.com/",
