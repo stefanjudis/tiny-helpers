@@ -3,11 +3,10 @@
   "desc": "Easily create UTM tags for your campaign URLs.",
   "url": "https://gearside.com/utm/",
   "tags": [
-    "HTTP",
     "Misc"
   ],
   "maintainers": [
     "chrisblakley"
   ],
-  "addedAt": "2020-01-18"
+  "addedAt": "2020-02-03"
 }

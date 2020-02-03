@@ -3,11 +3,10 @@
   "desc": "Dither images for style and performance",
   "url": "https://ditherit.com",
   "tags": [
-    "Images",
-    "Performance"
+    "Images"
   ],
   "maintainers": [
     "alexharris"
   ],
-  "addedAt": "2020-01-20"
+  "addedAt": "2020-02-03"
 }

@@ -1,0 +1,12 @@
+{
+  "name": "Underdash",
+  "desc": "Collection of JS snippets for Array and Iterator manipulation",
+  "url": "https://surma.github.io/underdash/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "surma"
+  ],
+  "addedAt": "2020-02-03"
+}
