@@ -1,9 +1,9 @@
 {
   "name": "Dillinger",
-  "desc": "Dillinger is an online cloud-enabled, HTML5, buzzword-filled Markdown editor",
+  "desc": "Write Markdown with a beautiful side-by-side preview and export them as also as HTML or PDF. You can also access your documents on Dropbox, GitHub, Google Drive or One Drive.",
   "url": "https://dillinger.io/",
   "tags": [
-    "Code"
+    "Markdown"
   ],
   "maintainers": [
     "@joemccann"
