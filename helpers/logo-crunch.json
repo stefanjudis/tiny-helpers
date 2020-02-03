@@ -1,0 +1,13 @@
+{
+  "name": "Logo Crunch",
+  "desc": "Make your high-res logo legible at lower resolutions using computer vision.",
+  "url": "https://brandmark.io/logo-crunch/",
+  "tags": [
+    "Favicons",
+    "Images"
+  ],
+  "maintainers": [
+    "0xadada"
+  ],
+  "addedAt": "2020-01-21"
+}
