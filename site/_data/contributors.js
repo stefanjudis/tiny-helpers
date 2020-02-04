@@ -5,7 +5,7 @@ module.exports = async function() {
   if (process.env.NODE_ENV === 'production') {
     try {
       const response = await got(
-        'https://api.github.com/repos/stefanjudis/tiny-helpers/contributors'
+        'https://api.github.com/repos/stefanjudis/tiny-helpers/contributors?per_page=100'
       );
 
       return JSON.parse(response.body)
