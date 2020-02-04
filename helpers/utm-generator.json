@@ -1,0 +1,12 @@
+{
+  "name": "Easy UTM Tag Generator",
+  "desc": "Easily create UTM tags for your campaign URLs",
+  "url": "https://gearside.com/utm/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "chrisblakley"
+  ],
+  "addedAt": "2020-02-03"
+}

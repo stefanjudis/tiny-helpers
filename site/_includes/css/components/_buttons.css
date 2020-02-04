@@ -1,0 +1,126 @@
+.btn {
+  border-radius: 0.25em;
+  line-height: 1em;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 0.25em;
+  white-space: nowrap;
+
+  svg {
+    width: auto;
+  }
+}
+
+.btn--cta {
+  padding: 0.5em 0.75em;
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0.25em 0.75em #405fca82;
+  display: inline-grid;
+  grid-template-columns: auto 1em;
+  grid-gap: 0.75em;
+  transform: translateY(0);
+  border: 2px solid transparent;
+
+  &:hover {
+    background: #506fda;
+    transform: translateY(-1px);
+    color: #fff;
+  }
+
+  &:active {
+    box-shadow: 0 0.125em 0.5em #405fca82;
+  }
+}
+
+.btn--ghost {
+  color: var(--primary-color);
+  padding: 0.75em 0;
+  display: inline-grid;
+  grid-template-columns: auto 1.25em;
+  grid-gap: 0.75em;
+  transform: translateY(0);
+  border: 2px solid transparent;
+  background: transparent;
+  font-size: 1em;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 0.1em;
+  }
+}
+
+.btn--full {
+  display: block;
+  font-size: 0.875em;
+  text-align: center;
+  margin: 1em 2px 2px 2px;
+  background: var(--sidebar-bg-color);
+  padding: 0.75em 1em;
+  color: #fff;
+  border-top: 1px solid #d9dfe4;
+  color: var(--primary-color);
+}
+
+.btn--bubble {
+  font-size: 0.875em;
+  border: 1px solid var(--light-border-color);
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+
+  &:hover {
+    border-color: currentColor;
+  }
+}
+
+.btn--reset {
+  background: transparent;
+  border: none;
+  font-size: 1em;
+}
+
+.btnGroup {
+  display: flex;
+  border: 1px solid var(--light-border-color);
+
+  &--btn {
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    background: #fff;
+    white-space: nowrap;
+
+    text-decoration: none;
+
+    &.isActive {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      text-decoration-thickness: 2px;
+      color: var(--primary-color);
+    }
+
+    &:hover,
+    &:active {
+    }
+
+    & + & {
+      border-left: 1px solid var(--light-border-color);
+    }
+  }
+}
+
+/* Safari need a default transform 'position'
+for elements in svg -> .rotate is a class of svg path */
+[data-menu-button] .rotate {
+  transform: rotate(0deg);
+}
+
+[data-menu-button].is-active {
+  .rotate {
+    transform: scale(1, 0.75) translate(1.5em, -1.375em) rotate(25deg);
+  }
+}

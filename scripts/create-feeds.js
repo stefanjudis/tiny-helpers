@@ -1,13 +1,12 @@
 const Feed = require('feed').Feed;
 const { description } = require('../package.json');
-const helpers = require('../helpers.json');
-const slugify = require('slugify');
+const { getHelpers } = require('../lib/helpers');
 const { writeFile } = require('fs').promises;
 const { join } = require('path');
-
-const toSlug = name => slugify(name).toLocaleLowerCase();
+const { toSlug } = require('../lib/slug');
 
 (async () => {
+  const helpers = await getHelpers();
   try {
     const feed = new Feed({
       title: 'Tiny Helpers',
@@ -34,15 +33,13 @@ const toSlug = name => slugify(name).toLocaleLowerCase();
       .sort((a, b) => (new Date(a.addedAt) < new Date(b.addedAt) ? 1 : -1))
       .forEach(({ addedAt, name, desc, url }) => {
         feed.addItem({
-          title: `New helper added to tiny-helpers.dev – ${name}.`,
+          title: `New helper added: ${name} – ${desc}.`,
           id: toSlug(name),
           link: url,
           description: desc,
           content: `More tools! 🎉🎉🎉 "${name}" is available at ${url}`,
           date: new Date(addedAt),
-          image: `https://tiny-helpers.dev/static/screenshots/${toSlug(
-            name
-          )}.jpg`
+          image: `https://tiny-helpers.dev/screenshots/${toSlug(name)}@1.jpg`
         });
       });
 

@@ -1,0 +1,13 @@
+{
+  "name": "Dither it!",
+  "desc": "Dither images for style and performance",
+  "url": "https://ditherit.com",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [
+    "alexharris"
+  ],
+  "addedAt": "2020-02-03"
+}

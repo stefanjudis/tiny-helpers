@@ -1,0 +1,13 @@
+{
+  "name": "Vinnslu",
+  "desc": "Transform tabular-like data",
+  "url": "https://maltsev.github.io/vinnslu/",
+  "tags": [
+    "Code",
+    "Misc"
+  ],
+  "maintainers": [
+    "maltsev"
+  ],
+  "addedAt": "2020-01-18"
+}

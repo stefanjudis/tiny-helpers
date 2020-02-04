@@ -1,0 +1,12 @@
+{
+  "name": "httpstatus",
+  "desc": "Check status codes, response headers, and redirect chains.",
+  "url": "https://httpstatus.io/",
+  "tags": [
+    "HTTP"
+  ],
+  "maintainers": [
+    "sanderheilbron"
+  ],
+  "addedAt": "2020-01-25"
+}

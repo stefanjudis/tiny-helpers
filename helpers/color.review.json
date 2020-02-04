@@ -1,0 +1,11 @@
+{
+  "name": "Color.review",
+  "url": "https://color.review/",
+  "desc": "Check your color contrast",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2019-12-29"
+}

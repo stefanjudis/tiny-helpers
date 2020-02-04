@@ -1,0 +1,12 @@
+{
+  "name": "tinygif",
+  "desc": "Generate the smallest sold colour gif (and dataurl)",
+  "url": "https://tinygif.isthe.link/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "remy"
+  ],
+  "addedAt": "2020-02-03"
+}

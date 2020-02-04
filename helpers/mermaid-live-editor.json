@@ -1,0 +1,14 @@
+{
+  "name": "Mermaid Live Editor",
+  "desc": "Generate flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs using a Markdownish syntax",
+  "url": "https://mermaid-js.github.io/mermaid-live-editor/",
+  "tags": [
+    "Code",
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "0xadada"
+  ],
+  "addedAt": "2020-01-21"
+}

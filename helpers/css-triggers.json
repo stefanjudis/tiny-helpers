@@ -1,0 +1,13 @@
+{
+  "name": "CSS Triggers",
+  "desc": "Get information on what CSS properties trigger layout, paint or composite",
+  "url": "https://csstriggers.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "surma",
+    "paullewis"
+  ],
+  "addedAt": "2020-01-23"
+}

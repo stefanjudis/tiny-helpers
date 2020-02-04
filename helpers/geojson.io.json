@@ -1,0 +1,14 @@
+{
+  "name": "GeoJSON.io",
+  "desc": "Edit map JSON data",
+  "url": "http://geojson.io/",
+  "tags": [
+    "JSON",
+    "Misc"
+  ],
+  "maintainers": [
+    "mapbox",
+    "tmcw"
+  ],
+  "addedAt": "2020-01-29"
+}
