@@ -1,0 +1,12 @@
+{
+  "name": "Video to markdown",
+  "desc": "Convert video URL to a markdown code",
+  "url": "https://video-to-markdown.netlify.com/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "marcomontalbano"
+  ],
+  "addedAt": "2020-01-30"
+}
