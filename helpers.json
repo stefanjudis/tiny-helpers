@@ -882,7 +882,7 @@
     "maintainers": [
       "surma"
     ],
-    "addedAt": "2020-01-17"
+    "addedAt": "2020-02-03"
   },
   {
     "name": "Unicode Character Search",
@@ -1014,7 +1014,7 @@
     "desc": "Determine the Facebook ID from any Facebook Page/Profile/Group URL.",
     "url": "https://findfb.id/",
     "tags": [
-      "APIs"
+      "Misc"
     ],
     "maintainers": [
       "elharony"
