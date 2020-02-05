@@ -1,6 +1,6 @@
 {
   "name": "Online Curl Command Line Builder",
-  "desc": "Easily generate curl command lines to test your new shining API or whatever!",
+  "desc": "Generate curl command lines to test your new shining API or whatever easily!",
   "url": "https://curlbuilder.com/",
   "tags": [
     "HTTP"
