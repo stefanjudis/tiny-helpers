@@ -1,12 +1,12 @@
 {
   "name": "Grid Calculator",
   "desc": "Calculate your grid sizes and download as Adobe Illustrator/Photoshop file",
-  "url": "gridcalculator.dk",
+  "url": "http://gridcalculator.dk",
   "tags": [
     "CSS"
   ],
   "maintainers": [
-    "Nicolaj Kirkgaard Nielsen"
+    "nicolajkn"
   ],
   "addedAt": "2020-02-02"
 }
