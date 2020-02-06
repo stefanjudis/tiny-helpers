@@ -1,0 +1,13 @@
+{
+  "name": "kroki",
+  "desc": "Create diagrams (UML, sequence, GraphViz, ...) from textual descriptions ",
+  "url": "https://kroki.io",
+  "tags": [
+    "Markdown",
+    "Misc"
+  ],
+  "maintainers": [
+    "@yuzutech"
+  ],
+  "addedAt": "2020-02-06"
+}
