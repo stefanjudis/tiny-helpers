@@ -1,6 +1,6 @@
 {
   "name": "JWT Debugger",
-  "desc": "Debug, Validate Json Web tokens (jwt)",
+  "desc": "Decode, Debug and Validate JSON Web Tokens (JWT)",
   "url": "https://jwt.io/#debugger-io",
   "tags": [
     "APIs",
