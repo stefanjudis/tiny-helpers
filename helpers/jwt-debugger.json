@@ -4,7 +4,9 @@
   "url": "https://jwt.io/#debugger-io",
   "tags": [
     "APIs",
-    "Code"
+    "Code",
+    "JSON",
+    "Security"
   ],
   "maintainers": [],
   "addedAt": "2020-01-14"
