@@ -1,0 +1,10 @@
+{
+  "name": "shapecatcher.com",
+  "desc": "Draw a character and get the Unicode character glyph",
+  "url": "https://shapecatcher.com/",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [],
+  "addedAt": "2019-12-30"
+}

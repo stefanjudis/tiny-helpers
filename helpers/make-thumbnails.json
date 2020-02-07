@@ -1,0 +1,12 @@
+{
+  "name": "Make Thumbnails",
+  "desc": "Create a bunch of customizable thumbnails from in image",
+  "url": "http://makethumbnails.com",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "codepo8"
+  ],
+  "addedAt": "2020-02-03"
+}

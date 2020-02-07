@@ -1,0 +1,12 @@
+{
+  "name": "Dillinger",
+  "desc": "Write Markdown with a beautiful side-by-side preview and export them as also as HTML or PDF",
+  "url": "https://dillinger.io/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "joemccann"
+  ],
+  "addedAt": "2020-02-03"
+}

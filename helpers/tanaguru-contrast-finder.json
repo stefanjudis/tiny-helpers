@@ -1,0 +1,13 @@
+{
+  "name": "tanaguru contrast finder",
+  "desc": "Find good constrasts between two colors",
+  "url": "https://contrast-finder.tanaguru.com/",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "Tanaguru"
+  ],
+  "addedAt": "2019-12-31"
+}
