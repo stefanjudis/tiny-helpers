@@ -606,7 +606,7 @@
   },
   {
     "name": "Ratio Buddy",
-    "desc": "Aspect ratio calculator",
+    "desc": "Calculate CSS aspect ratio's",
     "url": "https://ratiobuddy.com",
     "tags": [
       "CSS",
