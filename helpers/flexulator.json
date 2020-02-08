@@ -1,6 +1,6 @@
 {
   "name": "flexulator",
-  "desc": "Flexbox space distribution calculator",
+  "desc": "A visual calculator to understand how the Flexbox space distribution algorithm works",
   "url": "https://www.flexulator.com",
   "tags": [
     "CSS"
