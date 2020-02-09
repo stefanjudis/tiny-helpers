@@ -1,0 +1,19 @@
+{
+  "name": "Fontello",
+  "desc": "lets you combine icon webfonts for your own project.",
+  "url": "http://fontello.com/",
+  "tags": [
+    "CSS",
+    "Fonts",
+    "HTML",
+    "Performance"
+  ],
+  "maintainers": [
+    "puzrin",
+    "shmelev",
+    "ixti",
+    "shkuropat",
+    "dervus "
+  ],
+  "addedAt": "2020-02-09"
+}
