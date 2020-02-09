@@ -1,0 +1,15 @@
+  
+{
+  "name": "Contentful to Figma",
+  "desc": "Enrich your Figma design with real data from Contentful",
+  "url": "https://www.figma.com/c/plugin/789594601370719857/Contentful-to-Figma",
+  "tags": [
+    "Design",
+    "Productivity",
+    "Content",
+  ],
+  "maintainers": [
+    "khaled_garbaya"
+  ],
+  "addedAt": "2020-02-09"
+}
