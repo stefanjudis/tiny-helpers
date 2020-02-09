@@ -19,6 +19,7 @@
 - **APIs** (it's too hard to make the decision which API should go in and which should not)
 - **JS or CSS libraries / npm modules** (tiny-helpers.dev is about online resources)
 - **learning sites/apps** that have a purely educational purpose (tiny helpers continue to have value as a developer)
+- **plugins for other online tools**
 
 ## Formatting of tiny helpers
 
