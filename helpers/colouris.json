@@ -1,0 +1,12 @@
+{
+  "name": "Colouris",
+  "desc": "Convert a colour into other web formats",
+  "url": "https://colouris.surge.sh",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "gnclmorais"
+  ],
+  "addedAt": "2020-02-11"
+}
