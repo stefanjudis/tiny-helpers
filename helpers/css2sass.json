@@ -1,0 +1,12 @@
+{
+  "name": "css2sass",
+  "desc": "Convert CSS to SASS/SCSS syntax",
+  "url": "https://css2sass.herokuapp.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "jpablobr"
+  ],
+  "addedAt": "2020-02-05"
+}
