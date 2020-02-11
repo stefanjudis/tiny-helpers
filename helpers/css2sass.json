@@ -1,6 +1,6 @@
 {
   "name": "css2sass",
-  "desc": "Convert CSS to SASS syntax stylesheets",
+  "desc": "Convert CSS to SASS/SCSS syntax",
   "url": "https://css2sass.herokuapp.com/",
   "tags": [
     "CSS"
