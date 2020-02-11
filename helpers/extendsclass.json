@@ -1,0 +1,12 @@
+{
+  "name": "ExtendsClass",
+  "url": "https://extendsclass.com/regex-tester.html",
+  "desc": "View, build, & test Regular Expressions",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2020-02-03"
+}

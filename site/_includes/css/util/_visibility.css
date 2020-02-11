@@ -1,0 +1,13 @@
+.hide-large {
+  @media (min-width: 55em) {
+    display: none;
+  }
+}
+
+.hide-small {
+  display: none;
+
+  @media (min-width: 55em) {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "jqplay",
+  "desc": "Build command lines for jq interactively",
+  "url": "https://jqplay.org",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "jingweno"
+  ],
+  "addedAt": "2020-02-06"
+}

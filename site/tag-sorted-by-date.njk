@@ -1,0 +1,13 @@
+---
+layout: base.njk
+pagination:
+  data: tags
+  size: 1
+  alias: tag
+permalink: "/{{ tag.slug }}/latest/"
+renderData:
+  isCanonical: true
+  title: "{{ tag.name }}"
+  listIsSortedBy: "addedAt"
+  listIsReversed: true
+---

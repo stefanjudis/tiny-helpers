@@ -1,0 +1,118 @@
+@import './_base.css';
+@import './components/_buttons.css';
+@import './components/_card.css';
+@import './components/_nav.css';
+@import './util/_colors.css';
+@import './util/_dimensions.css';
+@import './util/_fonts.css';
+@import './util/_flex.css';
+@import './util/_grid.css';
+@import './util/_paddings.css';
+@import './util/_position.css';
+@import './util/_margins.css';
+@import './util/_shadows.css';
+@import './util/_visibility.css';
+@import './_fonts.css';
+
+body {
+  --primary-color: #405fca;
+  --text-color: #484a53;
+  --text-highlight-color: #393c42;
+  --light-border-color: #d9dfe4;
+
+  --canvas-bg-color: #f5f7ff;
+  --canvas-light-color: #fafcff;
+  --sidebar-bg-color: #eaefff;
+
+  --desktop-sidebar-width: 20em;
+  --desktop-topbar-height: 5em;
+
+  background: var(--canvas-bg-color);
+}
+
+.container {
+  @media (min-width: 55em) {
+    display: grid;
+    height: 100%;
+    grid-template-columns: var(--desktop-sidebar-width) 1fr;
+    grid-template-rows: var(--desktop-topbar-height) 1fr;
+  }
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));
+  grid-gap: 3em 2em;
+}
+
+.social-grid {
+  padding: 1em 3em;
+  grid-gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  place-items: center;
+
+  justify-content: center;
+  @media (min-width: 55em) {
+    grid-template-columns: repeat(3, min-content);
+    justify-content: end;
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.thin-border {
+  border: 1px solid var(--light-border-color);
+}
+
+.thin-border-bottom {
+  border-bottom: 1px solid var(--light-border-color);
+}
+
+.hide .thin-border-bottom {
+  border-bottom: 1px solid var(--light-border-color);
+}
+
+.padding-sidebar {
+  padding: 1em 2em;
+  @media (min-width: 55em) {
+    padding: 1em 3em;
+  }
+}
+
+.c-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: 55em) {
+    display: grid;
+    place-items: center;
+    justify-items: baseline;
+  }
+}
+
+.img-size-m {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.img-size-s {
+  width: 2em;
+  height: 2em;
+}
+
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid currentColor;
+}
+
+.inline-list {
+  > li {
+    display: inline-block;
+  }
+}

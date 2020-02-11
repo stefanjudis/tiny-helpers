@@ -1,0 +1,12 @@
+{
+  "name": "Tailwind CSS Cheat Sheet",
+  "desc": "Quick search through Tailwind classes and styles",
+  "url": "https://nerdcave.com/tailwind-cheat-sheet",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "nerdcave"
+  ],
+  "addedAt": "2020-01-16"
+}
