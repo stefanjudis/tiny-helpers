@@ -1,0 +1,14 @@
+{
+  "name": "Ratio Buddy",
+  "desc": "Calculate CSS aspect ratio's",
+  "url": "https://ratiobuddy.com",
+  "tags": [
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "Tristam3000",
+    "benjackson84"
+  ],
+  "addedAt": "2020-01-16"
+}
