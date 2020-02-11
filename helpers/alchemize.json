@@ -1,0 +1,15 @@
+{
+  "name": "Alchemize",
+  "desc": "Minify, pretty print & view code or JSON snippets.",
+  "url": "https://alchemizeapp.com/",
+  "tags": [
+    "APIs",
+    "Code",
+    "HTML",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "ashkyd"
+  ],
+  "addedAt": "2020-01-16"
+}

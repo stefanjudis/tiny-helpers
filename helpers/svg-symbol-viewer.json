@@ -1,0 +1,12 @@
+{
+  "name": "SVG Symbol Viewer",
+  "desc": "An online, no-upload drag-and-drop SVG file symbol extractor and viewer",
+  "url": "https://svgsymbolviewer.io",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "@jaydenseric"
+  ],
+  "addedAt": "2020-01-13"
+}
