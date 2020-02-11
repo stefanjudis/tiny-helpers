@@ -243,6 +243,18 @@
     "addedAt": "2020-01-15"
   },
   {
+    "name": "d2d",
+    "desc": "Data and format conversion tool",
+    "url": "http://akx.github.io/d2d/",
+    "tags": [
+      "Code"
+    ],
+    "maintainers": [
+      "akx"
+    ],
+    "addedAt": "2020-02-11"
+  },
+  {
     "name": "Easings",
     "desc": "Preview and copy CSS easing curves",
     "url": "https://easings.netlify.com",
