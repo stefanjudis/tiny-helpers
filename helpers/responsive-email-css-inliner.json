@@ -1,0 +1,13 @@
+{
+  "name": "Responsive Email CSS Inliner",
+  "desc": "Paste your HTML with embedded CSS into the input field. We'll take your embedded CSS and inline those styles making your email templates bullet proof for any email client.",
+  "url": "https://htmlemail.io/inline/",
+  "tags": [
+    "CSS",
+    "HTML"
+  ],
+  "maintainers": [
+    "leemunroe"
+  ],
+  "addedAt": "2020-02-10"
+}
