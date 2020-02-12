@@ -1,0 +1,12 @@
+{
+  "name": "khroma",
+  "desc": "Create limiltess palettes with AI for you to discover, search, and save.",
+  "url": "http://khroma.co/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "georgehastings"
+  ],
+  "addedAt": "2020-02-06"
+}
