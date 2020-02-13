@@ -1,0 +1,12 @@
+{
+  "name": "Hashler",
+  "desc": "Compute different hashes of a string",
+  "url": "https://www.hashler.com/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "deviousdodo"
+  ],
+  "addedAt": "2020-02-13"
+}
