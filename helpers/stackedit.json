@@ -1,0 +1,12 @@
+{
+  "name": "Stackedit",
+  "desc": "In-browser Markdown editor",
+  "url": "https://stackedit.io/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "benweet"
+  ],
+  "addedAt": "2020-02-16"
+}
