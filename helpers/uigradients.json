@@ -1,0 +1,13 @@
+{
+  "name": "uiGradients",
+  "desc": "Choose a linear CSS gradient from a gallery",
+  "url": "https://uigradients.com/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "Ghosh"
+  ],
+  "addedAt": "2020-02-16"
+}
