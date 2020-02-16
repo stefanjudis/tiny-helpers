@@ -1,0 +1,11 @@
+{
+  "name": "Sass Colour Function Calculator",
+  "desc": "A tool for calculating the SASS colour function required to get from one colour to another.",
+  "url": "http://razorltd.github.io/sasscolourfunctioncalculator/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-02-16"
+}
