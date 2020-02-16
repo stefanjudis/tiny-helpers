@@ -1,7 +1,7 @@
 {
   "name": "Stackedit",
-  "desc": "In-browser Markdown editor",
-  "url": "https://stackedit.io/",
+  "desc": "Write and edit Markdown",
+  "url": "https://stackedit.io/app",
   "tags": [
     "Markdown"
   ],
