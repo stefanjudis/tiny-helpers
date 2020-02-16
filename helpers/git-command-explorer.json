@@ -1,0 +1,12 @@
+{
+  "name": "Git Command Explorer",
+  "desc": "Find the right commands you need without digging through the web",
+  "url": "https://gitexplorer.com/",
+  "tags": [
+    "git"
+  ],
+  "maintainers": [
+    "FatimahSanni"
+  ],
+  "addedAt": "2020-02-16"
+}
