@@ -1,0 +1,14 @@
+{
+  "name": "SQLite Viewer",
+  "desc": "View and query SQLite databases",
+  "url": "https://inloop.github.io/sqlite-viewer/",
+  "tags": [
+    "Data transformation",
+    "Misc",
+    "System Administration"
+  ],
+  "maintainers": [
+    "inloop"
+  ],
+  "addedAt": "2020-02-17"
+}
