@@ -1,0 +1,19 @@
+{
+  "name": "UITest.com Site Check",
+  "desc": "A helper to test a website in more than 80 web-based analysis tools",
+  "url": "https://uitest.com/check/",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "Misc",
+    "Network",
+    "Performance",
+    "Security"
+  ],
+  "maintainers": [
+    "j9t"
+  ],
+  "addedAt": "2020-02-17"
+}
