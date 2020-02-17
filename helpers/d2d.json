@@ -3,7 +3,8 @@
   "desc": "Data and format conversion tool",
   "url": "http://akx.github.io/d2d/",
   "tags": [
-    "Code"
+    "Code",
+    "Data transformation"
   ],
   "maintainers": [
     "akx"
