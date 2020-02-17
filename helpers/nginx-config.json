@@ -1,0 +1,10 @@
+{
+  "name": "NGINX Config",
+  "desc": "The easiest way to configure a performant, secure, and stable NGINX server.",
+  "url": "https://www.digitalocean.com/community/tools/nginx",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-02-17"
+}
