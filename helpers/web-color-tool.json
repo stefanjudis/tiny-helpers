@@ -2,7 +2,11 @@
   "name": "Web Color Tool",
   "desc": "Convert RGB/HSL/Hex, explore harmonies, copy values with a click",
   "url": "https://color.joelb.dev",
-  "tags": ["Color"],
-  "maintainers": ["murbar"],
-  "addedAt": "2020-02-15"
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "murbar"
+  ],
+  "addedAt": "2020-02-19"
 }

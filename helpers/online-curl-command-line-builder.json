@@ -3,10 +3,11 @@
   "desc": "Generate curl command lines to test your new shining API or whatever easily!",
   "url": "https://curlbuilder.com/",
   "tags": [
+    "Command line",
     "HTTP"
   ],
   "maintainers": [
-    "@tuxone"
+    "tuxone"
   ],
-  "addedAt": "2020-02-05"
+  "addedAt": "2020-02-19"
 }
