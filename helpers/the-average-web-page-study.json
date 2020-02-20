@@ -1,0 +1,14 @@
+{
+  "name": "The average web page study",
+  "desc": "Inspect the average HTML web page, using data from millions of index pages",
+  "url": "https://www.advancedwebranking.com/html/",
+  "tags": [
+    "HTML",
+    "SVG"
+  ],
+  "maintainers": [
+    "catalinred",
+    "caphyon"
+  ],
+  "addedAt": "2020-02-20"
+}
