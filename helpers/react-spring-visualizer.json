@@ -1,0 +1,13 @@
+{
+  "name": "React-spring visualizer",
+  "desc": "Tweak your spring animation configuration",
+  "url": "https://react-spring-visualizer.com/",
+  "tags": [
+    "Animations",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "JoostKiens"
+  ],
+  "addedAt": "2020-01-21"
+}
