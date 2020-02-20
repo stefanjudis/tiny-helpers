@@ -1,13 +1,14 @@
 {
   "name": "Remix Icon",
-  "desc": "Open source neutral style icon system",
+  "desc": "Find almost any type of SVG/PNG icon",
   "url": "https://remixicon.com",
   "tags": [
+    "Images",
     "SVG"
   ],
   "maintainers": [
     "wendygaoyuan",
-    " xiaochunjimmy"
+    "xiaochunjimmy"
   ],
   "addedAt": "2020-02-18"
 }
