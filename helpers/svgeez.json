@@ -1,0 +1,12 @@
+{
+  "name": "SVGeez",
+  "desc": "SVG background pattern generator",
+  "url": "https://svgeez.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "meganeggan"
+  ],
+  "addedAt": "2020-02-22"
+}
