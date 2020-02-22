@@ -1,0 +1,12 @@
+{
+  "name": "ShellCheck",
+  "desc": "Finds bugs in your shell scripts",
+  "url": "https://www.shellcheck.net/",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [
+    "koalaman"
+  ],
+  "addedAt": "2020-02-22"
+}
