@@ -3,9 +3,8 @@
   "desc": "Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community.",
   "url": "https://www.virustotal.com/",
   "tags": [
-    "APIs",
     "Security"
   ],
   "maintainers": [],
-  "addedAt": "2020-02-06"
+  "addedAt": "2020-02-23"
 }
