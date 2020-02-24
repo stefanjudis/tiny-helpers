@@ -1,0 +1,16 @@
+{
+  "name": "Bundlephobia",
+  "desc": "Find the cost of adding a npm package to your bundle",
+  "url": "https://bundlephobia.com",
+  "tags": [
+    "Accessibility",
+    "Code",
+    "Generated Data",
+    "JavaScript",
+    "Performance"
+  ],
+  "maintainers": [
+    "pastelsky"
+  ],
+  "addedAt": "2020-02-24"
+}
