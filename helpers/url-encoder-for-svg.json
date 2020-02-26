@@ -3,6 +3,7 @@
   "url": "https://yoksel.github.io/url-encoder/",
   "desc": "URL-encode your SVGs",
   "tags": [
+    "Data transformation",
     "SVG"
   ],
   "maintainers": [

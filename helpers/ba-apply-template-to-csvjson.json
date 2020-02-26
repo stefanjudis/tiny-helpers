@@ -1,0 +1,13 @@
+{
+  "name": "BA Apply Template to CSV/JSON",
+  "desc": "Apply a template to CSV/JSON data and convert it",
+  "url": "https://www.brianapps.com/csv-to-template",
+  "tags": [
+    "Code",
+    "Data transformation"
+  ],
+  "maintainers": [
+    "brakon"
+  ],
+  "addedAt": "2020-02-17"
+}
