@@ -3,11 +3,8 @@
   "desc": "Generates Script and style hashs for content-security-policies with script-src and style-src directives to disallow inline scripts and styles.",
   "url": "https://report-uri.com/home/hash",
   "tags": [
-    "HTML",
     "Security"
   ],
-  "maintainers": [
-    "report-uri"
-  ],
+  "maintainers": [],
   "addedAt": "2020-02-25"
 }
