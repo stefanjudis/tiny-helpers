@@ -1,0 +1,13 @@
+{
+  "name": "Color Namer",
+  "desc": "Easily lookup variable names for your colors",
+  "url": "https://colornamer.netlify.com/",
+  "tags": [
+    "Code",
+    "Color"
+  ],
+  "maintainers": [
+    "robertcoopercode"
+  ],
+  "addedAt": "2020-02-26"
+}
