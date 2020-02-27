@@ -1,0 +1,13 @@
+{
+  "name": "Transparent Textures",
+  "desc": "Search for transparent patterns that can be used as background images with any background color in CSS.",
+  "url": "https://transparenttextures.com/",
+  "tags": [
+    "CSS",
+    "Images"
+  ],
+  "maintainers": [
+    "mike-hearn"
+  ],
+  "addedAt": "2020-02-27"
+}
