@@ -113,3 +113,6 @@ static/*.js
 static/*.xml
 static/*.html
 TODO.txt
+
+#WebStorm IDE
+.idea

@@ -1,0 +1,19 @@
+.skip-link {
+  position: absolute;
+  top: -999px;
+  left: -999px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  background: var(--canvas-bg-color);
+
+  &:active,
+  &:focus,
+  &:hover {
+    left: 1em;
+    top: 1em;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+}
