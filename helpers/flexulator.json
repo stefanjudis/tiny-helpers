@@ -1,6 +1,6 @@
 {
   "name": "flexulator",
-  "desc": "A visual flexbox spacing distribution calculator",
+  "desc": "Understand how the flexbox spacing formula works right in the browser",
   "url": "https://www.flexulator.com",
   "tags": [
     "CSS"
