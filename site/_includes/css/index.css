@@ -2,6 +2,7 @@
 @import './components/_buttons.css';
 @import './components/_card.css';
 @import './components/_nav.css';
+@import './components/_skip-link.css';
 @import './util/_colors.css';
 @import './util/_dimensions.css';
 @import './util/_fonts.css';
