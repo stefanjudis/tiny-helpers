@@ -60,7 +60,7 @@
           </ul>
         </div>
       {% endif %}
-      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}">Go to {{ item.name }}</a>
+      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=tiny-helpers">Go to {{ item.name }}</a>
     </li>
   {% endfor %}
   </ol>
