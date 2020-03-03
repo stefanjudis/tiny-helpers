@@ -1,0 +1,12 @@
+{
+  "name": "Leaflet-Geoman",
+  "desc": "A Leaflet Plugin For Drawing and Editing Geometry Layers",
+  "url": "https://geoman.io/leaflet-geoman",
+  "tags": [
+    "json"
+  ],
+  "maintainers": [
+    "codeofsumit"
+  ],
+  "addedAt": "2020-03-03"
+}
