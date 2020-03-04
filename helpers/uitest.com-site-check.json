@@ -3,16 +3,10 @@
   "desc": "Test a website in more than 80 web-based analysis tools",
   "url": "https://uitest.com/check/",
   "tags": [
-    "Accessibility",
-    "CSS",
-    "HTML",
-    "JavaScript",
-    "Network",
-    "Performance",
-    "Security"
+    "Site analyzers"
   ],
   "maintainers": [
     "j9t"
   ],
-  "addedAt": "2020-02-17"
+  "addedAt": "2020-03-04"
 }
