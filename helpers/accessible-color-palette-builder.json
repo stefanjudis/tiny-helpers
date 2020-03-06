@@ -1,6 +1,6 @@
 {
   "name": "Accessible color palette builder",
-  "desc": "Tool to help designers build color palettes with combinations that conform with accessibility standards.",
+  "desc": "Create color palettes with combinations that conform with accessibility standards.",
   "url": "https://toolness.github.io/accessible-color-matrix/",
   "tags": [
     "Accessibility",
