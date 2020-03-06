@@ -3,10 +3,11 @@
   "desc": "Generate proportionate size units",
   "url": "https://www.modularscale.com",
   "tags": [
-    "CSS"
+    "CSS",
+    "Fonts"
   ],
   "maintainers": [
     "modularscale"
   ],
-  "addedAt": "2020-03-04"
+  "addedAt": "2020-03-06"
 }
