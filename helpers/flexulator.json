@@ -1,0 +1,12 @@
+{
+  "name": "flexulator",
+  "desc": "Understand how the flexbox spacing formula works right in the browser",
+  "url": "https://www.flexulator.com",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "telagraphic"
+  ],
+  "addedAt": "2020-02-28"
+}
