@@ -1,0 +1,16 @@
+{
+  "name": "Mocki",
+  "desc": "Create mock APIs, simulate failures and generate test data at scale",
+  "url": "https://mocki.io",
+  "tags": [
+    "APIs",
+    "Generated Data",
+    "HTTP",
+    "JSON"
+  ],
+  "maintainers": [
+    "keaeriksson",
+    "lennart-johansson"
+  ],
+  "addedAt": "2020-03-08"
+}
