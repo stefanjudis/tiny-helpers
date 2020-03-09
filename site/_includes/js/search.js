@@ -1,7 +1,8 @@
 // This JavaScript is bundled together with the variable 'searchItems' from the
 // file 'static/searchData.json'. This variable is an array and contains items with
 // 'name' and 'desc' properties that are lowercase.
-{
+
+(function () {
   const helpers = searchItems;
 
   // Get the search term from the querystring
@@ -72,4 +73,5 @@
       if (callNow) func.apply(context, args);
     };
   }
-}
+
+})();
