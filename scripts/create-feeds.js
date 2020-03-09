@@ -8,7 +8,7 @@ const { toSlug } = require('../lib/slug');
 (async () => {
   const helpers = await getHelpers();
   try {
-    const feed = new Feed({
+    const rssFeed = new Feed({
       title: 'Tiny Helpers',
       description,
       id: 'https://tiny-helpers.dev/',
@@ -29,10 +29,13 @@ const { toSlug } = require('../lib/slug');
       }
     });
 
+    const searchItems = [];
+
     helpers
       .sort((a, b) => (new Date(a.addedAt) < new Date(b.addedAt) ? 1 : -1))
       .forEach(({ addedAt, name, desc, url }) => {
-        feed.addItem({
+
+        rssFeed.addItem({
           title: `New helper added: ${name} – ${desc}.`,
           id: toSlug(name),
           link: url,
@@ -41,10 +44,21 @@ const { toSlug } = require('../lib/slug');
           date: new Date(addedAt),
           image: `https://tiny-helpers.dev/screenshots/${toSlug(name)}@1.jpg`
         });
+
+        // Lowercase the properties for search so it's safe to just match on lowercase
+        searchItems.push({
+          id: toSlug(name),
+          name: name.toLowerCase(),
+          desc: desc.toLowerCase(),
+        });
       });
 
     console.log('Writing rss feed');
-    writeFile(join('.', 'static', 'feed.xml'), feed.rss2());
+    await writeFile(join('.', 'static', 'feed.xml'), rssFeed.rss2());
+
+    console.log('Writing search data');
+    await writeFile(join('.', 'static', 'searchData.json'), JSON.stringify(searchItems), 'utf8');
+
   } catch (error) {
     console.error(error);
     process.exit(1);

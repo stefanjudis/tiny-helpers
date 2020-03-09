@@ -1,6 +1,6 @@
 {
   "name": "tiny-helpers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of free single-purpose online tools for web developers...",
   "main": "index.js",
   "scripts": {

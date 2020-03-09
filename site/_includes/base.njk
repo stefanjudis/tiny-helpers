@@ -41,6 +41,19 @@
   <style>
     {{ styles | safe }}
   </style>
+
+  <script>
+    {
+      // Only if JS is enabled will the search input be displayed
+      document.write('<style>.js-search-visible { display: block !important; }</style>');
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('q')) {
+        // If JS is enabled and there is a querystring search term then hide the helpers until we've filtered
+        document.write('<style>.js-helpers-hidden { display: none; }</style>');
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -60,6 +73,8 @@
     {% include "js/main.js" %}
   {% endset %}
   <script type="module">{{ js | jsmin | safe }}</script>
+
+  <script src="/search.js"></script>
 </body>
 
 </html>
