@@ -1,8 +1,9 @@
 {
   "name": "Chmod Calculator",
   "url": "https://chmod-calculator.com/",
-  "desc": "Chmod Calculator to convert Linux file permissions between different formats",
+  "desc": "Convert Linux file permissions between different formats",
   "tags": [
+    "System administration",
     "Misc"
   ],
   "maintainers": [
