@@ -1,0 +1,10 @@
+{
+  "name": "JSON Formatter",
+  "desc": "View, edit, format, and validate JSON",
+  "url": "https://jsonformatter-online.com/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-03-03"
+}
