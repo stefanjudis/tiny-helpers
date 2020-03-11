@@ -112,6 +112,7 @@ static/screenshots
 static/*.js
 static/*.xml
 static/*.html
+static/*.json
 TODO.txt
 
 #WebStorm IDE

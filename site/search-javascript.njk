@@ -1,0 +1,10 @@
+---
+permalink: search.js
+eleventyExcludeFromCollections: true
+---
+const searchItems = {% include "../static/searchData.json" %};
+
+{% set js %}
+  {% include "js/search.js" %}
+{% endset %}
+{{ js | safe }}
