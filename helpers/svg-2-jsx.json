@@ -1,0 +1,13 @@
+{
+  "name": "SVG 2 JSX",
+  "desc": "Transform SVG into valid JSX",
+  "url": "https://svg2jsx.com/",
+  "tags": [
+    "JavaScript",
+    "SVG"
+  ],
+  "maintainers": [
+    "balajmarius"
+  ],
+  "addedAt": "2020-03-11"
+}
