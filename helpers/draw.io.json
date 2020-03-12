@@ -1,0 +1,12 @@
+{
+  "name": "draw.io",
+  "desc": "Draw and share UML, shemas and mockups",
+  "url": "https://draw.io",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "Ben1980"
+  ],
+  "addedAt": "2020-03-12"
+}
