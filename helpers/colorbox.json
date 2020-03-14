@@ -1,0 +1,11 @@
+{
+  "name": "ColorBox",
+  "desc": "Build color systems for accessible UIs",
+  "url": "https://www.colorbox.io",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-03-13"
+}
