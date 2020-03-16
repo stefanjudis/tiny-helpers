@@ -1,5 +1,5 @@
 const pLimit = require('p-limit');
-const puppeteer = require('puppeteer');
+const chrome = require('chrome-aws-lambda');
 const { stat } = require('fs').promises;
 const { join } = require('path');
 const Jimp = require('jimp');
@@ -31,7 +31,7 @@ async function makeScreenshots(browser, helper, screenshotDir) {
       height: 600
     });
     await page.goto(helper.url);
-    // sleep to get a proper screenshot sites showing a spinner
+    // sleep to get a proper screenshot of sites showing a spinner
     await sleep(5000);
     await page.screenshot({ path: doubleSize });
     await page.close();
@@ -50,7 +50,11 @@ async function makeScreenshots(browser, helper, screenshotDir) {
   const screenshotDir = join(__dirname, '..', 'static', 'screenshots');
   const helpers = await getHelpers();
   console.log('Taking screenshots...');
-  const browser = await puppeteer.launch();
+  const browser = await chrome.puppeteer.launch({
+    args: chrome.args,
+    executablePath: await chrome.executablePath,
+    headless: true
+  });
   const limit = pLimit(8);
   const screenshotPromises = helpers.map(helper =>
     limit(() => makeScreenshots(browser, helper, screenshotDir))
