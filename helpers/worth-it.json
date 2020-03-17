@@ -1,6 +1,6 @@
 {
   "name": "Worth It",
-  "desc": "Analyze a page to determine how much less JavaScript is downloaded using module/nomodule",
+  "desc": "Determine how much less JavaScript is downloaded using module/nomodule",
   "url": "https://module-nomodule-calculator.glitch.me/",
   "tags": [
     "JavaScript",
