@@ -1,0 +1,14 @@
+{
+  "name": "Color Cube",
+  "desc": "Evaluate an entire brand color palette for WCAG 2.1 compliance and 
+           adjust on the fly with the HSL color model",
+  "url": "https://oomphinc.github.io/colorcube/",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "jhogue"
+  ],
+  "addedAt": "2020-03-17"
+}
