@@ -47,18 +47,23 @@ async function makeScreenshots(browser, helper, screenshotDir) {
 }
 
 (async () => {
-  const screenshotDir = join(__dirname, '..', 'static', 'screenshots');
-  const helpers = await getHelpers();
-  console.log('Taking screenshots...');
-  const browser = await chrome.puppeteer.launch({
-    args: chrome.args,
-    executablePath: await chrome.executablePath,
-    headless: true
-  });
-  const limit = pLimit(8);
-  const screenshotPromises = helpers.map(helper =>
-    limit(() => makeScreenshots(browser, helper, screenshotDir))
-  );
-  await Promise.all(screenshotPromises);
-  await browser.close();
+  try {
+    const screenshotDir = join(__dirname, '..', 'static', 'screenshots');
+    const helpers = await getHelpers();
+    console.log('Taking screenshots...');
+    const browser = await chrome.puppeteer.launch({
+      args: chrome.args,
+      executablePath: await chrome.executablePath,
+      headless: true
+    });
+    const limit = pLimit(8);
+    const screenshotPromises = helpers.map(helper =>
+      limit(() => makeScreenshots(browser, helper, screenshotDir))
+    );
+    await Promise.all(screenshotPromises);
+    await browser.close();
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
+  }
 })();
