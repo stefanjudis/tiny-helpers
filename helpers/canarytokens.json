@@ -1,12 +1,10 @@
 {
   "name": "Canarytokens",
-  "desc": "Create canarytokens for URL/DNS/etc. to notify you in case of someone is breachin into your system. Canary tokens are a free, quick, painless way to help defenders discover they've been breached.",
+  "desc": "Create canarytokens for URL/DNS/etc. to notify you in case of someone is breachin into your system.",
   "url": "https://canarytokens.org",
   "tags": [
     "System Administration"
   ],
-  "maintainers": [
-    "Ben1980"
-  ],
-  "addedAt": "2020-03-13"
+  "maintainers": [],
+  "addedAt": "2020-03-18"
 }
