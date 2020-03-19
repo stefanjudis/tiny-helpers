@@ -1,0 +1,8 @@
+{
+  "name": "Screen size map",
+  "desc": "See a comparison of screen sizes in device-independent pixel.",
+  "url": "https://screensizemap.com/",
+  "tags": ["Misc"],
+  "maintainers": ["johholl"],
+  "addedAt": "2020-03-19"
+}
