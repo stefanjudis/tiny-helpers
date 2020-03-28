@@ -12,6 +12,7 @@ module.exports = async function() {
         .map(contributor => contributor.login)
         .filter(contributor => contributor !== 'stefanjudis');
     } catch (e) {
+      console.error(e);
       return [];
     }
   } else {
