@@ -2,7 +2,6 @@ const got = require('got');
 
 module.exports = async function() {
   // don't hit the API on every rebuild due to rate limits
-  console.log(process.env.NODE_ENV);
   if (process.env.NODE_ENV === 'production') {
     try {
       const response = await got(
