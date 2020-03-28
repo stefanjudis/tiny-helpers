@@ -11,7 +11,8 @@
   ],
   "build": {
     "env": {
-      "NODE_ENV": "@node_env"
+      "NODE_ENV": "@node_env",
+      "GITHUB_ACCESS_TOKEN": "@github_access_token"
     }
   }
 }
