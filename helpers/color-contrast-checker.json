@@ -1,0 +1,13 @@
+{
+  "name": "Color contrast checker",
+  "desc": "Quickly check the contrast between colors and get suggestions for better colors",
+  "url": "https://polypane.app/color-contrast/",
+  "tags": [
+    "Animations",
+    "Color"
+  ],
+  "maintainers": [
+    "Kilian"
+  ],
+  "addedAt": "2020-03-30"
+}
