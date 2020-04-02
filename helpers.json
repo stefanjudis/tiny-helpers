@@ -37,6 +37,20 @@
     "addedAt": "2019-12-29"
   },
   {
+    "name": "BEM Cheat Sheet",
+    "desc": "When it comes to finding the right class name, it can quickly drive you to despair. Even the most experienced CSS developers don't always find the right class name right away. This tool aims to help you to not get lost in the BEM cosmos by giving you naming-suggestions for some of the most common web components.",
+    "url": "https://9elements.com/bem-cheat-sheet/",
+    "tags": [
+      "CSS",
+      "HTML"
+    ],
+    "maintainers": [
+      "enbee81",
+      "9elements"
+    ],
+    "addedAt": "2020-04-02"
+  },
+  {
     "name": "carbon",
     "desc": "Create and share beautiful images of your source code",
     "url": "https://carbon.now.sh/",
