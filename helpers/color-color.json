@@ -1,0 +1,13 @@
+{
+  "name": "color × color",
+  "desc": "Generate color systems using HSLuv color space.",
+  "url": "https://colorcolor.in",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "saneef"
+  ],
+  "addedAt": "2020-03-31"
+}
