@@ -1,0 +1,13 @@
+{
+  "name": "vue-jest-TDD-template",
+  "desc": "Create a test file template for your Vue components",
+  "url": "https://vue-tdd-template.herokuapp.com/",
+  "tags": [
+    "Generated Data",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "metamoni"
+  ],
+  "addedAt": "2020-04-13"
+}
