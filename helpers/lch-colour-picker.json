@@ -1,0 +1,14 @@
+{
+  "name": "LCH Colour Picker",
+  "desc": "A color picker for the larger, perceptually uniform LCH (“Lightness Chroma Hue”) color space",
+  "url": "https://css.land/lch/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    " LeaVerou",
+    "svgeesus"
+  ],
+  "addedAt": "2020-04-20"
+}
