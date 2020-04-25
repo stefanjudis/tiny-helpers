@@ -1,0 +1,13 @@
+{
+  "name": "CSS2JS",
+  "desc": "CSS2JS: Convert CSS to a JavaScript Object",
+  "url": "https://css2js.dotenv.dev/",
+  "tags": [
+    "CSS",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "SaraVieira"
+  ],
+  "addedAt": "2020-03-26"
+}

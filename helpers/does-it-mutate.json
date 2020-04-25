@@ -1,0 +1,13 @@
+{
+  "name": "Does it mutate?",
+  "desc": "Get a comprehensive list of JavaScript array methods describing whether a given method mutates the original array or not.",
+  "url": "https://doesitmutate.xyz/",
+  "tags": [
+    "Code",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "remy"
+  ],
+  "addedAt": "2020-03-27"
+}
