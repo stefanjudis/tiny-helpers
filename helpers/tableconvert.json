@@ -3,8 +3,7 @@
   "desc": "Convert between CSV/TSV, Excel, HTML, JSON, Markdown, and LaTeX tables",
   "url": "https://tableconvert.com/",
   "tags": [
-    "Data transformation",
-    "Database"
+    "Data transformation"
   ],
   "maintainers": [],
   "addedAt": "2020-04-26"
