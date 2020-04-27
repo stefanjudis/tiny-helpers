@@ -1,0 +1,11 @@
+{
+  "name": "gitignore.io",
+  "desc": "Create useful .gitignore files for your project",
+  "url": "https://www.gitignore.io/",
+  "tags": [
+    "Command line",
+    "git"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-04-27"
+}
