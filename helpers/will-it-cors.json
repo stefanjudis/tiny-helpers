@@ -1,0 +1,11 @@
+{
+  "name": "Will it CORS?",
+  "desc": "Get instructions on how CORS work and what to do",
+  "url": "https://httptoolkit.tech/will-it-cors/",
+  "tags": [
+    "HTTP",
+    "Security"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-05-01"
+}
