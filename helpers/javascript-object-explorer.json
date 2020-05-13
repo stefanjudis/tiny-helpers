@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript Object Explorer",
+  "desc": "Find the object method you need without digging through the docs",
+  "url": "https://objectexplorer.netlify.app/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "sdras"
+  ],
+  "addedAt": "2020-05-13"
+}
