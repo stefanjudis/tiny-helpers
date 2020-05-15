@@ -1,0 +1,12 @@
+{
+  "name": "commandlinefu.com",
+  "desc": "commandlinefu.com is the place to record those command-line gems that you return to again and again. That way others can gain from your CLI wisdom and you from theirs too. All commands can be commented on, discussed and voted up or down.",
+  "url": "https://www.commandlinefu.com/",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [
+    "https://github.com/codeinthehole"
+  ],
+  "addedAt": "2020-05-15"
+}
