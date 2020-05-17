@@ -1,0 +1,12 @@
+{
+  "name": "SVG Path Editor",
+  "desc": "Create and manipulate SVG paths",
+  "url": "https://yqnn.github.io/svg-path-editor/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "Yqnn"
+  ],
+  "addedAt": "2020-05-17"
+}
