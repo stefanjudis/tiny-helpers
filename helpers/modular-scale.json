@@ -1,0 +1,13 @@
+{
+  "name": "Modular Scale",
+  "desc": "Generate proportionate size units",
+  "url": "https://www.modularscale.com",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [
+    "modularscale"
+  ],
+  "addedAt": "2020-03-06"
+}
