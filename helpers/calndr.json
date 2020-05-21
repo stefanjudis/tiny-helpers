@@ -1,0 +1,13 @@
+{
+  "name": "Calndr",
+  "desc": "Dead simple & free add to calendar links + API",
+  "url": "https://calndr.link/",
+  "tags": [
+    "APIs",
+    "Misc"
+  ],
+  "maintainers": [
+    "atymic"
+  ],
+  "addedAt": "2020-05-21"
+}
