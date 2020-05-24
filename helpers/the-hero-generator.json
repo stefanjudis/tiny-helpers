@@ -1,0 +1,13 @@
+{
+  "name": "The Hero Generator",
+  "desc": "Generates the code for hero pages",
+  "url": "https://hero-generator.netlify.app/",
+  "tags": [
+    "CSS",
+    "HTML"
+  ],
+  "maintainers": [
+    "sdras"
+  ],
+  "addedAt": "2020-04-28"
+}

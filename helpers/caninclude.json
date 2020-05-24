@@ -1,0 +1,12 @@
+{
+  "name": "caninclude",
+  "desc": "Check which HTML tag you can include in another one",
+  "url": "https://caninclude.glitch.me/",
+  "tags": [
+    "HTML"
+  ],
+  "maintainers": [
+    "CyberLight"
+  ],
+  "addedAt": "2020-04-30"
+}

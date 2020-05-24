@@ -1,13 +1,16 @@
 {
   "name": "CSS2JS",
-  "desc": "CSS2JS: Convert CSS to a JavaScript Object",
+  "desc": "Transform between CSS, JS Objects and React props.",
   "url": "https://css2js.dotenv.dev/",
   "tags": [
     "CSS",
+    "Data transformation",
     "JavaScript"
   ],
   "maintainers": [
-    "SaraVieira"
+    "SaraVieira",
+    "nimobeeren",
+    "impulsivetomato"
   ],
-  "addedAt": "2020-03-26"
+  "addedAt": "2020-05-21"
 }

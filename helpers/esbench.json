@@ -1,0 +1,11 @@
+{
+  "name": "ESBench",
+  "desc": "Create shareable JavaScript benchmarks",
+  "url": "https://esbench.com/",
+  "tags": [
+    "JavaScript",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-04-30"
+}

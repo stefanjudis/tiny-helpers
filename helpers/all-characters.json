@@ -1,0 +1,12 @@
+{
+  "name": "All Characters",
+  "desc": "Shows all the different characters and their HTML/CSS equivalent",
+  "url": "https://aymkdn.github.io/characters/",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [
+    "aymkdn"
+  ],
+  "addedAt": "2020-05-06"
+}

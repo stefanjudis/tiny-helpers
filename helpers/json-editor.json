@@ -1,0 +1,12 @@
+{
+  "name": "JSON Editor",
+  "desc": "JSON Editor is an online web based tool to view, edit, and format JSON",
+  "url": "https://jsoneditor.org/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "bsadhwani"
+  ],
+  "addedAt": "2020-05-08"
+}

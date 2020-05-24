@@ -1,0 +1,14 @@
+{
+  "name": "better-mobile-inputs",
+  "desc": "Find which combinations of attributes work best for your inputs",
+  "url": "https://better-mobile-inputs.netlify.app",
+  "tags": [
+    "Accessibility",
+    "Forms",
+    "HTML"
+  ],
+  "maintainers": [
+    "aholachek"
+  ],
+  "addedAt": "2020-05-15"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "web.dev Measure",
+  "desc": "Get the web's modern capabilities on your own sites and apps with useful guidance and analysis from web.dev",
+  "url": "https://web.dev/measure/",
+  "tags": [
+    "Site analyzers"
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2020-05-06"
+}
