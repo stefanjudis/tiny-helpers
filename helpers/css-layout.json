@@ -1,0 +1,12 @@
+{
+  "name": "CSS Layout",
+  "desc": "A collection of popular layouts and patterns made with CSS",
+  "url": "https://csslayout.io/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "phuoc-ng"
+  ],
+  "addedAt": "2020-05-13"
+}
