@@ -32,7 +32,7 @@ module.exports = async function () {
       }
       const options = {
         headers: {
-          authorization: `token 6e4e03c71b3372b70e391b281335eec349adbb17`,
+          authorization: `token ${GITHUB_ACCESS_TOKEN}`,
         },
       };
 
