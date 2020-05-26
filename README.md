@@ -19,5 +19,15 @@ npm ci
 npm run helper:add
 ```
 
+### Add a new helper
+
 👆 `npm run helper:add` will ask a few questions and create a file in `helpers/`.
 Commit the changes and [open a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+### Run the project locally
+
+This project uses Vercel's routing configuration. The `/` route doesn't work locally. To start, navigate to `localhost:8080/home/` after running `npm run dev`.
+
+```
+npm run dev
+```

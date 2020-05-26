@@ -1,0 +1,13 @@
+{
+  "name": "mailtolink.me",
+  "desc": "Quickly create mailto links with receipients, subject and body",
+  "url": "https://mailtolink.me/",
+  "tags": [
+    "Email",
+    "Misc"
+  ],
+  "maintainers": [
+    "mckeever02"
+  ],
+  "addedAt": "2020-05-19"
+}
