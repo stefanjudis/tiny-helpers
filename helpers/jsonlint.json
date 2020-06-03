@@ -1,0 +1,13 @@
+{
+  "name": "JSONLint",
+  "desc": "Validate your JSON",
+  "url": "https://jsonlint.com/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "circlecell",
+    "zaach"
+  ],
+  "addedAt": "2020-01-29"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Stackedit",
+  "desc": "Write and edit Markdown",
+  "url": "https://stackedit.io/app",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "benweet"
+  ],
+  "addedAt": "2020-02-16"
+}

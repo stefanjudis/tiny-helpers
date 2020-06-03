@@ -1,0 +1,12 @@
+{
+  "name": "Flexbox Playground",
+  "desc": "Visually explore building out any flexbox layout and view generated HTML/CSS markup",
+  "url": "https://flexbox.tech",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "mikemcbride"
+  ],
+  "addedAt": "2020-01-28"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "alter.email",
+  "desc": "Transform your HTML emails",
+  "url": "https://alter.email/",
+  "tags": [
+    "Email"
+  ],
+  "maintainers": [
+    "cossssmin"
+  ],
+  "addedAt": "2020-04-15"
+}

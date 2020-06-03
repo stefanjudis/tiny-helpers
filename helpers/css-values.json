@@ -1,0 +1,12 @@
+{
+  "name": "CSS values",
+  "desc": "Quickly find CSS property references",
+  "url": "https://cssvalues.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "impressivewebs"
+  ],
+  "addedAt": "2020-02-25"
+}

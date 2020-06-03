@@ -1,0 +1,12 @@
+{
+  "name": "The Front-End Checklist",
+  "desc": "A checklist to build great websites",
+  "url": "https://frontendchecklist.io/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "thedaviddias"
+  ],
+  "addedAt": "2020-04-09"
+}

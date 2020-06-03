@@ -1,0 +1,12 @@
+{
+  "name": "Dillinger",
+  "desc": "Write and edit Markdown",
+  "url": "https://dillinger.io/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "joemccann"
+  ],
+  "addedAt": "2020-02-03"
+}

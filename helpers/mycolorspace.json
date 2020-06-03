@@ -1,0 +1,10 @@
+{
+  "name": "MyColorSpace",
+  "desc": "Enter a color and generate nice color palettes.",
+  "url": "https://mycolor.space/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-02-06"
+}

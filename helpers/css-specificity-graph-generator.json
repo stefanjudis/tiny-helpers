@@ -1,0 +1,12 @@
+{
+  "name": "CSS Specificity Graph Generator",
+  "desc": "Generate an interactive line graph showing the specificity in your stylesheet",
+  "url": "https://jonassebastianohlsson.com/specificity-graph/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "pocketjoso"
+  ],
+  "addedAt": "2020-02-14"
+}

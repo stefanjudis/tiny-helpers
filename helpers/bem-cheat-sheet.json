@@ -1,0 +1,12 @@
+{
+  "name": "BEM Cheat Sheet",
+  "desc": "Find consistent class names for common web components",
+  "url": "https://9elements.com/bem-cheat-sheet/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "enbee81"
+  ],
+  "addedAt": "2020-04-03"
+}

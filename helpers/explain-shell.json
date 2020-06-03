@@ -1,0 +1,12 @@
+{
+  "name": "Explain Shell",
+  "desc": "Write down a command-line to see the help text that matches each argument",
+  "url": "https://explainshell.com/",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [
+    "idank"
+  ],
+  "addedAt": "2020-01-16"
+}

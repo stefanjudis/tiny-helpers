@@ -2,13 +2,17 @@
 @import './components/_buttons.css';
 @import './components/_card.css';
 @import './components/_nav.css';
+@import './components/_skip-link.css';
 @import './util/_colors.css';
 @import './util/_dimensions.css';
 @import './util/_fonts.css';
+@import './util/_flex.css';
+@import './util/_grid.css';
 @import './util/_paddings.css';
 @import './util/_position.css';
 @import './util/_margins.css';
 @import './util/_shadows.css';
+@import './util/_visibility.css';
 @import './_fonts.css';
 
 body {
@@ -33,20 +37,6 @@ body {
     height: 100%;
     grid-template-columns: var(--desktop-sidebar-width) 1fr;
     grid-template-rows: var(--desktop-topbar-height) 1fr;
-  }
-}
-
-.hide-large {
-  @media (min-width: 55em) {
-    display: none;
-  }
-}
-
-.hide-small {
-  display: none;
-
-  @media (min-width: 55em) {
-    display: block;
   }
 }
 
@@ -75,6 +65,10 @@ body {
   flex-direction: column;
 }
 
+.thin-border {
+  border: 1px solid var(--light-border-color);
+}
+
 .thin-border-bottom {
   border-bottom: 1px solid var(--light-border-color);
 }
@@ -91,19 +85,25 @@ body {
 }
 
 .c-logo {
-  display: grid;
-  grid-template-columns: 2em auto max-content;
-  grid-gap: 1em;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 
   @media (min-width: 55em) {
-    grid-template-columns: 2em auto;
+    display: grid;
+    place-items: center;
+    justify-items: baseline;
   }
 }
 
 .img-size-m {
   width: 2.5em;
   height: 2.5em;
+}
+
+.img-size-s {
+  width: 2em;
+  height: 2em;
 }
 
 .circle {

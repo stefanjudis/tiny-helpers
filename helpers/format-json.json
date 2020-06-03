@@ -1,0 +1,12 @@
+{
+  "name": "Format JSON",
+  "desc": "Format and compare two JSON files",
+  "url": "https://formatjson.com",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "srmeyers"
+  ],
+  "addedAt": "2020-02-04"
+}

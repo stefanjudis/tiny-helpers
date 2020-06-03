@@ -3,7 +3,8 @@
   "url": "https://transform.tools/",
   "desc": "Transform code into something else",
   "tags": [
-    "Code"
+    "Code",
+    "Data transformation"
   ],
   "maintainers": [
     "ritz078"

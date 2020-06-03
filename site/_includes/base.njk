@@ -29,17 +29,31 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  {% if renderData.isCanonical %}
+    {% if tag.slug == 'home' %}
+      <link rel="canonical" href="/" />
+    {% else %}
+      <link rel="canonical" href="/{{ tag.slug }}/" />
+    {% endif %}
+  {% endif %}
+
   <style>
     {{ styles | safe }}
   </style>
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link padding-xs">Skip to main content</a>
+
   <div class="container">
     {% include 'templates/_logo.njk' %}
     {% include 'templates/_social.njk' %}
     {% include 'templates/_navigation.njk' %}
-    {% include 'templates/_list.njk' %}
+
+    <main id="main-content">
+      {% include 'templates/_list.njk' %}
+    </main>
   </div>
 
   {% set js %}

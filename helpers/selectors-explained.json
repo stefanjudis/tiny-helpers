@@ -1,0 +1,12 @@
+{
+  "name": "Selectors Explained",
+  "desc": "Translate CSS selectors into plain English",
+  "url": "https://hugogiraudel.github.io/selectors-explained/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "HugoGiraudel"
+  ],
+  "addedAt": "2020-03-30"
+}

@@ -7,18 +7,19 @@ module.exports = async function() {
     slug: toSlug(helper.name)
   }));
 
-  const tags = getTags(helperData).map(tag => ({
-    name: tag,
-    title: tag,
-    slug: `/${toSlug(tag)}/`,
-    items: helperData.filter(helper => helper.tags.includes(tag))
-  }))
-    .sort((a, b) => (a.name < b.name ? -1 : 1));
+  const tags = getTags(helperData)
+    .map(tag => ({
+      name: tag,
+      title: tag,
+      slug: `${toSlug(tag)}`,
+      items: helperData.filter(helper => helper.tags.includes(tag))
+    }))
+    .sort((a, b) => (a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1));
 
   const homeTag = {
     name: 'All',
     title: 'Home',
-    slug: '/',
+    slug: 'home',
     items: helperData
   };
 

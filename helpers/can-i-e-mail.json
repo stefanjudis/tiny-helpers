@@ -1,0 +1,12 @@
+{
+  "name": "Can I E-Mail",
+  "desc": "Quickly look up HTML and CSS support for E-Mails",
+  "url": "https://caniemail.com",
+  "tags": [
+    "Email"
+  ],
+  "maintainers": [
+    "HTeuMeuLeu"
+  ],
+  "addedAt": "2020-03-08"
+}

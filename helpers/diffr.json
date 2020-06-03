@@ -1,0 +1,12 @@
+{
+  "name": "Diffr",
+  "desc": "Find differences between two pieces of text/code",
+  "url": "https://loilo.github.io/diffr/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "loilo"
+  ],
+  "addedAt": "2020-03-01"
+}

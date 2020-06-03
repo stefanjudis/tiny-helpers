@@ -1,0 +1,13 @@
+{
+  "name": "Worth It",
+  "desc": "Determine how much less JavaScript is downloaded using module/nomodule",
+  "url": "https://module-nomodule-calculator.glitch.me/",
+  "tags": [
+    "JavaScript",
+    "Performance"
+  ],
+  "maintainers": [
+    "developit"
+  ],
+  "addedAt": "2020-03-17"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "npmview",
+  "desc": "View npm package files",
+  "url": "https://npmview.now.sh/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "pd4d10"
+  ],
+  "addedAt": "2020-02-15"
+}

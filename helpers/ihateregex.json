@@ -1,0 +1,12 @@
+{
+  "name": "iHateRegex",
+  "desc": "Look up common regex patterns",
+  "url": "http://ihateregex.io/",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "geongeorge"
+  ],
+  "addedAt": "2020-02-07"
+}

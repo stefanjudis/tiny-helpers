@@ -1,0 +1,13 @@
+{
+  "name": "CopyPalette",
+  "desc": "Create your SVG palette and use it in Figma/Sketch by just using COPY and PASTE",
+  "url": "https://copypalette.app/",
+  "tags": [
+    "Color",
+    "SVG"
+  ],
+  "maintainers": [
+    "dimitrisraptis96"
+  ],
+  "addedAt": "2020-01-30"
+}

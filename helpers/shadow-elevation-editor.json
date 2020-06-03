@@ -1,0 +1,12 @@
+{
+  "name": "Shadow Elevation Editor",
+  "desc": "Create and edit a shadow based elevation array for your design system",
+  "url": "https://shadow-elevation-editor.now.sh/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "richardbruskowski"
+  ],
+  "addedAt": "2020-01-14"
+}

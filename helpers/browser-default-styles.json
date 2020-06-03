@@ -1,0 +1,13 @@
+{
+  "name": "Browser Default Styles",
+  "desc": "Search elements, filter engines, find browser default styles",
+  "url": "https://browserdefaultstyles.com/",
+  "tags": [
+    "CSS",
+    "HTML"
+  ],
+  "maintainers": [
+    "UncaughtTypeError"
+  ],
+  "addedAt": "2020-02-04"
+}
