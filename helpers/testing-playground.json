@@ -1,0 +1,13 @@
+{
+  "name": "Testing Playground",
+  "desc": "Playground for Testing-Library",
+  "url": "https://testing-playground.com/",
+  "tags": [
+    "JavaScript",
+    "Misc"
+  ],
+  "maintainers": [
+    "@smeijer"
+  ],
+  "addedAt": "2020-05-26"
+}
