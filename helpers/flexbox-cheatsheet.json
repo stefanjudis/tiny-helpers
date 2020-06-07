@@ -1,0 +1,12 @@
+{
+  "name": "Flexbox Cheatsheet",
+  "desc": "Get a graphical overview of the CSS flexible box layout properties",
+  "url": "https://darekkay.com/dev/flexbox-cheatsheet.html",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "@darekkay"
+  ],
+  "addedAt": "2020-05-25"
+}
