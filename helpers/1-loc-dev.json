@@ -1,0 +1,12 @@
+{
+  "name": "1-loc.dev",
+  "desc": "Find single-line of code JavaScript Utilities",
+  "url": "https://1loc.dev/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "phuoc-ng"
+  ],
+  "addedAt": "2020-06-08"
+}
