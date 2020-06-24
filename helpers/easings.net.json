@@ -1,0 +1,13 @@
+{
+  "name": "easings.net",
+  "desc": "Find and pick the right easing function",
+  "url": "https://easings.net/",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "ai"
+  ],
+  "addedAt": "2020-06-24"
+}
