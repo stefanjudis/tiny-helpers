@@ -1,7 +1,7 @@
 {
   "name": "easings.go",
-  "desc": "https://easings.co/",
-  "url": "Test common easing curves on a range of interfaces",
+  "desc": "Test common easing curves on a range of interfaces",
+  "url": "https://easings.co/",
   "tags": [
     "Animations",
     "CSS"

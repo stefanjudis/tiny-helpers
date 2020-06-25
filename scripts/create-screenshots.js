@@ -17,33 +17,38 @@ async function exists(path) {
 }
 
 function sleep(duration) {
-  return new Promise(resolve => setTimeout(resolve, duration));
+  return new Promise((resolve) => setTimeout(resolve, duration));
 }
 
 async function makeScreenshots(browser, helper, screenshotDir) {
-  const doubleSize = join(screenshotDir, `${toSlug(helper.name)}@2.jpg`);
-  const singleSize = join(screenshotDir, `${toSlug(helper.name)}@1.jpg`);
-  let sigil = '✅';
-  if (!(await exists(doubleSize))) {
-    const page = await browser.newPage();
-    page.setViewport({
-      width: 1000,
-      height: 600
-    });
-    await page.goto(helper.url);
-    // sleep to get a proper screenshot of sites showing a spinner
-    await sleep(5000);
-    await page.screenshot({ path: doubleSize });
-    await page.close();
-    sigil = '📸';
+  try {
+    const doubleSize = join(screenshotDir, `${toSlug(helper.name)}@2.jpg`);
+    const singleSize = join(screenshotDir, `${toSlug(helper.name)}@1.jpg`);
+    let sigil = '✅';
+    if (!(await exists(doubleSize))) {
+      const page = await browser.newPage();
+      page.setViewport({
+        width: 1000,
+        height: 600,
+      });
+      await page.goto(helper.url);
+      // sleep to get a proper screenshot of sites showing a spinner
+      await sleep(5000);
+      await page.screenshot({ path: doubleSize });
+      await page.close();
+      sigil = '📸';
+    }
+    if (!(await exists(singleSize))) {
+      await (await Jimp.read(doubleSize))
+        .quality(75)
+        .resize(500, Jimp.AUTO)
+        .write(singleSize);
+    }
+    console.log(`${sigil} ${helper.name} at ${helper.url}`);
+  } catch (error) {
+    console.error(`Failed to screenshot ${helper.name}`);
+    throw error;
   }
-  if (!(await exists(singleSize))) {
-    await (await Jimp.read(doubleSize))
-      .quality(75)
-      .resize(500, Jimp.AUTO)
-      .write(singleSize);
-  }
-  console.log(`${sigil} ${helper.name} at ${helper.url}`);
 }
 
 (async () => {
@@ -54,10 +59,10 @@ async function makeScreenshots(browser, helper, screenshotDir) {
     const browser = await chrome.puppeteer.launch({
       args: chrome.args,
       executablePath: await chrome.executablePath,
-      headless: true
+      headless: true,
     });
     const limit = pLimit(8);
-    const screenshotPromises = helpers.map(helper =>
+    const screenshotPromises = helpers.map((helper) =>
       limit(() => makeScreenshots(browser, helper, screenshotDir))
     );
     await Promise.all(screenshotPromises);
