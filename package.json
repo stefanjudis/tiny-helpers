@@ -8,7 +8,8 @@
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
-    "dev": "eleventy --input=./site --serve --port=$PORT",
+    "dev": "eleventy --serve --port $PORT",
+    "dev:vercel": "vercel dev",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
     "deploy": "npm run build && now --prod"
@@ -47,5 +48,7 @@
     "terser": "^4.6.7",
     "puppeteer": "^2.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vercel": "^19.1.1"
+  }
 }
