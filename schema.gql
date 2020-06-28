@@ -1,0 +1,10 @@
+type Helper {
+  url: String!
+  starGazers: [String!]!
+}
+
+type Query {
+  allHelpers: [Helper!]
+  helperByUrl(url: String!): [Helper!]
+  helpersByStarGazer(starGazer: String!): [Helper!]
+}

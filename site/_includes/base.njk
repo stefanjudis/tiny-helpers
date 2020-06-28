@@ -46,13 +46,16 @@
 <body>
   <a href="#main-content" class="skip-link padding-xs">Skip to main content</a>
 
+  <button id="loginBtn" type="button">login</button>
+  <button id="logoutBtn" type="button">log out</button>
+
   <div class="container">
     {% include 'templates/_logo.njk' %}
     {% include 'templates/_social.njk' %}
     {% include 'templates/_navigation.njk' %}
 
     <main id="main-content">
-      {% include 'templates/_list.njk' %}
+      {{ content | safe }}
     </main>
   </div>
 
@@ -60,6 +63,73 @@
     {% include "js/main.js" %}
   {% endset %}
   <script type="module">{{ js | jsmin | safe }}</script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.9/auth0-spa-js.production.js"></script>
+  <script>
+    (async () => {
+      let auth0 = await createAuth0Client({
+        domain: "{{ vars.AUTH0_DOMAIN }}",
+        client_id: "{{ vars.AUTH0_CLIENT_ID }}",
+        audience: "{{ vars.AUTH0_AUDIENCE }}"
+      });;
+
+      document.getElementById('loginBtn').addEventListener('click', async () => {
+        await auth0.loginWithRedirect({
+          redirect_uri: window.location.origin
+        });
+      });
+
+      document.getElementById('logoutBtn').addEventListener('click', async () => {
+        auth0.logout({
+          returnTo: window.location.origin
+        });
+      });
+
+      [...document.querySelectorAll('.star-btn')].forEach(btn => {
+        btn.addEventListener('click', async (event) => {
+          const [user, token] = await Promise.all([auth0.getUser(), auth0.getTokenSilently()]);
+
+          const response = await fetch("/api/star", {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${token}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              user: user.email,
+              helperUrl: event.target.dataset.url
+            })
+          });
+          const responseData = await response.json();
+        });
+      })
+
+
+      const isAuthenticated = await auth0.isAuthenticated();
+      console.log(isAuthenticated);
+
+
+      if (isAuthenticated) {
+        // show the gated content
+        console.log('isAuthenticated', await auth0.getUser());
+        return;
+      }
+
+      // NEW - check for the code and state parameters
+      const query = window.location.search;
+      if (query.includes("code=") && query.includes("state=")) {
+
+        // Process the login state
+        await auth0.handleRedirectCallback();
+
+        // TODO
+        // updateUI();
+
+
+        // Use replaceState to redirect the user away and remove the querystring parameters
+        window.history.replaceState({}, document.title, "/");
+      }
+    })()
+  </script>
 </body>
 
 </html>

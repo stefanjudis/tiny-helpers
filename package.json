@@ -9,10 +9,9 @@
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
     "dev": "eleventy --serve --port $PORT",
-    "dev:vercel": "vercel dev",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
-    "deploy": "npm run build && now --prod"
+    "vercel": "vercel dev"
   },
   "repository": {
     "type": "git",
@@ -32,21 +31,24 @@
     "@11ty/eleventy": "^0.10.0",
     "chrome-aws-lambda": "^2.1.1",
     "concurrently": "^5.1.0",
+    "faunadb": "^2.14.2",
     "feed": "^4.1.0",
     "got": "^10.7.0",
     "html-minifier": "^4.0.0",
     "inquirer": "^7.1.0",
     "jimp": "^0.9.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.1",
     "now": "^17.1.1",
     "p-limit": "^2.2.2",
     "postcss": "^7.0.27",
     "postcss-clean": "^1.1.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
+    "puppeteer": "^2.1.1",
     "puppeteer-core": "^2.1.1",
     "slugify": "^1.4.0",
-    "terser": "^4.6.7",
-    "puppeteer": "^2.1.1"
+    "terser": "^4.6.7"
   },
   "devDependencies": {
     "vercel": "^19.1.1"
