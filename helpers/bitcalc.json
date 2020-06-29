@@ -1,0 +1,12 @@
+{
+  "name": "bitcalc",
+  "desc": "A hex, binary, octal calculator",
+  "url": "https://bitcalc.app",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "remy"
+  ],
+  "addedAt": "2020-06-29"
+}
