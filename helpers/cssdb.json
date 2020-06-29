@@ -1,0 +1,10 @@
+{
+  "name": "cssdb",
+  "desc": "Find out about the web standard  process of CSS features",
+  "url": "https://cssdb.org/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-06-29"
+}
