@@ -1,10 +1,10 @@
 type Helper {
   url: String!
-  starGazers: [String!]!
+  stargazers: [String!]!
 }
 
 type Query {
   allHelpers: [Helper!]
   helperByUrl(url: String!): [Helper!]
-  helpersByStarGazer(starGazer: String!): [Helper!]
+  helperByStargazers(stargazers: String!): [Helper!]
 }

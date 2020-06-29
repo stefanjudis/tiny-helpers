@@ -1,38 +1,13 @@
-const jwt = require('jsonwebtoken');
-const jwksClient = require('jwks-rsa');
-const got = require('got');
+const { isAuthorized, queryFauna } = require('./_util');
 
-const client = jwksClient({
-  strictSsl: true,
-  jwksUri: `https://${process.env.AUTH0_DOMAIN}/.well-known/jwks.json`,
-});
-
-async function queryFauna(query) {
-  const { body } = await got.post('https://graphql.fauna.com/graphql', {
-    headers: {
-      authorization: `Bearer ${process.env.FAUNA_SECRET}`,
-    },
-    body: JSON.stringify({
-      query: query,
-    }),
-    responseType: 'json',
-  });
-
-  if (body.errors) {
-    throw new Error(body.errors.map(({ message }) => message).join('\n\n'));
-  }
-
-  return body.data;
-}
-
-async function getHelperByUrl(url) {
+async function getHelpersByUrl(url) {
   const data = await queryFauna(`
     query {
       helperByUrl(url: "${url}") {
         data {
           _id
           url
-          starGazers
+          stargazers
         }
       }
     }
@@ -44,45 +19,42 @@ async function getHelperByUrl(url) {
 }
 
 module.exports = async (req, res) => {
-  const [, token] = req.headers.authorization.split(' ');
-  const { helperUrl, user } = req.body;
+  try {
+    await isAuthorized(req);
 
-  const decodedToken = jwt.decode(token, { complete: true });
+    const { helperUrl, user } = req.body;
+    const helper = await getHelpersByUrl(helperUrl);
 
-  client.getSigningKey(decodedToken.header.kid, (err, key) => {
-    // todo error handling
-
-    jwt.verify(token, key.getPublicKey(), async (err, decoded) => {
-      const helper = await getHelperByUrl(helperUrl);
-
-      if (!helper) {
-        const data = await queryFauna(`
+    if (!helper) {
+      const data = await queryFauna(`
           mutation {
-            createHelper(data: {url: "${helperUrl}", starGazers: ["${user}"]}) {
+            createHelper(data: {url: "${helperUrl}", stargazers: ["${user}"]}) {
               _id
               url
-              starGazers
+              stargazers
             }
           }
         `);
-      } else {
-        const starGazers = [...helper.starGazers, user];
+    } else {
+      console.log(helper);
+      const stargazers = [...helper.stargazers, user];
 
-        const data = await queryFauna(`
+      const data = await queryFauna(`
           mutation {
             updateHelper(id: ${helper._id}, data: { url: "${
-          helper.url
-        }", starGazers: [
-          ${starGazers.map((email) => `"${email}"`).join(',')}]}) {
+        helper.url
+      }", stargazers: [
+          ${stargazers.map((email) => `"${email}"`).join(',')}]}) {
               _id
               url
-              starGazers
+              stargazers
             }
           }
         `);
-      }
+    }
 
-      res.status(201).json({ msg: `Stared ${helperUrl}` });
-    });
-  });
+    res.status(201).json({ msg: `Stared ${helperUrl}` });
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
 };
