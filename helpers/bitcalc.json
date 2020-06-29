@@ -1,0 +1,12 @@
+{
+  "name": "bitcalc",
+  "desc": "Visualise hex, binary and decimal calculations and bitwise operations",
+  "url": "https://bitcalc.app",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "remy"
+  ],
+  "addedAt": "2020-06-29"
+}
