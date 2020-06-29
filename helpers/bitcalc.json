@@ -1,6 +1,6 @@
 {
   "name": "bitcalc",
-  "desc": "A hex, binary, octal calculator",
+  "desc": "Visualise hex, binary and decimal calculations and bitwise operations",
   "url": "https://bitcalc.app",
   "tags": [
     "Misc"
