@@ -1,0 +1,14 @@
+{
+  "name": "How to Target Email Clients",
+  "desc": "Single out email clients and platforms using crowdsourced email development techniques",
+  "url": "https://howtotarget.email/",
+  "tags": [
+    "CSS",
+    "Email"
+  ],
+  "maintainers": [
+    "dylanatsmith",
+    " M-J-Robbins"
+  ],
+  "addedAt": "2020-06-30"
+}
