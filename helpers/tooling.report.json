@@ -1,0 +1,10 @@
+{
+  "name": "tooling.report",
+  "desc": "Determine the best build tool for your next web project",
+  "url": "https://bundlers.tooling.report/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-06-30"
+}
