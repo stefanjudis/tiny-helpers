@@ -1,0 +1,11 @@
+{
+  "name": "extract.pics",
+  "desc": "Download images from any public website",
+  "url": "https://extract.pics/",
+  "tags": [
+    "Images",
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-07-02"
+}
