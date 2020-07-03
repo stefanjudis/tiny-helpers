@@ -1,14 +1,15 @@
 const pLimit = require('p-limit');
 const chrome = require('chrome-aws-lambda');
-const { stat } = require('fs').promises;
+const { statSync, mkdirSync } = require('fs');
 const { join } = require('path');
+const copyDir = require('copy-dir');
 const Jimp = require('jimp');
 const { getHelpers } = require('../lib/helpers');
 const { toSlug } = require('../lib/slug');
 
-async function exists(path) {
+function exists(path) {
   try {
-    await stat(path);
+    statSync(path);
     return true;
   } catch (err) {
     if (err.code === 'ENOENT') return false;
@@ -20,7 +21,7 @@ function sleep(duration) {
   return new Promise((resolve) => setTimeout(resolve, duration));
 }
 
-async function makeScreenshots(browser, helper, screenshotDir) {
+async function screenshotHelper(browser, helper, screenshotDir) {
   try {
     const doubleSize = join(screenshotDir, `${toSlug(helper.name)}@2.jpg`);
     const singleSize = join(screenshotDir, `${toSlug(helper.name)}@1.jpg`);
@@ -38,7 +39,7 @@ async function makeScreenshots(browser, helper, screenshotDir) {
       await page.close();
       sigil = '📸';
     }
-    if (!(await exists(singleSize))) {
+    if (!exists(singleSize)) {
       await (await Jimp.read(doubleSize))
         .quality(75)
         .resize(500, Jimp.AUTO)
@@ -51,22 +52,35 @@ async function makeScreenshots(browser, helper, screenshotDir) {
   }
 }
 
+async function makeScreenshots(helpers, { screenshotCacheDir }) {
+  console.log('Taking screenshots...');
+  const browser = await chrome.puppeteer.launch({
+    args: chrome.args,
+    executablePath: await chrome.executablePath,
+    headless: true,
+  });
+  const limit = pLimit(8);
+  const screenshotPromises = helpers.map((helper) =>
+    limit(() => screenshotHelper(browser, helper, screenshotCacheDir))
+  );
+  await Promise.all(screenshotPromises);
+  await browser.close();
+}
+
 (async () => {
   try {
-    const screenshotDir = join(__dirname, '..', 'static', 'screenshots');
+    const screenshotCacheDir = join(__dirname, '..', '.cache', 'screenshots');
+
+    if (!exists(screenshotCacheDir)) {
+      mkdirSync(screenshotCacheDir, { recursive: true });
+    }
+
     const helpers = await getHelpers();
-    console.log('Taking screenshots...');
-    const browser = await chrome.puppeteer.launch({
-      args: chrome.args,
-      executablePath: await chrome.executablePath,
-      headless: true,
-    });
-    const limit = pLimit(8);
-    const screenshotPromises = helpers.map((helper) =>
-      limit(() => makeScreenshots(browser, helper, screenshotDir))
-    );
-    await Promise.all(screenshotPromises);
-    await browser.close();
+
+    await makeScreenshots(helpers, { screenshotCacheDir });
+
+    const publicScreenshotDir = join(__dirname, '..', 'static', 'screenshots');
+    copyDir.sync(screenshotCacheDir, publicScreenshotDir);
   } catch (error) {
     console.error(error);
     process.exit(1);
