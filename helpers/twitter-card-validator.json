@@ -1,0 +1,10 @@
+{
+  "name": "Twitter Card Validator",
+  "desc": "Validate Twitter cards",
+  "url": "https://cards-dev.twitter.com/validator",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-07-05"
+}
