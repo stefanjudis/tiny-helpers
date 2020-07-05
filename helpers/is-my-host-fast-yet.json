@@ -1,0 +1,10 @@
+{
+  "name": "Is my host fast yet?",
+  "desc": "Analyze real-world server response latencies, as experienced by real-world users navigating the web.",
+  "url": "https://ismyhostfastyet.com/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-07-03"
+}
