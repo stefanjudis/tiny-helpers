@@ -1,0 +1,10 @@
+{
+  "name": "LinkedIn Post Inspector",
+  "desc": "See how shared URLs look on LinkedIn",
+  "url": "https://www.linkedin.com/post-inspector/inspect/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-07-05"
+}
