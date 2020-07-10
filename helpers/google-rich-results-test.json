@@ -1,0 +1,10 @@
+{
+  "name": "Google Rich Results Test",
+  "desc": "Check if your page supports Google's rich results",
+  "url": "https://search.google.com/test/rich-results",
+  "tags": [
+    "SEO"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-07-10"
+}
