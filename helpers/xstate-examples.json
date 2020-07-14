@@ -1,6 +1,6 @@
 {
-  "name": "Simple XState Examples",
-  "desc": "A list of CodeSandboxes for each XState concept.",
+  "name": "XState Examples",
+  "desc": "Build with XState using a list of CodeSandboxes for each concept.",
   "url": "https://bradwoods.io/guides/xstate",
   "tags": [
     "JavaScript"
