@@ -3,8 +3,7 @@
   "desc": "Remove unwanted HTML tags from user's input or untrusted sources",
   "url": "https://htmlcleanser.netlify.app",
   "tags": [
-    "JavaScript",
-    "Regular Expressions"
+    "HTML"
   ],
   "maintainers": [
     "gangsthub"
