@@ -1,0 +1,12 @@
+{
+  "name": "HTML Cleanser ✨",
+  "desc": "Remove unwanted HTML tags from user's input or untrusted sources",
+  "url": "https://htmlcleanser.netlify.app",
+  "tags": [
+    "HTML"
+  ],
+  "maintainers": [
+    "gangsthub"
+  ],
+  "addedAt": "2020-07-16"
+}
