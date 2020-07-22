@@ -1,0 +1,12 @@
+{
+  "name": "YAML Checker",
+  "desc": "Validate your YAML file content with syntax highlighting and helpful error messages.",
+  "url": "https://yamlchecker.com/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "rhino88"
+  ],
+  "addedAt": "2020-07-22"
+}
