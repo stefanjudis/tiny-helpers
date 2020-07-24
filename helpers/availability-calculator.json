@@ -1,0 +1,12 @@
+{
+  "name": "Availability calculator",
+  "desc": "Calculate allowed downtime for web services per Service Level Agreements (SLA)",
+  "url": "https://tryhexadecimal.com/availability-calculator",
+  "tags": [
+    "System Administration"
+  ],
+  "maintainers": [
+    "jmstfv"
+  ],
+  "addedAt": "2020-03-19"
+}

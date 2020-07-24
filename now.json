@@ -1,5 +1,4 @@
 {
-  "name": "tiny-helpers",
   "routes": [
     {
       "src": "/",
@@ -10,9 +9,5 @@
       "dest": "/home/latest/index.html"
     }
   ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  }
+  "build": {}
 }

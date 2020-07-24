@@ -9,9 +9,8 @@
 > A collection of free single-purpose online tools for web developers...
 
 - A tiny helper is any website or web application that developers could open and use while developing for the web. Tiny helpers solve and help with common problems such as code formatting, design, code generation, and much more. :)
-
 - A tiny helper does not have to be available on GitHub and has not to be open source.
-
+- A tiny helper can be used right away.
 - **It has to be useful, that's all.** 🎉
 
 ## What does not(!) count as a tiny helper?
@@ -20,6 +19,7 @@
 - **JS or CSS libraries / npm modules** (tiny-helpers.dev is about online resources)
 - **learning sites/apps** that have a purely educational purpose (tiny helpers continue to have value as a developer)
 - **plugins for other online tools**
+- **tools behind a login**
 
 ## Formatting of tiny helpers
 

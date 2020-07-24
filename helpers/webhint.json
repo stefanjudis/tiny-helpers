@@ -1,0 +1,10 @@
+{
+  "name": "webhint",
+  "desc": "Analyze your website to get hints about Accessibility, Compatibility, PWA, Performance, Pitfalls and Security",
+  "url": "https://webhint.io/scanner/",
+  "tags": [
+    "Site analyzers"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-03-04"
+}

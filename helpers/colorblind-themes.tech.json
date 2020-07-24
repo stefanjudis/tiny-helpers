@@ -1,0 +1,12 @@
+{
+  "name": "colorblind-themes.tech",
+  "desc": "Choose or share great editor/environment themes suitable for colorblind users",
+  "url": "https://colorblind-themes.tech/",
+  "tags": [
+    "Accessibility"
+  ],
+  "maintainers": [
+    "danspratling"
+  ],
+  "addedAt": "2020-02-18"
+}

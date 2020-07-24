@@ -1,0 +1,12 @@
+{
+  "name": "Lighthouse Scoring Calculator",
+  "desc": "Calculate your Lighthouse performance score across versions",
+  "url": "https://paulirish.github.io/lh-scorecalc/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [
+    "paulirish"
+  ],
+  "addedAt": "2020-04-05"
+}

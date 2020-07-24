@@ -35,7 +35,8 @@ const { getHelpers, writeHelper, getTags } = require('../lib/helpers');
       {
         name: 'maintainers',
         type: 'input',
-        message: 'Enter GitHub handles of maintainers (comma separated):'
+        message:
+          'Enter GitHub handles of the tool maintainers (comma separated):'
       }
     ]);
 

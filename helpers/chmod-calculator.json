@@ -1,0 +1,12 @@
+{
+  "name": "Chmod Calculator",
+  "url": "https://chmod-calculator.com/",
+  "desc": "Convert Linux file permissions between different formats",
+  "tags": [
+    "System Administration"
+  ],
+  "maintainers": [
+    "onurgvnc"
+  ],
+  "addedAt": "2020-03-11"
+}

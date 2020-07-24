@@ -1,0 +1,16 @@
+{
+  "name": "CSS2JS",
+  "desc": "Transform between CSS, JS Objects and React props.",
+  "url": "https://css2js.dotenv.dev/",
+  "tags": [
+    "CSS",
+    "Data transformation",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "SaraVieira",
+    "nimobeeren",
+    "impulsivetomato"
+  ],
+  "addedAt": "2020-05-21"
+}

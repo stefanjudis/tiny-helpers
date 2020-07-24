@@ -1,7 +1,7 @@
 {
   "name": "Contrast Checker",
   "desc": "Check for WCAG 2.1 compliance for text and non-text contrast.",
-  "url": "https://contrast-checker.now.sh/",
+  "url": "https://contrast.bruskowski.design/",
   "tags": [
     "Accessibility",
     "Color"

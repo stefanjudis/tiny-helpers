@@ -1,0 +1,10 @@
+{
+  "name": "Canarytokens",
+  "desc": "Create canarytokens for URL/DNS/etc. to notify you in case of someone is breachin into your system.",
+  "url": "https://canarytokens.org",
+  "tags": [
+    "System Administration"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-03-18"
+}

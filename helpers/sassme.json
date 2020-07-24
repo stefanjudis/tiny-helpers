@@ -1,0 +1,12 @@
+{
+  "name": "SassMe",
+  "desc": "Visualize Sass HSL color functions in real-time without compiling.",
+  "url": "https://sassme.jim-nielsen.com/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "jimniels"
+  ],
+  "addedAt": "2020-03-10"
+}
