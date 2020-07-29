@@ -1,0 +1,12 @@
+{
+  "name": "Grabient",
+  "desc": "Generate linear gradients",
+  "url": "https://www.grabient.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "johnkorzhuk"
+  ],
+  "addedAt": "2020-03-11"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dbdiagram.io",
+  "desc": "Draw ER diagrams by just writing code.",
+  "url": "https://dbdiagram.io/home",
+  "tags": [
+    "Database"
+  ],
+  "maintainers": [
+    "holistics"
+  ],
+  "addedAt": "2020-05-17"
+}

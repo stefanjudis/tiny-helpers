@@ -44,11 +44,16 @@
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link padding-xs">Skip to main content</a>
+
   <div class="container">
     {% include 'templates/_logo.njk' %}
     {% include 'templates/_social.njk' %}
     {% include 'templates/_navigation.njk' %}
-    {% include 'templates/_list.njk' %}
+
+    <main id="main-content">
+      {% include 'templates/_list.njk' %}
+    </main>
   </div>
 
   {% set js %}

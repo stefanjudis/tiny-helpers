@@ -1,0 +1,12 @@
+{
+  "name": "BrowserFrame",
+  "desc": "Wrap screenshots in browser frames.",
+  "url": "https://browserframe.com/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "pqvst"
+  ],
+  "addedAt": "2020-05-30"
+}

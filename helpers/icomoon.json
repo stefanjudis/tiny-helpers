@@ -1,0 +1,11 @@
+{
+  "name": "Icomoon",
+  "desc": "Create and maintain svg icon libraries",
+  "url": "https://icomoon.io/app",
+  "tags": [
+    "CSS",
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-03-16"
+}

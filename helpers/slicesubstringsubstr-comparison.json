@@ -1,0 +1,12 @@
+{
+  "name": "slice/substring/substr comparison",
+  "desc": "Select part of text and get example call from 3 different string manipulation methods.",
+  "url": "https://slice.isthe.link/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "remy"
+  ],
+  "addedAt": "2020-06-02"
+}

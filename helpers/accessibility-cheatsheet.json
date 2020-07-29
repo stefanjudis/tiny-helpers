@@ -1,0 +1,12 @@
+{
+  "name": "Accessibility Cheatsheet",
+  "desc": "Practical approaches to Universal Design for making your website/webapp accessible to everyone",
+  "url": "https://moritzgiessmann.de/accessibility-cheatsheet/",
+  "tags": [
+    "Accessibility"
+  ],
+  "maintainers": [
+    "MoritzGiessmann"
+  ],
+  "addedAt": "2020-02-24"
+}

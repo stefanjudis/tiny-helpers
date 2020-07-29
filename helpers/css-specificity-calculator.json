@@ -1,0 +1,12 @@
+{
+  "name": "CSS specificity calculator",
+  "desc": "Calculate the specificity of a given CSS selector",
+  "url": "https://polypane.app/css-specificity-calculator/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "kilian"
+  ],
+  "addedAt": "2020-02-24"
+}

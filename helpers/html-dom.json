@@ -1,0 +1,13 @@
+{
+  "name": "HTML DOM",
+  "desc": "Manage HTML DOM with vanilla JavaScript only",
+  "url": "https://htmldom.dev/",
+  "tags": [
+    "HTML",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "phuoc-ng"
+  ],
+  "addedAt": "2020-03-30"
+}

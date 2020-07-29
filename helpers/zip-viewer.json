@@ -1,0 +1,12 @@
+{
+  "name": "ZIP Viewer",
+  "desc": "View and extract ZIP archives",
+  "url": "https://tomtasche.github.io/zip-viewer/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "tomtasche"
+  ],
+  "addedAt": "2020-02-25"
+}

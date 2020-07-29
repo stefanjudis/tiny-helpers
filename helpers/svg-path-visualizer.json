@@ -1,0 +1,12 @@
+{
+  "name": "SVG Path Visualizer",
+  "desc": "Visualize and discover SVG path data commands",
+  "url": "https://svg-path-visualizer.netlify.app/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "mathieudutour"
+  ],
+  "addedAt": "2020-05-15"
+}

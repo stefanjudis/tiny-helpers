@@ -1,0 +1,12 @@
+{
+  "name": "Lighthouse Metrics",
+  "desc": "Run lighthouse from multiple locations",
+  "url": "https://lighthouse-metrics.com/",
+  "tags": [
+    "Accessibility",
+    "Performance",
+    "Site analyzers"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-05-03"
+}
