@@ -1,0 +1,10 @@
+{
+  "name": "Snippet Shot",
+  "desc": "Generate screenshots from your code snippets",
+  "url": "https://www.snippetshot.com/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-08-08"
+}
