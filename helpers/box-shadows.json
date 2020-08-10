@@ -1,0 +1,14 @@
+{
+  "name": "Box Shadows",
+  "desc": "Interactively create box shadows and get the CSS to generate them",
+  "url": "https://box-shadow.dev",
+  "tags": [
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "mikemcbride",
+    "davidleininger"
+  ],
+  "addedAt": "2020-07-29"
+}
