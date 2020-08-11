@@ -1,0 +1,12 @@
+{
+  "name": "generatedata",
+  "desc": "Quickly generate large volumes of custom data in a variety of formats",
+  "url": "https://www.generatedata.com/",
+  "tags": [
+    "Generated Data"
+  ],
+  "maintainers": [
+    "benkeen"
+  ],
+  "addedAt": "2020-08-11"
+}
