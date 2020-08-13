@@ -1,0 +1,12 @@
+{
+  "name": "css-generator",
+  "desc": "click on boxes in order to get the css you want",
+  "url": "https://webcode.tools/css-generator",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "jasonmacfarlane"
+  ],
+  "addedAt": "2020-08-13"
+}
