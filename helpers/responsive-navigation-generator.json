@@ -1,0 +1,14 @@
+{
+  "name": "Responsive Navigation Generator",
+  "desc": "Quickly get the HTML and CSS for a customizable menu",
+  "url": "https://wweb.dev/resources/navigation-generator",
+  "tags": [
+    "CSS",
+    "Generated Data",
+    "HTML"
+  ],
+  "maintainers": [
+    "wwebdev"
+  ],
+  "addedAt": "2020-08-16"
+}
