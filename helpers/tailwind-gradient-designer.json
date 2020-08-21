@@ -1,0 +1,13 @@
+{
+  "name": "Tailwind Gradient Designer",
+  "desc": "Provides a visual tool to generate tailwind css classes",
+  "url": "http://tailwind-gradient-designer.csspost.com/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "jenstornell"
+  ],
+  "addedAt": "2020-08-21"
+}
