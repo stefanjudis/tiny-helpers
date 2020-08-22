@@ -1,6 +1,6 @@
 {
   "name": "Tailwind Gradient Designer",
-  "desc": "Provide a visual tool to generate tailwind gradient classes",
+  "desc": "Generate tailwind gradient classes",
   "url": "https://tailwind-gradient-designer.csspost.com/",
   "tags": [
     "CSS",
