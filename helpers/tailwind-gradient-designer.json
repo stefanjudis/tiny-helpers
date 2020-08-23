@@ -1,0 +1,13 @@
+{
+  "name": "Tailwind Gradient Designer",
+  "desc": "Generate tailwind gradient classes",
+  "url": "https://tailwind-gradient-designer.csspost.com/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "jenstornell"
+  ],
+  "addedAt": "2020-08-21"
+}
