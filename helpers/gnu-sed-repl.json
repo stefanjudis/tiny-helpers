@@ -1,0 +1,10 @@
+{
+  "name": "GNU sed REPL",
+  "desc": "Write and test sed expressions",
+  "url": "https://sed.js.org/index.html",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-08-25"
+}
