@@ -31,3 +31,5 @@ This project uses Vercel's routing configuration. The `/` route doesn't work loc
 ```
 npm run dev
 ```
+
+## Contributors ✨
