@@ -1,0 +1,14 @@
+{
+  "name": "VSCode prism theme converter ",
+  "desc": "Convert your VSCode theme to prism CSS or React components",
+  "url": "https://prism.dotenv.dev/",
+  "tags": [
+    "CSS",
+    "Code",
+    "Color"
+  ],
+  "maintainers": [
+    "SaraVieira"
+  ],
+  "addedAt": "2020-09-04"
+}
