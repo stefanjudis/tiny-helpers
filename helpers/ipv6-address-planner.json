@@ -1,0 +1,13 @@
+{
+  "name": "IPv6 Address Planner",
+  "desc": "Design IPv6 addressing scheme for a cloud VPC or DC",
+  "url": "https://network00.com/NetworkTools/IPv6AddressPlanner/",
+  "tags": [
+    "Network",
+    "System Administration"
+  ],
+  "maintainers": [
+    "vivekest"
+  ],
+  "addedAt": "2020-09-04"
+}
