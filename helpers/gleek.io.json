@@ -1,0 +1,11 @@
+{
+  "name": "Gleek.io",
+  "desc": "Free description-to-diagrams tool. Create informal, UML class, object, or ER diagrams using your keyboard.",
+  "url": "https://www.gleek.io",
+  "tags": [
+    "Code",
+    "Database"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-09-10"
+}
