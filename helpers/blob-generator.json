@@ -1,0 +1,14 @@
+{
+  "name": "Blob generator",
+  "desc": "Generate beautiful blob shapes for web and flutter apps. ",
+  "url": "https://blobs.app/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "lokesh-coder",
+    "udaypydi",
+    "mvhk"
+  ],
+  "addedAt": "2020-09-11"
+}
