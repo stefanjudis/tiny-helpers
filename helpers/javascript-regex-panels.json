@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript Regex Panels",
+  "desc": "To practice, perfect, or work on your JavaScript Regular Expressions ",
+  "url": "https://www.regexp.in",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "vijeysrc"
+  ],
+  "addedAt": "2020-09-21"
+}
