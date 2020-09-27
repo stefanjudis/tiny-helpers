@@ -1,0 +1,11 @@
+{
+  "name": "Package Diff",
+  "desc": "Display a diff between two versions of the same npm package",
+  "url": "https://diff.intrinsic.com/",
+  "tags": [
+    "Code",
+    "JavaScript"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-09-27"
+}
