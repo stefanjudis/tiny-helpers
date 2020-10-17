@@ -1,0 +1,13 @@
+{
+  "name": "Google font to SVG path",
+  "desc": "Create SVGs paths from a Google font",
+  "url": "https://danmarshall.github.io/google-font-to-svg-path/",
+  "tags": [
+    "Fonts",
+    "SVG"
+  ],
+  "maintainers": [
+    "danmarshall"
+  ],
+  "addedAt": "2020-10-17"
+}
