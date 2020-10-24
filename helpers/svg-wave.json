@@ -1,0 +1,12 @@
+{
+  "name": "Svg Wave",
+  "desc": "Generate SVG waves",
+  "url": "https://svgwave.in/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "anup-a"
+  ],
+  "addedAt": "2020-10-24"
+}
