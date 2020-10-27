@@ -1,0 +1,11 @@
+{
+    "name": "JSON Placeholder",
+    "desc": "Fake Online REST API for testing and prototyping",
+    "url": "https://jsonplaceholder.typicode.com/guide/",
+    "tags": [
+      "APIs",
+      "JSON"
+    ],
+    "maintainers": [],
+    "addedAt": "2020-10-27"
+  }
