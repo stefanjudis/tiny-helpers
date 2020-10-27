@@ -1,0 +1,11 @@
+{
+    "name": "PlaceIMG",
+    "desc": "Quickly generate custom placeholder images for your design and development projects",
+    "url": "https://placeimg.com/",
+    "tags": [
+      "APIs",
+      "Image"
+    ],
+    "maintainers": [Masuga],
+    "addedAt": "2020-10-27"
+  }
