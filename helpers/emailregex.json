@@ -1,0 +1,10 @@
+{
+  "name": "emailregex",
+  "desc": "Email address regular expression that 99.99% works",
+  "url": "http://emailregex.com/",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-11-03"
+}
