@@ -1,0 +1,12 @@
+{
+  "name": "Operator Lookup",
+  "desc": "Learn more about JavaScript operators",
+  "url": "https://joshwcomeau.com/operator-lookup/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "joshwcomeau"
+  ],
+  "addedAt": "2020-11-10"
+}
