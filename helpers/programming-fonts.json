@@ -1,0 +1,12 @@
+{
+  "name": "programming-fonts",
+  "desc": "Test drive all the programming fonts",
+  "url": "https://www.programmingfonts.org/",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [
+    "braver"
+  ],
+  "addedAt": "2020-11-23"
+}
