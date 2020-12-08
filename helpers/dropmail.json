@@ -1,0 +1,11 @@
+{
+  "name": "Dropmail",
+  "desc": "Create a disposable email address",
+  "url": "https://dropmail.me/",
+  "tags": [
+    "Email",
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-12-08"
+}
