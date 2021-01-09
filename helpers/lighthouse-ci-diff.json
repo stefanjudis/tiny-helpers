@@ -1,0 +1,10 @@
+{
+  "name": "Lighthouse CI Diff",
+  "desc": "Compare two Lighthouse reports",
+  "url": "https://googlechrome.github.io/lighthouse-ci/viewer/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-01-09"
+}
