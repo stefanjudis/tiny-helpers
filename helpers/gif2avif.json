@@ -1,0 +1,11 @@
+{
+  "name": "gif2avif",
+  "desc": "Convert GIFs to next-generation AVIF files",
+  "url": "https://gif2avif.com/",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-01-12"
+}
