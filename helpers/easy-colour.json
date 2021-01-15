@@ -1,0 +1,12 @@
+{
+  "name": "Easy Colour",
+  "desc": "Flexible input accepts anything resembling a web colour format. Converts input to other web formats and generates a colour palette.",
+  "url": "https://easycolour.app/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "imkieransmith"
+  ],
+  "addedAt": "2021-01-15"
+}
