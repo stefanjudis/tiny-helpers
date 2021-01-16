@@ -1,6 +1,6 @@
 {
   "name": "Easy Colour",
-  "desc": "Flexible input accepts anything resembling a web colour format. Converts input to other web formats and generates a colour palette.",
+  "desc": "Convert colors into different formats",
   "url": "https://easycolour.app/",
   "tags": [
     "Color"
