@@ -1,0 +1,12 @@
+{
+  "name": "Easy Colour",
+  "desc": "Convert colors into different formats",
+  "url": "https://easycolour.app/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "imkieransmith"
+  ],
+  "addedAt": "2021-01-15"
+}
