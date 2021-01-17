@@ -1,0 +1,12 @@
+{
+  "name": "Table to Markdown",
+  "desc": "Convert tables from spreadsheet applications and websites into well-formatted Markdown tables",
+  "url": "https://tabletomarkdown.com/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "johnfraney"
+  ],
+  "addedAt": "2021-01-16"
+}
