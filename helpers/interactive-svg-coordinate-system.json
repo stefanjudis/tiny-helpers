@@ -1,0 +1,12 @@
+{
+  "name": "Interactive SVG Coordinate System",
+  "desc": "Interactively explore the viewport, viewBox, & preserveAspectRatio of an SVG",
+  "url": "https://www.sarasoueidan.com/demos/interactive-svg-coordinate-system/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "sarasoueidan"
+  ],
+  "addedAt": "2021-01-18"
+}
