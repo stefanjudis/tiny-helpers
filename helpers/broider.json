@@ -1,0 +1,12 @@
+{
+  "name": "Broider",
+  "desc": "Create 9-patch borders",
+  "url": "https://maxbittker.github.io/broider/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "maxbittker"
+  ],
+  "addedAt": "2021-01-25"
+}
