@@ -32,9 +32,8 @@ async function screenshotHelper(browser, helper, screenshotDir) {
         width: 1000,
         height: 600,
       });
-      await page.goto(helper.url);
-      // sleep to get a proper screenshot of sites showing a spinner
-      await sleep(5000);
+      await page.goto(helper.url, { waitUntil: 'networkidle0' });
+      
       await page.screenshot({ path: doubleSize });
       await page.close();
       sigil = '📸';
