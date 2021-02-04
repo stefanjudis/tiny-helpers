@@ -1,0 +1,12 @@
+{
+  "name": "dpilove",
+  "desc": "Find out about your screens resolution",
+  "url": "https://dpi.lv/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "LeaVerou"
+  ],
+  "addedAt": "2021-02-04"
+}
