@@ -1,10 +1,10 @@
 {
   "name": "Iconify",
-  "desc": "Create icons for multiple platforms",
+  "desc": "Generate App Icons",
   "url": "https://www.iconify.pro/",
   "tags": [
-    "Favicons"
+    "Icons"
   ],
   "maintainers": [],
-  "addedAt": "2021-01-17"
+  "addedAt": "2021-02-04"
 }
