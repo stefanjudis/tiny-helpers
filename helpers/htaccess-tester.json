@@ -1,0 +1,12 @@
+{
+  "name": "htaccess tester",
+  "desc": "Test Your htaccess rewrite rules",
+  "url": "https://htaccess.madewithlove.be/",
+  "tags": [
+    "System Administration"
+  ],
+  "maintainers": [
+    "madewithlove"
+  ],
+  "addedAt": "2021-02-05"
+}
