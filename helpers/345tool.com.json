@@ -1,0 +1,19 @@
+{
+  "name": "345Tool.com",
+  "desc": "Provide a set of free productivity tools to help developers to maximize their time. ",
+  "url": "https://www.345tool.com",
+  "tags": [
+    "CSS",
+    "Code",
+    "Data transformation",
+    "Generated Data",
+    "HTML",
+    "JSON",
+    "JavaScript",
+    "Performance"
+  ],
+  "maintainers": [
+    "markocen"
+  ],
+  "addedAt": "2021-02-09"
+}
