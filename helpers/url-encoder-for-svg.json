@@ -1,13 +1,12 @@
 {
   "name": "URL-encoder for SVG",
+  "desc": "Encode SVGs.",
   "url": "https://yoksel.github.io/url-encoder/",
-  "desc": "URL-encode your SVGs",
   "tags": [
-    "Data transformation",
     "SVG"
   ],
   "maintainers": [
     "yoksel"
   ],
-  "addedAt": "2019-12-29"
+  "addedAt": "2021-02-09"
 }
