@@ -1,0 +1,10 @@
+{
+  "name": "Colormind",
+  "desc": "Create color schemes from photographs, movies, and popular art using AI.",
+  "url": "http://colormind.io/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-02-20"
+}
