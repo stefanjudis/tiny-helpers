@@ -1,0 +1,10 @@
+{
+  "name": "GraphQL Voyager",
+  "desc": "Represent any GraphQL API as an interactive graph ",
+  "url": "https://apis.guru/graphql-voyager/",
+  "tags": [
+    "GraphQL"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-02-21"
+}
