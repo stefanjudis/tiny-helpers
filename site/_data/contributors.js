@@ -3,6 +3,7 @@ const got = require('got');
 const IGNORED_CONTRIBUTORS = ['stefanjudis', 'github-actions[bot]'];
 
 async function fetchContributors({ page = 1, options }) {
+  console.log(`Fetching contributors... Page ${page}`);
   const response = await got({
     url: `https://api.github.com/repos/stefanjudis/tiny-helpers/contributors?per_page=100&page=${page}`,
     ...options,
