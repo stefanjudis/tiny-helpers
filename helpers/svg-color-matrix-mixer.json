@@ -1,0 +1,10 @@
+{
+  "name": "SVG Color Matrix Mixer",
+  "desc": "Generate nice looking color matrix filters for your images.",
+  "url": "https://www.fecolormatrix.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-03-07"
+}
