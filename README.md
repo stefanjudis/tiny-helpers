@@ -243,6 +243,13 @@ npm run dev
                 <sub><b>Jan Kohlbach</b></sub>
             </a>
         </td>
+        <td align="center">
+            <a href="https://github.com/gnclmorais">
+                <img src="https://avatars0.githubusercontent.com/u/385232?v=4" width="75;" alt="gnclmorais"/>
+                <br />
+                <sub><b>Gonçalo Morais</b></sub>
+            </a>
+        </td>
     </tr>
 </table>
 
