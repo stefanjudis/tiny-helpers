@@ -14,7 +14,7 @@ async function fetchContributors({ page = 1, options }) {
     .filter((contributor) => !IGNORED_CONTRIBUTORS.includes(contributor));
 
   const match = response.headers.link.match(
-    /^<.*?&page=(?<nextPage>.*?)>; rel="next".*$/
+    /^<.*?&page=(?<nextPage>\d*?)>; rel="next".*$/
   );
 
   return match
