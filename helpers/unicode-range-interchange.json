@@ -1,0 +1,12 @@
+{
+  "name": "Unicode Range Interchange",
+  "desc": "Do math on unicode-range values for web fonts.",
+  "url": "https://www.zachleat.com/unicode-range-interchange/",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [
+    "zachleat"
+  ],
+  "addedAt": "2021-03-13"
+}
