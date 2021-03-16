@@ -1,0 +1,12 @@
+{
+  "name": "CSS Duotone Generator",
+  "desc": "Create duotone image effects.",
+  "url": "https://cssduotone.com/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "rickymetz"
+  ],
+  "addedAt": "2021-03-16"
+}
