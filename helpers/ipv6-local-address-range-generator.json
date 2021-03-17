@@ -1,0 +1,13 @@
+{
+  "name": "IPv6 Local Address Range Generator",
+  "desc": "Generate an RFC 4193 compliant Global ID and/or Subnet ID for your IPv6 network",
+  "url": "https://network00.com/NetworkTools/IPv6LocalAddressRangeGenerator/",
+  "tags": [
+    "Network",
+    "System Administration"
+  ],
+  "maintainers": [
+    "vivekest"
+  ],
+  "addedAt": "2020-09-06"
+}

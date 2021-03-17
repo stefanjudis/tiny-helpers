@@ -1,0 +1,13 @@
+{
+  "name": "Pretty Snap",
+  "desc": "Add backgrounds to screenshots",
+  "url": "https://prettysnap.app/",
+  "tags": [
+    "Images",
+    "Misc"
+  ],
+  "maintainers": [
+    "kangabru"
+  ],
+  "addedAt": "2020-11-23"
+}

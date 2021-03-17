@@ -1,0 +1,11 @@
+{
+  "name": "SharePad.io",
+  "desc": "Share and collaborate on your code snippets (Python, C, C++, Java)",
+  "url": "https://www.sharepad.io/",
+  "tags": [
+    "Code",
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-01-21"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "EStimator",
+  "desc": "Find out how much data you could save with modern JavaScript",
+  "url": "https://estimator.dev/",
+  "tags": [
+    "JavaScript",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-12-15"
+}

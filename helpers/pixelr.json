@@ -1,0 +1,12 @@
+{
+  "name": "Pixelr",
+  "desc": "Turn any image into pixel art",
+  "url": "https://pixelr.art/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "SaraVieira"
+  ],
+  "addedAt": "2021-01-26"
+}

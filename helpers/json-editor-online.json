@@ -1,12 +1,10 @@
 {
   "name": "JSON Editor Online",
-  "desc": "Easily format, view and explore JSON in a collapsible tree view",
+  "desc": "View, edit, and format JSON",
   "url": "https://jsoneditoronline.org/",
   "tags": [
     "JSON"
   ],
-  "maintainers": [
-    "josdejong"
-  ],
-  "addedAt": "2020-02-03"
+  "maintainers": [],
+  "addedAt": "2020-12-05"
 }

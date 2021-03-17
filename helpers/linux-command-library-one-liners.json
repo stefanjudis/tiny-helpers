@@ -1,0 +1,10 @@
+{
+  "name": "Linux Command Library - One-liners",
+  "desc": "Find shell command one-liners",
+  "url": "https://linuxcommandlibrary.com/basic/oneliners.html",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-11-20"
+}

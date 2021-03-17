@@ -1,0 +1,13 @@
+{
+  "name": "myScale",
+  "desc": "Resize and convert SVG into PNG",
+  "url": "https://webkul.github.io/myscale/",
+  "tags": [
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "webkul"
+  ],
+  "addedAt": "2021-03-10"
+}

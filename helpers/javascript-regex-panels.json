@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript Regex Panels",
+  "desc": "Test your JavaScript Regular Expressions",
+  "url": "https://www.regexp.in/practice-area.html",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "vijeysrc"
+  ],
+  "addedAt": "2020-09-21"
+}

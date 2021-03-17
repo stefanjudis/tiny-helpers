@@ -1,0 +1,10 @@
+{
+  "name": "link-to-qr",
+  "desc": "Create a QR code for a URL",
+  "url": "https://link-to-qr.com/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-11-19"
+}

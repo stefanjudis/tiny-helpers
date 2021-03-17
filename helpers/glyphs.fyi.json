@@ -1,0 +1,12 @@
+{
+  "name": "glyphs.fyi",
+  "desc": "Find open source icons.",
+  "url": "https://glyphs.fyi/",
+  "tags": [
+    "Icons"
+  ],
+  "maintainers": [
+    "gorango"
+  ],
+  "addedAt": "2021-02-11"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TinyJPG/TinyPNG",
+  "desc": "Compress JPEG and PNG files",
+  "url": "https://tinyjpg.com/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [],
+  "addedAt": "2020-08-25"
+}

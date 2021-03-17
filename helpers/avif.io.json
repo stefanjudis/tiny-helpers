@@ -1,0 +1,11 @@
+{
+  "name": "avif.io",
+  "desc": "Convert images to AVIF.",
+  "url": "https://avif.io/",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-02-23"
+}

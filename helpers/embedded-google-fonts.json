@@ -1,0 +1,13 @@
+{
+  "name": "Embedded Google Fonts",
+  "desc": "Embed base64 encoded google fonts into css.",
+  "url": "https://amio.github.io/embedded-google-fonts/",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [
+    "amio"
+  ],
+  "addedAt": "2020-07-22"
+}

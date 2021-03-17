@@ -1,0 +1,13 @@
+{
+  "name": "3D Book Image CSS Generator",
+  "desc": "Generate a book look for an image",
+  "url": "https://3d-book-css.netlify.app/",
+  "tags": [
+    "CSS",
+    "Images"
+  ],
+  "maintainers": [
+    "scastiel"
+  ],
+  "addedAt": "2020-07-28"
+}

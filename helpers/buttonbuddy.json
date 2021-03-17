@@ -1,0 +1,14 @@
+{
+  "name": "ButtonBuddy",
+  "desc": "Learn about accessible button contrast then generate your own accessible button color palette",
+  "url": "https://buttonbuddy.dev",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "5t3ph"
+  ],
+  "addedAt": "2021-01-06"
+}

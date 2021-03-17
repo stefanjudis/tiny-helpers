@@ -1,0 +1,10 @@
+{
+  "name": "SVG CROP",
+  "desc": "Remove blank space from around your SVG",
+  "url": "https://svgcrop.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-01-26"
+}

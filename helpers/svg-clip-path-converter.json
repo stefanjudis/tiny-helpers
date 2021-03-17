@@ -1,0 +1,13 @@
+{
+  "name": "SVG clip path converter",
+  "desc": "Preparing SVG paths to be used in CSS clip-path.",
+  "url": "https://yoksel.github.io/relative-clip-path/",
+  "tags": [
+    "CSS",
+    "SVG"
+  ],
+  "maintainers": [
+    "yoksel"
+  ],
+  "addedAt": "2021-02-09"
+}
