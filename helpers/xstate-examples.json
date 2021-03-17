@@ -1,12 +1,12 @@
 {
   "name": "XState Examples",
   "desc": "Build with XState using simple code sandbox examples.",
-  "url": "https://bradwoods.io/guides/xstate",
+  "url": "https://examples.bradwoods.io/xstate",
   "tags": [
     "JavaScript"
   ],
   "maintainers": [
     "bradwoods"
   ],
-  "addedAt": "2020-07-14"
+  "addedAt": "2021-03-17"
 }
