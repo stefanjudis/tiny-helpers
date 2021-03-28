@@ -1,0 +1,11 @@
+{
+  "name": "Blobs",
+  "desc": "Generate SVG blobs",
+  "url": "https://blobs.app/",
+  "tags": [
+    "Misc",
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-03-28"
+}
