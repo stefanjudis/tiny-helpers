@@ -17,7 +17,7 @@ async function exists(path) {
 }
 
 function sleep(duration) {
-  return new Promise(resolve => setTimeout(resolve, duration));
+  return new Promise((resolve) => setTimeout(resolve, duration));
 }
 
 async function makeScreenshots(browser, helper, screenshotDir) {
@@ -28,7 +28,7 @@ async function makeScreenshots(browser, helper, screenshotDir) {
     const page = await browser.newPage();
     page.setViewport({
       width: 1000,
-      height: 600
+      height: 600,
     });
     await page.goto(helper.url);
     // sleep to get a proper screenshot of sites showing a spinner
@@ -54,11 +54,17 @@ async function makeScreenshots(browser, helper, screenshotDir) {
     const browser = await chrome.puppeteer.launch({
       args: chrome.args,
       executablePath: await chrome.executablePath,
-      headless: true
+      headless: true,
     });
     const limit = pLimit(8);
-    const screenshotPromises = helpers.map(helper =>
-      limit(() => makeScreenshots(browser, helper, screenshotDir))
+    const screenshotPromises = helpers.map((helper) =>
+      limit(() => makeScreenshots(browser, helper, screenshotDir)).catch(
+        (e) => {
+          console.log(helper);
+          console.error(e);
+          throw e;
+        }
+      )
     );
     await Promise.all(screenshotPromises);
     await browser.close();
