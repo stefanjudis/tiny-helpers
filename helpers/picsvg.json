@@ -1,0 +1,11 @@
+{
+  "name": "Picsvg",
+  "desc": "Convert a picture to SVG.",
+  "url": "https://picsvg.com/",
+  "tags": [
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-03-29"
+}

@@ -33,7 +33,7 @@ async function screenshotHelper(browser, helper, screenshotDir) {
         height: 600,
       });
       await page.goto(helper.url, { waitUntil: 'networkidle0' });
-      
+
       await page.screenshot({ path: doubleSize });
       await page.close();
       sigil = '📸';
