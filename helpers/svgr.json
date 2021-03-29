@@ -1,0 +1,13 @@
+{
+  "name": "SVGR",
+  "desc": "Transform SVGs into React components.",
+  "url": "https://react-svgr.com/playground/",
+  "tags": [
+    "JavaScript",
+    "SVG"
+  ],
+  "maintainers": [
+    "gregberge"
+  ],
+  "addedAt": "2021-03-29"
+}
