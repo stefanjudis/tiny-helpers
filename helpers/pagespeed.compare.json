@@ -1,0 +1,12 @@
+{
+  "name": "PageSpeed Compare",
+  "desc": "Compare performance metrics of your pages against each other or your competitors using Google PageSpeed Insights.",
+  "url": "https://pagespeed.compare/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [
+    "sanderheilbron"
+  ],
+  "addedAt": "2021-03-30"
+}
