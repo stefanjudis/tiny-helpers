@@ -1,0 +1,12 @@
+{
+  "name": "ReX",
+  "desc": "Transform texts with regular expressions.",
+  "url": "https://rex.antfu.me/",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "antfu"
+  ],
+  "addedAt": "2021-04-03"
+}
