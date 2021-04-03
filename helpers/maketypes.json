@@ -1,0 +1,13 @@
+{
+  "name": "MakeTypes",
+  "desc": "Generate TypeScript classes from JSON examples.",
+  "url": "https://jvilk.com/MakeTypes/",
+  "tags": [
+    "JSON",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "jvilk"
+  ],
+  "addedAt": "2021-04-03"
+}
