@@ -1,0 +1,11 @@
+{
+  "name": "Gradient Generator",
+  "desc": "Generate gradients without ugly grays.",
+  "url": "https://learnui.design/tools/gradient-generator.html",
+  "tags": [
+    "CSS",
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-04-10"
+}
