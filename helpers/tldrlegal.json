@@ -1,0 +1,10 @@
+{
+  "name": "tl;drlegal",
+  "desc": "Lookup popular software licenses summarized at-a-glance.",
+  "url": "https://tldrlegal.com/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-04-13"
+}
