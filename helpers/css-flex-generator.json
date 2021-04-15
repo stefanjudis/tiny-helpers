@@ -1,0 +1,12 @@
+{
+  "name": "CSS Flex Generator",
+  "desc": "Create flexbox layouts.",
+  "url": "https://cssflex-generator.netlify.app/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "dillionmegida"
+  ],
+  "addedAt": "2021-04-15"
+}
