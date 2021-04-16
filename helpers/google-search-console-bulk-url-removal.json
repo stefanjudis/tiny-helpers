@@ -1,0 +1,12 @@
+{
+  "name": "Google Search Console - Bulk Url Removal (Chrome Extension)",
+  "desc": "This extension can remove a list of URLs from google via Google's search console formerly known as Google's Webmaster tools with one click.",
+  "url": "https://chrome.google.com/webstore/detail/webmaster-tools-bulk-url/pmnpibilljafelnghknefahibdnfeece",
+  "tags": [
+    "SEO",
+  ],
+  "maintainers": [
+    "noitcudni"
+  ],
+  "addedAt": "2020-04-15"
+}
