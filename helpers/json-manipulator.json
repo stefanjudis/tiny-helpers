@@ -1,0 +1,12 @@
+{
+  "name": "JSON Manipulator",
+  "desc": "Inspired by Gron. JSON Manipulator is a Chrome extension that flattens any JSON documents into a series of Javascript Expression. You can filter, remove, find-and-replace.",
+  "url": "https://chrome.google.com/webstore/detail/json-manipulator-json-to/pcakbljjigdafljigcpbmjllkbhlncjg",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "noitcudni"
+  ],
+  "addedAt": "2021-04-15"
+}
