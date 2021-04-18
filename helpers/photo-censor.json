@@ -1,0 +1,10 @@
+{
+  "name": "Photo Censor",
+  "desc": "Censor photos and hide faces by pixellating/blurring them.",
+  "url": "https://10015.io/tools/photo-censor",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-04-18"
+}
