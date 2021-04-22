@@ -1,0 +1,10 @@
+{
+  "name": "grep.app",
+  "desc": "Search across git repos.",
+  "url": "https://grep.app/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-04-22"
+}
