@@ -1,0 +1,12 @@
+{
+  "name": "Pattern Monster",
+  "desc": "Find customizable SVG patterns.",
+  "url": "https://pattern.monster/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "catchspider2002"
+  ],
+  "addedAt": "2021-04-25"
+}
