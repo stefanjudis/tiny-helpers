@@ -5,6 +5,8 @@
   "tags": [
     "Site analyzers"
   ],
-  "maintainers": [],
+  "maintainers": [
+    "fili"
+  ],
   "addedAt": "2021-04-14"
 }
