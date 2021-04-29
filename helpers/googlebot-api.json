@@ -1,0 +1,12 @@
+{
+  "name": "Googlebot API",
+  "desc": "Check if an IP address is officially used by Googlebot to crawl the web.",
+  "url": "https://seoapi.com/googlebot/",
+  "tags": [
+    "SEO"
+  ],
+  "maintainers": [
+    "fili"
+  ],
+  "addedAt": "2021-04-29"
+}
