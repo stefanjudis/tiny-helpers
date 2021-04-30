@@ -1,0 +1,13 @@
+{
+  "name": "Bingbot API",
+  "desc": "Check if an IP address is officially used by Bingbot to crawl the web.",
+  "url": "https://seoapi.com/bingbot/",
+  "tags": [
+    "APIs",
+    "SEO"
+  ],
+  "maintainers": [
+    "fili"
+  ],
+  "addedAt": "2021-04-30"
+}
