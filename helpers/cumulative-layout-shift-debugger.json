@@ -3,8 +3,11 @@
   "desc": "Visualize the cumulative layout shifts of any webpage to identify improvements.",
   "url": "https://webvitals.dev/cls",
   "tags": [
+    "Performance",
     "Site analyzers"
   ],
-  "maintainers": [],
+  "maintainers": [
+    "fili"
+  ],
   "addedAt": "2021-04-14"
 }
