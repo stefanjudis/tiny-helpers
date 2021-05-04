@@ -1,0 +1,10 @@
+{
+  "name": "HTTP/3 Check",
+  "desc": "Check if a URL supports HTTP/3.",
+  "url": "https://http3check.net/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-05-04"
+}
