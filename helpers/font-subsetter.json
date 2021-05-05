@@ -1,0 +1,10 @@
+{
+  "name": "Font Subsetter",
+  "desc": "Embed only the characters you need in a font file.",
+  "url": "https://everythingfonts.com/subsetter",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-05-05"
+}
