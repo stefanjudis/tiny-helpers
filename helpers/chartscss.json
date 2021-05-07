@@ -1,0 +1,12 @@
+{
+  "name": "Charts.CSS",
+  "desc": "Transform HTML tables to charts using CSS utility classes.",
+  "url": "https://chartscss.org/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "fili"
+  ],
+  "addedAt": "2021-05-07"
+}
