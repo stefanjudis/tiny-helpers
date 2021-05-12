@@ -1,0 +1,12 @@
+{
+  "name": "Avatar Cropper",
+  "desc": "Crop an image from directly its link",
+  "url": "https://avatar.innocenzi.dev",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "innocenzi"
+  ],
+  "addedAt": "2021-05-12"
+}
