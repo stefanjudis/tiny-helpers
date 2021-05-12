@@ -1,0 +1,12 @@
+{
+  "name": "Iconoir",
+  "desc": "Find open source icons.",
+  "url": "https://iconoir.com/",
+  "tags": [
+    "Icons"
+  ],
+  "maintainers": [
+    "lucaburgio"
+  ],
+  "addedAt": "2021-05-12"
+}
