@@ -1,0 +1,13 @@
+{
+  "name": "Hoppscotch",
+  "desc": "Open source API development ecosystem",
+  "url": "https://hoppscotch.io/",
+  "tags": [
+    "APIs"
+  ],
+  "maintainers": [
+    "liyasthomas",
+    "AndrewBastin"
+  ],
+  "addedAt": "2021-05-17"
+}
