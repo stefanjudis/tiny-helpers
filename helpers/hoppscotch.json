@@ -1,6 +1,6 @@
 {
   "name": "Hoppscotch",
-  "desc": "Toolbox for testing requests and responses from API calls, with GraphQL and websocket support",
+  "desc": "Test requests and responses from API calls, with GraphQL and websocket support",
   "url": "https://hoppscotch.io/",
   "tags": [
     "APIs"
