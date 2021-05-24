@@ -1,0 +1,10 @@
+{
+  "name": "SVG Filter Builder",
+  "desc": "Create and learn about SVG filters in a drag & drop Designer.",
+  "url": "https://svgfilters.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-05-24"
+}
