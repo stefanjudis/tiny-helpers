@@ -1,0 +1,12 @@
+{
+  "name": "GenerateWP.com",
+  "desc": "User friendly tools for WordPress developers.",
+  "url": "https://generatewp.com/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "fili"
+  ],
+  "addedAt": "2021-05-07"
+}
