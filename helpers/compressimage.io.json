@@ -1,0 +1,11 @@
+{
+  "name": "compressImage.io",
+  "desc": "Compress images.",
+  "url": "https://compressimage.io",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-06-12"
+}
