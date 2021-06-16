@@ -1,0 +1,12 @@
+{
+  "name": "Phish.Report",
+  "desc": "Quickly report a phishing site to the hosting provider and the security community.",
+  "url": "https://phish.report",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "bradleyjkemp"
+  ],
+  "addedAt": "2021-06-16"
+}
