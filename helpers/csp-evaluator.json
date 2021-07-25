@@ -1,0 +1,10 @@
+{
+  "name": "CSP Evaluator",
+  "desc": "Check your CSP (Content Security Policy).",
+  "url": "https://csp-evaluator.withgoogle.com/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-07-25"
+}
