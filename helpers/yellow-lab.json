@@ -1,0 +1,10 @@
+{
+  "name": "Yellow Lab",
+  "desc": "Test and analyse your website.",
+  "url": "https://yellowlab.tools/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-08-03"
+}
