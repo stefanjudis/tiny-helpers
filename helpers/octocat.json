@@ -1,0 +1,12 @@
+{
+  "name": "MyOctocat",
+  "desc": "Create GitHub's octocats",
+  "url": "https://myoctocat.com/build-your-octocat/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "GitHub"
+  ],
+  "addedAt": "2021-08-11"
+}
