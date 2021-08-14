@@ -1,0 +1,13 @@
+{	
+	"name": "GeekFlare WebTools",
+	"desc": "Web Tools—DNS lookup,Site-analystics,performance,Hoster,…",
+	"url": "https://gf.dev/toolbox",
+	"tags": [
+	"Performance",
+	"Site analyzers"
+	],
+	"maintainers": [
+	"GeekFlare"
+	],
+	"addedAt": "2021-08-14"
+}	
