@@ -1,0 +1,14 @@
+{
+  "name": "websiteshot",
+  "desc": "API to automate screenshot generation of websites.",
+  "url": "https://websiteshot.app/",
+  "tags": [
+    "APIs",
+    "Generated Data",
+    "Images"
+  ],
+  "maintainers": [
+    "urbanisierung"
+  ],
+  "addedAt": "2021-08-14"
+}
