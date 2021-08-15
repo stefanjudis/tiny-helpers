@@ -1,0 +1,13 @@
+{
+  "name": "SpeedVitals",
+  "desc": "SpeedVitals measures Website Performance and helps optimize Core Web Vitals",
+  "url": "https://speedvitals.com",
+  "tags": [
+    "Performance",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "kashishkumawat"
+  ],
+  "addedAt": "2021-08-12"
+}
