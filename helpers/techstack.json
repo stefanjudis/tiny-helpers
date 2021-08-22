@@ -1,0 +1,12 @@
+{
+  "name": "TechStack",
+  "desc": "Visualize your techstack in your README.",
+  "url": "https://techstack-logos.web.app/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "erangeles"
+  ],
+  "addedAt": "2021-08-22"
+}
