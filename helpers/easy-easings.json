@@ -1,0 +1,14 @@
+{
+  "name": "Easy Easings",
+  "desc": "Create easings with keyframes animations that can't be done with cubic-bezier in css",
+  "url": "https://easyeasings.com",
+  "tags": [
+    "Animations",
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "mauriciabad"
+  ],
+  "addedAt": "2021-08-31"
+}
