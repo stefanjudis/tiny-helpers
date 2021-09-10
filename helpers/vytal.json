@@ -1,0 +1,10 @@
+{
+  "name": "Vytal",
+  "desc": "Analyze the data your browser sends.",
+  "url": "https://vytal.io/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-09-10"
+}
