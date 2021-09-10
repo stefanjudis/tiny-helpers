@@ -1,0 +1,10 @@
+{
+  "name": "Redirect Detective",
+  "desc": "Analyze redirects without opening them yourself.",
+  "url": "https://redirectdetective.com/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-09-10"
+}
