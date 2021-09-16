@@ -1,0 +1,12 @@
+{
+  "name": "SVG to Code",
+  "desc": "Convert SVG image to code and vice versa",
+  "url": "https://nikitahl.github.io/svg-2-code/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "nikitahl"
+  ],
+  "addedAt": "2021-09-16"
+}
