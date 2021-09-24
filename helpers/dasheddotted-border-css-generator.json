@@ -1,0 +1,12 @@
+{
+  "name": "Dashed/Dotted Border CSS Generator",
+  "desc": "Create custom dashed/dotted borders using CSS hacks.",
+  "url": "https://kovart.github.io/dashed-border-generator/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "kovart"
+  ],
+  "addedAt": "2021-09-24"
+}
