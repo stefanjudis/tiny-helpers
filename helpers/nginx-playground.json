@@ -1,0 +1,10 @@
+{
+  "name": "nginx playground",
+  "desc": "Paste in an nginx config, start nginx and runs any curl or http command against that nginx server. ",
+  "url": "https://nginx-playground.wizardzines.com/",
+  "tags": [
+    "System Administration"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-09-25"
+}
