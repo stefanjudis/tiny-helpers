@@ -1,0 +1,12 @@
+{
+  "name": "QRcode.show",
+  "desc": "Generate QR codes easily.",
+  "url": "https://qrcode.show/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "sayanarijit"
+  ],
+  "addedAt": "2021-09-26"
+}
