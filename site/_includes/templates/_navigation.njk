@@ -35,9 +35,9 @@
           <a href="https://github.com/{{contributor}}" class="no-underline" aria-label="{{contributor}} on GitHub">
             <img
                 class="img-size-m circle"
-                srcset="https://github.com/{{ contributor }}.png?size=40 1x,
-                          https://github.com/{{ contributor }}.png?size=80 2x"
-                src="https://github.com/{{ contributor }}.png" alt="GitHub profile image of {{ contributor }}" loading="lazy" width="40" height="40">
+                srcset="/api/user-image/?user={{ contributor }}&size=40 1x,
+                        /api/user-image/?user={{ contributor }}&size=80 2x"
+                src="/api/user-image/?user={{ contributor }}" alt="GitHub profile image of {{ contributor }}" loading="lazy" width="40" height="40">
           </a>
         </li>
       {% endfor %}
