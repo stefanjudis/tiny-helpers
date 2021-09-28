@@ -1,0 +1,15 @@
+{
+  "name": "cssbuttons.io",
+  "desc": "Choose from numerous UI components and get the CSS for the ones you like. Everything is open-source.",
+  "url": "https://cssbuttons.io",
+  "tags": [
+    "Animations",
+    "CSS",
+    "Forms",
+    "HTML"
+  ],
+  "maintainers": [
+    "adamgiebl"
+  ],
+  "addedAt": "2021-09-28"
+}
