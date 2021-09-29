@@ -1,0 +1,15 @@
+{
+  "name": "Dwarform",
+  "desc": "Generate Svelte, Vue, HTML code snippets for making forms with Bootstrap, Bulma or custom CSS",
+  "url": "https://dwarform.pages.dev/",
+  "tags": [
+    "CSS",
+    "Code",
+    "Forms",
+    "HTML"
+  ],
+  "maintainers": [
+    "diogenesofweb"
+  ],
+  "addedAt": "2021-09-29"
+}
