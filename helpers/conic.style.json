@@ -1,0 +1,13 @@
+{
+  "name": "Conic.Style",
+  "desc": "Find CSS conic gradients.",
+  "url": "https://conic.style",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "argyleink"
+  ],
+  "addedAt": "2021-09-29"
+}
