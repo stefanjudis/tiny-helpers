@@ -1,0 +1,12 @@
+{
+  "name": "Filter blend",
+  "desc": "Play around with CSS blend modes.",
+  "url": "https://ilyashubin.github.io/FilterBlend/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "ilyashubin"
+  ],
+  "addedAt": "2021-10-03"
+}
