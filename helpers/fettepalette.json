@@ -3,8 +3,7 @@
   "desc": "Generate color ramps based on a curve within the HSV color model.",
   "url": "https://meodai.github.io/fettepalette/",
   "tags": [
-    "Color",
-    "JavaScript"
+    "Color"
   ],
   "maintainers": [
     "meodai"
