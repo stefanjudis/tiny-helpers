@@ -1,0 +1,12 @@
+{
+  "name": "FarbVèlo",
+  "desc": "Generate color harmonies based on simple rules.",
+  "url": "https://farbvelo.elastiq.ch/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "meodai"
+  ],
+  "addedAt": "2021-10-07"
+}
