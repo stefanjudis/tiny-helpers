@@ -1,0 +1,15 @@
+{
+  "name": "gifcap.dev",
+  "desc": "Capture a video of your screen, create a screencast and export as a Gif. No installation. Client-side only, no data is uploaded",
+  "url": "https://gifcap.dev",
+  "tags": [
+    "Animations",
+    "Illustration",
+    "Images",
+    "Videos"
+  ],
+  "maintainers": [
+    "joaomoreno"
+  ],
+  "addedAt": "2021-10-09"
+}
