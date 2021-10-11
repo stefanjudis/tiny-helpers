@@ -3,7 +3,8 @@
   "desc": "Create and export CSS code for a custom box with an arrow extending out from the side.",
   "url": "http://www.cssarrowplease.com/",
   "tags": [
-    "CSS"
+    "CSS",
+    "Tooltips"
   ],
   "maintainers": [
     "hojberg"
