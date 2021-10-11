@@ -1,0 +1,11 @@
+{
+  "name": "Gradihunt",
+  "desc": "Generate color gradients.",
+  "url": "https://gradihunt.com/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-11"
+}
