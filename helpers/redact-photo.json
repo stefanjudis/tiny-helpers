@@ -1,0 +1,10 @@
+{
+  "name": "Redact Photo",
+  "desc": "Censor sensitive information online.",
+  "url": "https://redact.photo/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-07"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "MConverter",
+  "desc": "Convert images to and from JXL (JPEG XL), AVIF, WebP and more",
+  "url": "https://mconverter.eu/",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-09"
+}

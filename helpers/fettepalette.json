@@ -1,0 +1,12 @@
+{
+  "name": "Fette­Palette",
+  "desc": "Generate color ramps based on a curve within the HSV color model.",
+  "url": "https://meodai.github.io/fettepalette/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "meodai"
+  ],
+  "addedAt": "2021-10-07"
+}

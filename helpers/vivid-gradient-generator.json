@@ -1,0 +1,11 @@
+{
+  "name": "Vivid gradient generator",
+  "desc": "Generate gradient without gray dead zone.",
+  "url": "https://learnui.design/tools/gradient-generator.html",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-10"
+}

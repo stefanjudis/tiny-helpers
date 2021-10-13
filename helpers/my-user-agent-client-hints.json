@@ -1,0 +1,10 @@
+{
+  "name": "My User Agent Client Hints",
+  "desc": "Find out what user agent client hints your browser sends.",
+  "url": "https://my-ua-client-hints.glitch.me/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-11"
+}
