@@ -1,0 +1,11 @@
+{
+  "name": "Static map maker",
+  "desc": "Generate a static map image.",
+  "url": "https://staticmapmaker.com/",
+  "tags": [
+    "Maps",
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-09"
+}
