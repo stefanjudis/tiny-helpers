@@ -1,0 +1,10 @@
+{
+  "name": "Go Playground",
+  "desc": "Play around with Go.",
+  "url": "https://play.golang.org/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-21"
+}
