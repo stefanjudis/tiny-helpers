@@ -1,0 +1,13 @@
+{
+  "name": "Fluid-Modular Type-scale Generator (CSS)",
+  "desc": "Quickly generate the CSS boilerplate of your design system using the concept of 'Fluid-Modular Type scale'.",
+  "url": "https://tools.sohail-saha.in/fluid-modular-type-scale-generator",
+  "tags": [
+    "Fonts",
+    "Typography"
+  ],
+  "maintainers": [
+    "captain-woof"
+  ],
+  "addedAt": "2021-10-27"
+}
