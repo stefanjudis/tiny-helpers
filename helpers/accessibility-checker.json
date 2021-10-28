@@ -1,0 +1,15 @@
+{
+  "name": "Accessibility Checker",
+  "desc": "Accessibility Checker provides easy to understand accessibility error and warning notifications right on your WordPress post edit screen.",
+  "url": "https://wordpress.org/plugins/accessibility-checker/",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "HTML",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "equalizedigital"
+  ],
+  "addedAt": "2021-10-28"
+}
