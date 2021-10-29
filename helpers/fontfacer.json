@@ -1,6 +1,6 @@
 {
   "name": "Fontfacer",
-  "desc": "Micro web app where you drag 'n' drop font files and it spits out the CSS font rules for you",
+  "desc": "Transform your font files into CSS font rules.",
   "url": "https://www.fontfacer.io/",
   "tags": [
     "CSS",
