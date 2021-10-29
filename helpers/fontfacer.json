@@ -1,0 +1,13 @@
+{
+  "name": "Fontfacer",
+  "desc": "Micro web app where you drag 'n' drop font files and it spits out the CSS font rules for you",
+  "url": "https://www.fontfacer.io/",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [
+    "pedrorolando"
+  ],
+  "addedAt": "2021-10-29"
+}
