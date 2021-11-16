@@ -1,0 +1,8 @@
+{
+  "name": "remove.bg",
+  "desc": "A Tool to remove the background from images",
+  "url": "https://www.remove.bg",
+  "tags": ["Images"],
+  "maintainers": ["kaleido"],
+  "addedAt": "2021-11-16"
+}
