@@ -1,0 +1,15 @@
+{
+  "name": "Choosy",
+  "desc": "Switch between multiple browsers based on URL, source app where you clicked on the URL and other rules you can set up for your workflow.",
+  "url": "https://www.choosyosx.com/",
+  "tags": [
+    "HTTP",
+    "Misc",
+    "Network",
+    "System Administration"
+  ],
+  "maintainers": [
+    "georgebrock"
+  ],
+  "addedAt": "2021-11-19"
+}
