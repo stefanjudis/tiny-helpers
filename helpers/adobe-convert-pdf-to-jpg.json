@@ -3,8 +3,8 @@
   "desc": "Drag and drop a PDF, then convert to JPG, PNG or TIFF file formats.",
   "url": "https://www.adobe.com/acrobat/online/pdf-to-jpg.html",
   "tags": [
-    "Data transformation",
-    "Images"
+    "Images",
+    "Misc"
   ],
   "maintainers": [],
   "addedAt": "2021-11-20"
