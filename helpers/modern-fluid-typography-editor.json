@@ -3,7 +3,8 @@
   "desc": "Create, fine-tune and generate CSS fluid typography code",
   "url": "https://modern-fluid-typography.vercel.app/",
   "tags": [
-    "CSS"
+    "CSS",
+    "Fonts"
   ],
   "maintainers": [
     "codeAdrian"
