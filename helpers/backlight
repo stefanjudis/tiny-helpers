@@ -1,0 +1,25 @@
+{
+  "name": "Backlight",
+  "desc": "Collaborative platform to build Design Systems on the code side.",
+  "url": "https://backlight.dev",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Code",
+    "Color",
+    "Fonts",
+    "Forms",
+    "HTML",
+    "JavaScript",
+    "Markdown",
+    "Performance",
+    "Typography",
+    "git"
+  ],
+  "maintainers": [
+    "georges-gomes",
+    "gqio",
+    "gluck"
+  ],
+  "addedAt": "2021-12-09"
+}
