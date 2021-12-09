@@ -1,0 +1,21 @@
+{
+  "name": "Style Dictionary Play",
+  "desc": "Sanbox playground for Style Dictionary tokens",
+  "url": "https://www.style-dictionary-play.dev/",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Code",
+    "Color",
+    "Fonts",
+    "Forms",
+    "HTML",
+    "JavaScript",
+    "Typography",
+    "git"
+  ],
+  "maintainers": [
+    "jorenbroekema"
+  ],
+  "addedAt": "2021-12-09"
+}
