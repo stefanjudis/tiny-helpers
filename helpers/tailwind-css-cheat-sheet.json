@@ -1,12 +1,10 @@
 {
   "name": "Tailwind CSS Cheat Sheet",
-  "desc": "Quick search through Tailwind classes and styles",
-  "url": "https://nerdcave.com/tailwind-cheat-sheet",
+  "desc": "Search for all the class names from Tailwind CSS.",
+  "url": "https://flowbite.com/tools/tailwind-cheat-sheet/",
   "tags": [
     "CSS"
   ],
-  "maintainers": [
-    "nerdcave"
-  ],
-  "addedAt": "2020-01-16"
+  "maintainers": [],
+  "addedAt": "2021-12-09"
 }
