@@ -1,7 +1,7 @@
 {
   "name": "ts-faker",
   "desc": "Generate fake data using TypeScript interfaces",
-  "url": "https://github.com/SirwanAfifi/ts-faker",
+  "url": "https://ts-faker.vercel.app",
   "tags": [
     "Generated Data"
   ],
