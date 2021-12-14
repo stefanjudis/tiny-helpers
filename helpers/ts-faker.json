@@ -1,0 +1,12 @@
+{
+  "name": "ts-faker",
+  "desc": "Generate fake data using TypeScript interfaces",
+  "url": "https://github.com/SirwanAfifi/ts-faker",
+  "tags": [
+    "Generated Data"
+  ],
+  "maintainers": [
+    "SirwanAfifi"
+  ],
+  "addedAt": "2021-12-14"
+}
