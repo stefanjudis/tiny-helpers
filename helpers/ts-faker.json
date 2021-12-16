@@ -1,0 +1,12 @@
+{
+  "name": "ts-faker",
+  "desc": "Generate fake data using TypeScript interfaces",
+  "url": "https://ts-faker.vercel.app",
+  "tags": [
+    "Generated Data"
+  ],
+  "maintainers": [
+    "SirwanAfifi"
+  ],
+  "addedAt": "2021-12-14"
+}
