@@ -1,6 +1,6 @@
 {
   "name": "APIs Guru",
-  "desc": "API discovery platform, find and add APIs which then lists where they can be found, docs, swagger tools and OpenAPI specs.",
+  "desc": "Find free and commercial APIs.",
   "url": "https://apis.guru/",
   "tags": [
     "APIs"
