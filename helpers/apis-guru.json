@@ -1,0 +1,14 @@
+{
+  "name": "APIs Guru",
+  "desc": "API discovery platform, find and add APIs which then lists where they can be found, docs, swagger tools and OpenAPI specs.",
+  "url": "https://apis.guru/",
+  "tags": [
+    "APIs"
+  ],
+  "maintainers": [
+    "RomanHotsiy",
+    "knidarkness",
+    "IvanGoncharov"
+  ],
+  "addedAt": "2021-12-14"
+}
