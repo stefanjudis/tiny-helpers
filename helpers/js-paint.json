@@ -1,0 +1,12 @@
+{
+  "name": "JS Paint",
+  "desc": "Draw images in a MS Paint remake.",
+  "url": "https://jspaint.app/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "1j01"
+  ],
+  "addedAt": "2021-12-22"
+}
