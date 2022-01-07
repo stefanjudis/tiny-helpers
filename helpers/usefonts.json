@@ -1,0 +1,12 @@
+{
+  "name": "useFonts",
+  "desc": "Select and preview Google fonts.",
+  "url": "https://usefonts.netlify.app/",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [
+    "goelaakash79"
+  ],
+  "addedAt": "2022-01-07"
+}
