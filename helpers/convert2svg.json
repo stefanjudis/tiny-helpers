@@ -1,0 +1,12 @@
+{
+  "name": "Convert2Svg",
+  "desc": "Convert an image to SVG.",
+  "url": "https://convert2svg.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "wwebdev"
+  ],
+  "addedAt": "2022-01-07"
+}
