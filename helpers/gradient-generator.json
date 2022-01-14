@@ -1,11 +1,11 @@
 {
   "name": "Gradient Generator",
-  "desc": "Generate gradients without ugly grays.",
-  "url": "https://learnui.design/tools/gradient-generator.html",
+  "desc": "Create CSS gradients.",
+  "url": "https://www.joshwcomeau.com/gradient-generator/",
   "tags": [
     "CSS",
-    "SVG"
+    "Color"
   ],
   "maintainers": [],
-  "addedAt": "2021-04-10"
+  "addedAt": "2022-01-14"
 }
