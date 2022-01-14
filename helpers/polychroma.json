@@ -1,0 +1,13 @@
+{
+  "name": "Polychroma",
+  "desc": "Generate gradients without the gray dead zone.",
+  "url": "https://polychroma.app/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "stormwarning"
+  ],
+  "addedAt": "2022-01-05"
+}
