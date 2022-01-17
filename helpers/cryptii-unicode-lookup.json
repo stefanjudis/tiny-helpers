@@ -1,0 +1,10 @@
+{
+  "name": "Cryptii Unicode Lookup",
+  "desc": "See Unicode code points in a string.",
+  "url": "https://cryptii.com/pipes/unicode-lookup",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-01-17"
+}
