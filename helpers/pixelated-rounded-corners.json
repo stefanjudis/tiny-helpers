@@ -1,0 +1,13 @@
+{
+  "name": "Pixelated rounded corners",
+  "desc": "Generate pixelated rounded corners for your website using CSS clip-path",
+  "url": " https://pixelcorners.lukeb.co.uk",
+  "tags": [
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "CodeFoodPixels"
+  ],
+  "addedAt": "2022-01-18"
+}
