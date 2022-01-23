@@ -1,0 +1,10 @@
+{
+  "name": "Polka Dot Generator",
+  "desc": "Generate CSS-only polka dot patterns.",
+  "url": "https://screenspan.net/polka/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-01-23"
+}
