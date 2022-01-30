@@ -1,0 +1,12 @@
+{
+  "name": "Icônes",
+  "desc": "Icon Explorer with Instant searching",
+  "url": "https://icones.js.org/",
+  "tags": [
+    "Icons"
+  ],
+  "maintainers": [
+    "antfu"
+  ],
+  "addedAt": "2022-01-30"
+}
