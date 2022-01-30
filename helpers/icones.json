@@ -1,0 +1,12 @@
+{
+  "name": "Icônes",
+  "desc": "Find and explore icons from different libraries.",
+  "url": "https://icones.js.org/",
+  "tags": [
+    "Icons"
+  ],
+  "maintainers": [
+    "antfu"
+  ],
+  "addedAt": "2022-01-30"
+}
