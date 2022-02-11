@@ -1,0 +1,12 @@
+{
+  "name": "Meshy",
+  "desc": "Generate beautiful mesh gradient backgrounds",
+  "url": "https://meshgradient.in",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "anup-a"
+  ],
+  "addedAt": "2022-02-11"
+}
