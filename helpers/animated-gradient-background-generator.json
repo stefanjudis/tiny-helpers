@@ -1,0 +1,13 @@
+{
+  "name": "Animated Gradient Background Generator",
+  "desc": "Create animated CSS backgrounds.",
+  "url": "https://animated-gradient-background-generator.netlify.app/",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "johnpolacek"
+  ],
+  "addedAt": "2021-10-27"
+}

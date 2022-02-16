@@ -1,0 +1,13 @@
+{
+  "name": "SlideCodeHighlighter",
+  "desc": "Create syntax-highlighted code for your slide decks.",
+  "url": "https://romannurik.github.io/SlidesCodeHighlighter/",
+  "tags": [
+    "Code",
+    "Misc"
+  ],
+  "maintainers": [
+    "romannurik"
+  ],
+  "addedAt": "2021-05-24"
+}

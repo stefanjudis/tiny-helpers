@@ -1,0 +1,10 @@
+{
+  "name": "SQLime",
+  "desc": "Debug and share SQL snippets.",
+  "url": "https://sqlime.org",
+  "tags": [
+    "Database"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-11-12"
+}

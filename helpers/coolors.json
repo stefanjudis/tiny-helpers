@@ -1,0 +1,11 @@
+{
+  "name": "Coolors",
+  "desc": "Generate color palettes.",
+  "url": "https://coolors.co/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-02-13"
+}

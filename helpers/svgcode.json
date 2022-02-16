@@ -1,0 +1,16 @@
+{
+  "name": "SVGcode",
+  "desc": "Convert raster images like JPG, PNG, GIF, WebP, AVIF, etc. to vector graphics in SVG format.",
+  "url": "https://svgco.de/",
+  "tags": [
+    "Favicons",
+    "Icons",
+    "Illustration",
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "tomayac"
+  ],
+  "addedAt": "2021-11-19"
+}

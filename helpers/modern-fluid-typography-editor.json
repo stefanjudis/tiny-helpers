@@ -1,0 +1,13 @@
+{
+  "name": "Modern fluid typography editor",
+  "desc": "Create, fine-tune and generate CSS fluid typography code",
+  "url": "https://modern-fluid-typography.vercel.app/",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [
+    "codeAdrian"
+  ],
+  "addedAt": "2021-12-07"
+}

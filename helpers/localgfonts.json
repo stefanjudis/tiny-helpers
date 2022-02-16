@@ -1,0 +1,11 @@
+{
+  "name": "localGfonts",
+  "desc": "Download and self-host Google fonts and CSS snippets",
+  "url": "https://labs.binaryunit.com/localgfonts/",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-21"
+}

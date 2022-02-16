@@ -1,0 +1,15 @@
+{
+  "name": "Code Generator for HTTP Requests",
+  "desc": "Generate \"ready to run\" code snippets for making HTTP requests with Google Apps Script, JavaScript, Node.js and cURL commands.",
+  "url": "https://www.labnol.org/apps/urlfetch.html",
+  "tags": [
+    "HTTP",
+    "Network",
+    "Command line",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "labnol"
+  ],
+  "addedAt": "2021-07-08"
+}

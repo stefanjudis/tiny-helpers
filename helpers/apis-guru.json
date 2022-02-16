@@ -1,0 +1,14 @@
+{
+  "name": "APIs Guru",
+  "desc": "Find free and commercial APIs.",
+  "url": "https://apis.guru/",
+  "tags": [
+    "APIs"
+  ],
+  "maintainers": [
+    "RomanHotsiy",
+    "knidarkness",
+    "IvanGoncharov"
+  ],
+  "addedAt": "2021-12-14"
+}

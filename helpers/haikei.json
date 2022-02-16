@@ -1,0 +1,14 @@
+{
+  "name": "haikei",
+  "desc": "Generate unique SVG design assets for websites, social media, blog posts, desktop and mobile wallpapers, posters, and more!",
+  "url": "https://app.haikei.app/",
+  "tags": [
+    "Illustration",
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "zcreativelabs"
+  ],
+  "addedAt": "2021-09-03"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Style Object to Custom Properties Converter",
+  "desc": "Convert a JavaScript Style Object to CSS Custom Properties (CSS Variables)",
+  "url": "https://codepen.io/bramus/full/abWdRjL",
+  "tags": [
+    "CSS",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "bramus"
+  ],
+  "addedAt": "2021-07-09"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Clipboard2Markdown",
+  "desc": "Convert text in your clipboard to markdown.",
+  "url": "https://euangoddard.github.io/clipboard2markdown/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "euangoddard"
+  ],
+  "addedAt": "2021-06-26"
+}

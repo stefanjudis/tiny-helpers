@@ -1,0 +1,10 @@
+{
+  "name": "waterfaller.dev",
+  "desc": "Analyse your website's waterfall to make it faster.",
+  "url": "https://waterfaller.dev",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-06-06"
+}

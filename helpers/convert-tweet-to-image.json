@@ -1,0 +1,13 @@
+{
+  "name": "Convert Tweet to Image",
+  "desc": "Convert tweets to customisable images, export image in Instagram Story/Post sizes",
+  "url": "https://kizie.co/tools/twitter-image",
+  "tags": [
+    "Images",
+    "Misc"
+  ],
+  "maintainers": [
+    "rishimohan"
+  ],
+  "addedAt": "2021-12-02"
+}

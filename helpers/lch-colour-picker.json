@@ -1,14 +1,13 @@
 {
-  "name": "LCH Colour Picker",
-  "desc": "Picke a color from the larger, perceptually uniform LCH (“Lightness Chroma Hue”) color space",
+  "name": " LCH Colour Picker",
+  "desc": "Convert colors from lch to rgb.",
   "url": "https://css.land/lch/",
   "tags": [
     "CSS",
     "Color"
   ],
   "maintainers": [
-    "LeaVerou",
-    "svgeesus"
+    "LeaVerou"
   ],
-  "addedAt": "2020-04-20"
+  "addedAt": "2022-02-15"
 }

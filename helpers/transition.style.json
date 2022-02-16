@@ -1,0 +1,13 @@
+{
+  "name": "Transition.Style",
+  "desc": "Find click-n-go CSS clip-path transitions.",
+  "url": "https://transition.style",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "argyleink"
+  ],
+  "addedAt": "2021-09-29"
+}

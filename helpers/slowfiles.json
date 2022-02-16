@@ -1,0 +1,15 @@
+{
+  "name": "Slowfil.es",
+  "desc": "Demonstate and observe slow-loading resources.",
+  "url": "https://slowfil.es/",
+  "tags": [
+    "HTTP",
+    "Network",
+    "Performance"
+  ],
+  "maintainers": [
+    "csswizardry",
+    "ryantownsend"
+  ],
+  "addedAt": "2021-07-08"
+}

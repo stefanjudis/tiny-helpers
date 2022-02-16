@@ -1,0 +1,10 @@
+{
+  "name": "Extract images from PDF",
+  "desc": "Download the Images from a PDF",
+  "url": "https://tinywow.com/pdf/extract-img",
+  "tags": [
+    "PDF"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-01-15"
+}

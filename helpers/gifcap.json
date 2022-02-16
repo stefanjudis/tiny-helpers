@@ -1,0 +1,13 @@
+{
+  "name": "gifcap.dev",
+  "desc": "Capture a video of your screen, create a screencast and export as a Gif.",
+  "url": "https://gifcap.dev",
+  "tags": [
+    "Images",
+    "Videos"
+  ],
+  "maintainers": [
+    "joaomoreno"
+  ],
+  "addedAt": "2021-10-09"
+}

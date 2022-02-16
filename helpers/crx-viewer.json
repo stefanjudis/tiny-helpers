@@ -1,0 +1,12 @@
+{
+  "name": "CRX Viewer",
+  "desc": "Inspect what's included in Chrome/Firefox extensions.",
+  "url": "https://robwu.nl/crxviewer/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "Rob--W"
+  ],
+  "addedAt": "2021-10-09"
+}

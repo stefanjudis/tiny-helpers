@@ -1,0 +1,12 @@
+{
+  "name": "range-input.css",
+  "desc": "Generate CSS to style range inputs that look consistent across all browsers",
+  "url": "https://range-input-css.netlify.app/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "Cool-Runningz"
+  ],
+  "addedAt": "2022-01-04"
+}

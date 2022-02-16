@@ -16,52 +16,52 @@
     </div>
   </div>
   <ol class="main-grid">
-  {% for item in tag.items | sort(renderData.listIsReversed, false, renderData.listIsSortedBy )%}
-    <li class="shadow-full bg-lighter flex-column p-relative">
-      <img
+    {% for item in tag.items | sort(renderData.listIsReversed, false, renderData.listIsSortedBy )%}
+      <li class="shadow-full bg-lighter flex-column p-relative">
+        <img
         srcset="/screenshots/{{ item.slug }}@1.jpg 1x,
                 /screenshots/{{ item.slug }}@2.jpg 2x"
         src="/screenshots/{{ item.slug }}@2.jpg" alt="Screenshot of {{item.name}}"
         width="1000"
         height="600"
         loading="lazy">
-      <div class="margin-top-m padding-v-m">
-        <h2 class="fsi-1-25 margin-bottom-s">{{ item.name }}</h2>
-        <ul class="inline-list">
-          {% for tag in item.tags %}
-            <li class="margin-right-xs margin-bottom-s">
-              <a
+        <div class="margin-top-m padding-v-m">
+          <h2 class="fsi-1-25 margin-bottom-s">{{ item.name }}</h2>
+          <ul class="inline-list">
+            {% for tag in item.tags %}
+              <li class="margin-right-xs margin-bottom-s">
+                <a
                 href="{{ tag | slug | route({ listIsSortedBy: renderData.listIsSortedBy }) }}"
                 class="btn--bubble"
               >
-                {{ tag }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-        <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
-      </div>
-      <div class="p-abs-top-left fsi-0-875 bg-lighter padding-xs z-1">Added {{ item.addedAt | prettyDate }}</div>
-      {% if item.maintainers.length %}
-        <div class="padding-v-m margin-top-auto">
-          <h3 class="fsi-1 margin-bottom-s">Made by</h3>
-          <ul class="inline-list">
-            {% for maintainer in item.maintainers %}
-              <li class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
-                <a href="https://github.com/{{maintainer}}" class="no-underline" aria-label="{{maintainer}} on GitHub">
-                  <img
-                    class="img-size-m circle"
-                    srcset="https://github.com/{{ maintainer }}.png?size=40 1x,
-                              https://github.com/{{ maintainer }}.png?size=80 2x"
-                    src="https://github.com/{{ maintainer }}.png" alt="GitHub profile image of {{ maintainer }}" loading="lazy" width="40" height="40">
+                  {{ tag }}
                 </a>
               </li>
             {% endfor %}
           </ul>
+          <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
         </div>
-      {% endif %}
-      <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=tiny-helpers">Go to {{ item.name }}</a>
-    </li>
-  {% endfor %}
+        <div class="p-abs-top-left fsi-0-875 bg-lighter padding-xs z-1">Added {{ item.addedAt | prettyDate }}</div>
+        {% if item.maintainers.length %}
+          <div class="padding-v-m margin-top-auto">
+            <h3 class="fsi-1 margin-bottom-s">Made by</h3>
+            <ul class="inline-list">
+              {% for maintainer in item.maintainers %}
+                <li class="{% if loop.index0 %}neg-margin-left-m{% endif %}">
+                  <a href="https://github.com/{{maintainer}}" class="no-underline" aria-label="{{maintainer}} on GitHub">
+                    <img
+                    class="img-size-m circle"
+                    srcset="/api/user-image/?user={{ maintainer }}&size=40 1x,
+                            /api/user-image/?user={{ maintainer }}&size=80 2x"
+                    src="/api/user-image/?user={{ maintainer }}" alt="GitHub profile image of {{ maintainer }}" loading="lazy" width="40" height="40">
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+        <a class="btn--full card-link {% if not item.maintainers.length %}margin-top-auto{% endif %}" href="{{ item.url }}?ref=tiny-helpers">Go to {{ item.name }}</a>
+      </li>
+    {% endfor %}
   </ol>
 </div>
