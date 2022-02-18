@@ -3,7 +3,8 @@
   "desc": "Find actively maintained & popular open source software libraries for the Ruby programming language",
   "url": "https://www.ruby-toolbox.com/",
   "tags": [
-    "Ruby"
+    "Ruby",
+    "Tool Collections"
   ],
   "maintainers": [
     "colszowka"
