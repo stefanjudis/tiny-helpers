@@ -1,0 +1,13 @@
+{
+  "name": "hue.tools",
+  "desc": "Mix, blend, convert and modify colors.",
+  "url": "https://hue.tools",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "pabueco"
+  ],
+  "addedAt": "2022-02-20"
+}
