@@ -1,0 +1,12 @@
+{
+  "name": "CropScore",
+  "desc": "Crop images for common platforms.",
+  "url": "https://cropper.madza.dev/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "madzadev"
+  ],
+  "addedAt": "2022-03-04"
+}
