@@ -1,0 +1,10 @@
+{
+  "name": "Magic Eraser",
+  "desc": "Remove unwanted things from images",
+  "url": "https://www.magiceraser.io/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-03-24"
+}
