@@ -4,7 +4,8 @@
   "url": "https://kigiri.github.io/fetch/",
   "tags": [
     "Command line",
-    "HTTP"
+    "HTTP",
+    "Fetch"
   ],
   "maintainers": [
     "kigiri"
