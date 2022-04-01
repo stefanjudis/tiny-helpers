@@ -1,0 +1,13 @@
+{
+  "name": "Online cURL to fetch API converter",
+  "desc": "Get the equivalent JavaScript fetch code from a cURL command",
+  "url": "https://kigiri.github.io/fetch/",
+  "tags": [
+    "Command line",
+    "HTTP"
+  ],
+  "maintainers": [
+    "kigiri"
+  ],
+  "addedAt": "2022-03-17"
+}
