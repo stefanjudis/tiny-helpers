@@ -1,0 +1,13 @@
+{
+  "name": "diff2gif",
+  "desc": "Turn frames of code into a smooth animation.",
+  "url": "https://diff2gif.com/",
+  "tags": [
+    "Code",
+    "Misc"
+  ],
+  "maintainers": [
+    "SirPepe"
+  ],
+  "addedAt": "2022-04-06"
+}
