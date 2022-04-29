@@ -1,0 +1,12 @@
+{
+  "name": "Regex-Vis",
+  "desc": "Visualize regular expressions.",
+  "url": "https://regex-vis.com/",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "Bowen7"
+  ],
+  "addedAt": "2022-04-29"
+}
