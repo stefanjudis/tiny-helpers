@@ -1,0 +1,12 @@
+{
+  "name": "ProfileMe.dev",
+  "desc": "Create an awesome GitHub profile in minutes",
+  "url": "https://www.profileme.dev/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "danielcranney"
+  ],
+  "addedAt": "2022-05-01"
+}
