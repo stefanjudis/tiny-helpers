@@ -1,0 +1,14 @@
+{
+  "name": "Array Builder",
+  "desc": "Visualise JS array operations",
+  "url": "https://www.arraybuilder.com",
+  "tags": [
+    "Code",
+    "JavaScript",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "318097"
+  ],
+  "addedAt": "2022-05-01"
+}
