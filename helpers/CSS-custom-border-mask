@@ -1,0 +1,12 @@
+{
+  "name": "Custom Borders using Mask",
+  "desc": "A CSS generator to create Zig-Zag, Rounded, and Wavy borders",
+  "url": "https://css-generators.com/custom-borders/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "Afif13"
+  ],
+  "addedAt": "2022-05-01"
+}
