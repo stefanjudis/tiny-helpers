@@ -1,0 +1,15 @@
+{
+  "name": "snappify",
+  "desc": "A powerful design tool to create and manage beautiful code snippets.",
+  "url": "https://snappify.io",
+  "tags": [
+    "APIs",
+    "Code",
+    "Images"
+  ],
+  "maintainers": [
+    "dsumer",
+    "anki247"
+  ],
+  "addedAt": "2022-05-02"
+}
