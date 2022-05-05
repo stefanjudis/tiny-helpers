@@ -1,0 +1,14 @@
+{
+"name": "Fluid Type Scale Calculator",
+  "desc": "Generate font size variables for a fluid type scale with CSS clamp.",
+  "url": "https://www.fluid-type-scale.com/",
+  "tags": [
+    "Fonts",
+    "CSS",
+    "Typography"
+  ],
+  "maintainers": [
+    "AleksandrHovhannisyan"
+  ],
+  "addedAt": "2022-05-05"
+}
