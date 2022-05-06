@@ -1,12 +1,15 @@
 {
-  "name": "htaccess tester",
-  "desc": "Test Your htaccess rewrite rules",
-  "url": "https://htaccess.madewithlove.be/",
+  "name": "Htaccess Tester",
+  "desc": "Htaccess rewrite engine testing tool to test your apache htaccess apache mod_rewrite rules",
+  "url": "https://htaccess.madewithlove.com",
   "tags": [
     "System Administration"
   ],
   "maintainers": [
-    "madewithlove"
+    "andreascreten",
+    "WouterSioen",
+    "jdrieghe",
+    "xavierbarbosa"
   ],
-  "addedAt": "2021-02-05"
+  "addedAt": "2022-05-06"
 }
