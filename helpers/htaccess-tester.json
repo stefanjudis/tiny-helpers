@@ -1,6 +1,6 @@
 {
   "name": "Htaccess Tester",
-  "desc": "Htaccess rewrite engine testing tool to test your apache htaccess apache mod_rewrite rules",
+  "desc": "Test your apache htaccess apache mod_rewrite rules",
   "url": "https://htaccess.madewithlove.com",
   "tags": [
     "System Administration"
