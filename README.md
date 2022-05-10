@@ -27,7 +27,12 @@ Commit the changes and [open a pull request](https://help.github.com/en/github/c
 ### Run the project locally
 
 This project uses Vercel's routing configuration. The `/` route doesn't work locally. To start, navigate to `localhost:8080/home/` after running `npm run dev`.
+First set you favorite port as environment variable, e.g. 1234
+```
+ export PORT=1234
+```
 
+then run 
 ```
 npm run dev
 ```
