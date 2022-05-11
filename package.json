@@ -8,8 +8,7 @@
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
-    "dev": "eleventy --serve --port $PORT",
-    "dev:vercel": "vercel dev",
+    "dev": "eleventy --serve",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
     "deploy": "npm run build && now --prod"
@@ -19,7 +18,7 @@
     "url": "git+https://github.com/stefanjudis/tiny-helpers.git"
   },
   "engines": {
-    "node": "^14.16.0"
+    "node": "^16"
   },
   "keywords": [],
   "author": "stefan judis <stefanjudis@gmail.com>",
@@ -49,7 +48,5 @@
     "slugify": "^1.4.0",
     "terser": "^4.6.7"
   },
-  "devDependencies": {
-    "vercel": "^19.1.1"
-  }
+  "devDependencies": {}
 }
