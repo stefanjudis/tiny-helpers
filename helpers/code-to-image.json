@@ -1,0 +1,12 @@
+{
+  "name": "Code to Image",
+  "desc": "Generate beautiful and customizable images of code.",
+  "url": "https://codetoimg.com/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "rohidisdev"
+  ],
+  "addedAt": "2022-05-17"
+}
