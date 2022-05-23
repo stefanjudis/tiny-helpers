@@ -1,0 +1,15 @@
+{
+  "name": "Min-Max-Value Interpolation",
+  "desc": "Generate a CSS clamp formula to interpolate between two values in a given viewport range.",
+  "url": "https://min-max-calculator.9elements.com/",
+  "tags": [
+    "CSS",
+    "Code",
+    "Fonts"
+  ],
+  "maintainers": [
+    "nd55",
+    "enbee81"
+  ],
+  "addedAt": "2022-05-23"
+}
