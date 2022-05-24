@@ -3,7 +3,7 @@
   "desc": "Convert vanilla JS to obfuscated one, making it hard to copy, modify, understand or reuse (for others).",
   "url": "https://obfuscator.io/",
   "tags": [
-    "Javascript"
+    "JavaScript"
   ],
   "maintainers": ["javascript-obfuscator"],
   "addedAt": "2022-05-24"
