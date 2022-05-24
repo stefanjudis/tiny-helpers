@@ -1,6 +1,6 @@
 {
   "name": "Javascript Obfuscator",
-  "desc": "A powerful obfuscator for JavaScript and Node.js",
+  "desc": "Convert vanilla JS to obfuscated one, making it hard to copy, modify, understand or reuse (for others).",
   "url": "https://obfuscator.io/",
   "tags": [
     "Javascript"
