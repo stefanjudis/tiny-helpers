@@ -1,0 +1,8 @@
+{
+  "name": "Colors UI",
+  "desc": "Colors UI is a free color palette tool",
+  "url": "https://colorsui.com",
+  "tags": ["Color", "shade generator", "solod colors", "color palettes", "material colors"],
+  "maintainers": ["Venkatesh A"],
+  "addedAt": "2018-05-05"
+}
