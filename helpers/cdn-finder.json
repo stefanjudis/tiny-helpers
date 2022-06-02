@@ -1,0 +1,11 @@
+{
+  "name": "CDN finder",
+  "desc": "Look up all CDNs used on a web page.",
+  "url": "https://www.cdnplanet.com/tools/cdnfinder/",
+  "tags": [
+    "Misc",
+    "Network"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-06-02"
+}
