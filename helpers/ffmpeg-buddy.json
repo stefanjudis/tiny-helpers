@@ -1,0 +1,12 @@
+{
+  "name": "ffmpeg buddy",
+  "desc": "Build ffmpeg commands.",
+  "url": "https://evanhahn.github.io/ffmpeg-buddy/",
+  "tags": [
+    "Videos"
+  ],
+  "maintainers": [
+    "evanhahn"
+  ],
+  "addedAt": "2022-06-04"
+}
