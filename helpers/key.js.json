@@ -1,0 +1,12 @@
+{
+  "name": "key.js",
+  "desc": "Press any key to get the JavaScript keydown event key, code, which and keyCode properties",
+  "url": "https://keyjs.dev/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "danziger"
+  ],
+  "addedAt": "2022-06-11"
+}
