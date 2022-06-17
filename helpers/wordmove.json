@@ -1,0 +1,11 @@
+{
+  "name": "Wordmove",
+  "desc": "Wordmove is a command line tool that lets you automatically mirror local WordPress installations and DB data back and forth from your local development machine to one or more remote servers.",
+  "url": "https://github.com/welaika/wordmove",
+  "tags": [
+    "Code",
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-06-17"
+}
