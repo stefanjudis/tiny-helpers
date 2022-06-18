@@ -1,0 +1,14 @@
+{
+  "name": "Goodpalette",
+  "desc": "Make beautiful color palettes for UI.",
+  "url": "https://goodpalette.io/",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "manutastic"
+  ],
+  "addedAt": "2022-06-18"
+}
