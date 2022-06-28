@@ -1,0 +1,12 @@
+{
+  "name": "Chromium Downloads",
+  "desc": "Find and download archived chromium versions",
+  "url": "https://chromium.cypress.io/",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "cypress-io"
+  ],
+  "addedAt": "2020-04-28"
+}
