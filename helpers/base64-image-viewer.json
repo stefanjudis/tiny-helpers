@@ -1,7 +1,7 @@
 {
   "name": "Base64 Image Viewer",
   "desc": "View your Base64 encoded images",
-  "url": "http://jaredwinick.github.io/base64-image-viewer/",
+  "url": "https://jaredwinick.github.io/base64-image-viewer/",
   "tags": [
     "Data transformation",
     "Images"
