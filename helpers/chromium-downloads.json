@@ -3,7 +3,7 @@
   "desc": "Find and download archived chromium versions",
   "url": "https://chromium.cypress.io/",
   "tags": [
-    "Tool Collections"
+    "Misc"
   ],
   "maintainers": [
     "cypress-io"
