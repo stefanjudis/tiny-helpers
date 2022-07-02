@@ -1,0 +1,12 @@
+{
+  "name": "#HEXWORDS",
+  "desc": "Find hex color words.",
+  "url": "https://hexwords.netlify.app/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "paoloricciuti"
+  ],
+  "addedAt": "2022-07-02"
+}
