@@ -1,0 +1,12 @@
+{
+  "name": "bundlejs",
+  "desc": "Analyze JavaScript packages.",
+  "url": "https://bundlejs.com",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "okikio"
+  ],
+  "addedAt": "2022-07-10"
+}
