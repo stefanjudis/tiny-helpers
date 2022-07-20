@@ -46,7 +46,7 @@
     "puppeteer": "^2.1.1",
     "puppeteer-core": "^2.1.1",
     "slugify": "^1.4.0",
-    "terser": "^4.6.7"
+    "terser": "^4.8.1"
   },
   "devDependencies": {}
 }
