@@ -1,6 +1,6 @@
 {
     "name": "GradeJS",
-    "desc": "Analyzes production Webpack bundles without having access to the source code. Instantly see vulnerabilities, outdated packages, and more just by entering a web application URL.",
+    "desc": "Analyze production Webpack bundles and see vulnerabilities, outdated packages, and more just by entering a web application URL.",
     "url": "https://gradejs.com",
     "tags": ["JavaScript", "Security", "Site analyzers"],
     "maintainers": ["spalt08"],
