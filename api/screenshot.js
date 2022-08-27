@@ -21,7 +21,7 @@ async function getBrowser() {
 
   return chrome.puppeteer.launch({
     args: chrome.args,
-    executablePath: await chrome.executablePath,
+    executablePath,
     headless: true,
   });
 }
