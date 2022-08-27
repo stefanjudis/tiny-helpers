@@ -20,13 +20,13 @@ const { toSlug } = require('../lib/slug');
       generator: 'Feed for tiny-helpers.dev', // optional, default = 'Feed for Node.js'
       feedLinks: {
         atom: 'https://tiny-helpers.dev/feed.atom',
-        rss: 'https://tiny-helpers.dev/feed.xml'
+        rss: 'https://tiny-helpers.dev/feed.xml',
       },
       author: {
         name: 'Stefan Judis',
         email: 'stefanjudis@gmail.com',
-        link: 'https://www.stefanjudis.com'
-      }
+        link: 'https://www.stefanjudis.com',
+      },
     });
 
     helpers
@@ -39,7 +39,7 @@ const { toSlug } = require('../lib/slug');
           description: desc,
           content: `More tools! 🎉🎉🎉 "${name}" is available at ${url}`,
           date: new Date(addedAt),
-          image: `https://tiny-helpers.dev/screenshots/${toSlug(name)}@1.jpg`
+          image: `https://tiny-helpers.dev/api/screenshot/?url=${url}`,
         });
       });
 

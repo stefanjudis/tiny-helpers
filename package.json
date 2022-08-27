@@ -4,7 +4,6 @@
   "description": "A collection of free single-purpose online tools for web developers...",
   "main": "index.js",
   "scripts": {
-    "setup:screenshots": "node ./scripts/create-screenshots.js",
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
@@ -43,10 +42,9 @@
     "postcss-clean": "^1.1.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
-    "puppeteer": "^2.1.1",
+    "puppeteer": "^16.2.0",
     "puppeteer-core": "^2.1.1",
     "slugify": "^1.4.0",
     "terser": "^4.6.7"
-  },
-  "devDependencies": {}
+  }
 }
