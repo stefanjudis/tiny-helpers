@@ -13,7 +13,7 @@ async function getBrowser() {
     });
 
     return puppeteer.launch({
-      args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
+      args: [...chrome.args, '--hide-scrollbars', '--disable-web-security'],
       headless: true,
       ignoreHTTPSErrors: true,
     });
