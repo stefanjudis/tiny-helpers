@@ -2,6 +2,8 @@ const chrome = require('chrome-aws-lambda');
 let _page;
 
 async function getBrowser() {
+  console.log('-----------');
+  console.log(chrome.executablePath);
   const executablePath = await chrome.executablePath;
 
   // local development
