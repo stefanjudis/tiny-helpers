@@ -3,8 +3,8 @@ let _page;
 
 async function getBrowser() {
   console.log('-----------');
-  console.log(chrome.executablePath);
   const executablePath = await chrome.executablePath;
+  console.log(executablePath);
 
   // local development
   if (!executablePath) {
