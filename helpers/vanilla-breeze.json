@@ -1,0 +1,12 @@
+{
+  "name": "Vanilla Breeze",
+  "desc": "Convert Tailwind CSS to Semantic CSS",
+  "url": "https://www.vanillabreeze.dev/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "jaredcwhite"
+  ],
+  "addedAt": "2022-09-02"
+}
