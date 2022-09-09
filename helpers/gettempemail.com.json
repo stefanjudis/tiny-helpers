@@ -1,0 +1,15 @@
+{
+  "name": "gettempemail.com",
+  "desc": "create disposable email within seconds",
+  "url": "gettempemail.com",
+  "tags": [
+    "Email",
+    "Misc",
+    "Security"
+  ],
+  "maintainers": [
+    "shivamethicalhat",
+    "gettempemaildev"
+  ],
+  "addedAt": "2022-09-09"
+}
