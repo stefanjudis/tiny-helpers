@@ -1,0 +1,10 @@
+{
+  "name": "JSONHERO",
+  "desc": "Inspect and analyze JSON",
+  "url": "https://jsonhero.io/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-09-09"
+}
