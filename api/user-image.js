@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
       imageRequest.buffer(),
     ]);
 
-    res.setHeader('Cache-Control', 's-maxage=43200');
+    res.setHeader('Cache-Control', 's-maxage=604800');
     res.setHeader('content-type', imageResponse.headers['content-type']);
     res.send(imageBuffer);
   } catch (error) {
