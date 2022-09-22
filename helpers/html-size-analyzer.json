@@ -1,0 +1,11 @@
+{
+  "name": "HTML Size Analyzer",
+  "desc": "Analyze HTML size and catch bloat like inline images or code duplication.",
+  "url": "https://www.debugbear.com/html-size-analyzer",
+  "tags": [
+    "HTML",
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-09-16"
+}
