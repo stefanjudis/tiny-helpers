@@ -1,0 +1,12 @@
+{
+  "name": "OkSo",
+  "desc": "Draw your ideas in a minimal yet beautiful app.",
+  "url": "https://okso.app/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "trekhleb"
+  ],
+  "addedAt": "2022-09-22"
+}
