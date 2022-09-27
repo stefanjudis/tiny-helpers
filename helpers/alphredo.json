@@ -1,0 +1,11 @@
+{
+  "name": "Alphredo",
+  "desc": "Generate translucent colors looking the same as their opaque counterparts when placed against the same background.",
+  "url": "https://alphredo.app/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-09-27"
+}
