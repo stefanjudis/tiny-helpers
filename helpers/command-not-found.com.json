@@ -1,0 +1,10 @@
+{
+  "name": "command-not-found.com ",
+  "desc": "Find package names to install a command on every distro",
+  "url": "https://command-not-found.com/",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-10-01"
+}
