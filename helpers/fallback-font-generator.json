@@ -1,0 +1,11 @@
+{
+  "name": "Fallback Font Generator",
+  "desc": "Adjust web and system fonts to reduce layout shifts",
+  "url": "https://screenspan.net/fallback",
+  "tags": [
+    "CSS",
+    "Fonts"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-10-08"
+}
