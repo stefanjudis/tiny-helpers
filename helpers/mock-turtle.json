@@ -1,0 +1,14 @@
+{
+  "name": "Mock Turtle",
+  "desc": "Generate random JSON data through a simple & intuitive GUI",
+  "url": "https://mockturtle.net",
+  "tags": [
+    "Generated Data",
+    "JSON"
+  ],
+  "maintainers": [
+    "jiahui747",
+    "TimChandra"
+  ],
+  "addedAt": "2022-10-14"
+}
