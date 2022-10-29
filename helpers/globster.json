@@ -2,7 +2,7 @@
   "name": "globster",
   "desc": "Test and visualize results of glob patterns matching.",
   "url": "https://globster.xyz/",
-  "tags": ["glob", "minimatch"],
+  "tags": ["Code", "Command line"],
   "maintainers": ["Dominik Cygalski"],
   "addedAt": "2022-10-29"
 }
