@@ -1,6 +1,6 @@
 {
   "name": "globster",
-  "desc": "An online tool for testing and visualizing results of glob patterns matching.",
+  "desc": "Test and visualize results of glob patterns matching.",
   "url": "https://globster.xyz/",
   "tags": ["glob", "minimatch"],
   "maintainers": ["Dominik Cygalski"],
