@@ -1,0 +1,12 @@
+{
+  "name": "CSS Clothoid Corners",
+  "desc": "Generate clothoid rounded corners by CSS clip-path.",
+  "url": "https://onotakehiko.dev/clothoid/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "onopko"
+  ],
+  "addedAt": "2022-11-11"
+}
