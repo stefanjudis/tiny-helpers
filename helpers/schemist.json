@@ -1,0 +1,14 @@
+{
+  "name": "Schemist",
+  "desc": "Build cohesive and accessible color schemes",
+  "url": "https://schemist.fglt.fr",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "felixgirault"
+  ],
+  "addedAt": "2022-11-15"
+}
