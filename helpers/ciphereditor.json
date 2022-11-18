@@ -1,0 +1,13 @@
+{
+  "name": "ciphereditor",
+  "desc": "Build own workflows with cryptography, ciphers and data formats",
+  "url": "https://ciphereditor.com/",
+  "tags": [
+    "Data transformation",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "ffraenz"
+  ],
+  "addedAt": "2022-11-18"
+}
