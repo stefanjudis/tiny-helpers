@@ -1,0 +1,13 @@
+{
+  "name": "vectormaker",
+  "desc": "Convert images to SVG vectors.",
+  "url": "https://vectormaker.co/",
+  "tags": [
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "btk"
+  ],
+  "addedAt": "2022-11-22"
+}
