@@ -1,6 +1,6 @@
 {
   "name": "Regex-Vis",
-  "desc": "Visualize regular expressions.",
+  "desc": "Analyze regular expressions.",
   "url": "https://regex-vis.com/",
   "tags": [
     "Regular Expressions"
@@ -8,5 +8,5 @@
   "maintainers": [
     "Bowen7"
   ],
-  "addedAt": "2022-04-29"
+  "addedAt": "2022-11-24"
 }
