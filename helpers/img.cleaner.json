@@ -1,0 +1,10 @@
+{
+  "name": "Img.cleaner",
+  "desc": "Clean up images and pictures by removing unwanted objects.",
+  "url": "https://imgcleaner.com",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [],
+  "addedAt": "2022-12-09"
+}
