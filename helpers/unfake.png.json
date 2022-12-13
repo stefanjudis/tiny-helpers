@@ -1,0 +1,12 @@
+{
+  "name": "unfake.png",
+  "desc": "Remove fake transparency from images.",
+  "url": "https://unfakepng.com",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "Gaspard-Bruno"
+  ],
+  "addedAt": "2022-12-13"
+}
