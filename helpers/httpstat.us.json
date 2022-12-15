@@ -1,0 +1,12 @@
+{
+  "name": "httpstat.us",
+  "desc": "Generate different API HTTP codes.",
+  "url": "https://httpstat.us/",
+  "tags": [
+    "APIs"
+  ],
+  "maintainers": [
+    "aaronpowell"
+  ],
+  "addedAt": "2022-12-15"
+}
