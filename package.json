@@ -10,7 +10,9 @@
     "dev": "eleventy --serve",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
-    "deploy": "npm run build && now --prod"
+    "deploy": "npm run build && now --prod",
+    "checkly:test": "npx checkly test",
+    "checkly:deploy": "npx checkly deploy --force"
   },
   "repository": {
     "type": "git",
