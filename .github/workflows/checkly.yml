@@ -24,6 +24,8 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci
+      - name: Debug branch
+        run: echo ${{ github.head_ref }}
       - name: Run checks
         id: run-checks
         run: npm run checkly:test -- -e ENVIRONMENT_URL=${{ env.ENVIRONMENT_URL }}
