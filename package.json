@@ -17,7 +17,7 @@
     "url": "git+https://github.com/stefanjudis/tiny-helpers.git"
   },
   "engines": {
-    "node": "^14"
+    "node": "^16"
   },
   "keywords": [],
   "author": "stefan judis <stefanjudis@gmail.com>",
