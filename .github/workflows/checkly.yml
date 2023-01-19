@@ -29,5 +29,5 @@ jobs:
         run: npm run checkly:test -- -e ENVIRONMENT_URL=${{ env.ENVIRONMENT_URL }}
         continue-on-error: false
       - name: Deploy checks
-        if: steps.run-checks.outcome == 'success'
+        if: steps.run-checks.outcome == 'success' && github.head_ref == 'primary'
         run: npm run checkly:deploy
