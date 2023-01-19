@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 const pageUrl = process.env.ENVIRONMENT_URL || 'https://www.tiny-helpers.dev';
 
-test('Mac Demo Home', async ({ page }) => {
+test('Home has the correct title', async ({ page }) => {
   console.log(`Using pageUrl: ${pageUrl}`);
   const response = await page.goto(pageUrl);
   expect(response.status()).toBe(200);
