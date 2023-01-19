@@ -15,6 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Debug branch
+        run: echo ${{ github.head_ref }}
       - name: Restore or cache node_modules
         id: cache-node-modules
         uses: actions/cache@v3
