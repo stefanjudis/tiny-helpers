@@ -1,3 +1,5 @@
+![Checkl](https://api.checklyhq.com/v1/badges/checks/315d1e86-eca6-436f-874e-639f20c85d62?style=flat-square&theme=default&responseTime=false)
+
 # tiny-helpers.dev
 
 > A collection of useful online web development tools.
