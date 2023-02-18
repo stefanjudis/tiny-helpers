@@ -1,0 +1,12 @@
+{
+  "name": "Gradient CSS Shadow Generator",
+  "desc": "Create gradient CSS shadows with transparent parent element.",
+  "url": "https://css-generators.com/gradient-shadows/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "Afif13"
+  ],
+  "addedAt": "2023-02-18"
+}
