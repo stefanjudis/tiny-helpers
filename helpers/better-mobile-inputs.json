@@ -1,14 +1,12 @@
 {
   "name": "better-mobile-inputs",
-  "desc": "Find which combinations of attributes work best for your inputs",
+  "desc": "Get previews of HTML element with \"type\", \"inputmode\" and \"autocomplete\" attributes.",
   "url": "https://better-mobile-inputs.netlify.app",
   "tags": [
-    "Accessibility",
-    "Forms",
     "HTML"
   ],
   "maintainers": [
     "aholachek"
   ],
-  "addedAt": "2020-05-15"
+  "addedAt": "2023-03-03"
 }
