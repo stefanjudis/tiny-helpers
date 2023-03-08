@@ -1,10 +1,10 @@
 {
   "name": "Tabler Icons",
-  "desc": "Download fully customizable free SVG icons",
-  "url": "https://tablericons.com/",
+  "desc": "3500+ fully customizable free SVG icons",
+  "url": "https://tabler-icons.io/",
   "tags": [
     "Icons"
   ],
-  "maintainers": [],
+  "maintainers": ["codecalm"],
   "addedAt": "2020-07-13"
 }
