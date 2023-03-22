@@ -2,17 +2,7 @@
   "name": "Brotli.Pro",
   "desc": "Check if your website supports Brotli compression",
   "url": "https://www.brotli.pro/",
-  "tags": [
-    "HTML",
-    "HTTP",
-    "Misc",
-    "Network",
-    "Performance",
-    "SEO",
-    "Site analyzers"
-  ],
-  "maintainers": [
-    "manniL"
-  ],
+  "tags": ["Network", "Performance", "Site analyzers"],
+  "maintainers": ["manniL"],
   "addedAt": "2020-01-18"
 }
