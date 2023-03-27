@@ -1,0 +1,13 @@
+{
+  "name": "macOS Cursors",
+  "desc": "Find all macOS cursor icons in SVG.",
+  "url": "https://mac-cursors.netlify.app/",
+  "tags": [
+    "Icons",
+    "SVG"
+  ],
+  "maintainers": [
+    "daviddarnes"
+  ],
+  "addedAt": "2023-03-27"
+}
