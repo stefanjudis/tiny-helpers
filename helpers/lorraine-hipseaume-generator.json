@@ -1,0 +1,14 @@
+{
+  "name": "Lorraine Hipseaume Generator",
+  "desc": "Generates fake French names and surnames to fill in mockups",
+  "url": "https://lorraine-hipseau.me/",
+  "tags": [
+    "Generated Data",
+    "Internationalization"
+  ],
+  "maintainers": [
+    "judbd",
+    "enwin"
+  ],
+  "addedAt": "2023-03-29"
+}
