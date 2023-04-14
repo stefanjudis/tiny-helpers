@@ -1,0 +1,12 @@
+{
+  "name": "Are my third parties green?",
+  "desc": "Check whether the third-party services used by a website are served from green web hosts.",
+  "url": "https://aremythirdpartiesgreen.com/",
+  "tags": [
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "fershad"
+  ],
+  "addedAt": "2023-04-14"
+}
