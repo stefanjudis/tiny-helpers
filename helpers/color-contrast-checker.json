@@ -1,7 +1,7 @@
 {
   "name": "Color contrast checker",
-  "desc": "Quickly check the contrast between colors and get suggestions for better colors",
-  "url": "https://polypane.app/color-contrast/",
+  "desc": "Quickly check the contrast between colors with WCAG and APCA and get suggestions for better colors",
+  "url": "https://colorcontrast.app/",
   "tags": [
     "Accessibility",
     "Color"
