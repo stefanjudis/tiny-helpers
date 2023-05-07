@@ -1,0 +1,10 @@
+{
+  "name": "uptime.is",
+  "desc": "Evaluate uptime numbers with downtime length.",
+  "url": "https://uptime.is/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-05-07"
+}
