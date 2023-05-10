@@ -1,6 +1,6 @@
 {
   "name": "Green web checker",
-  "desc": "Checks to see if a website is hosted on a verified green web host.",
+  "desc": "Checks if a website is hosted on a verified green web host.",
   "url": "https://www.thegreenwebfoundation.org/green-web-check/",
   "tags": [
     "Site analyzers"
