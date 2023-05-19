@@ -1,0 +1,12 @@
+{
+  "name": "capo.js",
+  "desc": "A snippet to get your <head> in order",
+  "url": "https://rviscomi.github.io/capo.js/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [
+    "rviscomi"
+  ],
+  "addedAt": "2023-05-19"
+}
