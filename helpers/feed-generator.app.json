@@ -1,6 +1,6 @@
 {
   "name": "feed-generator.app",
-  "desc": "Generate RSS, Atom and JSON feed.",
+  "desc": "Generate RSS, Atom and JSON feeds.",
   "url": "https://feed-generator.app",
   "tags": [
     "Code",
