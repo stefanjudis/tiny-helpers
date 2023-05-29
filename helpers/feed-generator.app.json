@@ -1,0 +1,14 @@
+{
+  "name": "feed-generator.app",
+  "desc": "Generate RSS, Atom and JSON feed.",
+  "url": "https://feed-generator.app",
+  "tags": [
+    "Code",
+    "Data transformation",
+    "Misc"
+  ],
+  "maintainers": [
+    "pawelgrzybek"
+  ],
+  "addedAt": "2023-05-29"
+}
