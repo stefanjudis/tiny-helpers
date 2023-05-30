@@ -1,0 +1,16 @@
+{
+  "name": "Check server-side rendering",
+  "desc": "Check if a Url is server-side rendered",
+  "url": "https://punits.dev/check-server-side-rendered/",
+  "tags": [
+    "Generated Data",
+    "HTML",
+    "JavaScript",
+    "Performance",
+    "SEO"
+  ],
+  "maintainers": [
+    "geeky-biz"
+  ],
+  "addedAt": "2023-05-30"
+}
