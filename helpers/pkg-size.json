@@ -1,0 +1,13 @@
+{
+  "name": "pkg-size",
+  "desc": "Find the true size of an npm package.",
+  "url": "https://pkg-size.dev",
+  "tags": [
+    "JavaScript",
+    "Performance"
+  ],
+  "maintainers": [
+    "privatenumber"
+  ],
+  "addedAt": "2023-07-19"
+}
