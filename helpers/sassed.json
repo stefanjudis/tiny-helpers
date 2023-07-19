@@ -1,0 +1,13 @@
+{
+  "name": "sassed",
+  "desc": "Transform SCSS to CSS",
+  "url": "https://loilo.github.io/sassed/",
+  "tags": [
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "loilo"
+  ],
+  "addedAt": "2023-06-24"
+}
