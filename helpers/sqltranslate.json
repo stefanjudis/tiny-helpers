@@ -1,0 +1,13 @@
+{
+  "name": "sqlTranslate",
+  "desc": "Generate SQL queries from plain language and vice versa.",
+  "url": "https://www.sqltranslate.app/",
+  "tags": [
+    "AI",
+    "Database"
+  ],
+  "maintainers": [
+    "whoiskatrin"
+  ],
+  "addedAt": "2023-07-20"
+}
