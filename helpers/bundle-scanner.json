@@ -3,7 +3,8 @@
   "desc": "Identify NPM libraries included in Javascript files.",
   "url": "https://bundlescanner.com/",
   "tags": [
-    "JavaScript"
+    "JavaScript",
+    "npm"
   ],
   "maintainers": [
     "markusenglund"

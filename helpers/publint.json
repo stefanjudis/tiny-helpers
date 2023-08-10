@@ -3,7 +3,8 @@
   "desc": "Lint npm packages for packaging errors.",
   "url": "https://publint.dev/",
   "tags": [
-    "JavaScript"
+    "JavaScript",
+    "npm"
   ],
   "maintainers": [
     "bluwy"

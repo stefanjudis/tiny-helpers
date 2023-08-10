@@ -4,6 +4,7 @@
   "url": "https://pkg-size.dev",
   "tags": [
     "JavaScript",
+    "npm",
     "Performance"
   ],
   "maintainers": [

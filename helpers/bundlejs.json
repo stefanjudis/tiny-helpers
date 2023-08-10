@@ -3,7 +3,8 @@
   "desc": "Analyze JavaScript packages.",
   "url": "https://bundlejs.com",
   "tags": [
-    "JavaScript"
+    "JavaScript",
+    "npm"
   ],
   "maintainers": [
     "okikio"

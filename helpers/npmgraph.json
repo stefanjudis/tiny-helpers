@@ -3,7 +3,8 @@
   "desc": "Explore and inspect and npm package's dependencies.",
   "url": "https://npmgraph.js.org/",
   "tags": [
-    "JavaScript"
+    "JavaScript",
+    "npm"
   ],
   "maintainers": [],
   "addedAt": "2023-08-10"
