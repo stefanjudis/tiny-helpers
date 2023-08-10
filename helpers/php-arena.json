@@ -1,0 +1,12 @@
+{
+  "name": "PHP Arena",
+  "desc": "Run PHP in your browser",
+  "url": "https://loilo.github.io/php-arena/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "loilo"
+  ],
+  "addedAt": "2023-06-30"
+}
