@@ -1,0 +1,12 @@
+{
+  "name": "perfect-freehand",
+  "desc": "Draw perfect pressure-sensitive freehand lines.",
+  "url": "https://www.perfect-freehand.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "steveruizok"
+  ],
+  "addedAt": "2023-08-14"
+}
