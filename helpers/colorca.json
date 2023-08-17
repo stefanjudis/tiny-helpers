@@ -1,0 +1,11 @@
+{
+  "name": "Colorca",
+  "url": "https://colorca.org/",
+  "desc": "Design an accessible color palette for digital products in HSLuv color space",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": ["surfinzap"],
+  "addedAt": "2023-08-17"
+}
