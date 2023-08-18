@@ -3,8 +3,8 @@ const puppeteer = require('puppeteer-core');
 let _page;
 
 async function getBrowser() {
-  console.log('-----------');
-
+  // local development is broken for this 👇
+  // but it works in vercel so I'm not gonna touch it
   return puppeteer.launch({
     args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chromium.defaultViewport,
@@ -14,12 +14,6 @@ async function getBrowser() {
     headless: chromium.headless,
     ignoreHTTPSErrors: true,
   });
-
-  // return chromium.puppeteer.launch({
-  //   args: chromium.args,
-  //   executablePath,
-  //   headless: true,
-  // });
 }
 
 async function getPage() {
