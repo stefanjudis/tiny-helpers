@@ -10,7 +10,9 @@ async function getBrowser() {
   return puppeteer.launch({
     args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chromium.defaultViewport,
-    executablePath,
+    executablePath: await chromium.executablePath(
+      `https://tiny-helpers.dev/chromium/chromium.br`
+    ),
     headless: true,
     ignoreHTTPSErrors: true,
   });
