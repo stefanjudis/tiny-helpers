@@ -1,4 +1,5 @@
 const chromium = require('@sparticuz/chromium');
+const puppeteer = require('puppeteer-core');
 let _page;
 
 async function getBrowser() {
@@ -6,13 +7,10 @@ async function getBrowser() {
   const executablePath = await chromium.executablePath();
   console.log({ executablePath });
 
-  const puppeteer = await import('puppeteer').then((m) => {
-    return m.default;
-  });
-
   return puppeteer.launch({
     args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chromium.defaultViewport,
+    executablePath,
     headless: true,
     ignoreHTTPSErrors: true,
   });
