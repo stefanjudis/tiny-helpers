@@ -4,16 +4,14 @@ let _page;
 
 async function getBrowser() {
   console.log('-----------');
-  const executablePath = await chromium.executablePath();
-  console.log({ executablePath });
 
   return puppeteer.launch({
     args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chromium.defaultViewport,
     executablePath: await chromium.executablePath(
-      `https://tiny-helpers.dev/chromium/chromium.br`
+      `https://tiny-helpers.dev/chromium/chromium-pack.tar`
     ),
-    headless: true,
+    headless: chromium.headless,
     ignoreHTTPSErrors: true,
   });
 
