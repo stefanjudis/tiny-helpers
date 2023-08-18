@@ -1,29 +1,27 @@
-const chrome = require('chrome-aws-lambda');
+const chromium = require('@sparticuz/chromium');
 let _page;
 
 async function getBrowser() {
   console.log('-----------');
-  const executablePath = await chrome.executablePath;
-  console.log(executablePath);
+  const executablePath = await chromium.executablePath();
+  console.log({ executablePath });
 
-  // local development
-  if (!executablePath) {
-    const puppeteer = await import('puppeteer').then((m) => {
-      return m.default;
-    });
-
-    return puppeteer.launch({
-      args: [...chrome.args, '--hide-scrollbars', '--disable-web-security'],
-      headless: true,
-      ignoreHTTPSErrors: true,
-    });
-  }
-
-  return chrome.puppeteer.launch({
-    args: chrome.args,
-    executablePath,
-    headless: true,
+  const puppeteer = await import('puppeteer').then((m) => {
+    return m.default;
   });
+
+  return puppeteer.launch({
+    args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
+    defaultViewport: chromium.defaultViewport,
+    headless: true,
+    ignoreHTTPSErrors: true,
+  });
+
+  // return chromium.puppeteer.launch({
+  //   args: chromium.args,
+  //   executablePath,
+  //   headless: true,
+  // });
 }
 
 async function getPage() {
