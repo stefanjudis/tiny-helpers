@@ -1,0 +1,10 @@
+{
+  "name": "PDF Tool",
+  "desc": "Edit PDF files right in your browser.",
+  "url": "https://www.pdftool.org",
+  "tags": [
+    "PDF"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-08-19"
+}
