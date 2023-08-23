@@ -9,7 +9,7 @@ async function getBrowser() {
     args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chromium.defaultViewport,
     executablePath: await chromium.executablePath(
-      `https://tiny-helpers.dev/chromium/chromium-pack.tar`
+      `https://f005.backblazeb2.com/file/tiny-helpers/chromium-pack.tar`
     ),
     headless: chromium.headless,
     ignoreHTTPSErrors: true,
