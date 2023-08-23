@@ -8,9 +8,7 @@ async function getBrowser() {
   return puppeteer.launch({
     args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chromium.defaultViewport,
-    executablePath: await chromium.executablePath(
-      `https://f005.backblazeb2.com/file/tiny-helpers/chromium-pack.tar`
-    ),
+    executablePath: await chromium.executablePath(``),
     headless: chromium.headless,
     ignoreHTTPSErrors: true,
   });
