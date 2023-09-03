@@ -1,0 +1,13 @@
+{
+  "name": "linear() generator",
+  "desc": "Convert JavaScript/SVG easing definitions into the linear() CSS format.",
+  "url": "https://linear-easing-generator.netlify.app",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "jakearchibald"
+  ],
+  "addedAt": "2023-09-03"
+}
