@@ -1,0 +1,12 @@
+{
+  "name": "TimerOne",
+  "desc": "Online timers and date calculators",
+  "url": "https://www.timerone.com",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "diogenesofweb"
+  ],
+  "addedAt": "2023-09-03"
+}
