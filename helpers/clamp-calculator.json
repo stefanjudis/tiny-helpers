@@ -1,0 +1,10 @@
+{
+  "name": "Clamp Calculator",
+  "desc": "Generate custom and fluid CSS tokens using clamp().",
+  "url": "https://utopia.fyi/clamp/calculator/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-10-09"
+}
