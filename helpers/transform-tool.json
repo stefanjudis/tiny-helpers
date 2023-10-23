@@ -1,6 +1,6 @@
 {
   "name": "Transform Tool",
-  "desc": "Lightweight tool for transforming data with JavaScript in the browser",
+  "desc": "Transform data with JavaScript in the browser",
   "url": "https://transform.app.quest",
   "tags": [
     "Data transformation",
