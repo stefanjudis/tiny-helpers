@@ -1,0 +1,13 @@
+{
+  "name": "Python tutor",
+  "desc": "Visualize your code step by step. Works with JavaScript, Python, Java, C, and C++",
+  "url": "https://pythontutor.com/",
+  "tags": [
+    "Code",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "hcientist"
+  ],
+  "addedAt": "2023-11-03"
+}
