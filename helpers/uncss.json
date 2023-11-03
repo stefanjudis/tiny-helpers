@@ -1,0 +1,13 @@
+{
+  "name": "unCSS",
+  "desc": "Remove unused CSS. Works only with HTML and CSS",
+  "url": "https://uncss-online.com/",
+  "tags": [
+    "CSS",
+    "Code"
+  ],
+  "maintainers": [
+    "pajasevi"
+  ],
+  "addedAt": "2023-11-03"
+}
