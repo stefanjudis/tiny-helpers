@@ -1,0 +1,8 @@
+{
+  "name": "Stop Form Spam",
+  "desc": "Prevent bots from submitting online forms",
+  "url": "https://github.com/rodenacker/FormSpamPrevention",
+  "tags": ["Forms"],
+  "maintainers": ["rodenacker"],
+  "addedAt": "2020-11-07"
+}
