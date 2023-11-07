@@ -1,0 +1,8 @@
+{
+  "name": "Open API Designer",
+  "desc": "A simple tool to create Open API 3 definition documents",
+  "url": "https://openapidesigner.com",
+  "tags": ["API"],
+  "maintainers": ["rodenacker"],
+  "addedAt": "2020-11-07"
+}
