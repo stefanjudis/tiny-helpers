@@ -1,0 +1,12 @@
+{
+  "name": "package-majors",
+  "desc": "Inspect a package's npm downloads per version.",
+  "url": "https://majors.nullvoxpopuli.com/",
+  "tags": [
+    "npm"
+  ],
+  "maintainers": [
+    "NullVoxPopuli"
+  ],
+  "addedAt": "2023-11-30"
+}
