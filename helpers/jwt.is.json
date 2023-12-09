@@ -1,0 +1,11 @@
+{
+  "name": "JWT.IS",
+  "desc": "Decode, Debug and Validate JSON Web Tokens (JWT)",
+  "url": "https://jwt.is/",
+  "tags": [
+    "API",
+    "Security"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-12-09"
+}
