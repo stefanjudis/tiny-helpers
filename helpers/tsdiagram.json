@@ -1,0 +1,12 @@
+{
+  "name": "TSDiagram",
+  "desc": "Draft diagrams and visualize TypeScript relations.",
+  "url": "https://tsdiagram.com",
+  "tags": [
+    "TypeScript"
+  ],
+  "maintainers": [
+    "3rd"
+  ],
+  "addedAt": "2023-12-18"
+}
