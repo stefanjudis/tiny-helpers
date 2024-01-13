@@ -1,0 +1,11 @@
+{
+  "name": "WebhookCool",
+  "desc": "Test webhooks in realtime",
+  "url": "https://webhook.cool",
+  "tags": [
+    "APIs",
+    "HTTP"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-01-13"
+}
