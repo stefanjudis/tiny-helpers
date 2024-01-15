@@ -1,0 +1,12 @@
+{
+  "name": "Current time utc - local time lookup",
+  "desc": "Lookup local times for any country, city, or time zone",
+  "url": "https://currenttimeutc.com/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "jairampatel"
+  ],
+  "addedAt": "2024-01-14"
+}
