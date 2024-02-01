@@ -1,0 +1,12 @@
+{
+  "name": "Online Invoice Generator",
+  "desc": "Generate invoices in the browser and download them as PDF.",
+  "url": "https://cakedesk.app/invoice",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "maximilianschmitt"
+  ],
+  "addedAt": "2024-02-01"
+}
