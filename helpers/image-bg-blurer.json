@@ -1,0 +1,12 @@
+{
+  "name": "Image BG Blurer",
+  "desc": "Generate a blurred background frame for an image, using that image source as the background blur, for Notion, Trello, Jira and more tools",
+  "url": "https://imagebgblurer.com/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "denno020"
+  ],
+  "addedAt": "2024-02-23"
+}
