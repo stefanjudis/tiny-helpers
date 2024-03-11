@@ -1,0 +1,16 @@
+{
+  "name": "Atmos",
+  "desc": "Create better UI color palettes with ease",
+  "url": "https://atmos.style/",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "VojtechVidra",
+    "OPesicka",
+    "pesickadavid"
+  ],
+  "addedAt": "2022-01-12"
+}
