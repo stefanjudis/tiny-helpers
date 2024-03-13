@@ -1,10 +1,14 @@
 {
   "name": "HTML Color Codes",
-  "desc": "Genereate and export color shades and tints",
-  "url": "https://www.hexcolortool.com/",
+  "desc": "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names.",
+  "url": "https://htmlcolorcodes.com/",
   "tags": [
-    "Color"
+    "CSS",
+    "Color",
+    "HTML"
   ],
-  "maintainers": [],
-  "addedAt": "2020-02-13"
+  "maintainers": [
+    "dixonandmoe"
+  ],
+  "addedAt": "2020-10-18"
 }
