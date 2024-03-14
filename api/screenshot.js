@@ -9,32 +9,33 @@ const exePath = process.platform === "win32"
         ? "/usr/bin/google-chrome"
         : "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
-async function getOptions(isDev) {
+async function getOptions(isProd) {
     let options;
     console.log('exePath:', exePath);
-    if (isDev) {
-        options = {
-        args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
-        executablePath: exePath,
-        headless: 'new',
-        };
+    const args = [...chromium.args, '--hide-scrollbars', '--disable-web-security'];
+    if (isProd) {
+      options = {
+        args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(
+            `https://github.com/Sparticuz/chromium/releases/download/v116.0.0/chromium-v116.0.0-pack.tar`
+        ),
+        headless: chromium.headless,
+        ignoreHTTPSErrors: true,
+      };
     } else {
         options = {
-            args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
-            defaultViewport: chromium.defaultViewport,
-            executablePath: await chromium.executablePath(
-                `https://github.com/Sparticuz/chromium/releases/download/v116.0.0/chromium-v116.0.0-pack.tar`
-            ),
-            headless: chromium.headless,
-            ignoreHTTPSErrors: true,
+          args,
+          executablePath: exePath,
+          headless: 'new',
         };
     }
     return options;
 }
 
 async function getBrowser() {
-  const isDevEnv = process.env.NODE_ENV == 'development';
-  const options = await getOptions(isDevEnv);
+  const isProdEnv = process.env.NODE_ENV == 'production';
+  const options = await getOptions(isProdEnv);
   return puppeteer.launch(options);
 }
 
