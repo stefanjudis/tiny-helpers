@@ -14,7 +14,7 @@ async function getOptions(isDev) {
     console.log('exePath:', exePath);
     if (isDev) {
         options = {
-        args: [],
+        args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
         executablePath: exePath,
         headless: 'new',
         };
