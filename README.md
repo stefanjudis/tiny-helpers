@@ -252,6 +252,13 @@ npm run dev
                 <sub><b>Gonçalo Morais</b></sub>
             </a>
         </td>
+        <td align="center">
+            <a href="https://github.com/realityzero">
+                <img src="https://avatars.githubusercontent.com/u/33288462?v=4" width="75;" alt="realityzero"/>
+                <br />
+                <sub><b>Neshantt</b></sub>
+            </a>
+        </td>
     </tr>
 </table>
 
