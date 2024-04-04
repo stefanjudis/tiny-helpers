@@ -1,0 +1,13 @@
+{
+  "name": "skeleton-loader",
+  "desc": "An easily generated skeleton-loader for your content that displayed as a single div using CSS multiple backgrounds",
+  "url": "https://skeleton-loader.web.app/",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "minaalfy"
+  ],
+  "addedAt": "2024-04-04"
+}
