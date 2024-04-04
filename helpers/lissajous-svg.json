@@ -1,0 +1,12 @@
+{
+  "name": "Lissajous SVG",
+  "desc": "Generate lissajous SVG curves.",
+  "url": "https://lissajous.eva.town/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "evadecker"
+  ],
+  "addedAt": "2024-04-04"
+}
