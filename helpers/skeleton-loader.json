@@ -1,6 +1,6 @@
 {
   "name": "skeleton-loader",
-  "desc": "An easily generated skeleton-loader for your content that displayed as a single div using CSS multiple backgrounds",
+  "desc": "Create single-div CSS skeleton-loaders for your content.",
   "url": "https://skeleton-loader.web.app/",
   "tags": [
     "Animations",
