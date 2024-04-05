@@ -1,0 +1,13 @@
+{
+  "name": "skeleton-loader",
+  "desc": "Create single-div CSS skeleton-loaders for your content.",
+  "url": "https://skeleton-loader.web.app/",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "minaalfy"
+  ],
+  "addedAt": "2024-04-04"
+}
