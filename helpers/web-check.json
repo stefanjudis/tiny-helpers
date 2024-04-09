@@ -1,0 +1,12 @@
+{
+  "name": "Web Check",
+  "desc": "https://web-check.xyz/",
+  "url": "Analyze any website.",
+  "tags": [
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "lissy93"
+  ],
+  "addedAt": "2024-04-09"
+}
