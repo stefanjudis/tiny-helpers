@@ -19,7 +19,7 @@
     "url": "git+https://github.com/stefanjudis/tiny-helpers.git"
   },
   "engines": {
-    "node": "^14"
+    "node": "^18"
   },
   "keywords": [],
   "author": "stefan judis <stefanjudis@gmail.com>",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/stefanjudis/tiny-helpers#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "chrome-aws-lambda": "^10.0.0",
+    "@sparticuz/chromium-min": "^115.0.0",
     "concurrently": "^5.1.0",
     "copy-dir": "^1.3.0",
     "feed": "^4.1.0",
@@ -45,7 +45,7 @@
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
     "puppeteer": "^10.1.0",
-    "puppeteer-core": "^10.1.0",
+    "puppeteer-core": "^21.0.2",
     "slugify": "^1.4.0",
     "terser": "^4.6.7"
   },

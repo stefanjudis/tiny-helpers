@@ -1,0 +1,10 @@
+{
+  "name": "Bounce Doctor",
+  "desc": "Check emails for common deliverability issues.",
+  "url": "https://bounce.doctor/",
+  "tags": [
+    "Email"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-02-09"
+}

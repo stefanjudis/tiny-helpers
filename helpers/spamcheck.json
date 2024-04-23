@@ -1,0 +1,10 @@
+{
+  "name": "SpamCheck",
+  "desc": "Check the spam score of your emails.",
+  "url": "https://spamcheck.postmarkapp.com/",
+  "tags": [
+    "Email"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-10-21"
+}

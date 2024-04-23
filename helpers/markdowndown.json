@@ -1,0 +1,12 @@
+{
+  "name": "MarkdownDown",
+  "desc": "Convert any webpage to clean markdown.",
+  "url": "https://markdowndown.vercel.app/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "asadm"
+  ],
+  "addedAt": "2024-04-17"
+}

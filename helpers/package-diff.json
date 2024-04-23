@@ -3,8 +3,8 @@
   "desc": "Display a diff between two versions of the same npm package",
   "url": "https://diff.intrinsic.com/",
   "tags": [
-    "Code",
-    "JavaScript"
+    "JavaScript",
+    "npm"
   ],
   "maintainers": [],
   "addedAt": "2020-09-27"

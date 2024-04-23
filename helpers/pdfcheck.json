@@ -1,0 +1,13 @@
+{
+  "name": "PDFcheck",
+  "desc": "Check PDF files for signs of inaccessibility",
+  "url": "https://jsnmrs.github.io/pdfcheck/",
+  "tags": [
+    "Accessibility",
+    "PDF"
+  ],
+  "maintainers": [
+    "jsnmrs"
+  ],
+  "addedAt": "2024-02-06"
+}

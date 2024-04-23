@@ -1,0 +1,11 @@
+{
+  "name": "iconbundler",
+  "desc": "Convert SVGs to React, Vue and Svelte components",
+  "url": "https://iconbundler.com",
+  "tags": [
+    "Icons",
+    "SVG"
+  ],
+  "maintainers": ["chriswdmr"],
+  "addedAt": "2023-08-04"
+}

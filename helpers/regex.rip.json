@@ -1,0 +1,10 @@
+{
+  "name": "regex.rip",
+  "desc": "Test whether a regular expression is vulnerable to regular expression denial of service.",
+  "url": "https://regex.rip/",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-10-15"
+}

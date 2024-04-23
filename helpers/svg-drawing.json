@@ -1,0 +1,12 @@
+{
+  "name": "SVG Drawing",
+  "desc": "Draw lines and replay them in SVG.",
+  "url": "https://draw.oooo.so/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "CatsJuice"
+  ],
+  "addedAt": "2023-08-10"
+}

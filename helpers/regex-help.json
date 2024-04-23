@@ -1,0 +1,10 @@
+{
+  "name": "regex:help!",
+  "desc": "Generate a regular expression from example strings.",
+  "url": "https://regex.help",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-11-18"
+}

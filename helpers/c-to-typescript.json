@@ -3,7 +3,7 @@
   "desc": "Convert C# Models, ViewModels and DTOs into their TypeScript equivalents.",
   "url": "https://csharptotypescript.azurewebsites.net/",
   "tags": [
-    "Code",
+    "TypeScript",
     "Data transformation"
   ],
   "maintainers": [

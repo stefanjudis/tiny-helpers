@@ -1,0 +1,10 @@
+{
+  "name": "tldraw",
+  "desc": "Draw and create SVGs quickly.",
+  "url": "https://www.tldraw.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-08-14"
+}

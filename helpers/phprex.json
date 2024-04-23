@@ -1,0 +1,12 @@
+{
+  "name": "PHPrex",
+  "desc": "Test PHP regular expressions directly in your browser",
+  "url": "https://phphub.net/regex/",
+  "tags": [
+    "PHP", "Regular Expressions"
+  ],
+  "maintainers": [
+    "cyr1l0u"
+  ],
+  "addedAt": "2024-04-13"
+}

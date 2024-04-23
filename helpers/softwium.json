@@ -1,0 +1,12 @@
+{
+  "name": "Softwium",
+  "desc": "Visualize regular expressions.",
+  "url": "https://softwium.com/regex-explainer/",
+  "tags": [
+    "Regular Expressions"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2023-12-07"
+}

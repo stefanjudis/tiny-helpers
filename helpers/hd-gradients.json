@@ -1,0 +1,13 @@
+{
+  "name": "HD Gradients",
+  "desc": "Explore and generate modern CSS gradients.",
+  "url": "https://gradient.style/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "argyleink"
+  ],
+  "addedAt": "2023-04-21"
+}

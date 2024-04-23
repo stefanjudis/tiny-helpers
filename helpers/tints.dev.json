@@ -1,0 +1,13 @@
+{
+  "name": "tints.dev",
+  "desc": "Generate Tailwind color palettes.",
+  "url": "https://www.tints.dev",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "SimeonGriggs"
+  ],
+  "addedAt": "2024-02-09"
+}

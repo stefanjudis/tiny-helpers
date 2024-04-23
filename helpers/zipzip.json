@@ -1,0 +1,10 @@
+{
+  "name": "ZipZip",
+  "desc": "Archive files or extract files from an existing archives.",
+  "url": "https://zipzip.pro/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2023-06-23"
+}

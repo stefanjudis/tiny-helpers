@@ -1,0 +1,12 @@
+{
+  "name": "JSON Viewer",
+  "desc": "Explore JSON and generate schema, .d.ts, .go.",
+  "url": "https://json-viewer.delphic.top/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "diogenesofweb"
+  ],
+  "addedAt": "2023-07-25"
+}

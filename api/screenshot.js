@@ -1,28 +1,18 @@
-const chrome = require('chrome-aws-lambda');
+const chromium = require('@sparticuz/chromium-min');
+const puppeteer = require('puppeteer-core');
 let _page;
 
 async function getBrowser() {
-  console.log('-----------');
-  const executablePath = await chrome.executablePath;
-  console.log(executablePath);
-
-  // local development
-  if (!executablePath) {
-    const puppeteer = await import('puppeteer').then((m) => {
-      return m.default;
-    });
-
-    return puppeteer.launch({
-      args: [...chrome.args, '--hide-scrollbars', '--disable-web-security'],
-      headless: true,
-      ignoreHTTPSErrors: true,
-    });
-  }
-
-  return chrome.puppeteer.launch({
-    args: chrome.args,
-    executablePath,
-    headless: true,
+  // local development is broken for this 👇
+  // but it works in vercel so I'm not gonna touch it
+  return puppeteer.launch({
+    args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
+    defaultViewport: chromium.defaultViewport,
+    executablePath: await chromium.executablePath(
+      `https://github.com/Sparticuz/chromium/releases/download/v116.0.0/chromium-v116.0.0-pack.tar`
+    ),
+    headless: chromium.headless,
+    ignoreHTTPSErrors: true,
   });
 }
 

@@ -3,7 +3,8 @@
   "desc": "View npm package files",
   "url": "https://npmview.now.sh/",
   "tags": [
-    "JavaScript"
+    "JavaScript",
+    "npm"
   ],
   "maintainers": [
     "pd4d10"

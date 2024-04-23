@@ -1,0 +1,12 @@
+{
+  "name": "TypeScript AST Viewer",
+  "desc": "View the TypeScript AST, symbols, types, and signatures.",
+  "url": "https://ts-ast-viewer.com/",
+  "tags": [
+    "TypeScript"
+  ],
+  "maintainers": [
+    "dsherret"
+  ],
+  "addedAt": "2024-03-29"
+}
