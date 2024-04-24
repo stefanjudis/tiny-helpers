@@ -1,0 +1,14 @@
+{
+  "name": "Design Token to CSS",
+  "desc": "Convert JSON design tokens to CSS custom properties and utility classes.",
+  "url": "https://tokens2css.nanools.com",
+  "tags": [
+    "CSS",
+    "Code",
+    "JSON"
+  ],
+  "maintainers": [
+    "saneef"
+  ],
+  "addedAt": "2024-04-24"
+}
