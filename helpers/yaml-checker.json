@@ -3,7 +3,7 @@
   "desc": "Validate your YAML file content with syntax highlighting and helpful error messages.",
   "url": "https://yamlchecker.com/",
   "tags": [
-    "Misc"
+    "YAML"
   ],
   "maintainers": [
     "rhino88"
