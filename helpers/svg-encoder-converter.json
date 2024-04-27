@@ -1,0 +1,12 @@
+{
+  "name": "SVG Encoder / Converter",
+  "desc": "Convert an SVG into different formats.",
+  "url": "https://svgencode.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "IORoot"
+  ],
+  "addedAt": "2024-04-27"
+}
