@@ -1,0 +1,12 @@
+{
+  "name": "Email.ML",
+  "desc": "Minimalist temporary Email",
+  "url": "https://email.ml/",
+  "tags": [
+    "Email"
+  ],
+  "maintainers": [
+    "ccbikai"
+  ],
+  "addedAt": "2024-05-06"
+}
