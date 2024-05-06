@@ -1,0 +1,12 @@
+{
+  "name": "Color×Color",
+  "desc": "Generate color palettes in Okhsl and HSLuv color spaces.",
+  "url": "https://colorcolor.in/",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "saneef"
+  ],
+  "addedAt": "2024-05-06"
+}
