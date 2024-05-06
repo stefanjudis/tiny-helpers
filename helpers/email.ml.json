@@ -1,6 +1,6 @@
 {
   "name": "Email.ML",
-  "desc": "Minimalist temporary Email",
+  "desc": "Generate temporary emails.",
   "url": "https://email.ml/",
   "tags": [
     "Email"
