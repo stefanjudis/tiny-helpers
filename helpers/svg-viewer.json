@@ -1,7 +1,7 @@
 {
   "name": "SVG Viewer",
-  "desc": "https://www.svgviewer.dev/",
-  "url": "View, edit and download SVGs.",
+  "desc": "View, edit and download SVGs.",
+  "url": "https://www.svgviewer.dev/",
   "tags": [
     "SVG"
   ],
