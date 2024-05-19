@@ -1,0 +1,12 @@
+{
+  "name": "ffmpeg.app",
+  "desc": "Run and understand FFmpeg commands right in the browser.",
+  "url": "https://ffmpeg.app/",
+  "tags": [
+    "Videos"
+  ],
+  "maintainers": [
+    "zeh"
+  ],
+  "addedAt": "2024-05-19"
+}
