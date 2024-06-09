@@ -1,0 +1,12 @@
+{
+  "name": "View Timline Range debugger",
+  "desc": "Learn how CSS View Timeline Ranges work.",
+  "url": "https://scroll-driven-animations.style/tools/view-timeline/ranges/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "bramus"
+  ],
+  "addedAt": "2024-06-09"
+}
