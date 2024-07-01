@@ -1,0 +1,12 @@
+{
+  "name": "Pastely",
+  "desc": "Paste board to collect links/snippets to share",
+  "url": "https://pastely.toolbomber.com/",
+  "tags": [
+    "PWA"
+  ],
+  "maintainers": [
+    "jikkujose"
+  ],
+  "addedAt": "2024-06-30"
+}
