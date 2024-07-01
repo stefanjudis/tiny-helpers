@@ -1,6 +1,6 @@
 {
   "name": "Pastely",
-  "desc": "Paste board to collect links/snippets to share",
+  "desc": "Collect links/snippets to share without signin",
   "url": "https://pastely.toolbomber.com/",
   "tags": [
     "PWA"
