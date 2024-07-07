@@ -1,0 +1,13 @@
+{
+  "name": "OnlineInterview.io",
+  "desc": "Share a code editor with other developers, run your code on the browser and talk via video chat.",
+  "url": "https://onlineinterview.io/",
+  "tags": [
+    "Code",
+    "Misc"
+  ],
+  "maintainers": [
+    "hvidal"
+  ],
+  "addedAt": "2024-06-19"
+}
