@@ -1,0 +1,12 @@
+{
+  "name": "google-webfonts-helper",
+  "desc": "Download and selfhost Google fonts.",
+  "url": "https://gwfh.mranftl.com/fonts",
+  "tags": [
+    "Fonts"
+  ],
+  "maintainers": [
+    "majodev"
+  ],
+  "addedAt": "2024-07-16"
+}
