@@ -1,0 +1,10 @@
+{
+  "name": "RunJS",
+  "desc": "Write and run code with instant feedback.",
+  "url": "https://runjs.app/play",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-07-26"
+}
