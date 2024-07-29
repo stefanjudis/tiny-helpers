@@ -2,18 +2,41 @@ const chromium = require('@sparticuz/chromium-min');
 const puppeteer = require('puppeteer-core');
 let _page;
 
+// get platform specific chrome executable for local environment
+const exePath = process.platform === "win32"
+        ? "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+        : process.platform === "linux"
+        ? "/usr/bin/google-chrome"
+        : "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+
+async function getOptions(isProd) {
+    let options;
+    console.log('exePath:', exePath);
+    const args = [...chromium.args, '--hide-scrollbars', '--disable-web-security'];
+    if (isProd) {
+      options = {
+        args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(
+            `https://github.com/Sparticuz/chromium/releases/download/v116.0.0/chromium-v116.0.0-pack.tar`
+        ),
+        headless: chromium.headless,
+        ignoreHTTPSErrors: true,
+      };
+    } else {
+        options = {
+          args,
+          executablePath: exePath,
+          headless: 'new',
+        };
+    }
+    return options;
+}
+
 async function getBrowser() {
-  // local development is broken for this 👇
-  // but it works in vercel so I'm not gonna touch it
-  return puppeteer.launch({
-    args: [...chromium.args, '--hide-scrollbars', '--disable-web-security'],
-    defaultViewport: chromium.defaultViewport,
-    executablePath: await chromium.executablePath(
-      `https://github.com/Sparticuz/chromium/releases/download/v116.0.0/chromium-v116.0.0-pack.tar`
-    ),
-    headless: chromium.headless,
-    ignoreHTTPSErrors: true,
-  });
+  const isProdEnv = process.env.NODE_ENV == 'production';
+  const options = await getOptions(isProdEnv);
+  return puppeteer.launch(options);
 }
 
 async function getPage() {
