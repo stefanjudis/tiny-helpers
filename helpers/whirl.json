@@ -1,0 +1,13 @@
+{
+  "name": "Whirl",
+  "desc": "CSS loading animations with minimal effort",
+  "url": "https://whirl.netlify.app/",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "jh3y"
+  ],
+  "addedAt": "2024-08-12"
+}
