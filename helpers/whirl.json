@@ -1,0 +1,13 @@
+{
+  "name": "Whirl",
+  "desc": "Find CSS loading animations.",
+  "url": "https://whirl.netlify.app/",
+  "tags": [
+    "Animations",
+    "CSS"
+  ],
+  "maintainers": [
+    "jh3y"
+  ],
+  "addedAt": "2024-08-12"
+}
