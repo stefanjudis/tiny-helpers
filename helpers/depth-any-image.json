@@ -1,0 +1,14 @@
+{
+  "name": "depth any image",
+  "desc": "generate depth map and 3D animated canvas for any image",
+  "url": "https://minaalfy.github.io/depth-any-image/",
+  "tags": [
+    "AI",
+    "Animations",
+    "Images"
+  ],
+  "maintainers": [
+    "minaalfy"
+  ],
+  "addedAt": "2024-08-17"
+}
