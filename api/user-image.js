@@ -15,7 +15,7 @@ module.exports = async (req, res) => {
 
     res.setHeader(
       'Cache-Control',
-      'public, immutable, no-transform, s-maxage=604800, max-age=604800'
+      'public, immutable, no-transform, s-maxage=1209600, max-age=1209600, stale-while-revalidate=604800'
     );
     res.setHeader('content-type', imageResponse.headers['content-type']);
     res.send(imageBuffer);
