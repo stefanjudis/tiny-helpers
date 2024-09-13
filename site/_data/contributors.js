@@ -1,6 +1,10 @@
 const got = require('got');
 
-const IGNORED_CONTRIBUTORS = ['stefanjudis', 'github-actions[bot]'];
+const IGNORED_CONTRIBUTORS = [
+  'stefanjudis',
+  'github-actions[bot]',
+  'dependabot[bot]',
+];
 
 async function fetchContributors({ page = 1, options }) {
   console.log(`Fetching contributors... Page ${page}`);
