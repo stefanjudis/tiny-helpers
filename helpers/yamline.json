@@ -1,6 +1,6 @@
 {
   "name": "YAMLine",
-  "desc": "A Collection of YAML Tools",
+  "desc": "Format, compare, validate, and convert YAML",
   "url": "https://yamline.com/",
   "tags": [
     "YAML"
