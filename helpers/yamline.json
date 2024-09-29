@@ -1,0 +1,12 @@
+{
+  "name": "YAMLine",
+  "desc": "A Collection of YAML Tools",
+  "url": "https://yamline.com/",
+  "tags": [
+    "YAML"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2024-09-29"
+}
