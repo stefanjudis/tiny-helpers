@@ -1,0 +1,12 @@
+{
+  "name": "JS Visualizer",
+  "desc": "Interactive visualization tool for javascript code.",
+  "url": "https://www.jsv9000.app/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "PoulaHelmy"
+  ],
+  "addedAt": "2021-07-28"
+}
