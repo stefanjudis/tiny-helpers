@@ -1,0 +1,12 @@
+{
+  "name": "pgg-graph",
+  "desc": "Visualize the dependency graph of npm packages",
+  "url": "https://pkg-graph.info/",
+  "tags": [
+    "npm"
+  ],
+  "maintainers": [
+    "yuyinws"
+  ],
+  "addedAt": "2024-10-10"
+}
