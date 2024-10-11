@@ -1,5 +1,5 @@
 {
-  "name": "pgg-graph",
+  "name": "pkg-graph",
   "desc": "Visualize the dependency graph of npm packages",
   "url": "https://pkg-graph.info/",
   "tags": [
