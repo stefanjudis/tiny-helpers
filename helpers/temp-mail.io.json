@@ -1,13 +1,8 @@
 {
   "name": "temp-mail.io",
-  "desc": "Disposable temporary emails with forwarding feature: secure, free and anonymous",
+  "desc": "Create disposable temporary emails for free and anonymously",
   "url": "https://temp-mail.io",
-  "tags": [
-    "Email"
-  ],
-  "maintainers": [
-    "kernel-picnic",
-    "lcd1232"
-  ],
+  "tags": ["Email"],
+  "maintainers": ["kernel-picnic", "lcd1232"],
   "addedAt": "2024-10-15"
 }
