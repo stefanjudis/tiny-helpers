@@ -1,0 +1,10 @@
+{
+  "name": "VTracer ",
+  "desc": "Convert raster images to SVG vector graphics.",
+  "url": "https://www.visioncortex.org/vtracer/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-10-07"
+}

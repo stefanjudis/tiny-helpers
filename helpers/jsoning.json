@@ -1,0 +1,12 @@
+{
+  "name": "JSONing",
+  "desc": "Mock REST API for testing and prototyping",
+  "url": "https://jsoning.com/api/",
+  "tags": [
+    "APIs"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2024-09-09"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ESLint Code Explorer",
+  "desc": "Explore ASTs for JavaScript, Markdown and JSON.",
+  "url": "https://explorer.eslint.org/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-10-09"
+}

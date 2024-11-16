@@ -1,0 +1,13 @@
+.notification {
+  padding: 1rem;
+  text-align: center;
+  background: var(--primary-color);
+  color: white;
+
+  a {
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+}

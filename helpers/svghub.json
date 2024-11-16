@@ -1,0 +1,11 @@
+{
+  "name": "svghub",
+  "desc": "Find SVG squiggles, scribbles and  shapes.",
+  "url": "https://svghub.vercel.app/",
+  "tags": [
+    "Icons",
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-06-23"
+}

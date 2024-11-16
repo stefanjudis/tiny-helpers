@@ -1,12 +1,12 @@
 {
   "name": "google-webfonts-helper",
-  "url": "https://google-webfonts-helper.herokuapp.com/fonts",
-  "desc": "Self host your Google Fonts",
+  "desc": "Download and selfhost Google fonts.",
+  "url": "https://gwfh.mranftl.com/fonts",
   "tags": [
     "Fonts"
   ],
   "maintainers": [
     "majodev"
   ],
-  "addedAt": "2019-12-29"
+  "addedAt": "2024-07-16"
 }

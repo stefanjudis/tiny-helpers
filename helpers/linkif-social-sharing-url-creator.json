@@ -1,0 +1,12 @@
+{
+  "name": "Link-if social URL creator",
+  "desc": "Quickly create sharable URLs for Social media sites.",
+  "url": "https://link-if-social.com",
+  "tags": [
+    "Email","URL"
+  ],
+  "maintainers": [
+    "JayOram"
+  ],
+  "addedAt": "2024-05-21"
+}

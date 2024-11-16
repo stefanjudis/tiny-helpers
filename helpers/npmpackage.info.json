@@ -1,0 +1,11 @@
+{
+  "name": "npmpackage.info",
+  "desc": "Access npm package information such as downalods, GitHub activity or bundlesize.",
+  "url": "https://npmpackage.info",
+  "tags": [
+    "JavaScript",
+    "npm"
+  ],
+  "maintainers": [],
+  "addedAt": "2024-11-11"
+}

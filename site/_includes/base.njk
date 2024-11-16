@@ -38,6 +38,8 @@
     {% endif %}
   {% endif %}
 
+  <script defer data-domain="tiny-helpers.dev" src="https://plausible.io/js/script.js"></script>
+
   <style>
     {{ styles | safe }}
   </style>
@@ -45,6 +47,10 @@
 
 <body>
   <a href="#main-content" class="skip-link padding-xs">Skip to main content</a>
+
+  <div class="notification">
+    New tools, and fresh HTML, CSS, and JavaScript tricks — get it all by subscribing to <a href="https://webweekly.email?ref=tiny-helpers">Web Weekly</a>! 💌
+  </div>
 
   <div class="container">
     {% include 'templates/_logo.njk' %}

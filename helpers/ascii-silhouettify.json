@@ -1,0 +1,12 @@
+{
+  "name": "ASCII Silhouettify",
+  "desc": "Convert images into ASCII silhouettes.",
+  "url": "https://meatfighter.com/ascii-silhouettify/spa/index.html",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "meatfighter"
+  ],
+  "addedAt": "2024-06-15"
+}
