@@ -1,6 +1,6 @@
 {
   "name": "DNS.Surf",
-  "desc": "Querying DNS Resolution Results in Different Regions Worldwide.",
+  "desc": "Query DNS Resolution Results in Different Regions Worldwide.",
   "url": "https://dns.surf",
   "tags": [
     "Network"
