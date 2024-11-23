@@ -1,0 +1,12 @@
+{
+  "name": "YAMLine",
+  "desc": "Format, compare, validate, and convert YAML",
+  "url": "https://yamline.com/",
+  "tags": [
+    "YAML"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2024-11-23"
+}
