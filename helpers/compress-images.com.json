@@ -1,0 +1,12 @@
+{
+  "name": "compress-images.com",
+  "desc": "Reduce image sizes with lossy compression. Process multiple files at once.",
+  "url": "https://compress-images.com",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "stjuan627"
+  ],
+  "addedAt": "2024-11-28"
+}
