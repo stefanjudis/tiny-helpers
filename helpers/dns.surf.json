@@ -1,0 +1,12 @@
+{
+  "name": "DNS.Surf",
+  "desc": "Query DNS Resolution Results in Different Regions Worldwide.",
+  "url": "https://dns.surf",
+  "tags": [
+    "Network"
+  ],
+  "maintainers": [
+    "ccbikai"
+  ],
+  "addedAt": "2024-11-16"
+}
