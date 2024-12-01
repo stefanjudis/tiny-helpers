@@ -1,0 +1,12 @@
+{
+  "name": "JSONtr.ee",
+  "desc": "Visualize JSON structures as dynamic tree diagrams.",
+  "url": "https://jsontr.ee/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "xzitlou"
+  ],
+  "addedAt": "2024-12-01"
+}
