@@ -1,0 +1,11 @@
+{
+  "name": "InclusiveColors",
+  "desc": "Creating WCAG accessible color palettes.",
+  "url": "https://www.inclusivecolors.com",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": ["seanw"],
+  "addedAt": "2024-12-13"
+}
