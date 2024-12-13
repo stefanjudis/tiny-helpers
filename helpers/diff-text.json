@@ -1,0 +1,12 @@
+{
+  "name": "Diff Text",
+  "desc": "Find the difference between two blocks of text.",
+  "url": "https://difftext.com/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "dotspencer"
+  ],
+  "addedAt": "2024-12-13"
+}
