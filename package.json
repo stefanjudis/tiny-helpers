@@ -4,13 +4,13 @@
   "description": "A collection of free single-purpose online tools for web developers...",
   "main": "index.js",
   "scripts": {
-    "setup:jsondump": "node ./scripts/create-dump.js",
     "setup:feeds": "node ./scripts/create-feeds.js",
     "setup": "concurrently \"npm:setup:*\"",
     "helper:add": "node ./scripts/add-helper.js",
     "dev": "eleventy --serve",
     "prebuild": "npm run setup",
     "build": "eleventy --input=./site",
+    "postbuild": "node ./scripts/create-dump.js",
     "deploy": "npm run build && now --prod",
     "checkly:test": "npx checkly test",
     "checkly:deploy": "npx checkly deploy --force"
