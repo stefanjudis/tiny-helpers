@@ -1,0 +1,12 @@
+{
+  "name": "Easing Wizard",
+  "desc": "Create CSS easing functions.",
+  "url": "https://easingwizard.com",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "roydigerhund"
+  ],
+  "addedAt": "2024-12-23"
+}
