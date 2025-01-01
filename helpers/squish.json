@@ -1,0 +1,13 @@
+{
+  "name": "Squish",
+  "desc": "Compress and convert your images to AVIF or WebP.",
+  "url": "https://squish.addy.ie/",
+  "tags": [
+    "Images",
+    "Performance"
+  ],
+  "maintainers": [
+    "addyosmani"
+  ],
+  "addedAt": "2025-01-01"
+}
