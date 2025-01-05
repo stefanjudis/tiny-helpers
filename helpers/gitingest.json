@@ -1,0 +1,12 @@
+{
+  "name": "Gitingest",
+  "desc": "Turn a git repo into a text ingest to feed it to an LLM.",
+  "url": "https://gitingest.com/",
+  "tags": [
+    "AI"
+  ],
+  "maintainers": [
+    "cyclotruc"
+  ],
+  "addedAt": "2025-01-05"
+}
