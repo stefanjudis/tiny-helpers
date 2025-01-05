@@ -1,0 +1,12 @@
+{
+  "name": "urltomarkdown",
+  "desc": "Convert a website to markdown.",
+  "url": "https://urltomarkdown.com/",
+  "tags": [
+    "Markdown"
+  ],
+  "maintainers": [
+    "macsplit"
+  ],
+  "addedAt": "2025-01-05"
+}
