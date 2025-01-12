@@ -1,0 +1,10 @@
+{
+  "name": "CrUX Vis",
+  "desc": "Explore real-world Chrome user experience data.",
+  "url": "https://cruxvis.withgoogle.com",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2025-01-12"
+}
