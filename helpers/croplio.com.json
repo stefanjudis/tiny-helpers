@@ -1,0 +1,12 @@
+{
+  "name": "Croplio",
+  "desc": "Transform your images instantly with free online crop tool",
+  "url": "https://croplio.com",
+  "tags": [
+    "Crop Image"
+  ],
+  "maintainers": [
+    "brice"
+  ],
+  "addedAt": "2025-01-15"
+}
