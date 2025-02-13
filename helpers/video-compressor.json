@@ -1,0 +1,13 @@
+{
+  "name": "Video Compressor",
+  "desc": "Compress videos right in the browser.",
+  "url": "https://compress.addy.ie/",
+  "tags": [
+    "Performance",
+    "Videos"
+  ],
+  "maintainers": [
+    "addyosmani"
+  ],
+  "addedAt": "2025-02-13"
+}
