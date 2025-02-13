@@ -1,0 +1,11 @@
+{
+  "name": "Pythonium",
+  "desc": "Check, execute, format, convert, and obfuscate Python code",
+  "url": "https://pythonium.net",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+  ],
+  "addedAt": "2025-02-13"
+}
