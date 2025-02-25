@@ -1,0 +1,12 @@
+{
+  "name": "Core Web Vitals History",
+  "desc": "Know if the core web vitals for a url or an origin have improved, degraded or remained stable for the last six months.",
+  "url": "https://punits.dev/core-web-vitals-historical/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [
+    "https://github.com/geeky-biz/"
+  ],
+  "addedAt": "2025-02-25"
+}
