@@ -3,8 +3,7 @@
   "desc": "Find all macOS cursor icons in SVG.",
   "url": "https://mac-cursors.netlify.app/",
   "tags": [
-    "Icons",
-    "SVG"
+    "Icon collection"
   ],
   "maintainers": [
     "daviddarnes"
