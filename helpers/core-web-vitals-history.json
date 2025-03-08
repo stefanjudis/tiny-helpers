@@ -1,0 +1,12 @@
+{
+  "name": "Core Web Vitals History",
+  "desc": "Access and analyze CrUX core web vitals data.",
+  "url": "https://punits.dev/core-web-vitals-historical/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [
+    "geeky-biz"
+  ],
+  "addedAt": "2025-02-25"
+}
