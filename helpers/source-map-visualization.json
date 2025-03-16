@@ -1,0 +1,12 @@
+{
+  "name": "Source Map Visualization",
+  "desc": "Visualize and debug source map data. ",
+  "url": "https://evanw.github.io/source-map-visualization/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "evanw"
+  ],
+  "addedAt": "2025-03-16"
+}
