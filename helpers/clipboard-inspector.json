@@ -1,0 +1,12 @@
+{
+  "name": "Clipboard Inspector",
+  "desc": "Inspect the data in your clipboard.",
+  "url": "https://evercoder.github.io/clipboard-inspector/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "evercoder"
+  ],
+  "addedAt": "2025-03-16"
+}
