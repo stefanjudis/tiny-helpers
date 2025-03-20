@@ -1,6 +1,6 @@
 {
   "name": "SVG Filter Maker",
-  "desc": "A node graph builder for SVG filters, making it easy to visually create filters",
+  "desc": "Create SVG filters visually via a node graph UI",
   "url": "https://svgfm.chriskirknielsen.com/",
   "tags": [
     "SVG"
