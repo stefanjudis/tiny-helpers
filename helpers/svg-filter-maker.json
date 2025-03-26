@@ -1,0 +1,12 @@
+{
+  "name": "SVG Filter Maker",
+  "desc": "Create SVG filters visually via a node graph UI",
+  "url": "https://svgfm.chriskirknielsen.com/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "chriskirknielsen"
+  ],
+  "addedAt": "2025-03-20"
+}
