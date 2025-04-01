@@ -1,0 +1,13 @@
+{
+  "name": "Oklchroma",
+  "desc": "Generate color patterns in the oklch color space.",
+  "url": "https://oklchroma.utilitybend.com",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "brechtDR"
+  ],
+  "addedAt": "2025-04-01"
+}
