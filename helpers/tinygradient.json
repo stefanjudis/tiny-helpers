@@ -1,0 +1,12 @@
+{
+  "name": "tinygradient",
+  "desc": " Fast and small gradients manipulation, built on top of TinyColor ",
+  "url": "https://mistic100.github.io/tinygradient/",
+  "tags": [
+    "Code"
+  ],
+  "maintainers": [
+    "mistic100"
+  ],
+  "addedAt": "2025-04-11"
+}
