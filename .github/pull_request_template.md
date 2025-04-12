@@ -8,6 +8,7 @@ To make it easier for us to review and merge your PR, please make sure …
 - [ ] you have checked if an open PR already exists.
 - [ ] the submitted website is focused on a single, development related issue.
 - [ ] the `desc` field includes an "actionable sentence" (e.g. "Create something great" or "Transform something into something else").
+- [ ] the `maintainers` are valid GitHub user names
 
 
 Thank you! 🙇‍♂️
