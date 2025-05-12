@@ -1,6 +1,6 @@
 {
   "name": "Accessibility Link Tester",
-  "desc": "Real time link generator to test screen reader behavior with various attribute, CSS and content combinations",
+  "desc": "Generate links to test screen reader behavior with various attribute, CSS and content combinations",
   "url": "https://moritzglantz.de/accessibility-link-tester/",
   "tags": [
     "Accessibility"
