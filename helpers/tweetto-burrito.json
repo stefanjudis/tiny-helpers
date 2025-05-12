@@ -1,0 +1,14 @@
+{
+  "name": "Tweetto Burrito",
+  "desc": "Generate url-encoded “call-to-tweet” links for your email newsletters and websites",
+  "url": "https://pglevy.github.io/tweetto-burrito/",
+  "tags": [
+    "Email",
+    "HTML",
+    "Misc"
+  ],
+  "maintainers": [
+    "pglevy"
+  ],
+  "addedAt": "2022-02-15"
+}
