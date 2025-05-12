@@ -1,0 +1,13 @@
+{
+  "name": "Boring dev tools",
+  "desc": "JWT decoders, JSON formatters, Base64 encoding, and many more tiny tools that are useful for developers.",
+  "url": "https://boringdevtools.com/",
+  "tags": [
+    "Data transformation",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "urbanisierung"
+  ],
+  "addedAt": "2025-05-12"
+}
