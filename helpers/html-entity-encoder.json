@@ -1,0 +1,13 @@
+{
+  "name": "HTML entity encoder",
+  "desc": "Encode and decode HTML entities",
+  "url": "https://dev-toolkit.xyz/tools/html-entity",
+  "tags": [
+    "HTML",
+    "Typography"
+  ],
+  "maintainers": [
+    "frux"
+  ],
+  "addedAt": "2025-05-13"
+}
