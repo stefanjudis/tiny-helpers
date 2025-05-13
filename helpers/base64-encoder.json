@@ -1,0 +1,12 @@
+{
+  "name": "Base64 encoder",
+  "desc": "Encode and decode Base64 strings",
+  "url": "https://dev-toolkit.xyz/tools/base64",
+  "tags": [
+    "Data transformation"
+  ],
+  "maintainers": [
+    "frux"
+  ],
+  "addedAt": "2025-05-13"
+}
