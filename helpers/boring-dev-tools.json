@@ -1,6 +1,6 @@
 {
   "name": "Boring dev tools",
-  "desc": "JWT decoders, JSON formatters, Base64 encoding, and many more tiny tools that are useful for developers.",
+  "desc": "Find JWT decoders, JSON formatters, Base64 encoding, and many more tiny tools in a single place.",
   "url": "https://boringdevtools.com/",
   "tags": [
     "Data transformation",
