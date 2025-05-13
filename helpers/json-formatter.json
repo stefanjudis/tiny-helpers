@@ -1,0 +1,12 @@
+{
+  "name": "JSON formatter",
+  "desc": "Prettify or minify JSON data",
+  "url": "https://dev-toolkit.xyz/tools/json-formatter",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "frux"
+  ],
+  "addedAt": "2025-05-13"
+}
