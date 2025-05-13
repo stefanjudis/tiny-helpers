@@ -1,0 +1,12 @@
+{
+  "name": "Typograf",
+  "desc": "Fix common typography issues",
+  "url": "https://dev-toolkit.xyz/tools/text-formatter",
+  "tags": [
+    "Typography"
+  ],
+  "maintainers": [
+    "frux"
+  ],
+  "addedAt": "2025-05-13"
+}
