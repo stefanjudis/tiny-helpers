@@ -1,0 +1,12 @@
+{
+  "name": "DevToolkit",
+  "desc": "Solve your everyday development tasks using a variety of handy tools: encoders/decoders, formatters, converters, etc",
+  "url": "https://dev-toolkit.xyz/",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "frux"
+  ],
+  "addedAt": "2025-05-14"
+}
