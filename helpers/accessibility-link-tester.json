@@ -1,0 +1,12 @@
+{
+  "name": "Accessibility Link Tester",
+  "desc": "Generate links to test screen reader behavior with various attribute, CSS and content combinations",
+  "url": "https://moritzglantz.de/accessibility-link-tester/",
+  "tags": [
+    "Accessibility"
+  ],
+  "maintainers": [
+    "MoritzGlantz"
+  ],
+  "addedAt": "2025-05-11"
+}
