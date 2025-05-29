@@ -1,0 +1,12 @@
+{
+  "name": "Compound Interest Calculator",
+  "desc": "Enter your initial investment, regular contributions, expected rate of return, and investment timeline to see how compound interest can grow your money over time.",
+  "url": "https://compoundinterestcalculator.money/",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "brice"
+  ],
+  "addedAt": "2025-05-29"
+}
