@@ -1,0 +1,11 @@
+{
+  "name": "Harmonizer",
+  "desc": "Generate accessible, consistent color palettes using the OKLCH color model and APCA contrast formula.",
+  "url": "https://harmonizer.evilmartians.com",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [],
+  "addedAt": "2025-05-31"
+}
