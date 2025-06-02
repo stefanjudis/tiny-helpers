@@ -1,0 +1,13 @@
+{
+  "name": "SVG to CSS Shape Converter",
+  "desc": "Convert an SVG shape created with <path d=\"...\"> into a CSS Shape.",
+  "url": "https://css-generators.com/svg-to-css/",
+  "tags": [
+    "CSS",
+    "SVG"
+  ],
+  "maintainers": [
+    "Afif13"
+  ],
+  "addedAt": "2025-06-02"
+}
