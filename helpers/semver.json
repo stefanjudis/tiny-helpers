@@ -1,0 +1,14 @@
+{
+  "name": "Semver",
+  "desc": "Semantic version checker for Composer/Packagist",
+  "url": "https://semver.madewithlove.com",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "jdrieghe",
+    "Anahkiasen",
+    "WouterSioen"
+  ],
+  "addedAt": "2022-05-06"
+}
