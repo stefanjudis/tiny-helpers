@@ -1,0 +1,11 @@
+{
+  "name": "Path to CSS Shape",
+  "desc": "Convert SVG path data to CSS shape() function.",
+  "url": "https://path-to-shape.netlify.app/",
+  "tags": [
+    "CSS",
+    "SVG"
+  ],
+  "maintainers": [],
+  "addedAt": "2025-06-06"
+}
