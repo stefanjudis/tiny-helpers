@@ -1,0 +1,13 @@
+{
+  "name": "FakeAPI",
+  "desc": "Provides auth-free Dummy JSON APIs for testing purposes.",
+  "url": "https://fakeapi.net",
+  "tags": [
+    "APIs",
+    "JSON"
+  ],
+  "maintainers": [
+    "niranjan-fartare"
+  ],
+  "addedAt": "2025-06-07"
+}
