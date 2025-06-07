@@ -1,0 +1,14 @@
+{
+  "name": "Hosting Checker",
+  "desc": "Check hosting provider of any website or IP Address",
+  "url": "https://hostingchecker.co",
+  "tags": [
+    "Network",
+    "SEO",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "niranjan-fartare"
+  ],
+  "addedAt": "2025-06-07"
+}
