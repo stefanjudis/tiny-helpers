@@ -1,0 +1,10 @@
+{
+  "name": "LLM pricing calculator",
+  "desc": "Compare and calculate LLM prices.",
+  "url": "https://www.llm-prices.com/",
+  "tags": [
+    "AI"
+  ],
+  "maintainers": [],
+  "addedAt": "2025-06-11"
+}
