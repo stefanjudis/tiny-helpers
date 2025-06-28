@@ -1,0 +1,14 @@
+{
+  "name": "ImagiTool",
+  "desc": "Bulk Convert and Compress images",
+  "url": "https://imagitool.com/",
+  "tags": [
+    "Images",
+    "SVG",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "jijunair"
+  ],
+  "addedAt": "2025-06-28"
+}
