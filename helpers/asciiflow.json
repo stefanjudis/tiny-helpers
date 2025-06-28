@@ -1,6 +1,6 @@
 {
   "name": "asciiflow",
-  "desc": "ASCIIFlow is a client-side only web based application for drawing ASCII diagrams.",
+  "desc": "Create ASCII diagrams in the browser.",
   "url": "https://asciiflow.com",
   "tags": [
     "Illustration",
