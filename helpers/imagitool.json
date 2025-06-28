@@ -1,0 +1,14 @@
+{
+  "name": "ImagiTool",
+  "desc": "ImagiTool offers free photo resize tool, image compress tool, picture convert tool and all raw file viewers with batch processing in all the tools.",
+  "url": "https://imagitool.com/",
+  "tags": [
+    "Images",
+    "SVG",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "jijunair"
+  ],
+  "addedAt": "2025-06-28"
+}
