@@ -1,0 +1,14 @@
+{
+  "name": "SSR (Server-side Rendering) Checker",
+  "desc": "Visually compare SSR version and regular version for any URL.",
+  "url": "https://www.crawlably.com/ssr-checker/",
+  "tags": [
+    "JavaScript",
+    "Performance",
+    "SEO"
+  ],
+  "maintainers": [
+    "https://github.com/geeky-biz"
+  ],
+  "addedAt": "2025-07-03"
+}
