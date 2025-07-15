@@ -1,0 +1,12 @@
+{
+  "name": "HTML Form Inspector",
+  "desc": "Paste your HTML form code to get a detailed overview of its structure and fields.",
+  "url": "https://polypane.app/form-inspector/",
+  "tags": [
+    "Forms"
+  ],
+  "maintainers": [
+    "kilian"
+  ],
+  "addedAt": "2025-06-30"
+}
