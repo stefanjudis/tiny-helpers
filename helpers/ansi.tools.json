@@ -1,0 +1,12 @@
+{
+  "name": "ANSI.tools",
+  "desc": "Inspect text, visualize colors and styling, and list ANSI control codes.",
+  "url": "https://ansi.tools/",
+  "tags": [
+    "Command line"
+  ],
+  "maintainers": [
+    "webpro"
+  ],
+  "addedAt": "2025-07-15"
+}
