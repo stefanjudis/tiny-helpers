@@ -1,0 +1,13 @@
+{
+  "name": "TempMail4U",
+  "desc": "Access to private, disposable email addresses.",
+  "url": "https://tempmail4u.com/",
+  "tags": [
+    "Email",
+    "Misc"
+  ],
+"maintainers": [
+    "ArslanMalik1920"
+  ],
+  "addedAt": "2025-07-20"
+}
