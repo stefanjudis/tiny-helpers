@@ -1,0 +1,13 @@
+{
+  "name": "TmpMails",
+  "desc": "Safe and Convenient Temporary Email Service. No registration required, get a temporary email address instantly. Protect your privacy and stay away from spam.",
+  "url": "https://tmpmails.com",
+  "tags": [
+    "Email",
+    "Misc"
+  ],
+  "maintainers": [
+    "tommcflydev"
+  ],
+  "addedAt": "2024-04-05"
+}
