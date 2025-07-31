@@ -1,0 +1,13 @@
+{
+  "name": "TmpMails",
+  "desc": "Protect your privacy and stay away from spam with temporary email addresses.",
+  "url": "https://tmpmails.com",
+  "tags": [
+    "Email",
+    "Misc"
+  ],
+  "maintainers": [
+    "tommcflydev"
+  ],
+  "addedAt": "2024-04-05"
+}
