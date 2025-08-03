@@ -1,0 +1,15 @@
+{
+  "name": "youtubedescriptionextractor",
+  "desc": "Grab any Youtube video's title, description, thumbnails and more in a snap",
+  "url": "https://youtubedescriptionextractor.com",
+  "tags": [
+    "JSON",
+    "Site analyzers",
+    "Tool Collections",
+    "Videos"
+  ],
+  "maintainers": [
+    "shash7"
+  ],
+  "addedAt": "2025-07-23"
+}
