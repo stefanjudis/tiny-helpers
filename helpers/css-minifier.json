@@ -1,0 +1,12 @@
+{
+  "name": "CSS Minifier",
+  "desc": "Minify your CSS without structural changes",
+  "url": "https://www.projectwallace.com/minify-css",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
