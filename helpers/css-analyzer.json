@@ -1,0 +1,14 @@
+{
+  "name": "CSS Analyzer",
+  "desc": "Analyze your website's CSS in this fast, detailed analyzer.",
+  "url": "https://www.projectwallace.com/analyze-css",
+  "tags": [
+    "CSS",
+    "Performance",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
