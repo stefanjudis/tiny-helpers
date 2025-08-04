@@ -1,0 +1,13 @@
+{
+  "name": "CSS Cusom Property Inspector",
+  "desc": "Detect potential bugs or find opportunities to lower your total CSS footprint.",
+  "url": "https://www.projectwallace.com/custom-property-inspector",
+  "tags": [
+    "CSS",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
