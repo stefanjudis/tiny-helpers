@@ -1,0 +1,12 @@
+{
+  "name": "CSS Diff Viewer",
+  "desc": "Quickly compare two CSS files and see the line-by-line differences between them",
+  "url": "https://www.projectwallace.com/css-diff",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
