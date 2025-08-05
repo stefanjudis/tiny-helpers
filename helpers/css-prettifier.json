@@ -1,0 +1,12 @@
+{
+  "name": "CSS Prettifier",
+  "desc": "Convert minified CSS into readable CSS",
+  "url": "https://www.projectwallace.com/prettify-css",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
