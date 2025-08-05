@@ -1,0 +1,13 @@
+{
+  "name": "Project Wallace",
+  "desc": "Analyze your CSS for complexity, design tokens, architecture and much more in a single web app.",
+  "url": "https://www.projectwallace.com/",
+  "tags": [
+    "CSS",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
