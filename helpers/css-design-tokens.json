@@ -1,0 +1,13 @@
+{
+  "name": "CSS Design Tokens",
+  "desc": "Statically analyze your CSS to find design tokens like colors, fonts, animations and many more.",
+  "url": "https://www.projectwallace.com/design-tokens",
+  "tags": [
+    "CSS",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}

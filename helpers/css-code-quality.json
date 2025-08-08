@@ -1,0 +1,14 @@
+{
+  "name": "CSS Code Quality",
+  "desc": "Analyze your CSS like a Lighthouse report",
+  "url": "https://www.projectwallace.com/css-code-quality",
+  "tags": [
+    "CSS",
+    "Performance",
+    "Site analyzers"
+  ],
+  "maintainers": [
+    "bartveneman"
+  ],
+  "addedAt": "2025-08-04"
+}
