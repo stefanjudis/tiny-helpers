@@ -1,0 +1,14 @@
+{
+  "name": "JWK Generator",
+  "desc": "Generate and convert cryptographic keys in PEM and JWK formats for secure signing and encryption.",
+  "url": "https://www.authgear.com/tools/jwk-generator",
+  "tags": [
+    "API",
+    "JSON",
+    "Security"
+  ],
+  "maintainers": [
+    "fungc-io"
+  ],
+  "addedAt": "2025-08-12"
+}
