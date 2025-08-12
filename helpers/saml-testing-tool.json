@@ -1,0 +1,12 @@
+{
+  "name": "SAML Testing Tool",
+  "desc": "Act as a Service Provider (SP) that allows you to configure and test SAML authentication flows with any Identity Provider (IdP)",
+  "url": "https://samlsp.com/en/",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "fungc-io"
+  ],
+  "addedAt": "2025-08-12"
+}
