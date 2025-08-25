@@ -1,0 +1,12 @@
+{
+  "name": "Vecto3d",
+  "desc": "Convert an SVG file to a 3D model.",
+  "url": "https://www.vecto3d.xyz/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "lakshaybhushan"
+  ],
+  "addedAt": "2025-08-25"
+}
