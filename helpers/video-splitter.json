@@ -1,0 +1,12 @@
+{
+  "name": "Video Splitter",
+  "desc": "Slice video your into pieces by seconds, powered by FFmpeg WASM.",
+  "url": "https://huayemao.run/video-splitter",
+  "tags": [
+    "Videos"
+  ],
+  "maintainers": [
+    "huayemao"
+  ],
+  "addedAt": "2025-08-28"
+}
