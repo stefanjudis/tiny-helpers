@@ -1,0 +1,12 @@
+{
+  "name": "TOTP Authenticator",
+  "desc": "Generate and copy Time-based One-Time Passwords (TOTP) instantly for testing, debugging, and QA",
+  "url": "https://www.authgear.com/tools/totp-authenticator",
+  "tags": [
+    "Security"
+  ],
+  "maintainers": [
+    "fungc-io"
+  ],
+  "addedAt": "2025-08-27"
+}
