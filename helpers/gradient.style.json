@@ -1,0 +1,12 @@
+{
+  "name": "gradient.style",
+  "desc": "Create CSS gradients.",
+  "url": "https://gradient.style",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "argyleink"
+  ],
+  "addedAt": "2025-08-29"
+}
