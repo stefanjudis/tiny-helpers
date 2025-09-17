@@ -1,0 +1,12 @@
+{
+  "name": "UTF-8 Playground",
+  "desc": "Explore and understand UTF-8 encoding.",
+  "url": "https://utf8-playground.netlify.app/",
+  "tags": [
+    "Unicode"
+  ],
+  "maintainers": [
+    "vishnuharidas"
+  ],
+  "addedAt": "2025-09-17"
+}
