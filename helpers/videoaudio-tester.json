@@ -1,0 +1,12 @@
+{
+  "name": "Video/Audio Tester",
+  "desc": "Debug video codec compatibility issues.",
+  "url": "https://tools.woolyss.com/html5-audio-video-tester/",
+  "tags": [
+    "Videos"
+  ],
+  "maintainers": [
+    "woolyss"
+  ],
+  "addedAt": "2025-09-23"
+}
