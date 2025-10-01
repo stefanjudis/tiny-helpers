@@ -1,0 +1,13 @@
+{
+  "name": "SQLable",
+  "desc": "Generate realistic test datasets.",
+  "url": "https://sqlable.com/generator/",
+  "tags": [
+    "Database",
+    "Generated Data"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2025-09-30"
+}
