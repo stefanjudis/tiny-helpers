@@ -1,0 +1,12 @@
+{
+  "name": "Format JSON Online",
+  "desc": "Format JSON Online is a fast, free, and privacy-focused tool to format, validate, minify, and beautify JSON data directly in your browser. Built for developers and API testers, it offers support for large JSON files without requiring login or sending data to a server. Additional features like JSON-to-CSV, JSON-to-XML, and cURL conversion make it a versatile tool for debugging, transforming, and visualizing JSON. Light ads may be introduced in the future to support development, but user privacy and experience will always be top priorities.",
+  "url": "https://formatjsononline.com/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "https://github.com/anilpeter75"
+  ],
+  "addedAt": "2025-10-06"
+}
