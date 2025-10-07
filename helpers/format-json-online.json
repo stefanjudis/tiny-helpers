@@ -1,0 +1,12 @@
+{
+  "name": "Format JSON Online",
+  "desc": "Free online tool to format, validate, minify, and beautify JSON. Fast, secure, and built for developers. No login, no tracking, just clean JSON.",
+  "url": "https://formatjsononline.com/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "anilpeter75"
+  ],
+  "addedAt": "2025-10-07"
+}
