@@ -1,0 +1,12 @@
+{
+  "name": "Format JSON Online",
+  "desc": "Create beautifully structured JSON from any raw data.",
+  "url": "https://formatjsononline.com/",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "anilpeter75"
+  ],
+  "addedAt": "2025-10-09"
+}
