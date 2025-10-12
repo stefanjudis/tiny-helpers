@@ -1,0 +1,12 @@
+{
+  "name": "XMLable",
+  "desc": "XMLable is an XML toolbox offering features such as a formatter, linter, comparator, generator, converters, and an XPath tester.",
+  "url": "https://xmlable.com/",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "cyrilbois"
+  ],
+  "addedAt": "2025-10-12"
+}
