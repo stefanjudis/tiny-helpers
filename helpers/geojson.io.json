@@ -3,8 +3,8 @@
   "desc": "Edit map JSON data",
   "url": "http://geojson.io/",
   "tags": [
-    "JSON",
-    "Misc"
+    "Maps",
+    "JSON"
   ],
   "maintainers": [
     "mapbox",
