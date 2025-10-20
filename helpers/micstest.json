@@ -1,6 +1,6 @@
 {
   "name": "MicrophoneTest",
-  "desc": "Best Online Microphone Testing Tool",
+  "desc": "Check if your microphone works online",
   "url": "https://micstest.com",
   "tags": ["Performance", "Misc"],
   "maintainers": ["tommcflydev"],
