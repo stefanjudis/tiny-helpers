@@ -1,0 +1,22 @@
+{
+  "name": "YAOT",
+  "desc": "Free, fast, and powerful web-based utilities for developers, designers, and everyday users. No downloads required.",
+  "url": "https://www.yaot.io",
+  "tags": [
+    "Code",
+    "Color",
+    "Data transformation",
+    "Images",
+    "JSON",
+    "Misc",
+    "PDF",
+    "Regular Expressions",
+    "Tool Collections",
+    "URL",
+    "Unicode"
+  ],
+  "maintainers": [
+    "glockx"
+  ],
+  "addedAt": "2025-10-23"
+}
