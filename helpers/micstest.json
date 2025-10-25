@@ -1,0 +1,8 @@
+{
+  "name": "MicrophoneTest",
+  "desc": "Check if your microphone works online",
+  "url": "https://micstest.com",
+  "tags": ["Misc"],
+  "maintainers": ["tommcflydev"],
+  "addedAt": "2025-10-20"
+}
