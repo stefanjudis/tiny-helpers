@@ -1,0 +1,12 @@
+{
+  "name": "PWA Browser Scorecards",
+  "desc": "Compare Progressive Web App capabilities across browsers.",
+  "url": "https://pwascore.com/",
+  "tags": [
+    "PWA"
+  ],
+  "maintainers": [
+    "CharlesWiltgen"
+  ],
+  "addedAt": "2025-10-25"
+}
