@@ -1,0 +1,14 @@
+{
+  "name": "SankeyDiagram.net",
+  "desc": "Create & share Sankey diagrams with ease",
+  "url": "https://sankeydiagram.net/",
+  "tags": [
+    "Data transformation",
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "JonasDoesThings"
+  ],
+  "addedAt": "2025-10-30"
+}
