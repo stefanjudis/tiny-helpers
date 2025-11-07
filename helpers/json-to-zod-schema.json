@@ -1,0 +1,14 @@
+{
+  "name": "JSON to Zod Schema",
+  "desc": "Generate Zod validation schemas from JSON objects for runtime type safety",
+  "url": "https://codeutil.io/tools/json-to-zod",
+  "tags": [
+    "Data transformation",
+    "JSON",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "julianw"
+  ],
+  "addedAt": "2025-11-07"
+}
