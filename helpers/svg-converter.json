@@ -1,13 +1,14 @@
 {
   "name": "SVG Converter",
-  "desc": "Convert SVG to ico, png, jpeg, webp.",
-  "url": "https://svgviewer.app/svg-converter",
+  "desc": "Converts image from JPG/PNG to SVG",
+  "url": "https://svgconverter.online",
   "tags": [
+    "Images",
     "SVG"
   ],
   "maintainers": [
-    "sing1ee",
-    "ZhangVampire"
+    "KristjanRetter",
+    "hendrik127"
   ],
-  "addedAt": "2025-04-07"
+  "addedAt": "2025-11-14"
 }
