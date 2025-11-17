@@ -1,0 +1,13 @@
+{
+  "name": "Browser Score",
+  "desc": "Check web platform features in the current browser.",
+  "url": "https://browserscore.dev",
+  "tags": [
+    "CSS",
+    "Misc"
+  ],
+  "maintainers": [
+    "LeaVerou"
+  ],
+  "addedAt": "2025-11-17"
+}
