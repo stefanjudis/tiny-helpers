@@ -1,0 +1,14 @@
+{
+  "name": "Image to SVG Converter",
+  "desc": "Converts image from JPG/PNG to SVG",
+  "url": "https://svgconverter.online",
+  "tags": [
+    "Images",
+    "SVG"
+  ],
+  "maintainers": [
+    "KristjanRetter",
+    "hendrik127"
+  ],
+  "addedAt": "2025-11-15"
+}
