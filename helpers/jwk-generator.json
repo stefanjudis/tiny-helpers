@@ -3,7 +3,7 @@
   "desc": "Generate and convert cryptographic keys in PEM and JWK formats for secure signing and encryption.",
   "url": "https://www.authgear.com/tools/jwk-generator",
   "tags": [
-    "API",
+    "APIs",
     "JSON",
     "Security"
   ],
