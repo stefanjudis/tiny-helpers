@@ -1,0 +1,12 @@
+{
+  "name": "Vert",
+  "desc": "Convert images, audio and documents into different format.",
+  "url": "https://vert.sh/",
+  "tags": [
+    "Images",
+    "Misc",
+    "Videos"
+  ],
+  "maintainers": [],
+  "addedAt": "2025-12-04"
+}
