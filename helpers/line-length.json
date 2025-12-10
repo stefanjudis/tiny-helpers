@@ -1,0 +1,13 @@
+{
+  "name": "line-length",
+  "desc": "Measure lines of text on a page",
+  "url": "https://psalaets.github.io/line-length/",
+  "tags": [
+    "Accessibility",
+    "Typography"
+  ],
+  "maintainers": [
+    "psalaets"
+  ],
+  "addedAt": "2025-12-10"
+}
