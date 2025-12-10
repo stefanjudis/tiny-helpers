@@ -1,0 +1,13 @@
+{
+  "name": "Beeceptor Local Tunnel",
+  "desc": "Expose your local web projects to the internet instantly for easier demos and real-world testing.",
+  "url": "https://beeceptor.com/local-tunnel/",
+  "tags": [
+    "APIs",
+    "Command line",
+    "HTTP",
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2025-12-09"
+}
