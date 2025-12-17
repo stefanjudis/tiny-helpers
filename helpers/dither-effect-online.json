@@ -1,0 +1,15 @@
+{
+  "name": "Dither Effect Online",
+  "desc": "Apply real-time image dithering with customizable patterns and color palettes",
+  "url": "https://ditherimage.online",
+  "tags": [
+    "Color",
+    "Images",
+    "Security",
+    "Performance"
+  ],
+  "maintainers": [
+    "lesliele"
+  ],
+  "addedAt": "2025-12-16"
+}
