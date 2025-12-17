@@ -1,0 +1,8 @@
+{
+  "name": "Video to JPG",
+  "desc": "Extract high-quality images from videos with advanced frame selection and blur detection.",
+  "url": "https://videotojpg.com",
+  "tags": ["Videos", "Images"],
+  "maintainers": ["eyeandroid"],
+  "addedAt": "2025-12-13"
+}
