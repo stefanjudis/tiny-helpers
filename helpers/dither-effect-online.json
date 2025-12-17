@@ -3,10 +3,7 @@
   "desc": "Apply real-time image dithering with customizable patterns and color palettes",
   "url": "https://ditherimage.online",
   "tags": [
-    "Color",
-    "Images",
-    "Security",
-    "Performance"
+    "Images"
   ],
   "maintainers": [
     "lesliele"
