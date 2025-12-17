@@ -1,6 +1,6 @@
 {
   "name": "Video to JPG",
-  "desc": "Extract high-quality images from videos with advanced frame selection and blur detection. Supports MP4, MOV, AVI and more, up to 1.9GB. 100% browser-based, no upload needed.",
+  "desc": "Extract high-quality images from videos with advanced frame selection and blur detection.",
   "url": "https://videotojpg.com",
   "tags": ["Videos", "Images"],
   "maintainers": ["eyeandroid"],
