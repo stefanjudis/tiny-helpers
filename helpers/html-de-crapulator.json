@@ -1,0 +1,12 @@
+{
+  "name": "HTML De-crapulator",
+  "desc": "Clean up cluttered HTML for testing purposes.",
+  "url": "https://a11y-tools.com/markup-de-crapulator/",
+  "tags": [
+    "HTML"
+  ],
+  "maintainers": [
+    "lloydi"
+  ],
+  "addedAt": "2025-12-22"
+}
