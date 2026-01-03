@@ -1,0 +1,13 @@
+{
+  "name": "AiAway",
+  "desc": "Make your AI-generated content less obvious. Easily remove characters typically used by AI but not so common on human-generated content.",
+  "url": "https://danziger.github.io/ai-away/",
+  "tags": [
+    "AI",
+    "Unicode"
+  ],
+  "maintainers": [
+    "danziger"
+  ],
+  "addedAt": "2026-01-03"
+}
