@@ -1,0 +1,12 @@
+{
+  "name": "ReliCSS",
+  "desc": "Identify and replace outdated browser-specific CSS hacks with modern, standards-compliant alternatives",
+  "url": "https://www.alwaystwisted.com/relicss/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "sturobson"
+  ],
+  "addedAt": "2026-01-10"
+}
