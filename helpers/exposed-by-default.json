@@ -1,0 +1,13 @@
+{
+  "name": "Exposed By Default",
+  "desc": "Discover all the information your browser shares automatically.",
+  "url": "https://neberej.github.io/exposedbydefault/",
+  "tags": [
+    "Misc",
+    "Security"
+  ],
+  "maintainers": [
+    "neberej"
+  ],
+  "addedAt": "2026-01-10"
+}
