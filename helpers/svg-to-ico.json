@@ -1,0 +1,14 @@
+{
+  "name": "SVG to ICO Converter",
+  "desc": "A fast, privacy-focused tool to convert SVG images to high-quality ICO files for web favicons and Windows icons.",
+  "url": "https://svg-to-ico.org",
+  "tags": [
+    "SVG",
+    "ICO",
+    "Converter",
+    "Favicon",
+    "Design-Tools"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-01-22"
+}
