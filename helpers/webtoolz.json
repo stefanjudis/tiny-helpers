@@ -3,7 +3,8 @@
   "desc": "Format, validate, diff, and convert JSON to YAML/CSV",
   "url": "https://webtoolz.dev",
   "tags": [
-    "JSON"
+    "JSON",
+    "Tools Collections"
   ],
   "maintainers": [
     "trinhcuong-ast"
