@@ -1,0 +1,12 @@
+{
+  "name": "webtoolz",
+  "desc": "Format, validate, diff, and convert JSON to YAML/CSV",
+  "url": "https://webtoolz.dev",
+  "tags": [
+    "JSON"
+  ],
+  "maintainers": [
+    "trinhcuong-ast"
+  ],
+  "addedAt": "2026-01-29"
+}
