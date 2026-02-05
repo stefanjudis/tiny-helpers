@@ -1,0 +1,8 @@
+{
+  "name": "GPU Video Compressor",
+  "desc": "A browser-based tool to compress videos using GPU acceleration (up to 10x faster). Features include real-time preview and side-by-side comparison to check compression results instantly. All processing happens locally.",
+  "url": "https://videocompressors.com",
+  "tags": ["Videos", "Compress"],
+  "maintainers": ["eyeandroid"],
+  "addedAt": "2026-02-05"
+}
