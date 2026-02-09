@@ -1,0 +1,29 @@
+{
+  "name": "UrwaTools",
+  "desc": "All-in-one online tools for conversions, downloads, utilities, and productivity.",
+  "url": "https://www.urwatools.com",
+  "tags": [
+    "APIs",
+    "Accessibility",
+    "Code",
+    "HTTP",
+    "PDF",
+    "PHP",
+    "PWA",
+    "Performance",
+    "SEO",
+    "Security",
+    "Site analyzers",
+    "System Administration",
+    "Tool Collections",
+    "Tools",
+    "Tools Collections",
+    "URL",
+    "Unicode",
+    "Videos"
+  ],
+  "maintainers": [
+    "ameerhamzanawaz"
+  ],
+  "addedAt": "2026-02-09"
+}
