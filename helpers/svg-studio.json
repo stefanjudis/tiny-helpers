@@ -1,0 +1,12 @@
+{
+  "name": "SVG Studio",
+  "desc": "Edit and debug SVGs with direct visual feedback",
+  "url": "https://www.svg.studio/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "g-a-v-i-n"
+  ],
+  "addedAt": "2026-02-12"
+}
