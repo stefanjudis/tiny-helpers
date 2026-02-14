@@ -3,9 +3,7 @@
   "desc": "View and preview Base64-encoded images, audio, video, and PDFs in your JSON data",
   "url": "https://viewjson.net",
   "tags": [
-    "JSON",
-    "Data transformation",
-    "Images"
+    "JSON"
   ],
   "maintainers": [
     "daassh"
