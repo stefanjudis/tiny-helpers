@@ -3,7 +3,7 @@
   "desc": "Decode, Debug and Validate JSON Web Tokens (JWT)",
   "url": "https://jwt.is/",
   "tags": [
-    "API",
+    "APIs",
     "Security"
   ],
   "maintainers": [],

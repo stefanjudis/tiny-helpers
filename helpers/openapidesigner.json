@@ -2,7 +2,7 @@
   "name": "Open API Designer",
   "desc": "Create Open API 3 definition documents",
   "url": "https://openapidesigner.com",
-  "tags": ["API"],
+  "tags": ["APIs"],
   "maintainers": ["rodenacker"],
   "addedAt": "2023-11-07"
 }

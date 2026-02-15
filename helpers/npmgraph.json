@@ -1,11 +1,10 @@
 {
   "name": "npmgraph",
-  "desc": "Explore and inspect and npm package's dependencies.",
+  "desc": "Explore npm modules and dependencies.",
   "url": "https://npmgraph.js.org/",
   "tags": [
-    "JavaScript",
     "npm"
   ],
   "maintainers": [],
-  "addedAt": "2023-08-10"
+  "addedAt": "2026-01-09"
 }

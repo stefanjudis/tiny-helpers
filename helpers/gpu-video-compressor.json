@@ -1,0 +1,8 @@
+{
+  "name": "GPU Video Compressor",
+  "desc": "Compress videos locally in your browser using GPU acceleration with real-time preview.",
+  "url": "https://videocompressors.com",
+  "tags": ["Videos"],
+  "maintainers": ["Video-Frame-Extractor"],
+  "addedAt": "2026-02-05"
+}

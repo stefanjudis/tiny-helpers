@@ -1,12 +1,10 @@
 {
-  "name": "Email.ML",
+  "name": "TempMail.Best",
   "desc": "Generate temporary emails.",
-  "url": "https://email.ml/",
+  "url": "https://tempmail.best",
   "tags": [
     "Email"
   ],
-  "maintainers": [
-    "ccbikai"
-  ],
+  "maintainers": [],
   "addedAt": "2024-05-06"
 }
