@@ -1,0 +1,14 @@
+{
+  "name": "S-V-Go",
+  "desc": "A high-performance, framework-free SVG Icon Gallery built with Vanilla JS",
+  "url": "https://microresearch-corporation.github.io/S-V-Go/",
+  "tags": [
+    "Icons",
+    "Tools",
+    "SVG"
+  ],
+  "maintainers": [
+    "Pro-Bandey"
+  ],
+  "addedAt": "2026-02-15"
+}
