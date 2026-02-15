@@ -1,0 +1,12 @@
+{
+  "name": "DevToolbox",
+  "desc": "A free, open-source collection of 15+ browser-based developer tools including JSON formatter, regex tester, UUID generator, hash generator, and more. All client-side, no tracking.",
+  "url": "https://devtoolbox-delta.vercel.app",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "blumaa"
+  ],
+  "addedAt": "2026-02-15"
+}
