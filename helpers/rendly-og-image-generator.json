@@ -1,0 +1,14 @@
+{
+  "name": "Rendly OG Image Generator",
+  "desc": "Free tool to generate Open Graph images for social media previews. Choose from 6 templates, customize colors, text, and download as PNG.",
+  "url": "https://rendly-api.fly.dev/tools/og-image-generator",
+  "tags": [
+    "Images",
+    "SEO",
+    "Social Media"
+  ],
+  "maintainers": [
+    "mack-moneymaker"
+  ],
+  "addedAt": "2026-02-16"
+}
