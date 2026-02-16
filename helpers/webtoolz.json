@@ -1,10 +1,13 @@
 {
   "name": "webtoolz",
-  "desc": "Format, validate, diff, and convert JSON to YAML/CSV",
+  "desc": "JSON toolkit, Mermaid diagram editor, and AI music studio — all browser-based, no signup",
   "url": "https://webtoolz.dev",
   "tags": [
     "JSON",
-    "Tools Collections"
+    "Code",
+    "AI",
+    "Data transformation",
+    "Tool Collections"
   ],
   "maintainers": [
     "trinhcuong-ast"
