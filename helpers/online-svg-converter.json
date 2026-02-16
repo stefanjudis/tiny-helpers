@@ -1,0 +1,12 @@
+{
+  "name": "Online SVG Converter",
+  "desc": "Convert images to SVG",
+  "url": "https://svgconverter.online/",
+  "tags": [
+    "SVG"
+  ],
+  "maintainers": [
+    "hendrik127"
+  ],
+  "addedAt": "2026-02-16"
+}
