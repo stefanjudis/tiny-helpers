@@ -1,6 +1,6 @@
 {
   "name": "webtoolz",
-  "desc": "Format, validate, and convert JSON, edit Mermaid diagrams, and generate AI music — all in the browser",
+  "desc": "Format, validate, and convert JSON, and edit Mermaid diagrams.",
   "url": "https://webtoolz.dev",
   "tags": [
     "JSON",
