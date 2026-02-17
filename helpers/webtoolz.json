@@ -1,12 +1,10 @@
 {
   "name": "webtoolz",
-  "desc": "JSON toolkit, Mermaid diagram editor, and AI music studio — all browser-based, no signup",
+  "desc": "Format, validate, and convert JSON, edit Mermaid diagrams, and generate AI music — all in the browser",
   "url": "https://webtoolz.dev",
   "tags": [
     "JSON",
     "Code",
-    "AI",
-    "Data transformation",
     "Tool Collections"
   ],
   "maintainers": [
