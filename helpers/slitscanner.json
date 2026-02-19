@@ -1,0 +1,12 @@
+{
+  "name": "Slitscanner",
+  "desc": "Distort and warp images and text to create an interesting 'slit-scan' effect.",
+  "url": "https://www.slitscanner.app",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "itsmattsoria"
+  ],
+  "addedAt": "2026-02-19"
+}
