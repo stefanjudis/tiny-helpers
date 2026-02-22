@@ -1,0 +1,15 @@
+{
+  "name": "DevHandbook",
+  "desc": "A collection of free, client-side developer tools including JWT debugger, Base64 converter, JSON formatter, Regex tester, and more.",
+  "url": "https://devhandbook.io",
+  "tags": [
+    "Tool Collections",
+    "JavaScript",
+    "JSON",
+    "Security"
+  ],
+  "maintainers": [
+    "Bryanmoon19"
+  ],
+  "addedAt": "2026-02-22"
+}
