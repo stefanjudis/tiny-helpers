@@ -1,0 +1,14 @@
+{
+  "name": "Cron Generator",
+  "desc": "Online cron expression builder and explainer with plain English translations and execution previews.",
+  "url": "https://devhandbook.io/cron-generator/",
+  "tags": [
+    "JavaScript",
+    "JSON",
+    "Productivity"
+  ],
+  "maintainers": [
+    "Bryanmoon19"
+  ],
+  "addedAt": "2026-02-22"
+}
