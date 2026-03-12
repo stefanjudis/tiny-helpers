@@ -1,13 +1,12 @@
 {
   "name": "Video Compressor",
-  "desc": "Compress videos right in the browser.",
-  "url": "https://compress.addy.ie/",
+  "desc": "In browser video compressor with no file size limit - depends on machine specs",
+  "url": "https://1000freetools.com/video-tools/video-compressor",
   "tags": [
-    "Performance",
     "Videos"
   ],
   "maintainers": [
-    "addyosmani"
+    "https://github.com/Nizam1104"
   ],
-  "addedAt": "2025-02-13"
+  "addedAt": "2026-03-12"
 }
