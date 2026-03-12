@@ -1,0 +1,12 @@
+{
+  "name": "ToolBox",
+  "desc": "Format JSON, compare text diffs, encode Base64, generate passwords, and 135+ more developer tools — all running in-browser with no signup.",
+  "url": "https://www.toolbox-kit.com",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "Johin2"
+  ],
+  "addedAt": "2026-02-19"
+}
