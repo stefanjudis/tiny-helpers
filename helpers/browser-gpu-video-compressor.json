@@ -1,6 +1,6 @@
 {
   "name": "Browser GPU Video Compressor",
-  "desc": "In browser video compressor with no file size limit - depends on machine specs",
+  "desc": "Compress Videos using GPU in browser - NO File limit",
   "url": "https://1000freetools.com/video-tools/video-compressor",
   "tags": [
     "Videos"
