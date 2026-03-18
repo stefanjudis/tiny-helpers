@@ -1,0 +1,8 @@
+{
+  "name": "Morse Code Translator",
+  "desc": "Translate text to Morse code and Morse code back to text, with audio playback and audio file decoding.",
+  "url": "https://translatemorsecode.org",
+  "tags": ["Misc", "Data transformation"],
+  "maintainers": [],
+  "addedAt": "2026-03-18"
+}
