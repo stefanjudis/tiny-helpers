@@ -1,0 +1,8 @@
+{
+  "name": "Regex Tester",
+  "desc": "Test regex patterns with real-time highlighting, capture groups, and common pattern presets.",
+  "url": "https://karangoyal.cc/tools/regex-tester",
+  "tags": ["Code"],
+  "maintainers": ["karangoyal360"],
+  "addedAt": "2026-03-23"
+}

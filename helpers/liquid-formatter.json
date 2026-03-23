@@ -1,0 +1,8 @@
+{
+  "name": "Liquid Formatter",
+  "desc": "Format and beautify Shopify Liquid code online. Handles nested loops, conditionals, and mixed HTML/Liquid.",
+  "url": "https://karangoyal.cc/tools/liquid-formatter",
+  "tags": ["Code"],
+  "maintainers": ["karangoyal360"],
+  "addedAt": "2026-03-23"
+}

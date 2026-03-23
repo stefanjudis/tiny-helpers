@@ -1,0 +1,8 @@
+{
+  "name": "JSON Formatter & Validator",
+  "desc": "Pretty-print, minify, and validate JSON online. Handles large files without lag. No sign-up required.",
+  "url": "https://karangoyal.cc/tools/json-formatter",
+  "tags": ["JSON"],
+  "maintainers": ["karangoyal360"],
+  "addedAt": "2026-03-23"
+}

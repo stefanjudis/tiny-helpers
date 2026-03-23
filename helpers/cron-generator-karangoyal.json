@@ -1,0 +1,8 @@
+{
+  "name": "Cron Expression Generator",
+  "desc": "Visual cron expression builder with 11 presets and next 5 execution time preview.",
+  "url": "https://karangoyal.cc/tools/cron-generator",
+  "tags": ["Code"],
+  "maintainers": ["karangoyal360"],
+  "addedAt": "2026-03-23"
+}
