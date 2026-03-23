@@ -1,8 +1,8 @@
 {
   "name": "ValidateHTML",
-  "desc": "Validate HTML, CSS, JSON and XML code instantly with quality scores from 0 to 100. Check meta tags, Open Graph, robots.txt and page size in one place.",
+  "desc": "Validate HTML, CSS, JSON and XML code with instant quality scores",
   "url": "https://validatehtml.com",
   "tags": ["HTML", "Code", "SEO"],
-  "maintainers": ["ValidateHTML"],
+  "maintainers": ["theo_dcrx"],
   "addedAt": "2026-03-23"
 }
