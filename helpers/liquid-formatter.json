@@ -1,0 +1,8 @@
+{
+  "name": "Liquid Formatter",
+  "desc": "Format and beautify Shopify Liquid code with proper indentation",
+  "url": "https://karangoyal.cc/tools/liquid-formatter",
+  "tags": ["Code"],
+  "maintainers": ["kgoyal000"],
+  "addedAt": "2026-03-24"
+}
