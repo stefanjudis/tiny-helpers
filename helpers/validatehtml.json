@@ -1,0 +1,8 @@
+{
+  "name": "ValidateHTML",
+  "desc": "Validate HTML, CSS, JSON and XML code with instant quality scores",
+  "url": "https://validatehtml.com",
+  "tags": ["HTML"],
+  "maintainers": ["theo_dcrx"],
+  "addedAt": "2026-03-23"
+}

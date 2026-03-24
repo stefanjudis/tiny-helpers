@@ -1,0 +1,12 @@
+{
+  "name": "BaseWatch",
+  "desc": "Stay up-to-date with baseline and browser updates.",
+  "url": "https://basewatch.dev/",
+  "tags": [
+    "CSS",
+    "HTML",
+    "JavaScript"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-03-17"
+}
