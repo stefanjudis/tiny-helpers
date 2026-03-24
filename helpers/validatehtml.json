@@ -3,6 +3,6 @@
   "desc": "Validate HTML, CSS, JSON and XML code with instant quality scores",
   "url": "https://validatehtml.com",
   "tags": ["HTML"],
-  "maintainers": ["theo_dcrx"],
+  "maintainers": ["theodcrx"],
   "addedAt": "2026-03-23"
 }
