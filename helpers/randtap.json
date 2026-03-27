@@ -1,0 +1,13 @@
+{
+  "name": "RandTap",
+  "desc": "Free random data generators for developers — phone numbers, addresses, passwords, colors and more.",
+  "url": "https://randtap.com",
+  "tags": [
+    "Generated Data",
+    "Tools"
+  ],
+  "maintainers": [
+    "imagebear"
+  ],
+  "addedAt": "2026-03-27"
+}
