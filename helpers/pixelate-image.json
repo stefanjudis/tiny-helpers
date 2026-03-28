@@ -1,0 +1,12 @@
+{
+  "name": "Pixelate Image",
+  "desc": "Pixelate images directly in your browser",
+  "url": "https://www.pixelateimage.co/",
+  "tags": [
+    "Images"
+  ],
+  "maintainers": [
+    "atharvtathe"
+  ],
+  "addedAt": "2026-03-28"
+}
