@@ -1,10 +1,9 @@
 {
   "name": "RandTap",
-  "desc": "Free random data generators for developers — phone numbers, addresses, passwords, colors and more.",
-  "url": "https://randtap.com",
+  "desc": "Generate random US phone numbers for testing.",
+  "url": "https://randtap.com/phone-generator/",
   "tags": [
-    "Generated Data",
-    "Tools"
+    "Generated Data"
   ],
   "maintainers": [
     "imagebear"
