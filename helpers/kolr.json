@@ -4,11 +4,8 @@
   "url": "https://kolr-app.vercel.app/",
   "tags": [
     "Accessibility",
-    "CSS",
     "Color",
-    "SVG",
-    "Tool Collections",
-    "Tools"
+    "Tool Collections"
   ],
   "maintainers": [
     "antoine-granier"
