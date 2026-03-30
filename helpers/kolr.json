@@ -1,0 +1,17 @@
+{
+  "name": "Kolr",
+  "desc": "Free color tools suite — generate palettes, check contrast, simulate colorblindness, extract colors from images and URLs.",
+  "url": "https://kolr-app.vercel.app/",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "Color",
+    "SVG",
+    "Tool Collections",
+    "Tools"
+  ],
+  "maintainers": [
+    "antoine-granier"
+  ],
+  "addedAt": "2026-03-30"
+}
