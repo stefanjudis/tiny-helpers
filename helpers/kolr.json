@@ -3,8 +3,6 @@
   "desc": "Generate palettes, check contrast, simulate colorblindness, and extract colors from images and URLs",
   "url": "https://kolr-app.vercel.app/",
   "tags": [
-    "Accessibility",
-    "Color",
     "Tool Collections"
   ],
   "maintainers": [
