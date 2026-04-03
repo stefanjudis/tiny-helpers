@@ -1,0 +1,21 @@
+{
+  "name": "Kopivo",
+  "desc": "A 100% client-side, privacy-first toolbox for Developers, Media, PDF, and Security. No data ever leaves the browser.",
+  "url": "[https://kopivo.com](https://kopivo.com)",
+  "tags": [
+    "Accessibility",
+    "Network",
+    "PDF",
+    "PWA",
+    "Regular Expressions",
+    "Security",
+    "Tool Collections",
+    "Tools",
+    "Videos",
+    "YAML"
+  ],
+  "maintainers": [
+    "kopivo"
+  ],
+  "addedAt": "2026-04-03"
+}
