@@ -3,7 +3,8 @@
   "desc": "Format, validate, compare, generate and convert XML files.",
   "url": "https://xmlable.com/",
   "tags": [
-    "Tool Collections"
+    "Tool Collections",
+    "XML"
   ],
   "maintainers": [
     "cyrilbois"
