@@ -3,7 +3,6 @@
   "desc": "Encode, decode, and format with Base64, JWT, hash, UUID, regex, and JSON tools in one page.",
   "url": "https://kappakit.com",
   "tags": [
-    "JSON",
     "Tool Collections"
   ],
   "maintainers": [
