@@ -1,0 +1,13 @@
+{
+  "name": "Gen8X",
+  "desc": "Generate color palettes and check WCAG contrast ratios.",
+  "url": "https://gen8x.com",
+  "tags": [
+    "Accessibility",
+    "Color"
+  ],
+  "maintainers": [
+    "theluckystrike"
+  ],
+  "addedAt": "2026-04-07"
+}
