@@ -1,0 +1,12 @@
+{
+  "name": "RandTap",
+  "desc": "Generate random US phone numbers for testing.",
+  "url": "https://randtap.com/phone-generator/",
+  "tags": [
+    "Generated Data"
+  ],
+  "maintainers": [
+    "imagebear"
+  ],
+  "addedAt": "2026-03-27"
+}
