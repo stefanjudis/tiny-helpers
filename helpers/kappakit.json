@@ -1,0 +1,13 @@
+{
+  "name": "KappaKit",
+  "desc": "Encode, decode, and format with Base64, JWT, hash, UUID, regex, and JSON tools in one page.",
+  "url": "https://kappakit.com",
+  "tags": [
+    "JSON",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "theluckystrike"
+  ],
+  "addedAt": "2026-04-07"
+}
