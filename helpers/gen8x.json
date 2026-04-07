@@ -1,6 +1,6 @@
 {
   "name": "Gen8X",
-  "desc": "Generate color palettes and check WCAG contrast ratios. Export as CSS variables, Tailwind config, or JSON.",
+  "desc": "Generate color palettes and check WCAG contrast ratios.",
   "url": "https://gen8x.com",
   "tags": [
     "Accessibility",
