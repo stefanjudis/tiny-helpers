@@ -1,0 +1,13 @@
+{
+  "name": "LochBot",
+  "desc": "Test LLM system prompts against 31 prompt injection attack patterns and get fix suggestions.",
+  "url": "https://lochbot.com",
+  "tags": [
+    "AI",
+    "Security"
+  ],
+  "maintainers": [
+    "theluckystrike"
+  ],
+  "addedAt": "2026-04-07"
+}
