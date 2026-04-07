@@ -1,0 +1,13 @@
+{
+  "name": "EpochPilot",
+  "desc": "Convert Unix timestamps, compare timezones, and parse cron expressions.",
+  "url": "https://epochpilot.com",
+  "tags": [
+    "System Administration",
+    "Misc"
+  ],
+  "maintainers": [
+    "theluckystrike"
+  ],
+  "addedAt": "2026-04-08"
+}
