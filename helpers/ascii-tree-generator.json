@@ -2,7 +2,7 @@
   "name": "ASCII tree generator",
   "desc": "Generate nice-looking ASCII folder structure diagrams",
   "url": "https://tree.nathanfriend.io/",
-  "tags": ["Misc"],
+  "tags": ["ASCII"],
   "maintainers": ["nfriend"],
   "addedAt": "2020-06-24"
 }

@@ -3,7 +3,7 @@
   "desc": "Check status codes, response headers, and redirect chains.",
   "url": "https://httpstatus.io/",
   "tags": [
-    "HTTP"
+    "Network"
   ],
   "maintainers": [
     "sanderheilbron"

@@ -3,7 +3,6 @@
   "desc": "Demonstate and observe slow-loading resources.",
   "url": "https://slowfil.es/",
   "tags": [
-    "HTTP",
     "Network",
     "Performance"
   ],

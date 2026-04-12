@@ -3,7 +3,7 @@
   "desc": "Evaluate uptime numbers with downtime length.",
   "url": "https://uptime.is/",
   "tags": [
-    "Misc"
+    "Time"
   ],
   "maintainers": [],
   "addedAt": "2023-05-07"

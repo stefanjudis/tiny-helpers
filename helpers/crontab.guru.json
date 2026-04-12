@@ -3,7 +3,8 @@
   "desc": "Create and understand cron time fields",
   "url": "https://crontab.guru",
   "tags": [
-    "System Administration"
+    "System Administration",
+    "Time"
   ],
   "maintainers": [],
   "addedAt": "2020-01-17"

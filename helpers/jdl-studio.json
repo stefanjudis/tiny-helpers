@@ -3,10 +3,9 @@
   "desc": "Create complex entity models easy with a handy DSL ",
   "url": "https://start.jhipster.tech/jdl-studio/",
   "tags": [
-    "Code",
     "Data transformation",
     "Database",
-    "Misc"
+    "Diagrams"
   ],
   "maintainers": [],
   "addedAt": "2020-03-12"

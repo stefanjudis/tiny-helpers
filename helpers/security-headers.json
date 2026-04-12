@@ -3,7 +3,7 @@
   "desc": "Quickly and easily assess the security of your HTTP response headers.",
   "url": "https://securityheaders.com/",
   "tags": [
-    "HTTP",
+    "Network",
     "Security"
   ],
   "maintainers": [

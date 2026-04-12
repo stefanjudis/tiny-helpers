@@ -3,7 +3,7 @@
   "desc": "Generate random US phone numbers for testing.",
   "url": "https://randtap.com/phone-generator/",
   "tags": [
-    "Generated Data"
+    "Mock Data"
   ],
   "maintainers": [
     "imagebear"

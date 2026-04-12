@@ -3,7 +3,6 @@
   "desc": "DNS resolution and web UI for the dig CLI",
   "url": "https://digwebinterface.com/",
   "tags": [
-    "HTTP",
     "Network"
   ],
   "maintainers": [

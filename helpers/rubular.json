@@ -3,8 +3,7 @@
   "desc": "Test regular expressions in Ruby as you write them",
   "url": "https://rubular.com/",
   "tags": [
-    "Regular Expressions",
-    "Ruby"
+    "Regular Expressions"
   ],
   "maintainers": [
     "lovitt"

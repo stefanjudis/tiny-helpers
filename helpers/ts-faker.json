@@ -3,7 +3,7 @@
   "desc": "Generate fake data using TypeScript interfaces",
   "url": "https://ts-faker.vercel.app",
   "tags": [
-    "Generated Data",
+    "Mock Data",
     "TypeScript"
   ],
   "maintainers": [

@@ -3,7 +3,7 @@
   "desc": "Reference database of HTTP Status Codes with their definitions and helpful code references all in one place",
   "url": "https://httpstatuses.com/",
   "tags": [
-    "HTTP"
+    "Network"
   ],
   "maintainers": [
     "Runscope"

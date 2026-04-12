@@ -3,7 +3,7 @@
   "desc": "Generate flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs using a Markdownish syntax",
   "url": "https://mermaid-js.github.io/mermaid-live-editor/",
   "tags": [
-    "Code",
+    "Diagrams",
     "Images",
     "SVG"
   ],

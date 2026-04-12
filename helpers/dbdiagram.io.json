@@ -3,7 +3,8 @@
   "desc": "Draw ER diagrams by just writing code.",
   "url": "https://dbdiagram.io/home",
   "tags": [
-    "Database"
+    "Database",
+    "Diagrams"
   ],
   "maintainers": [
     "holistics"
