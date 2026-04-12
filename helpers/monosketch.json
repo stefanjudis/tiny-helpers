@@ -1,0 +1,12 @@
+{
+  "name": "MonoSketch",
+  "desc": "Draw ASCII graphs and diagrams.",
+  "url": "https://monosketch.io/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "tuanchauict"
+  ],
+  "addedAt": "2026-04-12"
+}
