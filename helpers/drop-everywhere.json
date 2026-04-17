@@ -1,0 +1,13 @@
+{
+  "name": "Drop everywhere",
+  "desc": "Seamless cross-device sharing for text and files. No registration required.",
+  "url": "https://dropew.com",
+  "tags": [
+    "PWA",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "zzhhyy"
+  ],
+  "addedAt": "2026-04-17"
+}
