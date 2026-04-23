@@ -1,0 +1,10 @@
+{
+  "name": "W3C Feed Validation Service",
+  "desc": "https://validator.w3.org/feed/",
+  "url": "Validate an Atom or RSS feed.",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-04-23"
+}

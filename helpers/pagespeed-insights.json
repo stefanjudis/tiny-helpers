@@ -1,0 +1,10 @@
+{
+  "name": "PageSpeed Insights",
+  "desc": "Quickly analyze web performance.",
+  "url": "https://pagespeed.web.dev/",
+  "tags": [
+    "Performance"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-04-23"
+}

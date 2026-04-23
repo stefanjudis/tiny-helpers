@@ -1,0 +1,10 @@
+{
+  "name": "Mail Tester",
+  "desc": "Test the Spammyness of your Emails.",
+  "url": "https://www.mail-tester.com/",
+  "tags": [
+    "Email"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-04-23"
+}
