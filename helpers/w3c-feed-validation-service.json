@@ -1,7 +1,7 @@
 {
   "name": "W3C Feed Validation Service",
-  "desc": "https://validator.w3.org/feed/",
-  "url": "Validate an Atom or RSS feed.",
+  "desc": "Validate an Atom or RSS feed.",
+  "url": "https://validator.w3.org/feed/",
   "tags": [
     "Misc"
   ],
