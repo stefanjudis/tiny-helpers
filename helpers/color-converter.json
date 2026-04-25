@@ -1,0 +1,12 @@
+{
+  "name": "Color Converter",
+  "desc": "Convert colors between HEX, RGB, HSL, CMYK, and OKLCH formats.",
+  "url": "https://colorconverter.dev",
+  "tags": [
+    "Color"
+  ],
+  "maintainers": [
+    "ozdemirburak"
+  ],
+  "addedAt": "2026-04-25"
+}
