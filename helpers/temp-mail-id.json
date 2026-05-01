@@ -1,0 +1,13 @@
+{
+  "name": "Temp Mail ID",
+  "desc": "Create disposable email addresses to test signup and verification flows.",
+  "url": "https://temp-mail.id/",
+  "tags": [
+    "Email",
+    "Misc"
+  ],
+  "maintainers": [
+    "gurujunaedi74"
+  ],
+  "addedAt": "2026-05-01"
+}
