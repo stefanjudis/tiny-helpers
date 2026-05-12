@@ -3,16 +3,7 @@
   "desc": "Access a suite of privacy first developer utilities to format code, generate assets, and debug data 100% client side.",
   "url": "https://devbento.dev",
   "tags": [
-    "CSS",
-    "Code",
-    "Color",
-    "Data transformation",
-    "JSON",
-    "Markdown",
-    "Regular Expressions",
-    "Tool Collections",
-    "URL",
-    "YAML"
+    "Tool Collections"
   ],
   "maintainers": [
     "yusufsoysal"
