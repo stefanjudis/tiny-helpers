@@ -1,6 +1,6 @@
 {
   "name": "Barcode Generator",
-  "desc": "A free, browser-based tool to generate, customize, and download various barcode types (EAN, Code 128, QR) instantly.",
+  "desc": "Generate and customize production ready barcodes and QR codes instantly in your browser.",
   "url": "https://generatorbarcode.com",
   "tags": [
     "PWA",
