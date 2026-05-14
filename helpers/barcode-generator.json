@@ -1,0 +1,11 @@
+{
+  "name": "Barcode Generator",
+  "desc": "Generate and customize production ready barcodes and QR codes instantly in your browser.",
+  "url": "https://generatorbarcode.com",
+  "tags": [
+    "PWA",
+    "Tool Collections"
+  ],
+  "maintainers": ["omerrkosar"],
+  "addedAt": "2026-05-13"
+}
