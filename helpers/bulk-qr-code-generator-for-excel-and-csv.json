@@ -1,0 +1,12 @@
+{
+  "name": "Bulk QR Code Generator for Excel and CSV",
+  "desc": "Generate QR codes and Code 128 barcodes from Excel or CSV rows, then export them as ZIP, PDF, or SVG files.",
+  "url": "https://www.bulkqrcodegenerator.art/",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "kenchikuliu"
+  ],
+  "addedAt": "2026-05-19"
+}
