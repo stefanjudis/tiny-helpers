@@ -1,0 +1,14 @@
+{
+  "name": "Mockdown",
+  "desc": "Create ASCII wireframes and UI mockups in the browser and export them as Markdown.",
+  "url": "https://www.mockdown.design/",
+  "tags": [
+    "ASCII",
+    "Diagrams",
+    "Markdown"
+  ],
+  "maintainers": [
+    "bbssppllvv"
+  ],
+  "addedAt": "2026-05-19"
+}
