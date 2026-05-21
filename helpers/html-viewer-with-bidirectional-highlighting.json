@@ -1,0 +1,16 @@
+{
+  "name": "HTML Viewer with Bidirectional Highlighting",
+  "desc": "Edit HTML/CSS/JS live with two-way highlighting: click code to highlight elements, click elements to highlight corresponding code.",
+  "url": "https://html-viewer.org",
+  "tags": [
+    "CSS",
+    "Code",
+    "Code Snapshots",
+    "HTML",
+    "JavaScript"
+  ],
+  "maintainers": [
+    "XMM17879829028"
+  ],
+  "addedAt": "2026-05-21"
+}
