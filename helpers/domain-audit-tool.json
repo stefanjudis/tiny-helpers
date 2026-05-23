@@ -1,6 +1,6 @@
 {
   "name": "Domain Audit Tool",
-  "desc": "A lightweight, privacy-focused domain security posture auditor to check DNS, email authentication (SPF, DKIM, DMARC), and blacklist status in one click",
+  "desc": "Audit domain DNS, email authentication statuses, and blacklist reputations in one click.",
   "url": "https://audit.razor-network.uk",
   "tags": [
     "APIs",
