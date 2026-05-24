@@ -1,0 +1,13 @@
+{
+  "name": "Toolsetta",
+  "desc": "Private, browser-based tools for batch file conversion",
+  "url": "https://toolsetta.com/",
+  "tags": [
+    "Images",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "toolsetta"
+  ],
+  "addedAt": "2026-05-24"
+}
