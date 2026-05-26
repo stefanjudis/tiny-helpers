@@ -1,0 +1,13 @@
+{
+  "name": "Compare JSON",
+  "desc": "Diff two JSON and highlight differences",
+  "url": "https://comparejson.com/",
+  "tags": [
+    "JSON",
+    "Code"
+  ],
+  "maintainers": [
+    "unitstack"
+  ],
+  "addedAt": "2025-05-26"
+}
