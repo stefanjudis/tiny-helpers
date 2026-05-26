@@ -1,0 +1,13 @@
+{
+  "name": "Compare JSON",
+  "desc": "Structural JSON diff tool that compares data semantically with formatted tree view and color-coded highlighting.",
+  "url": "https://comparejson.com/",
+  "tags": [
+    "JSON",
+    "Code"
+  ],
+  "maintainers": [
+    "unitstack"
+  ],
+  "addedAt": "2025-05-26"
+}
