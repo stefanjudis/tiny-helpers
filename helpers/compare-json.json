@@ -3,8 +3,7 @@
   "desc": "Diff two JSON and highlight differences",
   "url": "https://comparejson.com/",
   "tags": [
-    "JSON",
-    "Code"
+    "JSON"
   ],
   "maintainers": [
     "unitstack"
