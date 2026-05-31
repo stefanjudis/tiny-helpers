@@ -1,0 +1,13 @@
+{
+  "name": "BG Remove",
+  "desc": "Remove image backgrounds instantly using AI",
+  "url": "https://tyr1105.github.io/bg-remove/",
+  "tags": [
+    "Images",
+    "AI"
+  ],
+  "maintainers": [
+    "tyr1105"
+  ],
+  "addedAt": "2026-05-31"
+}
