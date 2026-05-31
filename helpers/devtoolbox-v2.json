@@ -1,0 +1,13 @@
+{
+  "name": "DevToolBox v2",
+  "desc": "Collection of 20+ free developer tools including JSON formatter, base64 encoder, hash generator, and more",
+  "url": "https://tyr1105.github.io/devtoolbox-v2/",
+  "tags": [
+    "Tool Collections",
+    "JSON"
+  ],
+  "maintainers": [
+    "tyr1105"
+  ],
+  "addedAt": "2026-05-31"
+}
