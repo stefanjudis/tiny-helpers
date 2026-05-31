@@ -1,0 +1,16 @@
+{
+  "name": "DevUtils",
+  "desc": "Collection of 10 free online developer tools: JSON formatter, Base64 encoder, JWT debugger, hash generator, color converter, regex tester, markdown preview, lorem ipsum generator, URL encoder, and UUID generator.",
+  "url": "https://tyr1105.github.io/devutils-tools/",
+  "tags": [
+    "Tool Collections",
+    "JSON",
+    "Color",
+    "Markdown",
+    "Security"
+  ],
+  "maintainers": [
+    "tyr1105"
+  ],
+  "addedAt": "2026-05-31"
+}
