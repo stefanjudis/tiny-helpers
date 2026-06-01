@@ -1,0 +1,15 @@
+{
+  "name": "ffmpeg.download",
+  "desc": "Simple FFmpeg downloader with binaries for different OSs, licenses, versions, etc.",
+  "url": "https://ffmpeg.download",
+  "tags": [
+    "Code",
+    "Command line",
+    "Tool Collections",
+    "Videos"
+  ],
+  "maintainers": [
+    "peternaf"
+  ],
+  "addedAt": "2026-06-01"
+}
