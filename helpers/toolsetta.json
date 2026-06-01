@@ -1,0 +1,13 @@
+{
+ "name": "Toolsetta",
+ "desc": "Convert files in browser for everyday tasks",
+ "url": "https://toolsetta.com/",
+ "tags": [
+   "Images",
+   "Tool Collections"
+ ],
+ "maintainers": [
+   "toolsetta"
+ ],
+ "addedAt": "2026-05-29"
+}
