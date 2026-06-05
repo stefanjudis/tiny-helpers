@@ -1,0 +1,8 @@
+{
+  "name": "Email Extractor",
+  "desc": "Extract email addresses from any unstructured text or data.",
+  "url": "https://99tools.net/email-extractor/",
+  "tags": ["Email"],
+  "maintainers": ["99Tools-net"],
+  "addedAt": "2026-06-05"
+}
