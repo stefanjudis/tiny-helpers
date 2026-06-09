@@ -1,0 +1,12 @@
+{
+  "name": "CareerPouch Cron Generator",
+  "desc": "Generate cron expressions dynamically with human-readable descriptions and syntax validation.",
+  "url": "https://careerpouch.com/tools/cron-generator",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "careerpouch"
+  ],
+  "addedAt": "2026-06-09"
+}
