@@ -1,0 +1,15 @@
+{
+  "name": "Big File Tools",
+  "desc": "Format, beautify, or minify massive JSON, XML, and CSV files directly in the browser.",
+  "url": "https://big-file-tools.vercel.app/",
+  "tags": [
+    "Code",
+    "Data transformation",
+    "JSON",
+    "XML"
+  ],
+  "maintainers": [
+    "Valen-Leyes"
+  ],
+  "addedAt": "2026-06-09"
+}
