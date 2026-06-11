@@ -1,0 +1,11 @@
+{
+  "name": "EasyDev HTML Entity Encoder & Decoder",
+  "desc": "Encode plain text to HTML entities and decode entities back to readable text",
+  "url": "https://easydev.tools/tools/html-entity",
+  "tags": [
+    "HTML",
+    "Data transformation"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-06-10"
+}
