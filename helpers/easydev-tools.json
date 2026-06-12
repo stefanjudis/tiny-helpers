@@ -1,0 +1,10 @@
+{
+  "name": "EasyDev Tools",
+  "desc": "Format JSON, decode JWT, minify CSS/JS, generate hashes, convert colors, and more.",
+  "url": "https://easydev.tools",
+  "tags": [
+    "Tool Collections"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-06-12"
+}
