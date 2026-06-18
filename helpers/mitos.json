@@ -1,0 +1,10 @@
+{
+  "name": "Mitos",
+  "desc": "Convert images into ASCII illustrations.",
+  "url": "https://mitos-pied.vercel.app/",
+  "tags": [
+    "ASCII"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-06-18"
+}
