@@ -1,0 +1,12 @@
+{
+  "name": "FrontendAtlas CV Linter",
+  "desc": "Scan a resume with deterministic ATS-style checks for structure, keywords, and readability.",
+  "url": "https://frontendatlas.com/tools/cv",
+  "tags": [
+    "Misc"
+  ],
+  "maintainers": [
+    "MuslumYilmaz"
+  ],
+  "addedAt": "2026-06-19"
+}
