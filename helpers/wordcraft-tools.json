@@ -1,0 +1,13 @@
+{
+  "name": "WordCraft Text Tools",
+  "desc": "Generate fancy Unicode text, count words, and convert text case",
+  "url": "https://wordcraft.tools/",
+  "tags": [
+    "Unicode",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
