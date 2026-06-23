@@ -1,0 +1,14 @@
+{
+  "name": "ColorKit Tools",
+  "desc": "Generate color palettes, build gradients, convert hex/RGB/HSL, and check WCAG contrast",
+  "url": "https://colorkit.tools/",
+  "tags": [
+    "Color",
+    "Accessibility",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
