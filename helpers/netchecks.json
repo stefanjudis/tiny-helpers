@@ -1,0 +1,14 @@
+{
+  "name": "NetChecks",
+  "desc": "Look up IP, DNS, WHOIS, SSL certificates, open ports, and MAC vendors",
+  "url": "https://netchecks.tools/",
+  "tags": [
+    "Network",
+    "System Administration",
+    "Security"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
