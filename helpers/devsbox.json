@@ -1,0 +1,14 @@
+{
+  "name": "DevsBox",
+  "desc": "Format JSON, decode JWTs, encode base64, hash strings, and test regular expressions in your browser",
+  "url": "https://devsbox.tools/",
+  "tags": [
+    "Tool Collections",
+    "JSON",
+    "Code"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
