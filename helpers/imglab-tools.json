@@ -1,0 +1,14 @@
+{
+  "name": "ImgLab Tools",
+  "desc": "Convert, compress, resize images and generate favicons entirely on your device",
+  "url": "https://imglab.tools/",
+  "tags": [
+    "Images",
+    "Favicons",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
