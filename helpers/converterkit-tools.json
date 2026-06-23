@@ -1,0 +1,13 @@
+{
+  "name": "ConverterKit Tools",
+  "desc": "Convert between units of length, weight, temperature, area, volume, and speed",
+  "url": "https://converterkit.tools/",
+  "tags": [
+    "Data transformation",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
