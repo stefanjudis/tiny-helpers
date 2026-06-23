@@ -1,0 +1,13 @@
+{
+  "name": "DateTime Tools",
+  "desc": "Convert timezones and Unix/Discord timestamps, and calculate dates and countdowns",
+  "url": "https://datetime.tools/",
+  "tags": [
+    "Time",
+    "Tool Collections"
+  ],
+  "maintainers": [
+    "hhammoud"
+  ],
+  "addedAt": "2026-06-23"
+}
