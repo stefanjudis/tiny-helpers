@@ -1,0 +1,13 @@
+{
+  "name": "Subtitle Encoding Converter",
+  "desc": "Fix garbled (mojibake) subtitle files by re-decoding legacy encodings to UTF-8.",
+  "url": "https://picute.net/en/tools/subtitle-encoding-converter",
+  "tags": [
+    "Data transformation",
+    "Videos"
+  ],
+  "maintainers": [
+    "cateyelow"
+  ],
+  "addedAt": "2026-06-26"
+}
