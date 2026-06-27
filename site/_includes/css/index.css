@@ -57,7 +57,7 @@ body {
 
   justify-content: center;
   @media (min-width: 55em) {
-    grid-template-columns: repeat(3, min-content);
+    grid-template-columns: repeat(2, min-content);
     justify-content: end;
   }
 }
