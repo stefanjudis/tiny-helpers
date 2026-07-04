@@ -6,6 +6,8 @@
     "Network",
     "AI"
   ],
-  "maintainers": [],
+  "maintainers": [
+    "paulkinlan"
+  ],
   "addedAt": "2026-07-04"
 }
