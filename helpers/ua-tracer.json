@@ -1,0 +1,11 @@
+{
+  "name": "ua-tracer",
+  "desc": "Reveal what a user agent downloads, follows, and executes.",
+  "url": "https://uatracer.com/",
+  "tags": [
+    "Network",
+    "Site analyzers"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-07-04"
+}
