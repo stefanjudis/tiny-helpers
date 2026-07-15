@@ -1,0 +1,10 @@
+{
+  "name": "TanStack npm stats",
+  "desc": "Track npm download numbers.",
+  "url": "https://tanstack.com/stats/npm",
+  "tags": [
+    "npm"
+  ],
+  "maintainers": [],
+  "addedAt": "2026-07-15"
+}
