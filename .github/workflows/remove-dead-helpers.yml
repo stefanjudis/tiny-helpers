@@ -39,7 +39,6 @@ jobs:
             gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/dead-helpers-summary.md"
           fi
       - name: Create pull request
-        id: pr
         if: steps.remove.outputs.removed > 0
         uses: peter-evans/create-pull-request@v7
         with:
@@ -49,10 +48,3 @@ jobs:
           commit-message: Remove unavailable helpers
           body-path: ${{ runner.temp }}/dead-helpers-summary.md
           add-paths: helpers/
-      - name: Merge pull request
-        if: steps.pr.outputs.pull-request-number
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR: ${{ steps.pr.outputs.pull-request-number }}
-        # --auto fails when the PR has no pending requirements; merge right away then.
-        run: gh pr merge "$PR" --squash --auto || gh pr merge "$PR" --squash
