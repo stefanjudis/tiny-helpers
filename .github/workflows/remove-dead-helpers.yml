@@ -1,17 +1,11 @@
 name: Remove dead helpers
 on:
-  # Sent by the Checkly "Helper availability" webhook alert channel.
-  repository_dispatch:
-    types: [checkly-alert]
-  # Checkly only alerts when the check starts failing. Helpers that die while
-  # the check is already failing are picked up by this daily run.
   schedule:
-    - cron: '17 12 * * *'
+    - cron: '17 6 * * *'
   workflow_dispatch:
 permissions:
   contents: write
   pull-requests: write
-  issues: write
 concurrency: remove-dead-helpers
 jobs:
   remove-dead-helpers:
@@ -21,23 +15,35 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-      - name: Remove dead helpers
-        id: remove
-        run: node scripts/remove-dead-helpers.js
+      - name: Restore or cache node_modules
+        id: cache-node-modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm ci --ignore-scripts
+      - name: Check helpers on Checkly
+        id: checkly
         env:
           CHECKLY_API_KEY: ${{ secrets.CHECKLY_API_KEY }}
           CHECKLY_ACCOUNT_ID: ${{ secrets.CHECKLY_ACCOUNT_ID }}
-          CHECK_ID: ${{ github.event.client_payload.checkId }}
-          SUMMARY_FILE: ${{ runner.temp }}/dead-helpers-summary.md
-      - name: Open issue when too many helpers fail
-        if: steps.remove.outputs.too_many == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          TITLE: Too many unavailable helpers to remove automatically
+          FORCE_COLOR: 0
+        # The check fails when helpers are dead; the next step decides what that means.
         run: |
-          if [ -z "$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[].number')" ]; then
-            gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/dead-helpers-summary.md"
-          fi
+          set +e
+          npx checkly test helper-availability --location eu-central-1 --reporter ci --verbose \
+            | tee "$RUNNER_TEMP/checkly-output.txt"
+          echo "exit-code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Remove dead helpers
+        id: remove
+        env:
+          SUMMARY_FILE: ${{ runner.temp }}/dead-helpers-summary.md
+        run: node scripts/remove-dead-helpers.js "$RUNNER_TEMP/checkly-output.txt"
+      - name: Fail if the check broke without reporting dead helpers
+        if: steps.checkly.outputs.exit-code != '0' && steps.remove.outputs.dead == 0
+        run: echo "The check failed without reporting dead helpers." && exit 1
       - name: Create pull request
         if: steps.remove.outputs.removed > 0
         uses: peter-evans/create-pull-request@v7

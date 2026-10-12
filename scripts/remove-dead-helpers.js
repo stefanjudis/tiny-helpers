@@ -1,6 +1,8 @@
 /**
- * Removes helpers that failed the Checkly "Helper availability" check on the
- * last FAILED_RUN_THRESHOLD runs in every location.
+ * Removes the helpers reported as dead in the `checkly test` output of the
+ * "Helper availability" check and writes a summary for the pull request.
+ *
+ * Usage: node scripts/remove-dead-helpers.js <checkly-output-file>
  *
  * Used by .github/workflows/remove-dead-helpers.yml.
  */
@@ -11,48 +13,22 @@ const path = require('path');
 // Not using lib/helpers.js so the workflow can skip `npm ci`.
 const helpersDir = path.resolve(__dirname, '..', 'helpers');
 
-const API_URL = 'https://api.checklyhq.com';
-const CHECK_NAME = 'Helper availability';
-const MARKER_PATTERN = /DEAD_HELPERS:([A-Za-z0-9+/=]+):END/;
+const DEAD_HELPER_PATTERN = /DEAD_HELPER (\{.*\})/;
+const ANSI_PATTERN = /\x1b\[[0-9;]*m/g;
 
-const {
-  CHECKLY_API_KEY,
-  CHECKLY_ACCOUNT_ID,
-  CHECK_ID,
-  FAILED_RUN_THRESHOLD = '3',
-  LOCATION_COUNT = '2',
-  MAX_REMOVALS = '10',
-  SUMMARY_FILE = 'dead-helpers-summary.md',
-  GITHUB_OUTPUT,
-} = process.env;
+const { SUMMARY_FILE = 'dead-helpers-summary.md', GITHUB_OUTPUT } = process.env;
 
-async function checklyApi(pathname) {
-  const response = await fetch(`${API_URL}${pathname}`, {
-    headers: {
-      Authorization: `Bearer ${CHECKLY_API_KEY}`,
-      'X-Checkly-Account': CHECKLY_ACCOUNT_ID,
-    },
-  });
-  if (!response.ok) {
-    throw new Error(`Checkly API ${pathname} failed: ${response.status}`);
+function getDeadHelpers(output) {
+  const deadHelpers = new Map();
+  for (const line of output.replace(ANSI_PATTERN, '').split('\n')) {
+    const match = line.match(DEAD_HELPER_PATTERN);
+    // Logs can show up twice (streamed and in the final result).
+    if (match) {
+      const helper = JSON.parse(match[1]);
+      deadHelpers.set(helper.url, helper);
+    }
   }
-  return response.json();
-}
-
-async function findCheckId() {
-  if (CHECK_ID) return CHECK_ID;
-  for (let page = 1; ; page++) {
-    const checks = await checklyApi(`/v1/checks?limit=100&page=${page}`);
-    const check = checks.find(({ name }) => name === CHECK_NAME);
-    if (check) return check.id;
-    if (checks.length < 100) throw new Error(`No check named "${CHECK_NAME}"`);
-  }
-}
-
-function getDeadUrls(result) {
-  const match = JSON.stringify(result).match(MARKER_PATTERN);
-  if (!match) return [];
-  return JSON.parse(Buffer.from(match[1], 'base64').toString('utf8'));
+  return deadHelpers;
 }
 
 async function getHelperFilesByUrl() {
@@ -60,7 +36,7 @@ async function getHelperFilesByUrl() {
   const entries = await Promise.all(
     files.map(async (file) => {
       const helper = JSON.parse(await readFile(path.join(helpersDir, file)));
-      return [helper.url, { file, helper }];
+      return [helper.url, file];
     }),
   );
   return new Map(entries);
@@ -72,63 +48,29 @@ async function setOutput(name, value) {
 }
 
 (async () => {
-  const checkId = await findCheckId();
-  // A run in every location produces one final result per location.
-  const resultCount = Number(FAILED_RUN_THRESHOLD) * Number(LOCATION_COUNT);
-
-  const results = await checklyApi(
-    `/v1/check-results/${checkId}?limit=${resultCount}&resultType=FINAL`,
-  );
-  results.sort((a, b) => new Date(b.startedAt) - new Date(a.startedAt));
-  const latest = results.slice(0, resultCount);
-
-  if (latest.length < resultCount) {
-    console.log(`Only ${latest.length}/${resultCount} results, nothing to do.`);
-    await setOutput('removed', 0);
-    return;
-  }
-
-  // List results can omit the error details, so read every result in full.
-  const deadUrlsPerResult = await Promise.all(
-    latest.map(async ({ id }) =>
-      getDeadUrls(await checklyApi(`/v1/check-results/${checkId}/${id}`)),
-    ),
-  );
-  const [first, ...rest] = deadUrlsPerResult;
-  const deadUrls = first.filter((url) =>
-    rest.every((urls) => urls.includes(url)),
-  );
-
+  const deadHelpers = getDeadHelpers(await readFile(process.argv[2], 'utf8'));
   const helperFiles = await getHelperFilesByUrl();
-  const toRemove = deadUrls
-    .map((url) => helperFiles.get(url))
-    .filter(Boolean)
-    .sort((a, b) => a.helper.name.localeCompare(b.helper.name));
 
-  const list = toRemove
-    .map(
-      ({ file, helper }) =>
-        `- [${helper.name}](${helper.url}) (\`helpers/${file}\`)`,
-    )
-    .join('\n');
-
-  if (toRemove.length > Number(MAX_REMOVALS)) {
-    await writeFile(
-      SUMMARY_FILE,
-      `The last ${FAILED_RUN_THRESHOLD} runs of the Checkly "${CHECK_NAME}" check found ${toRemove.length} unavailable helpers. That's more than the limit of ${MAX_REMOVALS}, so nothing was removed automatically. Please check whether the check itself is broken.\n\n${list}\n`,
-    );
-    await setOutput('too_many', true);
-    await setOutput('removed', 0);
-    return;
-  }
+  const toRemove = [...deadHelpers.values()]
+    .filter(({ url }) => helperFiles.has(url))
+    .map((helper) => ({ ...helper, file: helperFiles.get(helper.url) }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   await Promise.all(
     toRemove.map(({ file }) => unlink(path.join(helpersDir, file))),
   );
+
+  const list = toRemove
+    .map(
+      ({ name, url, reason, file }) =>
+        `- [${name}](${url}): ${reason} (\`helpers/${file}\`)`,
+    )
+    .join('\n');
   await writeFile(
     SUMMARY_FILE,
-    `These helpers failed the Checkly "${CHECK_NAME}" check on the last ${FAILED_RUN_THRESHOLD} runs in every location and were removed:\n\n${list}\n`,
+    `These helpers failed the daily Checkly "Helper availability" check, including a retry:\n\n${list}\n`,
   );
+  await setOutput('dead', deadHelpers.size);
   await setOutput('removed', toRemove.length);
 })().catch((error) => {
   console.error(error);

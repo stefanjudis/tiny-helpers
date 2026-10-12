@@ -6,6 +6,7 @@ const pageUrl = process.env.ENVIRONMENT_URL || 'https://www.tiny-helpers.dev';
 
 const CONCURRENCY = 50;
 const TIMEOUT = 10_000;
+const RETRY_DELAY = 30_000;
 const USER_AGENT =
   'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 tiny-helpers-availability-check';
 
@@ -44,6 +45,23 @@ async function checkHelper(
   }
 }
 
+async function checkAll(
+  request: APIRequestContext,
+  helpers: Helper[],
+): Promise<Array<Helper & { reason: string }>> {
+  const dead: Array<Helper & { reason: string }> = [];
+  let index = 0;
+  async function worker() {
+    while (index < helpers.length) {
+      const helper = helpers[index++];
+      const result = await checkHelper(request, helper);
+      if (result) dead.push({ ...helper, reason: result.reason });
+    }
+  }
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  return dead;
+}
+
 test('Listed helpers are available', async ({ request }) => {
   test.setTimeout(240_000);
 
@@ -52,34 +70,21 @@ test('Listed helpers are available', async ({ request }) => {
   ).json();
   console.log(`Checking ${helpers.length} helpers...`);
 
-  const dead: Array<Helper & { reason: string }> = [];
-  let index = 0;
-  async function worker() {
-    while (index < helpers.length) {
-      const helper = helpers[index++];
-      const result = await checkHelper(request, helper);
-      if (result) {
-        console.log(`❌ ${helper.name} (${helper.url}): ${result.reason}`);
-        dead.push({
-          name: helper.name,
-          url: helper.url,
-          reason: result.reason,
-        });
-      }
-    }
+  const failed = await checkAll(request, helpers);
+
+  // Give failing helpers a second chance to rule out short hiccups.
+  if (failed.length) {
+    await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
   }
-  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  const dead = await checkAll(request, failed);
+
+  // The removal workflow (.github/workflows/remove-dead-helpers.yml) reads
+  // these lines from the `checkly test` output.
+  for (const { name, url, reason } of dead) {
+    console.log(`DEAD_HELPER ${JSON.stringify({ name, url, reason })}`);
+  }
 
   if (dead.length) {
-    // The base64 marker lets the removal workflow read the dead URLs from the
-    // check result without having to deal with escaped or truncated text.
-    const marker = Buffer.from(
-      JSON.stringify(dead.map(({ url }) => url)),
-    ).toString('base64');
-    throw new Error(
-      `${dead.length} helper(s) unavailable: ${dead
-        .map(({ name, reason }) => `${name} (${reason})`)
-        .join(', ')}. DEAD_HELPERS:${marker}:END`,
-    );
+    throw new Error(`${dead.length} helper(s) unavailable`);
   }
 });
