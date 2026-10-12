@@ -51,6 +51,6 @@
     "terser": "^4.6.7"
   },
   "devDependencies": {
-    "@checkly/cli": "^0.3.5"
+    "checkly": "^9.5.0"
   }
 }
