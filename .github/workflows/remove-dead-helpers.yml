@@ -1,0 +1,58 @@
+name: Remove dead helpers
+on:
+  # Sent by the Checkly "Helper availability" webhook alert channel.
+  repository_dispatch:
+    types: [checkly-alert]
+  # Checkly only alerts when the check starts failing. Helpers that die while
+  # the check is already failing are picked up by this daily run.
+  schedule:
+    - cron: '17 12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency: remove-dead-helpers
+jobs:
+  remove-dead-helpers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Remove dead helpers
+        id: remove
+        run: node scripts/remove-dead-helpers.js
+        env:
+          CHECKLY_API_KEY: ${{ secrets.CHECKLY_API_KEY }}
+          CHECKLY_ACCOUNT_ID: ${{ secrets.CHECKLY_ACCOUNT_ID }}
+          CHECK_ID: ${{ github.event.client_payload.checkId }}
+          SUMMARY_FILE: ${{ runner.temp }}/dead-helpers-summary.md
+      - name: Open issue when too many helpers fail
+        if: steps.remove.outputs.too_many == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: Too many unavailable helpers to remove automatically
+        run: |
+          if [ -z "$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[].number')" ]; then
+            gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/dead-helpers-summary.md"
+          fi
+      - name: Create pull request
+        id: pr
+        if: steps.remove.outputs.removed > 0
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: remove-dead-helpers
+          delete-branch: true
+          title: Remove unavailable helpers
+          commit-message: Remove unavailable helpers
+          body-path: ${{ runner.temp }}/dead-helpers-summary.md
+          add-paths: helpers/
+      - name: Merge pull request
+        if: steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ steps.pr.outputs.pull-request-number }}
+        # --auto fails when the PR has no pending requirements; merge right away then.
+        run: gh pr merge "$PR" --squash --auto || gh pr merge "$PR" --squash

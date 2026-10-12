@@ -12,7 +12,6 @@
     "build": "eleventy --input=./site",
     "postbuild": "node ./scripts/create-dump.js",
     "deploy": "npm run build && now --prod",
-    "checkly:test": "npx checkly test",
     "checkly:deploy": "npx checkly deploy --force"
   },
   "repository": {

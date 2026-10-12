@@ -1,4 +1,6 @@
-const { test } = require('@playwright/test');
+import { test, type APIRequestContext } from '@playwright/test';
+
+type Helper = { name: string; url: string };
 
 const pageUrl = process.env.ENVIRONMENT_URL || 'https://www.tiny-helpers.dev';
 
@@ -13,7 +15,10 @@ const ALIVE_STATUS_CODES = [401, 403, 429];
 const PARKED_DOMAIN_PATTERN =
   /this domain (is|may be) for sale|buy this domain|domain is parked|parked free|hugedomains\.com|sedo\.com\/search|dan\.com\/buy-domain|afternic\.com/i;
 
-async function checkHelper(request, helper) {
+async function checkHelper(
+  request: APIRequestContext,
+  helper: Helper,
+): Promise<{ reason: string } | null> {
   try {
     const response = await request.get(helper.url, {
       timeout: TIMEOUT,
@@ -35,17 +40,19 @@ async function checkHelper(request, helper) {
 
     return { reason: `HTTP ${status}` };
   } catch (error) {
-    return { reason: error.message.split('\n')[0] };
+    return { reason: (error as Error).message.split('\n')[0] };
   }
 }
 
 test('Listed helpers are available', async ({ request }) => {
   test.setTimeout(240_000);
 
-  const helpers = await (await request.get(`${pageUrl}/helpers.json`)).json();
+  const helpers: Helper[] = await (
+    await request.get(`${pageUrl}/helpers.json`)
+  ).json();
   console.log(`Checking ${helpers.length} helpers...`);
 
-  const dead = [];
+  const dead: Array<Helper & { reason: string }> = [];
   let index = 0;
   async function worker() {
     while (index < helpers.length) {
@@ -64,11 +71,15 @@ test('Listed helpers are available', async ({ request }) => {
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
 
   if (dead.length) {
-    // The marker lets the removal workflow parse the dead helpers from the check result.
+    // The base64 marker lets the removal workflow read the dead URLs from the
+    // check result without having to deal with escaped or truncated text.
+    const marker = Buffer.from(
+      JSON.stringify(dead.map(({ url }) => url)),
+    ).toString('base64');
     throw new Error(
-      `${dead.length} helper(s) unavailable. DEAD_HELPERS:${JSON.stringify(
-        dead.map(({ url }) => url),
-      )}:END`,
+      `${dead.length} helper(s) unavailable: ${dead
+        .map(({ name, reason }) => `${name} (${reason})`)
+        .join(', ')}. DEAD_HELPERS:${marker}:END`,
     );
   }
 });

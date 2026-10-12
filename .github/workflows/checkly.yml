@@ -1,36 +1,34 @@
 name: checkly
-on: [deployment_status]
+on:
+  push:
+    branches: [primary]
+    paths:
+      - '__checks__/**'
+      - 'tests/**'
+      - 'checkly.config.ts'
+      - 'package-lock.json'
+      - '.github/workflows/checkly.yml'
+  workflow_dispatch:
 env:
-  ENVIRONMENT_URL: ${{ github.event.deployment_status.environment_url }}
-  DEPLOYMENT_ID: ${{ github.event.deployment.id }}
-  DEPLOYMENT_ENVIRONMENT: ${{ github.event.deployment_status.environment }}
-  DEPLOYMENT_CREATOR_NAME: ${{ github.event.deployment_status.creator.name }}
   CHECKLY_API_KEY: ${{ secrets.CHECKLY_API_KEY }}
   CHECKLY_ACCOUNT_ID: ${{ secrets.CHECKLY_ACCOUNT_ID }}
 jobs:
-  test-e2e:
-    if: github.event.deployment_status.state == 'success'
-    name: Test E2E on Checkly
+  deploy:
+    name: Deploy checks to Checkly
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
       - name: Restore or cache node_modules
         id: cache-node-modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('package-lock.json') }}
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm ci
-      - name: Run checks
-        id: run-checks
-        # Only run the E2E checks; the daily helper availability check isn't tied to a deployment.
-        run: npm run checkly:test -- home.spec -e ENVIRONMENT_URL=${{ env.ENVIRONMENT_URL }}
-        continue-on-error: false
+        run: npm ci --ignore-scripts
       - name: Deploy checks
-        if: steps.run-checks.outcome == 'success' && env.DEPLOYMENT_ENVIRONMENT == 'Production'
         run: npm run checkly:deploy
