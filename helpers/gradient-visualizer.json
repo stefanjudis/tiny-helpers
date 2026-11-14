@@ -1,0 +1,13 @@
+{
+  "name": "Gradient Visualizer",
+  "desc": "Break layered CSS gradients into their single layers",
+  "url": "https://lab.ishadeed.com/tools/gradient-visualizer/",
+  "tags": [
+    "CSS",
+    "Color"
+  ],
+  "maintainers": [
+    "shadeed"
+  ],
+  "addedAt": "2026-11-14"
+}
